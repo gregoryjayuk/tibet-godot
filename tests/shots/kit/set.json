@@ -1,0 +1,31 @@
+{
+  "about": "The draft's five viewpoints with the buildings swapped for the kit exports (--kit; roadmap RT-09), for comparison with tests/shots/draft/ref/.",
+  "size": [
+    1600,
+    900
+  ],
+  "first_wait": 75,
+  "wait": 45,
+  "shots": [
+    {
+      "view": 1,
+      "out": "tests/shots/out/kit/v1.png"
+    },
+    {
+      "view": 2,
+      "out": "tests/shots/out/kit/v2.png"
+    },
+    {
+      "view": 3,
+      "out": "tests/shots/out/kit/v3.png"
+    },
+    {
+      "view": 4,
+      "out": "tests/shots/out/kit/v4.png"
+    },
+    {
+      "view": 5,
+      "out": "tests/shots/out/kit/v5.png"
+    }
+  ]
+}

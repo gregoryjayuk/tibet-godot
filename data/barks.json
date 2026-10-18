@@ -1,0 +1,1187 @@
+{
+ "about": "The slice's bark lines (chapter 07, 8.4-8.6; chapter 05, 9.6), written by tools/culture/barks.py: do not edit by hand. Each line on its speakers (roles), place, hours and moment; world/barks.gd says them; the lines of scenes (how: event) are said by those scenes.",
+ "roles": {
+  "host": [
+   "achak_dolkar",
+   "kitchen_woman"
+  ],
+  "household": [
+   "house_grandmother",
+   "house_mother",
+   "house_man",
+   "poor_grandmother"
+  ],
+  "cook": [
+   "cook"
+  ],
+  "host_zh": [
+   "yang_shouren"
+  ],
+  "clerk_zh": [
+   "han_man"
+  ],
+  "agent": [
+   "ngodrup_dedpon"
+  ],
+  "stall": [
+   "stall_woman",
+   "stall_man",
+   "kalsang_drolma",
+   "tsomo_nomad",
+   "nomad_woman"
+  ],
+  "nomad": [
+   "tsomo_nomad",
+   "nomad_woman"
+  ],
+  "mother": [
+   "stall_woman"
+  ],
+  "buyer": [
+   "townsman",
+   "townswoman",
+   "townsman_b",
+   "townswoman_b",
+   "porter",
+   "porter_woman"
+  ],
+  "elder": [
+   "elder_man",
+   "elder_woman",
+   "sonam_wangyal",
+   "pasang_carver"
+  ],
+  "old_woman": [
+   "elder_woman"
+  ],
+  "child": [
+   "nyima_boy",
+   "boy",
+   "girl"
+  ],
+  "nyima": [
+   "nyima_boy"
+  ],
+  "young_man": [
+   "drover",
+   "drover_b",
+   "porter",
+   "townsman",
+   "townsman_b"
+  ],
+  "drover": [
+   "drover",
+   "drover_b"
+  ],
+  "woman": [
+   "townswoman",
+   "townswoman_b",
+   "stall_woman",
+   "porter_woman"
+  ],
+  "monk": [
+   "monk"
+  ],
+  "bard": [
+   "drakpa_bard"
+  ],
+  "chang_host": [
+   "ama_yudron",
+   "yudron_daughter"
+  ],
+  "gatekeeper": [
+   "castle_gatekeeper"
+  ],
+  "gonkhang_keeper": [
+   "gonkhang_keeper"
+  ],
+  "lookout_woman": [
+   "lookout_woman"
+  ],
+  "anyone": [
+   "townsman",
+   "townswoman",
+   "townsman_b",
+   "townswoman_b",
+   "porter",
+   "porter_woman",
+   "drover",
+   "drover_b",
+   "elder_man",
+   "elder_woman",
+   "stall_woman",
+   "stall_man",
+   "kalsang_drolma",
+   "sonam_wangyal"
+  ]
+ },
+ "barks": [
+  {
+   "id": "PB-T01",
+   "lang": "bo",
+   "script": "ཕེབས་སོང་ངམ།",
+   "english": "You've come?",
+   "who": [
+    "host"
+   ],
+   "where": "dechen",
+   "hours": [
+    6.0,
+    21.0
+   ],
+   "how": "greet",
+   "with": [],
+   "weight": 4
+  },
+  {
+   "id": "PB-T05",
+   "lang": "bo",
+   "script": "ཕེབས་དང་།",
+   "english": "Please come in.",
+   "who": [
+    "host"
+   ],
+   "where": "tibetan_door",
+   "hours": [
+    6.0,
+    21.0
+   ],
+   "how": "greet",
+   "with": [],
+   "weight": 3
+  },
+  {
+   "id": "PB-T06",
+   "lang": "bo",
+   "script": "བཞུགས་དང་།",
+   "english": "Please sit.",
+   "who": [
+    "host"
+   ],
+   "where": "tibetan_room",
+   "hours": [
+    6.0,
+    21.0
+   ],
+   "how": "greet",
+   "with": [],
+   "weight": 3
+  },
+  {
+   "id": "PB-T04",
+   "lang": "bo",
+   "script": "ཡར་ཕེབས།",
+   "english": "Please come up.",
+   "who": [
+    "host"
+   ],
+   "where": "roof",
+   "hours": [
+    16.9,
+    17.8
+   ],
+   "how": "greet",
+   "with": [],
+   "weight": 3
+  },
+  {
+   "id": "PB-T08",
+   "lang": "bo",
+   "script": "ཞལ་ལག་མཆོད་རོགས་གནང་།",
+   "english": "Please eat.",
+   "who": [
+    "cook"
+   ],
+   "where": "kitchen",
+   "hours": [
+    6.0,
+    21.0
+   ],
+   "how": "greet",
+   "with": [],
+   "weight": 3
+  },
+  {
+   "id": "PB-T01",
+   "lang": "bo",
+   "script": "ཕེབས་སོང་ངམ།",
+   "english": "You've come?",
+   "who": [
+    "household"
+   ],
+   "where": "house_kitchen",
+   "hours": [
+    6.0,
+    21.0
+   ],
+   "how": "greet",
+   "with": [],
+   "weight": 4
+  },
+  {
+   "id": "PB-T06",
+   "lang": "bo",
+   "script": "བཞུགས་དང་།",
+   "english": "Please sit.",
+   "who": [
+    "household"
+   ],
+   "where": "house_kitchen",
+   "hours": [
+    6.0,
+    21.0
+   ],
+   "how": "greet",
+   "with": [],
+   "weight": 3
+  },
+  {
+   "id": "PB-T01",
+   "lang": "bo",
+   "script": "ཕེབས་སོང་ངམ།",
+   "english": "You've come?",
+   "who": [
+    "chang_host"
+   ],
+   "where": "chang_room",
+   "hours": [
+    10.0,
+    23.0
+   ],
+   "how": "greet",
+   "with": [],
+   "weight": 4
+  },
+  {
+   "id": "PB-T06",
+   "lang": "bo",
+   "script": "བཞུགས་དང་།",
+   "english": "Please sit.",
+   "who": [
+    "chang_host"
+   ],
+   "where": "chang_room",
+   "hours": [
+    10.0,
+    23.0
+   ],
+   "how": "greet",
+   "with": [],
+   "weight": 3
+  },
+  {
+   "id": "PB-T24",
+   "lang": "bo",
+   "script": "ཚོང་ཡག་པོ་བྱུང་ངམ།",
+   "english": "Did business go well?",
+   "who": [
+    "host"
+   ],
+   "where": "dechen_gate",
+   "hours": [
+    16.3,
+    18.0
+   ],
+   "how": "greet",
+   "with": [],
+   "weight": 4
+  },
+  {
+   "id": "PB-T07",
+   "lang": "bo",
+   "script": "ཇ་མཆོད།",
+   "english": "Please have tea.",
+   "who": [
+    "host"
+   ],
+   "where": "tibetan_room",
+   "hours": [
+    0.0,
+    24.0
+   ],
+   "how": "event",
+   "with": [],
+   "weight": 0
+  },
+  {
+   "id": "PB-T09",
+   "lang": "bo",
+   "script": "ག་ལེ་ཕེབས།",
+   "english": "Go slowly.",
+   "who": [
+    "host"
+   ],
+   "where": "tibetan_room",
+   "hours": [
+    0.0,
+    24.0
+   ],
+   "how": "event",
+   "with": [],
+   "weight": 0
+  },
+  {
+   "id": "PB-T10",
+   "lang": "bo",
+   "script": "ག་ལེ་བཞུགས།",
+   "english": "Stay slowly.",
+   "who": [
+    "host"
+   ],
+   "where": "tibetan_room",
+   "hours": [
+    0.0,
+    24.0
+   ],
+   "how": "event",
+   "with": [],
+   "weight": 0
+  },
+  {
+   "id": "PB-T12",
+   "lang": "bo",
+   "script": "དགོས་མ་རེད།",
+   "english": "No more, thank you.",
+   "who": [
+    "host"
+   ],
+   "where": "tibetan_room",
+   "hours": [
+    0.0,
+    24.0
+   ],
+   "how": "event",
+   "with": [],
+   "weight": 0
+  },
+  {
+   "id": "PB-T16",
+   "lang": "bo",
+   "script": "ལགས་མིན།",
+   "english": "No.",
+   "who": [
+    "agent"
+   ],
+   "where": "tibetan_room",
+   "hours": [
+    0.0,
+    24.0
+   ],
+   "how": "event",
+   "with": [],
+   "weight": 0
+  },
+  {
+   "id": "PB-T31",
+   "lang": "bo",
+   "script": "འགྲིག་གི་རེད།",
+   "english": "That's fine, it will do.",
+   "who": [
+    "agent"
+   ],
+   "where": "tibetan_room",
+   "hours": [
+    0.0,
+    24.0
+   ],
+   "how": "event",
+   "with": [],
+   "weight": 0
+  },
+  {
+   "id": "PB-T43",
+   "lang": "bo",
+   "script": "ལྷ་རྒྱལ་ལོ།",
+   "english": "The gods are victorious!",
+   "who": [
+    "host"
+   ],
+   "where": "roof",
+   "hours": [
+    0.0,
+    24.0
+   ],
+   "how": "event",
+   "with": [],
+   "weight": 0
+  },
+  {
+   "id": "PB-T46",
+   "lang": "bo",
+   "script": "ཨ་ལ་ལ་མོ་ཨ་ལ་རེད། ཐ་ལ་ལ་མོ་ཐ་ལ་རེད།",
+   "english": "The refrain that opens a song of Gesar.",
+   "who": [
+    "bard"
+   ],
+   "where": "chang_room",
+   "hours": [
+    0.0,
+    24.0
+   ],
+   "how": "event",
+   "with": [],
+   "weight": 0
+  },
+  {
+   "id": "PB-T43",
+   "lang": "bo",
+   "script": "ལྷ་རྒྱལ་ལོ།",
+   "english": "The gods are victorious!",
+   "who": [
+    "lookout_woman"
+   ],
+   "where": "lookout",
+   "hours": [
+    16.85,
+    17.7
+   ],
+   "how": "near",
+   "with": [],
+   "weight": 3
+  },
+  {
+   "id": "PB-T60",
+   "lang": "bo",
+   "script": "སྒོ་བརྒྱབ་ཚར་སོང་།",
+   "english": "The gate's already shut.",
+   "who": [
+    "gatekeeper"
+   ],
+   "where": "castle_gate",
+   "hours": [
+    17.5,
+    24.0
+   ],
+   "how": "event",
+   "with": [],
+   "weight": 0
+  },
+  {
+   "id": "PB-T62",
+   "lang": "bo",
+   "script": "ཨ་ཅེ་ལགས། དགོངས་དག མགོན་ཁང་ནང་ལ་བུད་མེད་ཕེབས་མི་ཆོག་པ་དགོན་པའི་བཅའ་ཡིག་རེད། འདི་ནས་གཟིགས་རོགས་གནང་།",
+   "english": "Forgive me, sister: by this monastery's rule women do not go into the protector chapel. Please look from here.",
+   "who": [
+    "gonkhang_keeper"
+   ],
+   "where": "gonkhang_door",
+   "hours": [
+    6.0,
+    23.0
+   ],
+   "how": "event",
+   "with": [],
+   "weight": 0
+  },
+  {
+   "id": "PB-T15",
+   "lang": "bo",
+   "script": "ལགས་སོ།",
+   "english": "Yes, certainly.",
+   "who": [
+    "host"
+   ],
+   "where": "tibetan_room",
+   "hours": [
+    13.0,
+    17.0
+   ],
+   "how": "overheard",
+   "with": [
+    "host"
+   ],
+   "weight": 1
+  },
+  {
+   "id": "PB-T54",
+   "lang": "bo",
+   "script": "དཀོན་མཆོག་གསུམ།",
+   "english": "By the Three Jewels!",
+   "who": [
+    "agent"
+   ],
+   "where": "tibetan_room",
+   "hours": [
+    13.0,
+    16.2
+   ],
+   "how": "overheard",
+   "with": [
+    "host"
+   ],
+   "weight": 1
+  },
+  {
+   "id": "PB-T55",
+   "lang": "bo",
+   "script": "དཀོན་མཆོག་མཁྱེན།",
+   "english": "The Jewel knows!",
+   "who": [
+    "agent"
+   ],
+   "where": "tibetan_room",
+   "hours": [
+    13.0,
+    16.2
+   ],
+   "how": "overheard",
+   "with": [
+    "host"
+   ],
+   "weight": 1
+  },
+  {
+   "id": "PB-T37",
+   "lang": "bo",
+   "script": "ཨ་ཁ་ཁ།",
+   "english": "Alas! Oh dear!",
+   "who": [
+    "cook"
+   ],
+   "where": "kitchen",
+   "hours": [
+    6.0,
+    21.0
+   ],
+   "how": "near",
+   "with": [],
+   "weight": 1
+  },
+  {
+   "id": "PB-T28",
+   "lang": "bo",
+   "script": "ཉོས་ཤོག",
+   "english": "Come and buy!",
+   "who": [
+    "stall"
+   ],
+   "where": "stalls",
+   "hours": [
+    7.0,
+    18.0
+   ],
+   "how": "greet",
+   "with": [],
+   "weight": 3
+  },
+  {
+   "id": "PB-T29",
+   "lang": "bo",
+   "script": "སྒོར་མོ་ཕྱེད་ཀ",
+   "english": "Half a rupee.",
+   "who": [
+    "stall"
+   ],
+   "where": "stalls",
+   "hours": [
+    7.0,
+    18.0
+   ],
+   "how": "near",
+   "with": [],
+   "weight": 2
+  },
+  {
+   "id": "PB-T30",
+   "lang": "bo",
+   "script": "ཡག་པོ་འདུག",
+   "english": "That's good.",
+   "who": [
+    "stall"
+   ],
+   "where": "stalls",
+   "hours": [
+    7.0,
+    18.0
+   ],
+   "how": "near",
+   "with": [],
+   "weight": 1
+  },
+  {
+   "id": "PB-T25",
+   "lang": "bo",
+   "script": "འདི་གོང་ག་ཚོད་རེད།",
+   "english": "How much is this?",
+   "who": [
+    "buyer"
+   ],
+   "where": "stalls",
+   "hours": [
+    7.0,
+    18.0
+   ],
+   "how": "overheard",
+   "with": [
+    "stall"
+   ],
+   "weight": 2
+  },
+  {
+   "id": "PB-T26",
+   "lang": "bo",
+   "script": "གོང་ཆེ་དྲགས་འདུག",
+   "english": "Too expensive.",
+   "who": [
+    "buyer"
+   ],
+   "where": "stalls",
+   "hours": [
+    7.0,
+    18.0
+   ],
+   "how": "overheard",
+   "with": [
+    "stall"
+   ],
+   "weight": 2
+  },
+  {
+   "id": "PB-T27",
+   "lang": "bo",
+   "script": "གོང་ཆུང་ཙམ་གནང་།",
+   "english": "Make it a little cheaper.",
+   "who": [
+    "buyer"
+   ],
+   "where": "stalls",
+   "hours": [
+    7.0,
+    18.0
+   ],
+   "how": "overheard",
+   "with": [
+    "stall"
+   ],
+   "weight": 1
+  },
+  {
+   "id": "PB-T13",
+   "lang": "bo",
+   "script": "བཀའ་དྲིན་ཆེ།",
+   "english": "Thank you.",
+   "who": [
+    "buyer"
+   ],
+   "where": "stalls",
+   "hours": [
+    7.0,
+    18.0
+   ],
+   "how": "overheard",
+   "with": [
+    "stall"
+   ],
+   "weight": 1
+  },
+  {
+   "id": "PB-T33",
+   "lang": "bo",
+   "script": "ཧ་མ་གོ",
+   "english": "I don't understand.",
+   "who": [
+    "nomad"
+   ],
+   "where": "stalls",
+   "hours": [
+    7.0,
+    18.0
+   ],
+   "how": "overheard",
+   "with": [
+    "clerk_zh"
+   ],
+   "weight": 2
+  },
+  {
+   "id": "PB-T11",
+   "lang": "bo",
+   "script": "བདེ་མོ་ཕེབས།",
+   "english": "Go in peace.",
+   "who": [
+    "nomad"
+   ],
+   "where": "stalls",
+   "hours": [
+    7.0,
+    18.0
+   ],
+   "how": "leave",
+   "with": [],
+   "weight": 2
+  },
+  {
+   "id": "PB-T18",
+   "lang": "bo",
+   "script": "ག་ནས་ཕེབས་པ་ཡིན།",
+   "english": "Where have you come from?",
+   "who": [
+    "stall"
+   ],
+   "where": "tsongra",
+   "hours": [
+    6.0,
+    20.0
+   ],
+   "how": "greet",
+   "with": [],
+   "weight": 2
+  },
+  {
+   "id": "PB-T19",
+   "lang": "bo",
+   "script": "ག་པར་ཕེབས་ཀྱི་ཡོད།",
+   "english": "Where are you going?",
+   "who": [
+    "anyone"
+   ],
+   "where": "stair",
+   "hours": [
+    6.0,
+    20.0
+   ],
+   "how": "near",
+   "with": [],
+   "weight": 2
+  },
+  {
+   "id": "PB-T17",
+   "lang": "bo",
+   "script": "དགོངས་དག",
+   "english": "Sorry; excuse me.",
+   "who": [
+    "anyone"
+   ],
+   "where": "stair",
+   "hours": [
+    6.0,
+    20.0
+   ],
+   "how": "pass",
+   "with": [],
+   "weight": 2
+  },
+  {
+   "id": "PB-T23",
+   "lang": "bo",
+   "script": "ད་རིང་གནམ་ཡག་པོ་འདུག",
+   "english": "The weather's fine today.",
+   "who": [
+    "anyone"
+   ],
+   "where": "anywhere",
+   "hours": [
+    8.0,
+    16.0
+   ],
+   "how": "overheard",
+   "with": [
+    "anyone"
+   ],
+   "weight": 1
+  },
+  {
+   "id": "PB-T02",
+   "lang": "bo",
+   "script": "ཁྱེད་རང་སྐུ་གཟུགས་བདེ་པོ་ཡིན་པས།",
+   "english": "Are you well?",
+   "who": [
+    "anyone"
+   ],
+   "where": "anywhere",
+   "hours": [
+    6.0,
+    20.0
+   ],
+   "how": "overheard",
+   "with": [
+    "elder"
+   ],
+   "weight": 1
+  },
+  {
+   "id": "PB-T32",
+   "lang": "bo",
+   "script": "ཧ་གོ་སོང་།",
+   "english": "I understand.",
+   "who": [
+    "anyone"
+   ],
+   "where": "anywhere",
+   "hours": [
+    6.0,
+    20.0
+   ],
+   "how": "overheard",
+   "with": [
+    "anyone"
+   ],
+   "weight": 1
+  },
+  {
+   "id": "PB-T49",
+   "lang": "bo",
+   "script": "ཨ་ཁུ་ལགས།",
+   "english": "Uncle.",
+   "who": [
+    "anyone"
+   ],
+   "where": "anywhere",
+   "hours": [
+    6.0,
+    20.0
+   ],
+   "how": "overheard",
+   "with": [
+    "monk"
+   ],
+   "weight": 1
+  },
+  {
+   "id": "PB-T14",
+   "lang": "bo",
+   "script": "ཐུགས་རྗེ་ཆེ།",
+   "english": "Thank you.",
+   "who": [
+    "anyone"
+   ],
+   "where": "anywhere",
+   "hours": [
+    6.0,
+    20.0
+   ],
+   "how": "overheard",
+   "with": [
+    "monk"
+   ],
+   "weight": 1
+  },
+  {
+   "id": "PB-T52",
+   "lang": "bo",
+   "script": "ཨ་ཇོ།",
+   "english": "Elder brother.",
+   "who": [
+    "young_man"
+   ],
+   "where": "anywhere",
+   "hours": [
+    6.0,
+    20.0
+   ],
+   "how": "overheard",
+   "with": [
+    "young_man"
+   ],
+   "weight": 1
+  },
+  {
+   "id": "PB-T51",
+   "lang": "bo",
+   "script": "ཨ་མ་ལགས།",
+   "english": "Mother.",
+   "who": [
+    "nyima"
+   ],
+   "where": "anywhere",
+   "hours": [
+    6.0,
+    20.0
+   ],
+   "how": "overheard",
+   "with": [
+    "mother"
+   ],
+   "weight": 2
+  },
+  {
+   "id": "PB-T61",
+   "lang": "bo",
+   "script": "མགྱོགས་པོ་ཤོག",
+   "english": "Come quickly!",
+   "who": [
+    "child"
+   ],
+   "where": "anywhere",
+   "hours": [
+    8.0,
+    17.5
+   ],
+   "how": "overheard",
+   "with": [
+    "child"
+   ],
+   "weight": 1
+  },
+  {
+   "id": "PB-T38",
+   "lang": "bo",
+   "script": "ཁྱེད་ཚོ་ནང་ལ་ཤོག",
+   "english": "Come inside, you lot.",
+   "who": [
+    "woman"
+   ],
+   "where": "anywhere",
+   "hours": [
+    17.3,
+    18.3
+   ],
+   "how": "overheard",
+   "with": [
+    "child"
+   ],
+   "weight": 2
+  },
+  {
+   "id": "PB-T59",
+   "lang": "bo",
+   "script": "ཉི་མ་ནུབ་སོང་།",
+   "english": "The sun has set: time to go home.",
+   "who": [
+    "drover"
+   ],
+   "where": "anywhere",
+   "hours": [
+    16.6,
+    17.6
+   ],
+   "how": "overheard",
+   "with": [
+    "drover"
+   ],
+   "weight": 2
+  },
+  {
+   "id": "PB-T44",
+   "lang": "bo",
+   "script": "གཡས་སྐོར་གྱིས།",
+   "english": "Go round to the right!",
+   "who": [
+    "old_woman",
+    "elder"
+   ],
+   "where": "mani",
+   "hours": [
+    5.0,
+    20.0
+   ],
+   "how": "wrong_way",
+   "with": [],
+   "weight": 3
+  },
+  {
+   "id": "PB-C10",
+   "lang": "zh",
+   "script": "請坐，喝茶。",
+   "english": "Sit, have tea.",
+   "who": [
+    "host_zh"
+   ],
+   "where": "chinese_room",
+   "hours": [
+    6.0,
+    21.0
+   ],
+   "how": "greet",
+   "with": [],
+   "weight": 3
+  },
+  {
+   "id": "PB-C08",
+   "lang": "zh",
+   "script": "慢慢走哈。",
+   "english": "Go carefully.",
+   "who": [
+    "host_zh"
+   ],
+   "where": "chinese_room",
+   "hours": [
+    6.0,
+    21.0
+   ],
+   "how": "leave",
+   "with": [],
+   "weight": 3
+  },
+  {
+   "id": "PB-C13",
+   "lang": "zh",
+   "script": "巴適得很！",
+   "english": "Wonderful!",
+   "who": [
+    "clerk_zh"
+   ],
+   "where": "chinese_room",
+   "hours": [
+    13.6,
+    16.4
+   ],
+   "how": "overheard",
+   "with": [
+    "host_zh"
+   ],
+   "weight": 1
+  },
+  {
+   "id": "PB-C07",
+   "lang": "zh",
+   "script": "曉得了。",
+   "english": "Got it.",
+   "who": [
+    "clerk_zh"
+   ],
+   "where": "chinese_room",
+   "hours": [
+    13.6,
+    16.4
+   ],
+   "how": "overheard",
+   "with": [
+    "host_zh"
+   ],
+   "weight": 1
+  },
+  {
+   "id": "PB-C30",
+   "lang": "zh",
+   "script": "啷個辦嘛？",
+   "english": "What's to be done?",
+   "who": [
+    "host_zh"
+   ],
+   "where": "chinese_room",
+   "hours": [
+    13.0,
+    19.0
+   ],
+   "how": "near",
+   "with": [],
+   "weight": 1
+  },
+  {
+   "id": "PB-C02",
+   "lang": "zh",
+   "script": "太貴了，少點嘛。",
+   "english": "Too dear. Come down a bit.",
+   "who": [
+    "host_zh"
+   ],
+   "where": "chinese_room",
+   "hours": [
+    0.0,
+    24.0
+   ],
+   "how": "event",
+   "with": [],
+   "weight": 0
+  },
+  {
+   "id": "PB-C03",
+   "lang": "zh",
+   "script": "要得！",
+   "english": "Agreed!",
+   "who": [
+    "host_zh"
+   ],
+   "where": "chinese_room",
+   "hours": [
+    0.0,
+    24.0
+   ],
+   "how": "event",
+   "with": [],
+   "weight": 0
+  },
+  {
+   "id": "PB-C04",
+   "lang": "zh",
+   "script": "要不得。",
+   "english": "That won't do.",
+   "who": [
+    "host_zh"
+   ],
+   "where": "chinese_room",
+   "hours": [
+    0.0,
+    24.0
+   ],
+   "how": "event",
+   "with": [],
+   "weight": 0
+  },
+  {
+   "id": "PB-C01",
+   "lang": "zh",
+   "script": "老闆，這個好多錢？",
+   "english": "Boss, how much is this?",
+   "who": [
+    "clerk_zh"
+   ],
+   "where": "stalls",
+   "hours": [
+    7.0,
+    18.0
+   ],
+   "how": "overheard",
+   "with": [
+    "stall"
+   ],
+   "weight": 2
+  },
+  {
+   "id": "PB-C26",
+   "lang": "zh",
+   "script": "阿佳，酥油好多錢一斤？",
+   "english": "Sister, how much a catty for butter?",
+   "who": [
+    "clerk_zh"
+   ],
+   "where": "stalls",
+   "hours": [
+    7.0,
+    18.0
+   ],
+   "how": "overheard",
+   "with": [
+    "nomad"
+   ],
+   "weight": 2
+  },
+  {
+   "id": "PB-C06",
+   "lang": "zh",
+   "script": "啥子？",
+   "english": "What?",
+   "who": [
+    "clerk_zh"
+   ],
+   "where": "stalls",
+   "hours": [
+    7.0,
+    18.0
+   ],
+   "how": "overheard",
+   "with": [
+    "stall"
+   ],
+   "weight": 1
+  },
+  {
+   "id": "PB-C09",
+   "lang": "zh",
+   "script": "吃了沒得？",
+   "english": "Eaten yet?",
+   "who": [
+    "clerk_zh"
+   ],
+   "where": "tsongra",
+   "hours": [
+    11.5,
+    13.5
+   ],
+   "how": "greet",
+   "with": [],
+   "weight": 2
+  }
+ ]
+}

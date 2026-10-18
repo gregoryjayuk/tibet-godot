@@ -1,0 +1,75 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://interiors/room.gd" id="1_wmd1j"]
+[ext_resource type="PackedScene" path="res://assets/generated/kit/types/tsokchen_nave_v1.glb" id="2_dqtc1"]
+[ext_resource type="Shader" path="res://shaders/lamp_mm.gdshader" id="3_0cp50"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_k545b"]
+render_priority = 0
+shader = ExtResource("3_0cp50")
+shader_parameter/kind = 0
+shader_parameter/px = null
+
+[sub_resource type="QuadMesh" id="QuadMesh_twdh0"]
+material = SubResource("ShaderMaterial_k545b")
+
+[sub_resource type="MultiMesh" id="MultiMesh_6mola"]
+transform_format = 1
+use_custom_data = true
+instance_count = 249
+mesh = SubResource("QuadMesh_twdh0")
+
+[node name="tsokchen_nave" type="Node3D" unique_id=96179376]
+
+[node name="Room" type="Node3D" parent="." unique_id=1581590692]
+script = ExtResource("1_wmd1j")
+room_id = "tsokchen_nave"
+recipe = "LR-01"
+gain = 1.7
+box = AABB(-12.3, -0.2, -21.875, 24.6, 7, 21.875)
+
+[node name="Furnishings" parent="." unique_id=54803190 instance=ExtResource("2_dqtc1")]
+
+[node name="Flame_flame_62" type="OmniLight3D" parent="." unique_id=1422862328]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6737714, 0.90999997, -21.114847)
+light_color = Color(0.95686275, 0.69803923, 0.2901961, 1)
+light_energy = 1.7
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 9.0
+omni_attenuation = 2.0
+metadata/kind = "flame"
+
+[node name="Flame_flame_185" type="OmniLight3D" parent="." unique_id=57322359]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6737714, 0.90999997, -21.114847)
+light_color = Color(0.95686275, 0.69803923, 0.2901961, 1)
+light_energy = 1.7
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 9.0
+omni_attenuation = 2.0
+metadata/kind = "flame"
+
+[node name="Day_sky_1" type="OmniLight3D" parent="." unique_id=1792075515]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 11.299999, -9.8)
+light_color = Color(0.9529412, 0.92156863, 0.8666667, 1)
+light_energy = 0.8
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 12.5
+omni_attenuation = 2.0
+metadata/kind = "day"
+
+[node name="Day_door" type="OmniLight3D" parent="." unique_id=352736465]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3, -0.6)
+light_color = Color(0.9647059, 0.93333334, 0.8862745, 1)
+light_energy = 0.6
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 7.0
+omni_attenuation = 2.0
+metadata/kind = "day"
+
+[node name="Flames" type="MultiMeshInstance3D" parent="." unique_id=141802000]
+cast_shadow = 0
+multimesh = SubResource("MultiMesh_6mola")

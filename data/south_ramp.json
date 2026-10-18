@@ -1,0 +1,302 @@
+{
+ "about": "Samkha's south ramp (SAM-06 south), written by tools/town/south_ramp.py: the animal branch R-02 from the south pavilion SAM-04 along the slot's rim and down its south wall to the lower cantilever bridge's south end, as lanes (tools/terrain/pads.py's form: from, dir, length, width, and a profile of the bed's height along it), carved by pads.py, walled by walls.py. top: where it leaves R-01; foot: the lower bridge's south end.",
+ "top": [
+  -122.0,
+  -141.0,
+  2655.0
+ ],
+ "foot": [
+  -55.0,
+  -118.0,
+  2624.1
+ ],
+ "grade": 0.1446,
+ "lanes": [
+  {
+   "id": "SAM-06S.a",
+   "from": [
+    -122.0,
+    -141.0
+   ],
+   "dir": [
+    0.99388,
+    0.11043
+   ],
+   "length": 45.28,
+   "width": 4.0,
+   "z_a": 2655.0,
+   "z_b": 2652.74,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2655.0
+    ],
+    [
+     45.28,
+     2652.74
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06S.0",
+   "from": [
+    -77.0,
+    -136.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 44.0,
+   "width": 4.0,
+   "z_a": 2652.74,
+   "z_b": 2646.37,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2652.74
+    ],
+    [
+     44.0,
+     2646.37
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06S.L0",
+   "from": [
+    -31.0,
+    -138.0
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.0,
+   "width": 4.0,
+   "z_a": 2646.37,
+   "z_b": 2646.37,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2646.37
+    ],
+    [
+     8.0,
+     2646.37
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06S.1",
+   "from": [
+    -33.0,
+    -132.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 44.0,
+   "width": 4.0,
+   "z_a": 2646.37,
+   "z_b": 2640.01,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2646.37
+    ],
+    [
+     44.0,
+     2640.01
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06S.L1",
+   "from": [
+    -79.0,
+    -134.0
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.0,
+   "width": 4.0,
+   "z_a": 2640.01,
+   "z_b": 2640.01,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2640.01
+    ],
+    [
+     8.0,
+     2640.01
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06S.2",
+   "from": [
+    -77.0,
+    -128.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 44.0,
+   "width": 4.0,
+   "z_a": 2640.01,
+   "z_b": 2633.65,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2640.01
+    ],
+    [
+     44.0,
+     2633.65
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06S.L2",
+   "from": [
+    -31.0,
+    -130.0
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.0,
+   "width": 4.0,
+   "z_a": 2633.65,
+   "z_b": 2633.65,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2633.65
+    ],
+    [
+     8.0,
+     2633.65
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06S.3",
+   "from": [
+    -33.0,
+    -124.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 44.0,
+   "width": 4.0,
+   "z_a": 2633.65,
+   "z_b": 2627.28,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2633.65
+    ],
+    [
+     44.0,
+     2627.28
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06S.L3",
+   "from": [
+    -79.0,
+    -126.0
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.0,
+   "width": 4.0,
+   "z_a": 2627.28,
+   "z_b": 2627.28,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2627.28
+    ],
+    [
+     8.0,
+     2627.28
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06S.4",
+   "from": [
+    -77.0,
+    -120.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 22.0,
+   "width": 4.0,
+   "z_a": 2627.28,
+   "z_b": 2624.1,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2627.28
+    ],
+    [
+     22.0,
+     2624.1
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06S.b",
+   "from": [
+    -55.0,
+    -121.5
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 3.5,
+   "width": 4.0,
+   "z_a": 2624.1,
+   "z_b": 2624.1,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2624.1
+    ],
+    [
+     3.5,
+     2624.1
+    ]
+   ]
+  }
+ ]
+}

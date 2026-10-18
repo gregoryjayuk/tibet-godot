@@ -1,0 +1,18 @@
+{
+ "id": "m2_yudron",
+ "about": "Mission 2, What the town is saying (plan chapter 14, 4.1): after Jiang Deshun's word, Ama Yudrön tells the player the number of animals he can bear to hear (NPC-26's moment), and, asked, who owes whom (thread 9: half the town owes Dechen-tsang, the Pönpo among them, 'which no one mentions'; Gönpo owes it a hide; she is its debtor). The player learns the weight of debt before anyone knows the letter.",
+ "who": "ama_yudron",
+ "if": [["flag", "heard_ula_order"], ["not", "heard_debts"], ["hour", 16.5, 23.0]],
+ "start": "a",
+ "nodes": {
+  "a": {"line": "CV-024", "en": "You heard him. Sixty animals from Shöl, the castle will ask. Sixty. A house that trades can bear sixty.", "replies": [
+   {"en": "Ask her who in Shöl can bear it.", "next": "b"},
+   {"en": "Thank her, and drink.", "next": "end", "do": [["write", "m2_sixty", "note", "Ama Yudrön says the castle will ask sixty animals of Shöl.", "ama_yudron", "the chang house"]]}
+  ]},
+  "b": {"line": "CV-025", "en": "Dechen-tsang can. Half the town owes Dechen-tsang, and the castle owes it most, though nobody says so. Gönpo the coracle man owes it a hide. I owe it my roof.",
+   "do": [["flag", "heard_debts"], ["tell", "ama_yudron", "player_asked_debts"], ["done", "m2_talk"],
+          ["write", "m2_debts", "note", "Ama Yudrön, at the chang house: half the town owes Dechen-tsang, the castle most of all, though nobody says so; Gönpo the coracle man owes it a hide; she owes it her roof. If the house's news gets out, all of it moves.", "ama_yudron", "the chang house"]],
+   "next": "c"},
+  "c": {"narrate": "She fills your bowl again before you can cover it.", "next": "end"}
+ }
+}

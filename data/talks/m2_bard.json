@@ -1,0 +1,14 @@
+{
+ "id": "m2_bard",
+ "about": "The Gesar bard Drakpa Tharchin's short episode at the chang house at 19:30, before his main recital in Dechen-tsang's yard at 21:00 (chapter 05, NPC-27; chapter 04, 4.5). The hat's naming as part of the performance is general practice, unverified. His voice waits for a recording made with consent (chapter 10, 11.1): the refrain shows, the dranyen is heard.",
+ "place": "chang_room_b2_in_v2",
+ "from": 1170, "to": 1205,
+ "needs": ["drakpa_bard"],
+ "once": "heard_bard",
+ "lines": [
+  {"narrate": "Drakpa Tharchin, the bard who lodges at Dechen-tsang, holds up his tall hat and names its parts to the room, one by one; then he puts it on, and his voice changes.", "seconds": 7.0},
+  {"who": "drakpa_bard", "say": "PB-T46", "seconds": 5.0},
+  {"narrate": "He sings of Ling for the length of a bowl of chang. Nobody drinks.", "seconds": 8.0}
+ ],
+ "do": [["write", "m2_bard", "note", "The bard Drakpa Tharchin sings a short episode at the chang house in the evening, before his long recital in Dechen-tsang's yard.", "drakpa_bard", "the chang house"]]
+}

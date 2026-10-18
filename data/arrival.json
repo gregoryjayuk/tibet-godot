@@ -1,0 +1,156 @@
+{
+ "about": "The arrival by the Serchu road (M2 sprint 3), written by tools/terrain/arrival.py: R-01's line from SER-20 along the cliff gallery, through the nose to the Gate Chorten SER-01, past the eight chortens SER-02 (west: the branch south of the row; east: north of it) to the south pavilion SAM-04, in the town grid (x east, y north, design z); the gallery's line and deck; V-01's station and the chorten's passage axis.",
+ "road_west": [
+  [
+   430.0,
+   -250.0,
+   2712.0
+  ],
+  [
+   420.0,
+   -245.0,
+   2712.0
+  ],
+  [
+   285.0,
+   -150.0,
+   2700.0
+  ],
+  [
+   178.0,
+   -173.0,
+   2692.0
+  ],
+  [
+   163.0,
+   -176.0,
+   2692.0
+  ],
+  [
+   146.0,
+   -150.5,
+   2688.6
+  ],
+  [
+   136.0,
+   -156.5,
+   2687.94
+  ],
+  [
+   56.0,
+   -156.5,
+   2675.37
+  ],
+  [
+   46.0,
+   -150.5,
+   2674.59
+  ],
+  [
+   -122.0,
+   -141.0,
+   2655.0
+  ]
+ ],
+ "road_east": [
+  [
+   -122.0,
+   -141.0,
+   2655.0
+  ],
+  [
+   46.0,
+   -150.5,
+   2674.59
+  ],
+  [
+   56.0,
+   -143.5,
+   2675.37
+  ],
+  [
+   136.0,
+   -143.5,
+   2687.94
+  ],
+  [
+   146.0,
+   -150.5,
+   2688.6
+  ],
+  [
+   146.0,
+   -150.5,
+   2688.6
+  ],
+  [
+   163.0,
+   -176.0,
+   2692.0
+  ],
+  [
+   178.0,
+   -173.0,
+   2692.0
+  ],
+  [
+   285.0,
+   -150.0,
+   2700.0
+  ],
+  [
+   420.0,
+   -245.0,
+   2712.0
+  ],
+  [
+   430.0,
+   -250.0,
+   2712.0
+  ]
+ ],
+ "gallery": {
+  "from": [
+   420.0,
+   -245.0,
+   2712.0
+  ],
+  "to": [
+   285.0,
+   -150.0,
+   2700.0
+  ],
+  "width": 1.8,
+  "face": -1.0
+ },
+ "row": {
+  "from_x": 130.0,
+  "to_x": 60.0,
+  "y": -150.0,
+  "z_from": 2687.0,
+  "z_to": 2676.0,
+  "depth": 5.0
+ },
+ "v01": {
+  "eye": [
+   166.0,
+   -175.0,
+   2695.6
+  ],
+  "facing": 290.0,
+  "turn": 52.0
+ },
+ "gate_chorten": {
+  "at": [
+   170.0,
+   -175.0,
+   2692.0
+  ],
+  "passage_bearing": 282.0
+ },
+ "ser20": [
+  430.0,
+  -250.0,
+  2712.0
+ ]
+}

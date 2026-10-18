@@ -1,0 +1,7 @@
+{
+ "about": "The camera's framing hints (IMP-022; player/player.gd): each a box in the town grid (its centre x, y and design altitude, its size along x, y and up) where the third-person camera swings most of the way to a side-on `view` (a compass bearing to look along) and its arm to `arm` metres, while the keys still move the walker as the mouse turned it. H in play turns the framing off and on.",
+ "hints": [
+  {"id": "dechen_gallery_w", "note": "Dechen-tsang's guest yard, the west range's gallery before the Tibetan room (kit/trading.py: GAL 1.3 m, from y 3.3 to 17.0 of the house): seen from the yard, side on (Greg's 1779)", "center": [-84.35, -29.85, 2652.0], "size": [1.6, 13.7, 3.0], "view": 270.0, "arm": 3.4},
+  {"id": "bridge_br01", "note": "the plank-and-rope bridge over the Sky Stair, its middle half (assets/generated/terrain/bridges.json BR-01: 22 m from H-SHL-080's roof to H-SHL-061's at bearing 97, its deck about 2,751 m, sagging 0.74 m): seen side on looking down the stair, the drop and the pilgrims below in the frame (IMP-027)", "center": [-10.99, 181.69, 2751.4], "size": [11.0, 2.4, 3.0], "view": 187.0, "arm": 4.0}
+ ]
+}

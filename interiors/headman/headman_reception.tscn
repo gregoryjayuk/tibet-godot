@@ -1,0 +1,48 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://interiors/room.gd" id="1_6rbxv"]
+[ext_resource type="PackedScene" path="res://assets/generated/kit/types/headman_reception_v1.glb" id="2_wfaem"]
+[ext_resource type="Shader" path="res://shaders/flame.gdshader" id="3_gwrnc"]
+[ext_resource type="Script" path="res://world/tea.gd" id="4_w3xpm"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_s7jr7"]
+render_priority = 0
+shader = ExtResource("3_gwrnc")
+shader_parameter/kind = 1
+shader_parameter/strength = 1.2
+shader_parameter/seed = 9.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_dwfu0"]
+size = Vector2(0.3, 0.24)
+
+[node name="headman_reception" type="Node3D" unique_id=822171271]
+
+[node name="Room" type="Node3D" parent="." unique_id=74238253]
+script = ExtResource("1_6rbxv")
+room_id = "headman_reception"
+gain = 1.6
+box = AABB(-1.15, -0.2, -4.5, 3.7, 2.65, 4.5)
+floor_band = Vector2(-0.4, 2.3)
+
+[node name="Furnishings" parent="." unique_id=1339174475 instance=ExtResource("2_wfaem")]
+
+[node name="Day_window_1" type="OmniLight3D" parent="." unique_id=1575094208]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6499999, 1.2, -2.3)
+light_color = Color(0.9529412, 0.92156863, 0.8666667, 1)
+light_energy = 1.4
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 9.0
+omni_attenuation = 2.0
+metadata/kind = "day"
+
+[node name="Coals_9" type="MeshInstance3D" parent="." unique_id=662221821]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0.24, -1.6)
+material_override = SubResource("ShaderMaterial_s7jr7")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_dwfu0")
+
+[node name="Tea" type="Node3D" parent="." unique_id=1945657889]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1, 0.33, -1.45)
+script = ExtResource("4_w3xpm")
+metadata/reach = 3.4

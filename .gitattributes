@@ -1,0 +1,20 @@
+# Line endings as Godot expects; binaries marked binary
+* text=auto eol=lf
+*.ttf binary
+*.otf binary
+*.ttc binary
+*.ogg binary
+*.wav binary
+*.flac binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.exr binary
+*.glb binary
+*.blend binary
+*.bvh binary
+addons/*/bin/** binary
+*.so binary
+*.dll binary
+*.dylib binary
+*.wasm binary

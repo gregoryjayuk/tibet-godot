@@ -1,0 +1,1982 @@
+{
+ "about": "Side lanes laid out by tools/town/builder.py: each from its foot (the row's front, the town grid) up its axis `dir`, `length` long and `width` wide, level at z_a to its flight's foot and level at z_b past its top; the flight (its own stair, the kit's export_lanes.py: `file`) from `s` metres up the lane, its first riser's foot at `z`, `n` risers to `rise` metres, a landing after `landing` of them in a long one. pads.py cuts the bed, walls.py walls it, world/town.gd places the flights.",
+ "run": 0.25,
+ "riser": 0.2,
+ "lanes": [
+  {
+   "id": "LN-001",
+   "row": -5,
+   "from": [
+    -20.88,
+    -34.41
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 11.3,
+   "width": 3.88,
+   "z_a": 2652.0,
+   "z_b": 2655.24,
+   "flight": {
+    "file": "lane_LN-001",
+    "s": 6.7,
+    "rise": 3.24,
+    "z": 2652.0,
+    "n": 16,
+    "landing": null
+   },
+   "between": [
+    "H-SHL-039",
+    "H-SHL-042"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-002",
+   "row": -1,
+   "from": [
+    -74.64,
+    31.24
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 3.49,
+   "z_a": 2659.3,
+   "z_b": 2667.18,
+   "flight": {
+    "file": "lane_LN-002",
+    "s": 2.7,
+    "rise": 7.88,
+    "z": 2659.3,
+    "n": 39,
+    "landing": 19
+   },
+   "between": [
+    "H-SHL-041",
+    "H-SHL-025"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-003",
+   "row": -1,
+   "from": [
+    -52.64,
+    27.44
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 8.9,
+   "width": 2.84,
+   "z_a": 2665.2,
+   "z_b": 2667.9,
+   "flight": {
+    "file": "lane_LN-003",
+    "s": 4.8,
+    "rise": 2.7,
+    "z": 2665.2,
+    "n": 14,
+    "landing": null
+   },
+   "between": [
+    "H-SHL-017",
+    "H-SHL-007"
+   ],
+   "head": "H-SHL-007"
+  },
+  {
+   "id": "LN-004",
+   "row": -1,
+   "from": [
+    41.16,
+    10.54
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 8.9,
+   "width": 2.94,
+   "z_a": 2672.5,
+   "z_b": 2672.5,
+   "flight": null,
+   "between": [
+    "H-SHL-020",
+    "H-SHL-031"
+   ],
+   "head": "H-SHL-020"
+  },
+  {
+   "id": "LN-005",
+   "row": 0,
+   "from": [
+    16.78,
+    29.89
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 8.7,
+   "width": 3.57,
+   "z_a": 2675.4,
+   "z_b": 2675.4,
+   "flight": null,
+   "between": [
+    "H-SHL-003",
+    "H-SHL-005"
+   ],
+   "head": "H-SHL-003"
+  },
+  {
+   "id": "LN-006",
+   "row": 0,
+   "from": [
+    30.04,
+    27.68
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 3.52,
+   "z_a": 2677.5,
+   "z_b": 2683.91,
+   "flight": {
+    "file": "lane_LN-006",
+    "s": 4.45,
+    "rise": 6.41,
+    "z": 2677.5,
+    "n": 32,
+    "landing": 16
+   },
+   "between": [
+    "H-SHL-005",
+    "H-SHL-016"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-007",
+   "row": 1,
+   "from": [
+    -65.09,
+    58.04
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 8.9,
+   "width": 3.53,
+   "z_a": 2679.6,
+   "z_b": 2679.6,
+   "flight": null,
+   "between": [
+    "H-SHL-033",
+    "H-SHL-021"
+   ],
+   "head": "H-SHL-033"
+  },
+  {
+   "id": "LN-008",
+   "row": 1,
+   "from": [
+    -51.88,
+    55.89
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 8.8,
+   "width": 3.73,
+   "z_a": 2680.8,
+   "z_b": 2681.9,
+   "flight": {
+    "file": "lane_LN-008",
+    "s": 6.95,
+    "rise": 1.1,
+    "z": 2680.8,
+    "n": 5,
+    "landing": null
+   },
+   "between": [
+    "H-SHL-021",
+    "H-SHL-010"
+   ],
+   "head": "H-SHL-010"
+  },
+  {
+   "id": "LN-009",
+   "row": 1,
+   "from": [
+    52.44,
+    37.43
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 8.6,
+   "width": 2.66,
+   "z_a": 2686.4,
+   "z_b": 2686.4,
+   "flight": null,
+   "between": [
+    "H-SHL-024",
+    "H-SHL-040"
+   ],
+   "head": "H-SHL-024"
+  },
+  {
+   "id": "LN-010",
+   "row": 2,
+   "from": [
+    -68.78,
+    72.89
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 2.75,
+   "z_a": 2687.0,
+   "z_b": 2693.66,
+   "flight": {
+    "file": "lane_LN-010",
+    "s": 4.2,
+    "rise": 6.66,
+    "z": 2687.0,
+    "n": 33,
+    "landing": 16
+   },
+   "between": [
+    "H-SHL-052",
+    "H-SHL-032"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-011",
+   "row": 2,
+   "from": [
+    -37.63,
+    67.74
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 3.21,
+   "z_a": 2689.2,
+   "z_b": 2695.84,
+   "flight": {
+    "file": "lane_LN-011",
+    "s": 4.2,
+    "rise": 6.64,
+    "z": 2689.2,
+    "n": 33,
+    "landing": 16
+   },
+   "between": [
+    "H-SHL-015",
+    "H-SHL-009"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-012",
+   "row": 3,
+   "from": [
+    46.43,
+    66.84
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 8.7,
+   "width": 2.8,
+   "z_a": 2689.4,
+   "z_b": 2689.4,
+   "flight": null,
+   "between": [
+    "H-SHL-029",
+    "H-SHL-043"
+   ],
+   "head": "H-SHL-029"
+  },
+  {
+   "id": "LN-013",
+   "row": 6,
+   "from": [
+    -90.31,
+    134.19
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 4.3,
+   "z_a": 2714.0,
+   "z_b": 2720.5,
+   "flight": {
+    "file": "lane_LN-013",
+    "s": 4.45,
+    "rise": 6.5,
+    "z": 2714.0,
+    "n": 32,
+    "landing": 16
+   },
+   "between": [
+    "H-SHL-105",
+    "H-SHL-098"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-014",
+   "row": 6,
+   "from": [
+    -76.02,
+    130.94
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 9.8,
+   "width": 4.43,
+   "z_a": 2714.3,
+   "z_b": 2714.5,
+   "flight": null,
+   "between": [
+    "H-SHL-098",
+    "H-SHL-093"
+   ],
+   "head": "H-SHL-098"
+  },
+  {
+   "id": "LN-015",
+   "row": 6,
+   "from": [
+    -61.47,
+    127.64
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 4.87,
+   "z_a": 2714.3,
+   "z_b": 2720.9,
+   "flight": {
+    "file": "lane_LN-015",
+    "s": 4.2,
+    "rise": 6.6,
+    "z": 2714.3,
+    "n": 33,
+    "landing": 16
+   },
+   "between": [
+    "H-SHL-093",
+    "H-SHL-088"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-016",
+   "row": 7,
+   "from": [
+    -98.15,
+    148.94
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 5.92,
+   "z_a": 2720.5,
+   "z_b": 2727.8,
+   "flight": {
+    "file": "lane_LN-016",
+    "s": 3.2,
+    "rise": 7.3,
+    "z": 2720.5,
+    "n": 37,
+    "landing": 18
+   },
+   "between": [
+    "H-SHL-104",
+    "H-SHL-094"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-017",
+   "row": 7,
+   "from": [
+    -82.23,
+    145.69
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 9.4,
+   "width": 5.36,
+   "z_a": 2720.5,
+   "z_b": 2720.5,
+   "flight": null,
+   "between": [
+    "H-SHL-094",
+    "H-SHL-084"
+   ],
+   "head": "H-SHL-094"
+  },
+  {
+   "id": "LN-018",
+   "row": 7,
+   "from": [
+    -66.68,
+    142.29
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 5.56,
+   "z_a": 2720.5,
+   "z_b": 2727.7,
+   "flight": {
+    "file": "lane_LN-018",
+    "s": 3.45,
+    "rise": 7.2,
+    "z": 2720.5,
+    "n": 36,
+    "landing": 18
+   },
+   "between": [
+    "H-SHL-084",
+    "H-SHL-078"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-019",
+   "row": 7,
+   "from": [
+    -51.38,
+    140.54
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 4.48,
+   "z_a": 2720.9,
+   "z_b": 2728.0,
+   "flight": {
+    "file": "lane_LN-019",
+    "s": 3.7,
+    "rise": 7.1,
+    "z": 2720.9,
+    "n": 35,
+    "landing": 17
+   },
+   "between": [
+    "H-SHL-078",
+    "H-SHL-075"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-020",
+   "row": 8,
+   "from": [
+    -114.05,
+    166.44
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 3.93,
+   "z_a": 2728.2,
+   "z_b": 2739.9,
+   "flight": null,
+   "between": [
+    "H-SHL-110",
+    "H-SHL-101"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-021",
+   "row": 8,
+   "from": [
+    -99.6,
+    163.84
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 9.0,
+   "width": 4.54,
+   "z_a": 2727.8,
+   "z_b": 2727.8,
+   "flight": null,
+   "between": [
+    "H-SHL-101",
+    "H-SHL-087"
+   ],
+   "head": "H-SHL-087"
+  },
+  {
+   "id": "LN-022",
+   "row": 8,
+   "from": [
+    -84.87,
+    161.19
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 5.19,
+   "z_a": 2727.7,
+   "z_b": 2734.85,
+   "flight": {
+    "file": "lane_LN-022",
+    "s": 3.45,
+    "rise": 7.15,
+    "z": 2727.7,
+    "n": 36,
+    "landing": 18
+   },
+   "between": [
+    "H-SHL-087",
+    "H-SHL-077"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-023",
+   "row": 8,
+   "from": [
+    -70.37,
+    158.29
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 9.8,
+   "width": 4.37,
+   "z_a": 2727.7,
+   "z_b": 2727.7,
+   "flight": null,
+   "between": [
+    "H-SHL-077",
+    "H-SHL-070"
+   ],
+   "head": "H-SHL-077"
+  },
+  {
+   "id": "LN-024",
+   "row": 8,
+   "from": [
+    -44.86,
+    154.04
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 4.51,
+   "z_a": 2728.0,
+   "z_b": 2735.9,
+   "flight": {
+    "file": "lane_LN-024",
+    "s": 2.45,
+    "rise": 7.9,
+    "z": 2728.0,
+    "n": 40,
+    "landing": 20
+   },
+   "between": [
+    "H-SHL-068",
+    "H-SHL-067"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-025",
+   "row": 8,
+   "from": [
+    10.35,
+    143.99
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 5.22,
+   "z_a": 2728.9,
+   "z_b": 2735.8,
+   "flight": {
+    "file": "lane_LN-025",
+    "s": 3.7,
+    "rise": 6.9,
+    "z": 2728.9,
+    "n": 35,
+    "landing": 17
+   },
+   "between": [
+    "H-SHL-090",
+    "H-SHL-103"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-026",
+   "row": 9,
+   "from": [
+    -110.22,
+    180.19
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 4.75,
+   "z_a": 2737.0,
+   "z_b": 2745.5,
+   "flight": {
+    "file": "lane_LN-026",
+    "s": 1.95,
+    "rise": 8.5,
+    "z": 2737.0,
+    "n": 42,
+    "landing": 21
+   },
+   "between": [
+    "H-SHL-109",
+    "H-SHL-097"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-027",
+   "row": 9,
+   "from": [
+    -95.64,
+    177.44
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 4.71,
+   "z_a": 2735.2,
+   "z_b": 2742.76,
+   "flight": {
+    "file": "lane_LN-027",
+    "s": 2.95,
+    "rise": 7.56,
+    "z": 2735.2,
+    "n": 38,
+    "landing": 19
+   },
+   "between": [
+    "H-SHL-097",
+    "H-SHL-082"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-028",
+   "row": 9,
+   "from": [
+    -69.3,
+    172.99
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 5.42,
+   "z_a": 2734.8,
+   "z_b": 2742.1,
+   "flight": {
+    "file": "lane_LN-028",
+    "s": 3.45,
+    "rise": 7.3,
+    "z": 2734.8,
+    "n": 36,
+    "landing": 18
+   },
+   "between": [
+    "H-SHL-074",
+    "H-SHL-064"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-029",
+   "row": 9,
+   "from": [
+    -43.13,
+    168.44
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 4.58,
+   "z_a": 2735.2,
+   "z_b": 2742.6,
+   "flight": {
+    "file": "lane_LN-029",
+    "s": 3.2,
+    "rise": 7.4,
+    "z": 2735.2,
+    "n": 37,
+    "landing": 18
+   },
+   "between": [
+    "H-SHL-060",
+    "H-SHL-058"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-030",
+   "row": 9,
+   "from": [
+    18.86,
+    156.79
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 9.5,
+   "width": 5.54,
+   "z_a": 2735.6,
+   "z_b": 2735.8,
+   "flight": null,
+   "between": [
+    "H-SHL-091",
+    "H-SHL-107"
+   ],
+   "head": "H-SHL-091"
+  },
+  {
+   "id": "LN-031",
+   "row": 10,
+   "from": [
+    -72.1,
+    187.44
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 5.04,
+   "z_a": 2742.1,
+   "z_b": 2749.0,
+   "flight": {
+    "file": "lane_LN-031",
+    "s": 3.7,
+    "rise": 6.9,
+    "z": 2742.1,
+    "n": 35,
+    "landing": 17
+   },
+   "between": [
+    "H-SHL-076",
+    "H-SHL-066"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-032",
+   "row": 10,
+   "from": [
+    -45.83,
+    182.69
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 5.52,
+   "z_a": 2742.2,
+   "z_b": 2748.9,
+   "flight": {
+    "file": "lane_LN-032",
+    "s": 3.95,
+    "rise": 6.7,
+    "z": 2742.2,
+    "n": 34,
+    "landing": 17
+   },
+   "between": [
+    "H-SHL-059",
+    "H-SHL-057"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-033",
+   "row": 10,
+   "from": [
+    22.44,
+    170.09
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 4.74,
+   "z_a": 2743.5,
+   "z_b": 2750.84,
+   "flight": {
+    "file": "lane_LN-033",
+    "s": 3.2,
+    "rise": 7.34,
+    "z": 2743.5,
+    "n": 37,
+    "landing": 18
+   },
+   "between": [
+    "H-SHL-092",
+    "H-SHL-106"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-034",
+   "row": 11,
+   "from": [
+    -61.58,
+    199.54
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 4.3,
+   "z_a": 2748.8,
+   "z_b": 2755.7,
+   "flight": {
+    "file": "lane_LN-034",
+    "s": 3.95,
+    "rise": 6.9,
+    "z": 2748.8,
+    "n": 34,
+    "landing": 17
+   },
+   "between": [
+    "H-SHL-072",
+    "H-SHL-065"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-035",
+   "row": 11,
+   "from": [
+    -35.61,
+    194.94
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 5.53,
+   "z_a": 2748.9,
+   "z_b": 2756.0,
+   "flight": {
+    "file": "lane_LN-035",
+    "s": 3.7,
+    "rise": 7.1,
+    "z": 2748.9,
+    "n": 35,
+    "landing": 17
+   },
+   "between": [
+    "H-SHL-062",
+    "H-SHL-063"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-036",
+   "row": 12,
+   "from": [
+    -74.35,
+    215.74
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 6.0,
+   "z_a": 2755.7,
+   "z_b": 2764.1,
+   "flight": {
+    "file": "lane_LN-036",
+    "s": 1.95,
+    "rise": 8.4,
+    "z": 2755.7,
+    "n": 42,
+    "landing": 21
+   },
+   "between": [
+    "H-SHL-100",
+    "H-SHL-073"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-037",
+   "row": 12,
+   "from": [
+    -46.05,
+    210.94
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 9.6,
+   "width": 5.11,
+   "z_a": 2755.7,
+   "z_b": 2755.7,
+   "flight": null,
+   "between": [
+    "H-SHL-073",
+    "H-SHL-069"
+   ],
+   "head": "H-SHL-073"
+  },
+  {
+   "id": "LN-038",
+   "row": 12,
+   "from": [
+    9.0,
+    201.29
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 5.02,
+   "z_a": 2762.5,
+   "z_b": 2769.5,
+   "flight": {
+    "file": "lane_LN-038",
+    "s": 3.7,
+    "rise": 7.0,
+    "z": 2762.5,
+    "n": 35,
+    "landing": 17
+   },
+   "between": [
+    "H-SHL-085",
+    "H-SHL-096"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-039",
+   "row": 999,
+   "from": [
+    142.48,
+    -32.51
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 2.68,
+   "z_a": 2677.2,
+   "z_b": 2683.37,
+   "flight": {
+    "file": "lane_LN-039",
+    "s": 4.7,
+    "rise": 6.17,
+    "z": 2677.2,
+    "n": 31,
+    "landing": 15
+   },
+   "between": [
+    "H-SHL-129",
+    "H-SHL-119"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-040",
+   "row": 999,
+   "from": [
+    155.09,
+    -35.31
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 9.1,
+   "width": 3.25,
+   "z_a": 2683.4,
+   "z_b": 2683.4,
+   "flight": null,
+   "between": [
+    "H-SHL-119",
+    "H-SHL-115"
+   ],
+   "head": "H-SHL-119"
+  },
+  {
+   "id": "LN-041",
+   "row": 999,
+   "from": [
+    167.81,
+    -37.41
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 8.9,
+   "width": 2.78,
+   "z_a": 2686.9,
+   "z_b": 2687.0,
+   "flight": null,
+   "between": [
+    "H-SHL-115",
+    "H-SHL-113"
+   ],
+   "head": "H-SHL-113"
+  },
+  {
+   "id": "LN-042",
+   "row": 999,
+   "from": [
+    180.38,
+    -39.21
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 8.7,
+   "width": 2.7,
+   "z_a": 2683.9,
+   "z_b": 2687.0,
+   "flight": {
+    "file": "lane_LN-042",
+    "s": 4.35,
+    "rise": 3.1,
+    "z": 2683.9,
+    "n": 15,
+    "landing": null
+   },
+   "between": [
+    "H-SHL-113",
+    "H-SHL-118"
+   ],
+   "head": "H-SHL-113"
+  },
+  {
+   "id": "LN-043",
+   "row": 1000,
+   "from": [
+    150.06,
+    -19.66
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 3.01,
+   "z_a": 2683.4,
+   "z_b": 2692.2,
+   "flight": {
+    "file": "lane_LN-043",
+    "s": 1.45,
+    "rise": 8.8,
+    "z": 2683.4,
+    "n": 44,
+    "landing": 22
+   },
+   "between": [
+    "H-SHL-122",
+    "H-SHL-114"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-044",
+   "row": 1000,
+   "from": [
+    163.04,
+    -22.46
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 14.0,
+   "width": 3.54,
+   "z_a": 2689.9,
+   "z_b": 2695.26,
+   "flight": {
+    "file": "lane_LN-044",
+    "s": 5.7,
+    "rise": 5.36,
+    "z": 2689.9,
+    "n": 27,
+    "landing": 13
+   },
+   "between": [
+    "H-SHL-114",
+    "H-SHL-111"
+   ],
+   "head": null
+  },
+  {
+   "id": "LN-045",
+   "row": 1000,
+   "from": [
+    195.03,
+    -27.96
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 9.3,
+   "width": 3.94,
+   "z_a": 2685.4,
+   "z_b": 2685.4,
+   "flight": null,
+   "between": [
+    "H-SHL-116",
+    "H-SHL-125"
+   ],
+   "head": "H-SHL-125"
+  },
+  {
+   "id": "LN-046",
+   "row": 1001,
+   "from": [
+    181.61,
+    -11.81
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 9.5,
+   "width": 3.83,
+   "z_a": 2695.9,
+   "z_b": 2696.8,
+   "flight": {
+    "file": "lane_LN-046",
+    "s": 7.65,
+    "rise": 0.9,
+    "z": 2695.9,
+    "n": 5,
+    "landing": null
+   },
+   "between": [
+    "H-SHL-112",
+    "H-SHL-117"
+   ],
+   "head": "H-SHL-112"
+  },
+  {
+   "id": "LN-047",
+   "row": 1001,
+   "from": [
+    194.56,
+    -14.16
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 9.5,
+   "width": 3.44,
+   "z_a": 2692.2,
+   "z_b": 2695.9,
+   "flight": {
+    "file": "lane_LN-047",
+    "s": 4.15,
+    "rise": 3.7,
+    "z": 2692.2,
+    "n": 19,
+    "landing": null
+   },
+   "between": [
+    "H-SHL-117",
+    "H-SHL-124"
+   ],
+   "head": "H-SHL-117"
+  },
+  {
+   "id": "LN-048",
+   "row": 1002,
+   "from": [
+    181.83,
+    2.34
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 9.2,
+   "width": 3.54,
+   "z_a": 2701.7,
+   "z_b": 2701.7,
+   "flight": null,
+   "between": [
+    "H-SHL-121",
+    "H-SHL-123"
+   ],
+   "head": "H-SHL-121"
+  },
+  {
+   "id": "LN-049",
+   "row": 1002,
+   "from": [
+    194.94,
+    -0.01
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 9.1,
+   "width": 3.8,
+   "z_a": 2699.4,
+   "z_b": 2699.4,
+   "flight": null,
+   "between": [
+    "H-SHL-123",
+    "H-SHL-131"
+   ],
+   "head": "H-SHL-131"
+  },
+  {
+   "id": "CL-01",
+   "row": null,
+   "from": [
+    -126.14,
+    -35.87
+   ],
+   "dir": [
+    0.8625,
+    -0.5061
+   ],
+   "length": 18.5,
+   "width": 2.0,
+   "z_a": 2645.79,
+   "z_b": 2645.63,
+   "flight": null,
+   "between": [
+    "H-SAM-01",
+    "H-SAM-02"
+   ],
+   "head": null,
+   "kind": "castle"
+  },
+  {
+   "id": "CL-02",
+   "row": null,
+   "from": [
+    -134.77,
+    -30.81
+   ],
+   "dir": [
+    0.8625,
+    -0.5061
+   ],
+   "length": 11.5,
+   "width": 2.0,
+   "z_a": 2644.9,
+   "z_b": 2645.79,
+   "flight": {
+    "file": "lane_CL-02",
+    "s": 9.9,
+    "rise": 0.89,
+    "z": 2644.9,
+    "n": 4,
+    "landing": null
+   },
+   "between": [
+    "H-SAM-03",
+    "H-SAM-04"
+   ],
+   "head": null,
+   "kind": "castle"
+  },
+  {
+   "id": "CL-03",
+   "row": null,
+   "from": [
+    -143.39,
+    -25.75
+   ],
+   "dir": [
+    0.8625,
+    -0.5061
+   ],
+   "length": 11.5,
+   "width": 2.0,
+   "z_a": 2643.16,
+   "z_b": 2644.9,
+   "flight": {
+    "file": "lane_CL-03",
+    "s": 8.65,
+    "rise": 1.74,
+    "z": 2643.16,
+    "n": 9,
+    "landing": null
+   },
+   "between": [
+    "H-SAM-05",
+    "H-SAM-06"
+   ],
+   "head": null,
+   "kind": "castle"
+  },
+  {
+   "id": "CL-04",
+   "row": null,
+   "from": [
+    -152.02,
+    -20.69
+   ],
+   "dir": [
+    0.8625,
+    -0.5061
+   ],
+   "length": 11.5,
+   "width": 2.0,
+   "z_a": 2640.46,
+   "z_b": 2643.16,
+   "flight": {
+    "file": "lane_CL-04",
+    "s": 7.65,
+    "rise": 2.7,
+    "z": 2640.46,
+    "n": 13,
+    "landing": null
+   },
+   "between": [
+    "H-SAM-07",
+    "H-SAM-08"
+   ],
+   "head": null,
+   "kind": "castle"
+  },
+  {
+   "id": "YL-001",
+   "kind": "yard",
+   "from": [
+    -62.12,
+    42.68
+   ],
+   "dir": [
+    0.9877,
+    -0.1564
+   ],
+   "length": 3.35,
+   "width": 1.3,
+   "z_a": 2670.7,
+   "z_b": 2672.4,
+   "flight": {
+    "file": "lane_YL-001",
+    "s": 0.5,
+    "rise": 1.7,
+    "z": 2670.7,
+    "n": 9,
+    "landing": null
+   },
+   "between": [
+    "H-SHL-022",
+    "H-SHL-013"
+   ]
+  },
+  {
+   "id": "YL-002",
+   "kind": "yard",
+   "from": [
+    -77.27,
+    60.25
+   ],
+   "dir": [
+    0.9728,
+    -0.2317
+   ],
+   "length": 3.1,
+   "width": 1.3,
+   "z_a": 2678.1,
+   "z_b": 2679.6,
+   "flight": {
+    "file": "lane_YL-002",
+    "s": 0.5,
+    "rise": 1.5,
+    "z": 2678.1,
+    "n": 8,
+    "landing": null
+   },
+   "between": [
+    "H-SHL-050",
+    "H-SHL-033"
+   ]
+  },
+  {
+   "id": "YL-003",
+   "kind": "yard",
+   "from": [
+    56.52,
+    49.72
+   ],
+   "dir": [
+    0.9942,
+    -0.108
+   ],
+   "length": 3.35,
+   "width": 1.3,
+   "z_a": 2689.7,
+   "z_b": 2691.5,
+   "flight": {
+    "file": "lane_YL-003",
+    "s": 0.5,
+    "rise": 1.8,
+    "z": 2689.7,
+    "n": 9,
+    "landing": null
+   },
+   "between": [
+    "H-SHL-035",
+    "H-SHL-053"
+   ]
+  },
+  {
+   "id": "YL-004",
+   "kind": "yard",
+   "from": [
+    -1.53,
+    217.31
+   ],
+   "dir": [
+    0.9751,
+    -0.2215
+   ],
+   "length": 4.6,
+   "width": 1.3,
+   "z_a": 2766.7,
+   "z_b": 2769.5,
+   "flight": {
+    "file": "lane_YL-004",
+    "s": 0.5,
+    "rise": 2.8,
+    "z": 2766.7,
+    "n": 14,
+    "landing": null
+   },
+   "between": [
+    "H-SHL-086",
+    "H-SHL-095"
+   ]
+  },
+  {
+   "id": "YL-005",
+   "kind": "yard",
+   "from": [
+    138.05,
+    -45.81
+   ],
+   "dir": [
+    0.9938,
+    -0.1115
+   ],
+   "length": 5.1,
+   "width": 1.3,
+   "z_a": 2675.8,
+   "z_b": 2679.0,
+   "flight": {
+    "file": "lane_YL-005",
+    "s": 0.5,
+    "rise": 3.2,
+    "z": 2675.8,
+    "n": 16,
+    "landing": null
+   },
+   "between": [
+    "H-SHL-133",
+    "H-SHL-128"
+   ]
+  },
+  {
+   "id": "YL-006",
+   "kind": "yard",
+   "from": [
+    -74.19,
+    31.47
+   ],
+   "dir": [
+    0.9848,
+    -0.1736
+   ],
+   "length": 5.1,
+   "width": 1.3,
+   "z_a": 2659.3,
+   "z_b": 2662.6,
+   "flight": {
+    "file": "lane_YL-006",
+    "s": 0.5,
+    "rise": 3.3,
+    "z": 2659.3,
+    "n": 16,
+    "landing": null
+   },
+   "between": [
+    "lane LN-002",
+    "H-SHL-025"
+   ]
+  },
+  {
+   "id": "YL-007",
+   "kind": "yard",
+   "from": [
+    -52.19,
+    27.67
+   ],
+   "dir": [
+    0.9848,
+    -0.1736
+   ],
+   "length": 4.6,
+   "width": 1.3,
+   "z_a": 2665.2,
+   "z_b": 2667.9,
+   "flight": {
+    "file": "lane_YL-007",
+    "s": 0.5,
+    "rise": 2.7,
+    "z": 2665.2,
+    "n": 14,
+    "landing": null
+   },
+   "between": [
+    "lane LN-003",
+    "H-SHL-007"
+   ]
+  },
+  {
+   "id": "YL-008",
+   "kind": "yard",
+   "from": [
+    30.49,
+    27.91
+   ],
+   "dir": [
+    0.9848,
+    -0.1736
+   ],
+   "length": 4.85,
+   "width": 1.3,
+   "z_a": 2677.5,
+   "z_b": 2680.4,
+   "flight": {
+    "file": "lane_YL-008",
+    "s": 0.5,
+    "rise": 2.9,
+    "z": 2677.5,
+    "n": 15,
+    "landing": null
+   },
+   "between": [
+    "lane LN-006",
+    "H-SHL-016"
+   ]
+  },
+  {
+   "id": "YL-009",
+   "kind": "yard",
+   "from": [
+    -68.33,
+    73.12
+   ],
+   "dir": [
+    0.9848,
+    -0.1736
+   ],
+   "length": 2.85,
+   "width": 1.3,
+   "z_a": 2687.0,
+   "z_b": 2688.3,
+   "flight": {
+    "file": "lane_YL-009",
+    "s": 0.5,
+    "rise": 1.3,
+    "z": 2687.0,
+    "n": 7,
+    "landing": null
+   },
+   "between": [
+    "lane LN-010",
+    "H-SHL-032"
+   ]
+  },
+  {
+   "id": "YL-010",
+   "kind": "yard",
+   "from": [
+    -50.35,
+    140.66
+   ],
+   "dir": [
+    0.9848,
+    -0.1736
+   ],
+   "length": 2.6,
+   "width": 1.3,
+   "z_a": 2720.9,
+   "z_b": 2722.2,
+   "flight": {
+    "file": "lane_YL-010",
+    "s": 0.5,
+    "rise": 1.3,
+    "z": 2720.9,
+    "n": 6,
+    "landing": null
+   },
+   "between": [
+    "lane LN-019",
+    "H-SHL-075"
+   ]
+  },
+  {
+   "id": "YL-011",
+   "kind": "yard",
+   "from": [
+    -34.31,
+    195.02
+   ],
+   "dir": [
+    0.9848,
+    -0.1736
+   ],
+   "length": 3.1,
+   "width": 1.3,
+   "z_a": 2748.9,
+   "z_b": 2750.4,
+   "flight": {
+    "file": "lane_YL-011",
+    "s": 0.5,
+    "rise": 1.5,
+    "z": 2748.9,
+    "n": 8,
+    "landing": null
+   },
+   "between": [
+    "lane LN-035",
+    "H-SHL-063"
+   ]
+  },
+  {
+   "id": "YL-012",
+   "kind": "yard",
+   "from": [
+    180.04,
+    -38.85
+   ],
+   "dir": [
+    -0.9848,
+    0.1736
+   ],
+   "length": 4.85,
+   "width": 1.3,
+   "z_a": 2683.9,
+   "z_b": 2687.0,
+   "flight": {
+    "file": "lane_YL-012",
+    "s": 0.5,
+    "rise": 3.1,
+    "z": 2683.9,
+    "n": 15,
+    "landing": null
+   },
+   "between": [
+    "lane LN-042",
+    "H-SHL-113"
+   ]
+  },
+  {
+   "id": "YL-013",
+   "kind": "yard",
+   "from": [
+    163.49,
+    -22.23
+   ],
+   "dir": [
+    0.9848,
+    -0.1736
+   ],
+   "length": 4.6,
+   "width": 1.3,
+   "z_a": 2689.9,
+   "z_b": 2692.7,
+   "flight": {
+    "file": "lane_YL-013",
+    "s": 0.5,
+    "rise": 2.8,
+    "z": 2689.9,
+    "n": 14,
+    "landing": null
+   },
+   "between": [
+    "lane LN-044",
+    "H-SHL-111"
+   ]
+  },
+  {
+   "id": "YL-014",
+   "kind": "yard",
+   "from": [
+    -72.33,
+    44.64
+   ],
+   "dir": [
+    0.9962,
+    -0.0872
+   ],
+   "length": 5.6,
+   "width": 1.3,
+   "z_a": 2667.18,
+   "z_b": 2670.7,
+   "flight": {
+    "file": "lane_YL-014",
+    "s": 0.5,
+    "rise": 3.52,
+    "z": 2667.18,
+    "n": 18,
+    "landing": null
+   },
+   "between": [
+    "lane LN-002",
+    "H-SHL-022"
+   ]
+  },
+  {
+   "id": "YL-015",
+   "kind": "yard",
+   "from": [
+    -277.59,
+    26.16
+   ],
+   "dir": [
+    0.9553,
+    -0.2957
+   ],
+   "length": 3.35,
+   "width": 1.3,
+   "z_a": 2620.6,
+   "z_b": 2622.3,
+   "flight": {
+    "file": "lane_YL-015",
+    "s": 0.5,
+    "rise": 1.7,
+    "z": 2620.6,
+    "n": 9,
+    "landing": null
+   },
+   "between": [
+    "H-SHL-143",
+    "H-SHL-150"
+   ]
+  },
+  {
+   "id": "ML-001",
+   "kind": "mouth",
+   "from": [
+    29.28,
+    23.4
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 3.85,
+   "width": 3.0,
+   "z_a": 2675.25,
+   "z_b": 2677.5,
+   "flight": {
+    "file": "lane_ML-001",
+    "s": 0.5,
+    "rise": 2.25,
+    "z": 2675.25,
+    "n": 11,
+    "landing": null
+   },
+   "between": [
+    "below",
+    "LN-006"
+   ]
+  },
+  {
+   "id": "ML-002",
+   "kind": "mouth",
+   "from": [
+    -62.88,
+    119.66
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 7.6,
+   "width": 3.0,
+   "z_a": 2709.05,
+   "z_b": 2714.3,
+   "flight": {
+    "file": "lane_ML-002",
+    "s": 0.5,
+    "rise": 5.25,
+    "z": 2709.05,
+    "n": 26,
+    "landing": null
+   },
+   "between": [
+    "below",
+    "LN-015"
+   ]
+  },
+  {
+   "id": "ML-003",
+   "kind": "mouth",
+   "from": [
+    179.71,
+    -43.0
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 3.35,
+   "width": 2.7,
+   "z_a": 2682.06,
+   "z_b": 2683.9,
+   "flight": {
+    "file": "lane_ML-003",
+    "s": 0.5,
+    "rise": 1.84,
+    "z": 2682.06,
+    "n": 9,
+    "landing": null
+   },
+   "between": [
+    "below",
+    "LN-042"
+   ]
+  },
+  {
+   "id": "ML-004",
+   "kind": "mouth",
+   "from": [
+    194.41,
+    -31.51
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 3.1,
+   "width": 3.0,
+   "z_a": 2683.9,
+   "z_b": 2685.4,
+   "flight": {
+    "file": "lane_ML-004",
+    "s": 0.5,
+    "rise": 1.5,
+    "z": 2683.9,
+    "n": 8,
+    "landing": null
+   },
+   "between": [
+    "below",
+    "LN-045"
+   ]
+  },
+  {
+   "id": "ML-005",
+   "kind": "mouth",
+   "from": [
+    181.07,
+    -14.86
+   ],
+   "dir": [
+    0.1736,
+    0.9848
+   ],
+   "length": 2.6,
+   "width": 3.0,
+   "z_a": 2694.61,
+   "z_b": 2695.9,
+   "flight": {
+    "file": "lane_ML-005",
+    "s": 0.5,
+    "rise": 1.29,
+    "z": 2694.61,
+    "n": 6,
+    "landing": null
+   },
+   "between": [
+    "below",
+    "LN-046"
+   ]
+  }
+ ]
+}

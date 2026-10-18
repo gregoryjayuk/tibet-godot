@@ -1,0 +1,34 @@
+# Godot's cache and everything the build regenerates (plan chapter 11, 22.1)
+.godot/
+/assets/generated/
+# world/ holds hand-written code (vignette.gd, RT-03) beside the generated scenes; ignore only the generated parts
+/world/districts/
+/world/cells/
+/world/proxies/
+/world/terrain/
+/world/far/
+/world/water/
+/world/zones/
+/build/
+/screens/
+/perf/runs/
+/tests/shots/out/
+/tests/out/
+/tools/bin/
+*.translation
+.DS_Store
+__pycache__/
+/tests/kit/out/
+/tests/text/out/
+/tests/terrain/out/
+/tests/crowd/out/
+/tests/stream/out/
+/tests/look/out/
+/tests/player/out/
+/tests/people/out/
+/tests/culture/out/
+/audio_src/synth/
+/audio/synth/
+/tests/audio/out/
+/audio_src/lib/
+/audio/kenney/

@@ -1,0 +1,59 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://interiors/room.gd" id="1_aqyus"]
+[ext_resource type="PackedScene" path="res://assets/generated/kit/types/headman_shrine_v1.glb" id="2_k2sbh"]
+[ext_resource type="Shader" path="res://shaders/flame.gdshader" id="3_nxpho"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hb5i2"]
+render_priority = 0
+shader = ExtResource("3_nxpho")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 0.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_qfmpr"]
+size = Vector2(0.035, 0.07)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5cnq4"]
+render_priority = 0
+shader = ExtResource("3_nxpho")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 1.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_5iv3v"]
+size = Vector2(0.035, 0.07)
+
+[node name="headman_shrine" type="Node3D" unique_id=631866848]
+
+[node name="Room" type="Node3D" parent="." unique_id=1485490499]
+script = ExtResource("1_aqyus")
+room_id = "headman_shrine"
+recipe = "LR-02"
+gain = 2.0
+box = AABB(-1.05, -0.2, -3.5, 4.3, 2.5, 3.5)
+floor_band = Vector2(-0.4, 2.66)
+
+[node name="Furnishings" parent="." unique_id=169754531 instance=ExtResource("2_k2sbh")]
+
+[node name="Flame_flame_1" type="OmniLight3D" parent="." unique_id=507773163]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4090707, 1.48, -2.721246)
+light_color = Color(0.95686275, 0.69803923, 0.2901961, 1)
+light_energy = 0.8
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 7.0
+omni_attenuation = 2.0
+metadata/kind = "flame"
+
+[node name="Flame_0" type="MeshInstance3D" parent="." unique_id=177648918]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.65, 1.425, -2.9)
+material_override = SubResource("ShaderMaterial_hb5i2")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_qfmpr")
+
+[node name="Flame_1" type="MeshInstance3D" parent="." unique_id=1657095529]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.65, 1.425, -0.6)
+material_override = SubResource("ShaderMaterial_5cnq4")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_5iv3v")

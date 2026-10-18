@@ -1,0 +1,15 @@
+{
+ "id": "m2_soldiers",
+ "about": "Mission 2: the rumour (chapter 05, 9.5; NPC-26: she tells each customer the ula story with the number set to what that customer can bear to hear). Two soldiers of the post ask her in Sichuanese, which she speaks at the tavern.",
+ "place": "chang_room_b2_in_v2",
+ "from": 1030, "to": 1135,
+ "needs": ["post_soldier", "post_soldier_b", "ama_yudron"],
+ "once": "heard_soldiers",
+ "lines": [
+  {"who": "post_soldier", "line": "CV-026", "lang": "zh", "en": "Auntie! How many animals did the arrow want?"},
+  {"who": "ama_yudron", "line": "CV-027", "lang": "zh", "en": "Two hundred, they say, and every one of them strong."},
+  {"who": "post_soldier_b", "line": "CV-028", "lang": "zh", "en": "Two hundred! Then the post can carry its own fodder."},
+  {"narrate": "The soldiers laugh. Ama Yudrön does not."}
+ ],
+ "do": [["write", "m2_rumour", "note", "To the soldiers of the post Ama Yudrön said two hundred animals.", "ama_yudron", "the chang house"]]
+}

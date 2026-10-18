@@ -1,0 +1,77 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_d1sri"]
+albedo_color = Color(0.2901961, 0.22745098, 0.17254902, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="BoxMesh_upug8"]
+material = SubResource("StandardMaterial3D_d1sri")
+size = Vector3(13.2, 0.2, 17.2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p1xxw"]
+albedo_color = Color(0.47843137, 0.18039216, 0.13333334, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="BoxMesh_r8aky"]
+material = SubResource("StandardMaterial3D_p1xxw")
+size = Vector3(13.2, 7, 0.6)
+
+[sub_resource type="BoxMesh" id="BoxMesh_eulb3"]
+material = SubResource("StandardMaterial3D_p1xxw")
+size = Vector3(0.6, 7, 16)
+
+[sub_resource type="BoxMesh" id="BoxMesh_lve2s"]
+material = SubResource("StandardMaterial3D_p1xxw")
+size = Vector3(0.6, 7, 16)
+
+[sub_resource type="BoxMesh" id="BoxMesh_8i5cn"]
+material = SubResource("StandardMaterial3D_p1xxw")
+size = Vector3(5.6, 7, 0.6)
+
+[sub_resource type="BoxMesh" id="BoxMesh_yhjyv"]
+material = SubResource("StandardMaterial3D_p1xxw")
+size = Vector3(5.6, 7, 0.6)
+
+[sub_resource type="BoxMesh" id="BoxMesh_k2t08"]
+material = SubResource("StandardMaterial3D_p1xxw")
+size = Vector3(2, 4, 0.6)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ulfyf"]
+material = SubResource("StandardMaterial3D_p1xxw")
+size = Vector3(13.8, 0.4, 17.8)
+
+[node name="ChapelShell" type="Node3D" unique_id=647544565]
+
+[node name="floor" type="MeshInstance3D" parent="." unique_id=566218769]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.1, -8)
+mesh = SubResource("BoxMesh_upug8")
+
+[node name="wall_n" type="MeshInstance3D" parent="." unique_id=1014360093]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.5, -16.3)
+mesh = SubResource("BoxMesh_r8aky")
+
+[node name="wall_w" type="MeshInstance3D" parent="." unique_id=1595373145]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.3, 3.5, -8)
+mesh = SubResource("BoxMesh_eulb3")
+
+[node name="wall_e" type="MeshInstance3D" parent="." unique_id=126286811]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.3, 3.5, -8)
+mesh = SubResource("BoxMesh_lve2s")
+
+[node name="wall_s_w" type="MeshInstance3D" parent="." unique_id=1361306925]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8, 3.5, 0.3)
+mesh = SubResource("BoxMesh_8i5cn")
+
+[node name="wall_s_e" type="MeshInstance3D" parent="." unique_id=1685182098]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8, 3.5, 0.3)
+mesh = SubResource("BoxMesh_yhjyv")
+
+[node name="lintel" type="MeshInstance3D" parent="." unique_id=883259251]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0.3)
+mesh = SubResource("BoxMesh_k2t08")
+
+[node name="roof" type="MeshInstance3D" parent="." unique_id=2140257518]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.2, -8)
+mesh = SubResource("BoxMesh_ulfyf")
+
+[node name="SOCK_DOOR_0" type="Marker3D" parent="." unique_id=1500606270]

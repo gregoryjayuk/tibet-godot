@@ -1,0 +1,45 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://interiors/room.gd" id="1_gfpl5"]
+[ext_resource type="PackedScene" path="res://assets/generated/kit/types/parkhang_printing_v1.glb" id="2_555n0"]
+
+[node name="parkhang_printing" type="Node3D" unique_id=776974609]
+
+[node name="Room" type="Node3D" parent="." unique_id=166686330]
+script = ExtResource("1_gfpl5")
+room_id = "parkhang_printing"
+recipe = "LR-12"
+gain = 1.6
+box = AABB(-12.35, -0.2, -1.858, 26.4, 3.2, 4.4)
+
+[node name="Furnishings" parent="." unique_id=426110146 instance=ExtResource("2_555n0")]
+
+[node name="Day_window_1" type="OmniLight3D" parent="." unique_id=1674573159]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.69, 1.45, -2.158)
+light_color = Color(0.9529412, 0.92156863, 0.8666667, 1)
+light_energy = 1.2
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 10.0
+omni_attenuation = 2.0
+metadata/kind = "day"
+
+[node name="Day_window_2" type="OmniLight3D" parent="." unique_id=1006062258]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.56, 1.45, -2.158)
+light_color = Color(0.9529412, 0.92156863, 0.8666667, 1)
+light_energy = 1.2
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 10.0
+omni_attenuation = 2.0
+metadata/kind = "day"
+
+[node name="Day_window_3" type="OmniLight3D" parent="." unique_id=883189550]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.39, 1.45, -2.158)
+light_color = Color(0.9529412, 0.92156863, 0.8666667, 1)
+light_energy = 1.2
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 10.0
+omni_attenuation = 2.0
+metadata/kind = "day"

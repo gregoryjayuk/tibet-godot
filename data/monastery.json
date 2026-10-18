@@ -1,0 +1,8247 @@
+{
+ "about": "Dungkar G\u00f6npa on the spur (tools/town/monastery.py; M2 sprint 13). `houses`: the monks' houses, each [id, type M1, M2 or M3, seed (the kit's variant), pos (its middle and its pad's level, the town grid), rot_deg (its front's bearing, down the fall line), footprint, row, apron (its level ground's margin round it: pads.py's footprint); an M2's pad, its yard's ground with its own: x, y, width, depth; an M3's kit and its khamtsen]. `buildings`: the four khamtsen halls (MON-26a to d), placed as the houses are, with their kit and pad (the portico's ground); MON-11's granary range MON-11G and the dogs' kennel MON-38, each on the median of its own ground (M3 sprint 3, step 4). `pads`: the halls' at the middle of their own ground (pads.py RAISED, MOVED and TURNED, world/town.gd monastery_pads), with their far form's kit; `was` chapter 02's level, `moved_from` its place. `follow`: on the ground as it is. `walls`: the wall MON-21's runs on the ground, each its height and its points at 1 m (a free wall of tools/town/walls.py, as Hejie's). tools/terrain/pads.py cuts the pads, tools/town/walls.py walls their podia, world/town.gd places them. Regenerated with the terrain.",
+ "houses": [
+  {
+   "id": "H-MON-105",
+   "type": "M3",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 4,
+   "pos": [
+    522.06,
+    -18.84,
+    2891.9
+   ],
+   "rot_deg": 164.4,
+   "footprint": [
+    24.0,
+    7.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 1,
+   "apron": 0.3,
+   "kit": "monk_range_m3",
+   "group": "Dungkar"
+  },
+  {
+   "id": "H-MON-106",
+   "type": "M3",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 1,
+   "pos": [
+    563.59,
+    -14.51,
+    2891.8
+   ],
+   "rot_deg": 189.7,
+   "footprint": [
+    24.0,
+    7.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 1,
+   "apron": 0.3,
+   "kit": "monk_range_m3",
+   "group": "Dungkar"
+  },
+  {
+   "id": "H-MON-107",
+   "type": "M3",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 3,
+   "pos": [
+    574.1,
+    -1.23,
+    2903.0
+   ],
+   "rot_deg": 198.3,
+   "footprint": [
+    24.0,
+    7.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 3,
+   "apron": 0.3,
+   "kit": "monk_range_m3",
+   "group": "Minyak"
+  },
+  {
+   "id": "H-MON-108",
+   "type": "M3",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 4,
+   "pos": [
+    611.79,
+    -14.89,
+    2903.4
+   ],
+   "rot_deg": 193.0,
+   "footprint": [
+    24.0,
+    7.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 3,
+   "apron": 0.3,
+   "kit": "monk_range_m3",
+   "group": "Minyak"
+  },
+  {
+   "id": "H-MON-109",
+   "type": "M3",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 3,
+   "pos": [
+    642.98,
+    -23.12,
+    2897.9
+   ],
+   "rot_deg": 163.1,
+   "footprint": [
+    24.0,
+    7.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 2,
+   "apron": 0.3,
+   "kit": "monk_range_m3",
+   "group": "Nyarong"
+  },
+  {
+   "id": "H-MON-110",
+   "type": "M3",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 2,
+   "pos": [
+    685.11,
+    -22.53,
+    2897.5
+   ],
+   "rot_deg": 198.5,
+   "footprint": [
+    24.0,
+    7.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 2,
+   "apron": 0.3,
+   "kit": "monk_range_m3",
+   "group": "Nyarong"
+  },
+  {
+   "id": "H-MON-111",
+   "type": "M3",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 3,
+   "pos": [
+    507.48,
+    -8.46,
+    2902.6
+   ],
+   "rot_deg": 154.2,
+   "footprint": [
+    24.0,
+    7.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 3,
+   "apron": 0.3,
+   "kit": "monk_range_m3",
+   "group": "Litang"
+  },
+  {
+   "id": "H-MON-112",
+   "type": "M3",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 4,
+   "pos": [
+    547.98,
+    3.54,
+    2902.4
+   ],
+   "rot_deg": 179.7,
+   "footprint": [
+    24.0,
+    7.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 3,
+   "apron": 0.3,
+   "kit": "monk_range_m3",
+   "group": "Litang"
+  },
+  {
+   "id": "H-MON-001",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 1,
+   "pos": [
+    489.67,
+    263.18,
+    2888.3
+   ],
+   "rot_deg": 297.2,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 0,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-002",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 5,
+   "pos": [
+    465.79,
+    218.59,
+    2889.3
+   ],
+   "rot_deg": 298.0,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 0,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-003",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 7,
+   "pos": [
+    444.18,
+    153.21,
+    2888.4
+   ],
+   "rot_deg": 285.3,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 0,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-004",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 6,
+   "pos": [
+    436.41,
+    95.06,
+    2886.8
+   ],
+   "rot_deg": 249.3,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 0,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-005",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 2,
+   "pos": [
+    444.62,
+    40.56,
+    2885.7
+   ],
+   "rot_deg": 299.1,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 0,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-006",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 5,
+   "pos": [
+    447.43,
+    -28.87,
+    2886.7
+   ],
+   "rot_deg": 208.4,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 0,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-007",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 1,
+   "pos": [
+    451.09,
+    36.2,
+    2891.4
+   ],
+   "rot_deg": 306.9,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 1,
+   "apron": 0.3,
+   "kit": "monk_house_face",
+   "stacked": true
+  },
+  {
+   "id": "H-MON-008",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 7,
+   "pos": [
+    489.13,
+    254.57,
+    2893.9
+   ],
+   "rot_deg": 298.5,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 1,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-009",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 2,
+   "pos": [
+    461.93,
+    205.55,
+    2895.2
+   ],
+   "rot_deg": 298.8,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 1,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-010",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 1,
+   "pos": [
+    445.42,
+    145.05,
+    2893.4
+   ],
+   "rot_deg": 288.5,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 1,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-011",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 4,
+   "pos": [
+    446.18,
+    90.2,
+    2891.5
+   ],
+   "rot_deg": 226.6,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 1,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-012",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 1,
+   "pos": [
+    445.64,
+    27.58,
+    2891.6
+   ],
+   "rot_deg": 298.4,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": true,
+   "row": 1,
+   "apron": 0.3,
+   "kit": "monk_house_face_in",
+   "variant": 4,
+   "pad": [
+    445.11,
+    27.87,
+    6.0,
+    7.2
+   ],
+   "side": 1.0
+  },
+  {
+   "id": "H-MON-013",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 5,
+   "pos": [
+    451.95,
+    95.52,
+    2896.5
+   ],
+   "rot_deg": 220.6,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 2,
+   "apron": 0.3,
+   "kit": "monk_house_face",
+   "stacked": true
+  },
+  {
+   "id": "H-MON-014",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 8,
+   "pos": [
+    451.59,
+    23.93,
+    2897.1
+   ],
+   "rot_deg": 300.3,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 2,
+   "apron": 0.3,
+   "kit": "monk_house_face",
+   "stacked": true
+  },
+  {
+   "id": "H-MON-015",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 2,
+   "pos": [
+    497.67,
+    262.56,
+    2899.1
+   ],
+   "rot_deg": 298.7,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 2,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-016",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 7,
+   "pos": [
+    460.97,
+    197.7,
+    2900.8
+   ],
+   "rot_deg": 295.8,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 2,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-017",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 4,
+   "pos": [
+    447.38,
+    137.17,
+    2898.1
+   ],
+   "rot_deg": 286.1,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 2,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-018",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 7,
+   "pos": [
+    464.05,
+    88.62,
+    2897.0
+   ],
+   "rot_deg": 209.0,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 2,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-019",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 6,
+   "pos": [
+    458.28,
+    20.53,
+    2902.6
+   ],
+   "rot_deg": 299.4,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 3,
+   "apron": 0.3,
+   "kit": "monk_house_face",
+   "stacked": true
+  },
+  {
+   "id": "H-MON-020",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 8,
+   "pos": [
+    497.62,
+    254.52,
+    2904.6
+   ],
+   "rot_deg": 299.5,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 3,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-021",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 3,
+   "pos": [
+    460.83,
+    190.01,
+    2906.1
+   ],
+   "rot_deg": 289.3,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 3,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-022",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 3,
+   "pos": [
+    453.08,
+    120.61,
+    2902.2
+   ],
+   "rot_deg": 258.2,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 3,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-023",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 5,
+   "pos": [
+    477.92,
+    45.51,
+    2902.3
+   ],
+   "rot_deg": 320.2,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 3,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-024",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 2,
+   "pos": [
+    454.45,
+    -7.7,
+    2902.3
+   ],
+   "rot_deg": 244.3,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 3,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-025",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 5,
+   "pos": [
+    464.97,
+    16.74,
+    2908.0
+   ],
+   "rot_deg": 294.7,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "kit": "monk_house_face",
+   "stacked": true
+  },
+  {
+   "id": "H-MON-026",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 7,
+   "pos": [
+    461.76,
+    124.24,
+    2907.9
+   ],
+   "rot_deg": 245.6,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "kit": "monk_house_face",
+   "stacked": true
+  },
+  {
+   "id": "H-MON-027",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 4,
+   "pos": [
+    482.07,
+    37.49,
+    2907.7
+   ],
+   "rot_deg": 339.2,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "kit": "monk_house_face",
+   "stacked": true
+  },
+  {
+   "id": "H-MON-028",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 8,
+   "pos": [
+    462.74,
+    -3.89,
+    2907.6
+   ],
+   "rot_deg": 245.9,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "kit": "monk_house_face",
+   "stacked": true
+  },
+  {
+   "id": "H-MON-029",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 6,
+   "pos": [
+    497.56,
+    246.56,
+    2910.1
+   ],
+   "rot_deg": 301.3,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-030",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 2,
+   "pos": [
+    461.31,
+    177.67,
+    2911.0
+   ],
+   "rot_deg": 276.3,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-031",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 6,
+   "pos": [
+    469.62,
+    128.23,
+    2913.6
+   ],
+   "rot_deg": 240.7,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 5,
+   "apron": 0.3,
+   "kit": "monk_house_face",
+   "stacked": true
+  },
+  {
+   "id": "H-MON-032",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 5,
+   "pos": [
+    497.15,
+    238.31,
+    2915.6
+   ],
+   "rot_deg": 304.2,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 5,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-033",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 8,
+   "pos": [
+    464.39,
+    169.96,
+    2916.0
+   ],
+   "rot_deg": 270.8,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 5,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-034",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 2,
+   "pos": [
+    483.7,
+    110.76,
+    2913.2
+   ],
+   "rot_deg": 234.0,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 5,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-035",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 1,
+   "pos": [
+    483.5,
+    25.76,
+    2912.5
+   ],
+   "rot_deg": 350.5,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 5,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-036",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 8,
+   "pos": [
+    477.07,
+    132.71,
+    2919.0
+   ],
+   "rot_deg": 235.2,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 6,
+   "apron": 0.3,
+   "kit": "monk_house_face",
+   "stacked": true
+  },
+  {
+   "id": "H-MON-037",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 2,
+   "pos": [
+    496.56,
+    230.24,
+    2921.1
+   ],
+   "rot_deg": 305.9,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 6,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-038",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 3,
+   "pos": [
+    482.65,
+    210.26,
+    2922.1
+   ],
+   "rot_deg": 305.4,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 6,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-039",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 5,
+   "pos": [
+    470.98,
+    191.85,
+    2922.7
+   ],
+   "rot_deg": 292.5,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 6,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-040",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 1,
+   "pos": [
+    468.71,
+    162.26,
+    2920.9
+   ],
+   "rot_deg": 265.0,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 6,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-041",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 2,
+   "pos": [
+    472.8,
+    140.77,
+    2919.4
+   ],
+   "rot_deg": 249.0,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 6,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-042",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 4,
+   "pos": [
+    484.08,
+    124.67,
+    2918.8
+   ],
+   "rot_deg": 224.0,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 6,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-043",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 3,
+   "pos": [
+    484.16,
+    139.03,
+    2924.4
+   ],
+   "rot_deg": 226.0,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 7,
+   "apron": 0.3,
+   "kit": "monk_house_face",
+   "stacked": true
+  },
+  {
+   "id": "H-MON-044",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 1,
+   "pos": [
+    495.91,
+    222.2,
+    2926.7
+   ],
+   "rot_deg": 306.9,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 7,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-045",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 4,
+   "pos": [
+    480.7,
+    202.18,
+    2927.9
+   ],
+   "rot_deg": 307.3,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 7,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-046",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 6,
+   "pos": [
+    471.97,
+    183.47,
+    2927.7
+   ],
+   "rot_deg": 277.7,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 7,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-047",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 6,
+   "pos": [
+    474.88,
+    156.11,
+    2925.7
+   ],
+   "rot_deg": 253.6,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 7,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-048",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 7,
+   "pos": [
+    490.69,
+    133.62,
+    2924.1
+   ],
+   "rot_deg": 214.2,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 7,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-049",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 7,
+   "pos": [
+    495.06,
+    214.12,
+    2932.2
+   ],
+   "rot_deg": 308.8,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 8,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-050",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 4,
+   "pos": [
+    475.56,
+    175.35,
+    2932.6
+   ],
+   "rot_deg": 263.3,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 8,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-051",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 5,
+   "pos": [
+    483.86,
+    152.93,
+    2930.6
+   ],
+   "rot_deg": 229.9,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 8,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-052",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 8,
+   "pos": [
+    493.84,
+    205.98,
+    2937.6
+   ],
+   "rot_deg": 312.4,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 9,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-053",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 2,
+   "pos": [
+    485.54,
+    197.06,
+    2938.1
+   ],
+   "rot_deg": 310.3,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 9,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-054",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 1,
+   "pos": [
+    481.2,
+    190.68,
+    2938.2
+   ],
+   "rot_deg": 296.0,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 9,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-055",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 7,
+   "pos": [
+    479.14,
+    182.8,
+    2938.0
+   ],
+   "rot_deg": 273.9,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 9,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-056",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 3,
+   "pos": [
+    481.59,
+    169.07,
+    2937.2
+   ],
+   "rot_deg": 249.1,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 9,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-057",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 2,
+   "pos": [
+    485.4,
+    161.95,
+    2936.6
+   ],
+   "rot_deg": 233.1,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 9,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-061",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 6,
+   "pos": [
+    580.12,
+    -24.92,
+    2886.9
+   ],
+   "rot_deg": 195.2,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 0,
+   "apron": 0.3,
+   "pad": [
+    582.05,
+    -25.44,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-062",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 4,
+   "pos": [
+    595.61,
+    -23.16,
+    2892.5
+   ],
+   "rot_deg": 201.6,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 1,
+   "apron": 0.3,
+   "pad": [
+    597.47,
+    -23.9,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-063",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 4,
+   "pos": [
+    496.34,
+    -2.82,
+    2908.0
+   ],
+   "rot_deg": 151.6,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "pad": [
+    498.1,
+    -1.87,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-064",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 4,
+   "pos": [
+    521.31,
+    10.92,
+    2907.9
+   ],
+   "rot_deg": 157.3,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "pad": [
+    523.16,
+    11.69,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-065",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 6,
+   "pos": [
+    539.08,
+    14.88,
+    2907.8
+   ],
+   "rot_deg": 181.1,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "pad": [
+    541.08,
+    14.84,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-066",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 3,
+   "pos": [
+    558.8,
+    12.46,
+    2908.3
+   ],
+   "rot_deg": 192.1,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "pad": [
+    556.84,
+    12.88,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-067",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 1,
+   "pos": [
+    634.12,
+    -10.67,
+    2909.4
+   ],
+   "rot_deg": 181.7,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "pad": [
+    632.12,
+    -10.61,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-068",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 1,
+   "pos": [
+    661.06,
+    -4.86,
+    2909.6
+   ],
+   "rot_deg": 167.2,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "pad": [
+    659.11,
+    -5.3,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-069",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 6,
+   "pos": [
+    674.63,
+    -4.83,
+    2909.1
+   ],
+   "rot_deg": 188.8,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "pad": [
+    676.61,
+    -5.14,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-070",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 4,
+   "pos": [
+    692.83,
+    -9.54,
+    2909.1
+   ],
+   "rot_deg": 203.7,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "pad": [
+    694.66,
+    -10.34,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-071",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 3,
+   "pos": [
+    505.17,
+    71.22,
+    2914.9
+   ],
+   "rot_deg": 240.7,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 5,
+   "apron": 0.3,
+   "pad": [
+    504.19,
+    72.96,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-072",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 1,
+   "pos": [
+    498.99,
+    17.14,
+    2912.5
+   ],
+   "rot_deg": 140.3,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 5,
+   "apron": 0.3,
+   "pad": [
+    497.45,
+    15.86,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-073",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 2,
+   "pos": [
+    512.74,
+    21.26,
+    2913.1
+   ],
+   "rot_deg": 163.4,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 5,
+   "apron": 0.3,
+   "pad": [
+    514.66,
+    21.83,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-074",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 5,
+   "pos": [
+    530.66,
+    27.45,
+    2913.3
+   ],
+   "rot_deg": 161.9,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 5,
+   "apron": 0.3,
+   "pad": [
+    528.76,
+    26.83,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-075",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 2,
+   "pos": [
+    544.74,
+    27.39,
+    2913.2
+   ],
+   "rot_deg": 195.4,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 5,
+   "apron": 0.3,
+   "pad": [
+    546.67,
+    26.86,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-076",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 1,
+   "pos": [
+    571.55,
+    17.24,
+    2914.2
+   ],
+   "rot_deg": 205.9,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 5,
+   "apron": 0.3,
+   "pad": [
+    569.75,
+    18.11,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-077",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 4,
+   "pos": [
+    580.95,
+    12.34,
+    2914.8
+   ],
+   "rot_deg": 205.9,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 5,
+   "apron": 0.3,
+   "pad": [
+    582.75,
+    11.47,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-078",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 2,
+   "pos": [
+    594.94,
+    6.06,
+    2915.1
+   ],
+   "rot_deg": 205.8,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 5,
+   "apron": 0.3,
+   "pad": [
+    596.74,
+    5.19,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-079",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 1,
+   "pos": [
+    494.01,
+    116.24,
+    2919.1
+   ],
+   "rot_deg": 227.4,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 6,
+   "apron": 0.3,
+   "pad": [
+    492.66,
+    117.71,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-080",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 1,
+   "pos": [
+    553.23,
+    39.24,
+    2918.9
+   ],
+   "rot_deg": 213.4,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 6,
+   "apron": 0.3,
+   "pad": [
+    551.56,
+    40.34,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-081",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 5,
+   "pos": [
+    637.72,
+    2.97,
+    2920.3
+   ],
+   "rot_deg": 176.0,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 6,
+   "apron": 0.3,
+   "pad": [
+    635.72,
+    2.83,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-082",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 5,
+   "pos": [
+    523.14,
+    72.25,
+    2925.4
+   ],
+   "rot_deg": 227.2,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 7,
+   "apron": 0.3,
+   "pad": [
+    521.78,
+    73.72,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-083",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 6,
+   "pos": [
+    593.13,
+    22.07,
+    2925.9
+   ],
+   "rot_deg": 208.1,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 7,
+   "apron": 0.3,
+   "pad": [
+    594.89,
+    21.13,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-084",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 1,
+   "pos": [
+    691.03,
+    15.63,
+    2925.5
+   ],
+   "rot_deg": 196.0,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 7,
+   "apron": 0.3,
+   "pad": [
+    689.11,
+    16.18,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-085",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 5,
+   "pos": [
+    569.46,
+    53.43,
+    2930.6
+   ],
+   "rot_deg": 240.0,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 8,
+   "apron": 0.3,
+   "pad": [
+    568.46,
+    55.16,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-086",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 5,
+   "pos": [
+    536.09,
+    258.12,
+    2937.3
+   ],
+   "rot_deg": 303.6,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 9,
+   "apron": 0.3,
+   "pad": [
+    537.2,
+    259.79,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-087",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 1,
+   "pos": [
+    608.01,
+    35.96,
+    2935.8
+   ],
+   "rot_deg": 201.9,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 9,
+   "apron": 0.3,
+   "pad": [
+    606.15,
+    36.71,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-088",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 5,
+   "pos": [
+    591.84,
+    129.06,
+    2940.7
+   ],
+   "rot_deg": 255.5,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 10,
+   "apron": 0.3,
+   "pad": [
+    591.34,
+    131.0,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-089",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 1,
+   "pos": [
+    609.74,
+    128.65,
+    2946.7
+   ],
+   "rot_deg": 261.0,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 11,
+   "apron": 0.3,
+   "pad": [
+    609.43,
+    130.63,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-090",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 3,
+   "pos": [
+    625.58,
+    130.09,
+    2952.2
+   ],
+   "rot_deg": 242.4,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 12,
+   "apron": 0.3,
+   "pad": [
+    624.65,
+    131.86,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-091",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 3,
+   "pos": [
+    555.61,
+    251.55,
+    2954.4
+   ],
+   "rot_deg": 293.9,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 12,
+   "apron": 0.3,
+   "pad": [
+    556.42,
+    253.38,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-092",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 5,
+   "pos": [
+    698.2,
+    73.34,
+    2952.0
+   ],
+   "rot_deg": 223.5,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 12,
+   "apron": 0.3,
+   "pad": [
+    696.75,
+    74.72,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-093",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 6,
+   "pos": [
+    643.36,
+    134.35,
+    2957.7
+   ],
+   "rot_deg": 219.6,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 13,
+   "apron": 0.3,
+   "pad": [
+    644.9,
+    133.08,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-094",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 3,
+   "pos": [
+    584.56,
+    178.63,
+    2958.8
+   ],
+   "rot_deg": 206.0,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 13,
+   "apron": 0.3,
+   "pad": [
+    582.76,
+    179.51,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-095",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 1,
+   "pos": [
+    553.52,
+    236.04,
+    2959.3
+   ],
+   "rot_deg": 305.7,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 13,
+   "apron": 0.3,
+   "pad": [
+    554.69,
+    237.66,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-096",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "seed": 1,
+   "pos": [
+    660.75,
+    125.6,
+    2957.9
+   ],
+   "rot_deg": 176.5,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 13,
+   "apron": 0.3,
+   "pad": [
+    658.75,
+    125.48,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-058",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 4,
+   "pos": [
+    482.64,
+    249.75,
+    2888.6
+   ],
+   "rot_deg": 298.4,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 0,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-059",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 3,
+   "pos": [
+    479.22,
+    243.53,
+    2888.8
+   ],
+   "rot_deg": 299.3,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 0,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-060",
+   "type": "M1",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 8,
+   "pos": [
+    475.87,
+    237.55,
+    2888.9
+   ],
+   "rot_deg": 298.8,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 0,
+   "apron": 0.3,
+   "kit": "monk_house_face"
+  },
+  {
+   "id": "H-MON-097",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 3,
+   "pos": [
+    613.81,
+    -28.66,
+    2892.5
+   ],
+   "rot_deg": 192.4,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 1,
+   "apron": 0.3,
+   "pad": [
+    611.86,
+    -28.23,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-098",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 4,
+   "pos": [
+    448.51,
+    14.77,
+    2897.9
+   ],
+   "rot_deg": 286.7,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 2,
+   "apron": 0.3,
+   "pad": [
+    447.94,
+    12.85,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-099",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 2,
+   "pos": [
+    455.05,
+    -18.53,
+    2898.1
+   ],
+   "rot_deg": 209.9,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 2,
+   "apron": 0.3,
+   "pad": [
+    456.78,
+    -19.53,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-100",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 2,
+   "pos": [
+    455.96,
+    111.93,
+    2902.1
+   ],
+   "rot_deg": 247.9,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 3,
+   "apron": 0.3,
+   "pad": [
+    456.71,
+    110.08,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-101",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 5,
+   "pos": [
+    474.21,
+    -17.77,
+    2903.2
+   ],
+   "rot_deg": 183.0,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 3,
+   "apron": 0.3,
+   "pad": [
+    472.21,
+    -17.67,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-102",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 6,
+   "pos": [
+    485.93,
+    -15.98,
+    2903.6
+   ],
+   "rot_deg": 163.1,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 3,
+   "apron": 0.3,
+   "pad": [
+    487.84,
+    -15.4,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-103",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 2,
+   "pos": [
+    460.11,
+    140.97,
+    2909.5
+   ],
+   "rot_deg": 270.4,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "pad": [
+    460.1,
+    138.97,
+    13.0,
+    8.0
+   ]
+  },
+  {
+   "id": "H-MON-104",
+   "type": "M2",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "seed": 4,
+   "pos": [
+    467.19,
+    116.95,
+    2908.2
+   ],
+   "rot_deg": 235.8,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 4,
+   "apron": 0.3,
+   "pad": [
+    468.31,
+    115.3,
+    13.0,
+    8.0
+   ]
+  }
+ ],
+ "buildings": [
+  {
+   "id": "MON-26a",
+   "name_en": "Khamtsen hall, the Dungkar house",
+   "type": "khamtsen hall",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "kit": "mon26_regional_house",
+   "seed": 1,
+   "pos": [
+    542.28,
+    -12.83,
+    2892.1
+   ],
+   "rot_deg": 171.7,
+   "footprint": [
+    12.0,
+    10.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 1,
+   "pad": [
+    542.42,
+    -13.82,
+    12.0,
+    12.0
+   ],
+   "apron": 0.3
+  },
+  {
+   "id": "MON-26b",
+   "name_en": "Khamtsen hall, the Minyak house",
+   "type": "khamtsen hall",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "kit": "mon26_regional_house",
+   "seed": 2,
+   "pos": [
+    593.96,
+    -6.56,
+    2903.8
+   ],
+   "rot_deg": 203.1,
+   "footprint": [
+    12.0,
+    10.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 3,
+   "pad": [
+    593.57,
+    -7.48,
+    12.0,
+    12.0
+   ],
+   "apron": 0.3
+  },
+  {
+   "id": "MON-26c",
+   "name_en": "Khamtsen hall, the Nyarong house",
+   "type": "khamtsen hall",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "kit": "mon26_regional_house",
+   "seed": 3,
+   "pos": [
+    664.07,
+    -16.57,
+    2898.2
+   ],
+   "rot_deg": 180.8,
+   "footprint": [
+    12.0,
+    10.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 2,
+   "pad": [
+    664.05,
+    -17.57,
+    12.0,
+    12.0
+   ],
+   "apron": 0.3
+  },
+  {
+   "id": "MON-26d",
+   "name_en": "Khamtsen hall, the Litang house",
+   "type": "khamtsen hall",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "kit": "mon26_regional_house",
+   "seed": 4,
+   "pos": [
+    526.18,
+    1.76,
+    2902.5
+   ],
+   "rot_deg": 162.1,
+   "footprint": [
+    12.0,
+    10.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "row": 3,
+   "pad": [
+    526.49,
+    0.81,
+    12.0,
+    12.0
+   ],
+   "apron": 0.3
+  },
+  {
+   "id": "MON-11G",
+   "name_en": "The estate's granary range",
+   "type": "granary",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "kit": "mon11_granary",
+   "seed": 1,
+   "pos": [
+    681.0,
+    183.0,
+    2980.7
+   ],
+   "rot_deg": 180.0,
+   "footprint": [
+    20.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "MON-38",
+   "name_en": "The monastery dogs' kennel",
+   "type": "kennel",
+   "district": "gonpa",
+   "quarter": "gonpa.tsokchen",
+   "kit": "mon38_kennel",
+   "seed": 1,
+   "pos": [
+    661.0,
+    84.0,
+    2947.0
+   ],
+   "rot_deg": 290.0,
+   "footprint": [
+    4.0,
+    3.0
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "MON-22a",
+   "name_en": "G\u00f6nkor prayer-wheel gallery, section 1",
+   "type": "wheel arcade",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "kit": "mon22_wheel_gallery",
+   "seed": 1,
+   "pos": [
+    685.0,
+    -41.65,
+    2883.2
+   ],
+   "rot_deg": 180.0,
+   "footprint": [
+    16.0,
+    3.4
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "MON-22b",
+   "name_en": "G\u00f6nkor prayer-wheel gallery, section 2",
+   "type": "wheel arcade",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "kit": "mon22_wheel_gallery",
+   "seed": 2,
+   "pos": [
+    657.0,
+    -41.65,
+    2881.2
+   ],
+   "rot_deg": 180.0,
+   "footprint": [
+    16.0,
+    3.4
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "MON-22c",
+   "name_en": "G\u00f6nkor prayer-wheel gallery, section 3",
+   "type": "wheel arcade",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "kit": "mon22_wheel_gallery",
+   "seed": 3,
+   "pos": [
+    629.0,
+    -41.65,
+    2879.8
+   ],
+   "rot_deg": 180.0,
+   "footprint": [
+    16.0,
+    3.4
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "MON-22d",
+   "name_en": "G\u00f6nkor prayer-wheel gallery, section 4",
+   "type": "wheel arcade",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "kit": "mon22_wheel_gallery",
+   "seed": 4,
+   "pos": [
+    601.0,
+    -41.65,
+    2877.4
+   ],
+   "rot_deg": 180.0,
+   "footprint": [
+    16.0,
+    3.4
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "MON-22e",
+   "name_en": "G\u00f6nkor prayer-wheel gallery, section 5",
+   "type": "wheel arcade",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "kit": "mon22_wheel_gallery",
+   "seed": 1,
+   "pos": [
+    573.0,
+    -41.65,
+    2875.0
+   ],
+   "rot_deg": 180.0,
+   "footprint": [
+    16.0,
+    3.4
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "MON-22f",
+   "name_en": "G\u00f6nkor prayer-wheel gallery, section 6",
+   "type": "wheel arcade",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "kit": "mon22_wheel_gallery",
+   "seed": 2,
+   "pos": [
+    545.0,
+    -41.65,
+    2872.6
+   ],
+   "rot_deg": 180.0,
+   "footprint": [
+    16.0,
+    3.4
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "MON-22g",
+   "name_en": "G\u00f6nkor prayer-wheel gallery, section 7",
+   "type": "wheel arcade",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "kit": "mon22_wheel_gallery",
+   "seed": 3,
+   "pos": [
+    517.0,
+    -41.65,
+    2874.4
+   ],
+   "rot_deg": 180.0,
+   "footprint": [
+    16.0,
+    3.4
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "MON-22h",
+   "name_en": "G\u00f6nkor prayer-wheel gallery, section 8",
+   "type": "wheel arcade",
+   "district": "gonpa",
+   "quarter": "gonpa.gate",
+   "kit": "mon22_wheel_gallery",
+   "seed": 4,
+   "pos": [
+    489.0,
+    -41.65,
+    2876.8
+   ],
+   "rot_deg": 180.0,
+   "footprint": [
+    16.0,
+    3.4
+   ],
+   "storeys": 1,
+   "enterable": false
+  }
+ ],
+ "pads": {
+  "MON-01": {
+   "at": [
+    540,
+    150
+   ],
+   "level": 2932.0,
+   "facing": 180.0,
+   "was": 2932,
+   "kit": "mon01_tsokchen_in_v1"
+  },
+  "MON-02": {
+   "at": [
+    535,
+    110
+   ],
+   "level": 2928.0,
+   "facing": 180.0,
+   "was": 2928,
+   "kit": "mon02_tsokchen_court_v1"
+  },
+  "MON-04": {
+   "at": [
+    585,
+    160
+   ],
+   "level": 2945.0,
+   "facing": 180.0,
+   "was": 2945,
+   "kit": "mon04_maitreya_chapel_in_v1",
+   "yard": 1.0
+  },
+  "MON-05": {
+   "at": [
+    500,
+    150
+   ],
+   "level": 2930.0,
+   "facing": 180.0,
+   "was": 2935,
+   "kit": "mon05_protector_chapel_in_v1"
+  },
+  "MON-06": {
+   "at": [
+    600.0,
+    75.0
+   ],
+   "level": 2944.0,
+   "facing": 180.0,
+   "was": 2935,
+   "kit": "mon06_philosophy_college_v1",
+   "yard": 5.7,
+   "moved_from": [
+    600,
+    100
+   ]
+  },
+  "MON-07": {
+   "at": [
+    630,
+    75
+   ],
+   "level": 2944.0,
+   "facing": 180.0,
+   "was": 2938,
+   "kit": "mon07_chora_v1"
+  },
+  "MON-08": {
+   "at": [
+    510.0,
+    184.0
+   ],
+   "level": 2952.5,
+   "facing": 180.0,
+   "was": 2945,
+   "kit": "mon08_tantric_college_v1",
+   "yard": 7.6,
+   "moved_from": [
+    480,
+    190
+   ]
+  },
+  "MON-09": {
+   "at": [
+    620,
+    215
+   ],
+   "level": 2982.5,
+   "facing": 218.0,
+   "was": 2990,
+   "kit": "mon09_labrang_in_v1"
+  },
+  "MON-10": {
+   "at": [
+    575,
+    235
+   ],
+   "level": 2969.6,
+   "facing": 180.0,
+   "was": 2975,
+   "kit": "mon10_abbots_house_v1"
+  },
+  "MON-11": {
+   "at": [
+    660,
+    185
+   ],
+   "level": 2977.3,
+   "facing": 180.0,
+   "was": 2975,
+   "kit": "mon11_estate_office_v1"
+  },
+  "MON-12": {
+   "at": [
+    560,
+    75
+   ],
+   "level": 2928.2,
+   "facing": 180.0,
+   "was": 2925,
+   "kit": "mon12_kitchen_in_v1"
+  },
+  "MON-13": {
+   "at": [
+    480,
+    70
+   ],
+   "level": 2897.8,
+   "facing": 180.0,
+   "was": 2888,
+   "kit": "mon13_guest_house_v1",
+   "yard": 6.5
+  },
+  "MON-14": {
+   "at": [
+    520,
+    200
+   ],
+   "level": 2952.5,
+   "facing": 180.0,
+   "was": 2955,
+   "kit": "mon14_library_in_v1"
+  },
+  "MON-15": {
+   "at": [
+    560,
+    205
+   ],
+   "level": 2962.0,
+   "facing": 180.0,
+   "was": 2965,
+   "kit": "mon15_reliquary_chapel_v1",
+   "yard": 0.5
+  },
+  "MON-17": {
+   "at": [
+    465,
+    65
+   ],
+   "level": 2882.6,
+   "facing": 215.0,
+   "was": 2882,
+   "kit": "mon17_south_gate_v1"
+  },
+  "MON-19": {
+   "at": [
+    672,
+    78
+   ],
+   "level": 2948.0,
+   "facing": 110.0,
+   "was": 2952,
+   "kit": "mon19_east_gate_v1"
+  },
+  "MON-23": {
+   "at": [
+    719.5,
+    140.0
+   ],
+   "level": 2973.5,
+   "facing": 270.0,
+   "was": 2960,
+   "kit": "mon23_wheel_house_v1",
+   "moved_from": [
+    690,
+    140
+   ]
+  },
+  "MON-24": {
+   "at": [
+    713.8,
+    46.0
+   ],
+   "level": 2944.2,
+   "facing": 270.0,
+   "was": 2945,
+   "kit": "mon24_tsa_tsa_house_v1",
+   "moved_from": [
+    700,
+    40
+   ]
+  },
+  "MON-30": {
+   "at": [
+    500,
+    45
+   ],
+   "level": 2909.4,
+   "facing": 180.0,
+   "was": 2900,
+   "kit": "mon30_novices_yard_v1"
+  },
+  "MON-31": {
+   "at": [
+    440,
+    120
+   ],
+   "level": 2893.5,
+   "facing": 180.0,
+   "was": 2895
+  },
+  "MON-32": {
+   "at": [
+    600,
+    250
+   ],
+   "level": 2977.5,
+   "facing": 180.0,
+   "was": 2985
+  },
+  "MON-33": {
+   "at": [
+    680,
+    200
+   ],
+   "level": 2986.8,
+   "facing": 180.0,
+   "was": 2978,
+   "kit": "mon33_butter_store_v1"
+  },
+  "MON-34": {
+   "at": [
+    610,
+    55
+   ],
+   "level": 2942.2,
+   "facing": 180.0,
+   "was": 2935,
+   "kit": "mon34_geese_pen_v1"
+  },
+  "MON-16": {
+   "at": [
+    470,
+    25
+   ],
+   "level": 2900.9,
+   "facing": 225.0,
+   "was": 2905,
+   "kit": "mon16_thangka_wall_v1",
+   "follow": true
+  }
+ },
+ "follow": [
+  "MON-41"
+ ],
+ "lanes": [
+  {
+   "id": "MON-K.01",
+   "from": [
+    693.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 16.0,
+   "width": 4.0,
+   "z_a": 2883.2,
+   "z_b": 2883.2,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2883.2
+    ],
+    [
+     2.0,
+     2883.2
+    ],
+    [
+     4.0,
+     2883.2
+    ],
+    [
+     6.0,
+     2883.2
+    ],
+    [
+     8.0,
+     2883.2
+    ],
+    [
+     10.0,
+     2883.2
+    ],
+    [
+     12.0,
+     2883.2
+    ],
+    [
+     14.0,
+     2883.2
+    ],
+    [
+     16.0,
+     2883.2
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-K.02",
+   "from": [
+    677.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 12.0,
+   "width": 4.0,
+   "z_a": 2883.2,
+   "z_b": 2881.2,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2883.2
+    ],
+    [
+     1.5,
+     2882.95
+    ],
+    [
+     3.0,
+     2882.7
+    ],
+    [
+     4.5,
+     2882.45
+    ],
+    [
+     6.0,
+     2882.2
+    ],
+    [
+     7.5,
+     2881.95
+    ],
+    [
+     9.0,
+     2881.7
+    ],
+    [
+     10.5,
+     2881.45
+    ],
+    [
+     12.0,
+     2881.2
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-K.03",
+   "from": [
+    665.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 16.0,
+   "width": 4.0,
+   "z_a": 2881.2,
+   "z_b": 2881.2,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2881.2
+    ],
+    [
+     2.0,
+     2881.2
+    ],
+    [
+     4.0,
+     2881.2
+    ],
+    [
+     6.0,
+     2881.2
+    ],
+    [
+     8.0,
+     2881.2
+    ],
+    [
+     10.0,
+     2881.2
+    ],
+    [
+     12.0,
+     2881.2
+    ],
+    [
+     14.0,
+     2881.2
+    ],
+    [
+     16.0,
+     2881.2
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-K.04",
+   "from": [
+    649.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 12.0,
+   "width": 4.0,
+   "z_a": 2881.2,
+   "z_b": 2879.8,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2881.2
+    ],
+    [
+     1.5,
+     2881.02
+    ],
+    [
+     3.0,
+     2880.85
+    ],
+    [
+     4.5,
+     2880.68
+    ],
+    [
+     6.0,
+     2880.5
+    ],
+    [
+     7.5,
+     2880.32
+    ],
+    [
+     9.0,
+     2880.15
+    ],
+    [
+     10.5,
+     2879.98
+    ],
+    [
+     12.0,
+     2879.8
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-K.05",
+   "from": [
+    637.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 16.0,
+   "width": 4.0,
+   "z_a": 2879.8,
+   "z_b": 2879.8,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2879.8
+    ],
+    [
+     2.0,
+     2879.8
+    ],
+    [
+     4.0,
+     2879.8
+    ],
+    [
+     6.0,
+     2879.8
+    ],
+    [
+     8.0,
+     2879.8
+    ],
+    [
+     10.0,
+     2879.8
+    ],
+    [
+     12.0,
+     2879.8
+    ],
+    [
+     14.0,
+     2879.8
+    ],
+    [
+     16.0,
+     2879.8
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-K.06",
+   "from": [
+    621.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 12.0,
+   "width": 4.0,
+   "z_a": 2879.8,
+   "z_b": 2877.4,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2879.8
+    ],
+    [
+     1.5,
+     2879.5
+    ],
+    [
+     3.0,
+     2879.2
+    ],
+    [
+     4.5,
+     2878.9
+    ],
+    [
+     6.0,
+     2878.6
+    ],
+    [
+     7.5,
+     2878.3
+    ],
+    [
+     9.0,
+     2878.0
+    ],
+    [
+     10.5,
+     2877.7
+    ],
+    [
+     12.0,
+     2877.4
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-K.07",
+   "from": [
+    609.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 16.0,
+   "width": 4.0,
+   "z_a": 2877.4,
+   "z_b": 2877.4,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2877.4
+    ],
+    [
+     2.0,
+     2877.4
+    ],
+    [
+     4.0,
+     2877.4
+    ],
+    [
+     6.0,
+     2877.4
+    ],
+    [
+     8.0,
+     2877.4
+    ],
+    [
+     10.0,
+     2877.4
+    ],
+    [
+     12.0,
+     2877.4
+    ],
+    [
+     14.0,
+     2877.4
+    ],
+    [
+     16.0,
+     2877.4
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-K.08",
+   "from": [
+    593.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 12.0,
+   "width": 4.0,
+   "z_a": 2877.4,
+   "z_b": 2875.0,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2877.4
+    ],
+    [
+     1.5,
+     2877.1
+    ],
+    [
+     3.0,
+     2876.8
+    ],
+    [
+     4.5,
+     2876.5
+    ],
+    [
+     6.0,
+     2876.2
+    ],
+    [
+     7.5,
+     2875.9
+    ],
+    [
+     9.0,
+     2875.6
+    ],
+    [
+     10.5,
+     2875.3
+    ],
+    [
+     12.0,
+     2875.0
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-K.09",
+   "from": [
+    581.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 16.0,
+   "width": 4.0,
+   "z_a": 2875.0,
+   "z_b": 2875.0,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2875.0
+    ],
+    [
+     2.0,
+     2875.0
+    ],
+    [
+     4.0,
+     2875.0
+    ],
+    [
+     6.0,
+     2875.0
+    ],
+    [
+     8.0,
+     2875.0
+    ],
+    [
+     10.0,
+     2875.0
+    ],
+    [
+     12.0,
+     2875.0
+    ],
+    [
+     14.0,
+     2875.0
+    ],
+    [
+     16.0,
+     2875.0
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-K.10",
+   "from": [
+    565.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 12.0,
+   "width": 4.0,
+   "z_a": 2875.0,
+   "z_b": 2872.6,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2875.0
+    ],
+    [
+     1.5,
+     2874.7
+    ],
+    [
+     3.0,
+     2874.4
+    ],
+    [
+     4.5,
+     2874.1
+    ],
+    [
+     6.0,
+     2873.8
+    ],
+    [
+     7.5,
+     2873.5
+    ],
+    [
+     9.0,
+     2873.2
+    ],
+    [
+     10.5,
+     2872.9
+    ],
+    [
+     12.0,
+     2872.6
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-K.11",
+   "from": [
+    553.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 16.0,
+   "width": 4.0,
+   "z_a": 2872.6,
+   "z_b": 2872.6,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2872.6
+    ],
+    [
+     2.0,
+     2872.6
+    ],
+    [
+     4.0,
+     2872.6
+    ],
+    [
+     6.0,
+     2872.6
+    ],
+    [
+     8.0,
+     2872.6
+    ],
+    [
+     10.0,
+     2872.6
+    ],
+    [
+     12.0,
+     2872.6
+    ],
+    [
+     14.0,
+     2872.6
+    ],
+    [
+     16.0,
+     2872.6
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-K.12",
+   "from": [
+    537.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 12.0,
+   "width": 4.0,
+   "z_a": 2872.6,
+   "z_b": 2874.4,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2872.6
+    ],
+    [
+     1.5,
+     2872.82
+    ],
+    [
+     3.0,
+     2873.05
+    ],
+    [
+     4.5,
+     2873.28
+    ],
+    [
+     6.0,
+     2873.5
+    ],
+    [
+     7.5,
+     2873.72
+    ],
+    [
+     9.0,
+     2873.95
+    ],
+    [
+     10.5,
+     2874.18
+    ],
+    [
+     12.0,
+     2874.4
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-K.13",
+   "from": [
+    525.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 16.0,
+   "width": 4.0,
+   "z_a": 2874.4,
+   "z_b": 2874.4,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2874.4
+    ],
+    [
+     2.0,
+     2874.4
+    ],
+    [
+     4.0,
+     2874.4
+    ],
+    [
+     6.0,
+     2874.4
+    ],
+    [
+     8.0,
+     2874.4
+    ],
+    [
+     10.0,
+     2874.4
+    ],
+    [
+     12.0,
+     2874.4
+    ],
+    [
+     14.0,
+     2874.4
+    ],
+    [
+     16.0,
+     2874.4
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-K.14",
+   "from": [
+    509.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 12.0,
+   "width": 4.0,
+   "z_a": 2874.4,
+   "z_b": 2876.8,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2874.4
+    ],
+    [
+     1.5,
+     2874.7
+    ],
+    [
+     3.0,
+     2875.0
+    ],
+    [
+     4.5,
+     2875.3
+    ],
+    [
+     6.0,
+     2875.6
+    ],
+    [
+     7.5,
+     2875.9
+    ],
+    [
+     9.0,
+     2876.2
+    ],
+    [
+     10.5,
+     2876.5
+    ],
+    [
+     12.0,
+     2876.8
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-K.15",
+   "from": [
+    497.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 16.0,
+   "width": 4.0,
+   "z_a": 2876.8,
+   "z_b": 2876.8,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2876.8
+    ],
+    [
+     2.0,
+     2876.8
+    ],
+    [
+     4.0,
+     2876.8
+    ],
+    [
+     6.0,
+     2876.8
+    ],
+    [
+     8.0,
+     2876.8
+    ],
+    [
+     10.0,
+     2876.8
+    ],
+    [
+     12.0,
+     2876.8
+    ],
+    [
+     14.0,
+     2876.8
+    ],
+    [
+     16.0,
+     2876.8
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-K.16",
+   "from": [
+    481.0,
+    -41.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 34.0,
+   "width": 4.0,
+   "z_a": 2876.8,
+   "z_b": 2873.43,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2876.8
+    ],
+    [
+     4.25,
+     2876.38
+    ],
+    [
+     8.5,
+     2875.96
+    ],
+    [
+     12.75,
+     2875.54
+    ],
+    [
+     17.0,
+     2875.11
+    ],
+    [
+     21.25,
+     2874.69
+    ],
+    [
+     25.5,
+     2874.27
+    ],
+    [
+     29.75,
+     2873.85
+    ],
+    [
+     34.0,
+     2873.43
+    ]
+   ],
+   "gonkor": true
+  },
+  {
+   "id": "MON-H.00",
+   "from": [
+    442.0,
+    24.0
+   ],
+   "dir": [
+    -0.417,
+    0.9089
+   ],
+   "length": 2.63,
+   "width": 1.6,
+   "z_a": 2890.7,
+   "z_b": 2892.0,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "profile": [
+    [
+     0.0,
+     2890.6
+    ],
+    [
+     2.63,
+     2891.9
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "mon_h_00",
+    "s": 0.0,
+    "rise": 1.3,
+    "z": 2890.7,
+    "n": 7,
+    "run": 0.376,
+    "top": 0.0,
+    "walls": null
+   }
+  },
+  {
+   "id": "MON-H.01",
+   "from": [
+    442.0,
+    24.0
+   ],
+   "dir": [
+    -0.4472,
+    -0.8944
+   ],
+   "length": 17.89,
+   "width": 1.6,
+   "z_a": 2890.7,
+   "z_b": 2887.5,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2890.7
+    ],
+    [
+     17.89,
+     2887.5
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ]
+  },
+  {
+   "id": "MON-H.02",
+   "from": [
+    432.0,
+    6.0
+   ],
+   "dir": [
+    0.7071,
+    0.7071
+   ],
+   "length": 2.83,
+   "width": 1.6,
+   "z_a": 2885.78,
+   "z_b": 2887.5,
+   "profile": [
+    [
+     0.0,
+     2885.68
+    ],
+    [
+     2.83,
+     2887.4
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "mon_h_02",
+    "s": 0.0,
+    "rise": 1.718,
+    "z": 2885.78,
+    "n": 9,
+    "run": 0.314,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ]
+  },
+  {
+   "id": "MON-H.03",
+   "from": [
+    432.0,
+    6.0
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 20.0,
+   "width": 1.6,
+   "z_a": 2885.78,
+   "z_b": 2884.91,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2885.78
+    ],
+    [
+     20.0,
+     2884.91
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ]
+  },
+  {
+   "id": "MON-H.04",
+   "from": [
+    430.0,
+    -18.0
+   ],
+   "dir": [
+    0.4472,
+    0.8944
+   ],
+   "length": 4.47,
+   "width": 1.6,
+   "z_a": 2881.48,
+   "z_b": 2884.91,
+   "profile": [
+    [
+     0.0,
+     2881.38
+    ],
+    [
+     4.47,
+     2884.81
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "mon_h_04",
+    "s": 0.0,
+    "rise": 3.435,
+    "z": 2881.48,
+    "n": 18,
+    "run": 0.248,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ]
+  },
+  {
+   "id": "MON-H.05",
+   "from": [
+    430.0,
+    -18.0
+   ],
+   "dir": [
+    0.4472,
+    -0.8944
+   ],
+   "length": 8.94,
+   "width": 1.6,
+   "z_a": 2881.48,
+   "z_b": 2880.71,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2881.48
+    ],
+    [
+     8.94,
+     2880.71
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ]
+  },
+  {
+   "id": "MON-H.06",
+   "from": [
+    434.0,
+    -30.0
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 4.0,
+   "width": 1.6,
+   "z_a": 2877.65,
+   "z_b": 2880.71,
+   "profile": [
+    [
+     0.0,
+     2877.55
+    ],
+    [
+     4.0,
+     2880.61
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "mon_h_06",
+    "s": 0.0,
+    "rise": 3.06,
+    "z": 2877.65,
+    "n": 16,
+    "run": 0.25,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ]
+  },
+  {
+   "id": "MON-H.07",
+   "from": [
+    434.0,
+    -30.0
+   ],
+   "dir": [
+    0.7071,
+    -0.7071
+   ],
+   "length": 5.66,
+   "width": 1.6,
+   "z_a": 2877.65,
+   "z_b": 2876.98,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2877.65
+    ],
+    [
+     5.66,
+     2876.98
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ]
+  },
+  {
+   "id": "MON-H.08",
+   "from": [
+    440.0,
+    -38.0
+   ],
+   "dir": [
+    -0.4472,
+    0.8944
+   ],
+   "length": 4.47,
+   "width": 1.6,
+   "z_a": 2874.03,
+   "z_b": 2876.98,
+   "profile": [
+    [
+     0.0,
+     2873.93
+    ],
+    [
+     4.47,
+     2876.88
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "mon_h_08",
+    "s": 0.0,
+    "rise": 2.944,
+    "z": 2874.03,
+    "n": 15,
+    "run": 0.298,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ]
+  },
+  {
+   "id": "MON-H.09",
+   "from": [
+    440.0,
+    -38.0
+   ],
+   "dir": [
+    0.8321,
+    -0.5547
+   ],
+   "length": 7.21,
+   "width": 1.6,
+   "z_a": 2874.03,
+   "z_b": 2873.43,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2874.03
+    ],
+    [
+     7.21,
+     2873.43
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ]
+  }
+ ],
+ "ways": {
+  "H-MON-012": [
+   [
+    440.9,
+    26.39,
+    2892.0
+   ],
+   [
+    442.0,
+    24.0,
+    2890.7
+   ],
+   [
+    434.0,
+    8.0,
+    2887.5
+   ],
+   [
+    432.0,
+    6.0,
+    2885.78
+   ],
+   [
+    432.0,
+    -14.0,
+    2884.91
+   ],
+   [
+    430.0,
+    -18.0,
+    2881.48
+   ],
+   [
+    434.0,
+    -26.0,
+    2880.71
+   ],
+   [
+    434.0,
+    -30.0,
+    2877.65
+   ],
+   [
+    438.0,
+    -34.0,
+    2876.98
+   ],
+   [
+    440.0,
+    -38.0,
+    2874.03
+   ],
+   [
+    446.0,
+    -42.0,
+    2873.43
+   ]
+  ]
+ },
+ "gonkor": {
+  "walk_y": -41.7,
+  "line": -40.0
+ },
+ "walls": [
+  {
+   "of": "MON-21",
+   "h": 3.5,
+   "pts": [
+    [
+     446.0,
+     -40.0,
+     2875.0
+    ],
+    [
+     447.0,
+     -40.0,
+     2875.47
+    ],
+    [
+     448.0,
+     -40.0,
+     2875.93
+    ],
+    [
+     449.0,
+     -40.0,
+     2876.37
+    ],
+    [
+     450.0,
+     -40.0,
+     2876.79
+    ],
+    [
+     451.0,
+     -40.0,
+     2877.2
+    ],
+    [
+     452.0,
+     -40.0,
+     2877.58
+    ],
+    [
+     453.0,
+     -40.0,
+     2877.95
+    ],
+    [
+     454.0,
+     -40.0,
+     2878.3
+    ],
+    [
+     455.0,
+     -40.0,
+     2878.64
+    ],
+    [
+     456.0,
+     -40.0,
+     2878.95
+    ],
+    [
+     457.0,
+     -40.0,
+     2879.25
+    ],
+    [
+     458.0,
+     -40.0,
+     2879.53
+    ],
+    [
+     459.0,
+     -40.0,
+     2879.8
+    ],
+    [
+     460.0,
+     -40.0,
+     2880.05
+    ],
+    [
+     461.0,
+     -40.0,
+     2880.28
+    ],
+    [
+     462.0,
+     -40.0,
+     2880.49
+    ],
+    [
+     463.0,
+     -40.0,
+     2880.68
+    ],
+    [
+     464.0,
+     -40.0,
+     2880.86
+    ],
+    [
+     465.0,
+     -40.0,
+     2881.02
+    ],
+    [
+     466.0,
+     -40.0,
+     2881.15
+    ],
+    [
+     467.0,
+     -40.0,
+     2881.27
+    ],
+    [
+     468.0,
+     -40.0,
+     2881.37
+    ],
+    [
+     469.0,
+     -40.0,
+     2881.45
+    ],
+    [
+     470.0,
+     -40.0,
+     2881.51
+    ],
+    [
+     471.0,
+     -40.0,
+     2881.55
+    ],
+    [
+     472.0,
+     -40.0,
+     2881.57
+    ],
+    [
+     473.0,
+     -40.0,
+     2881.58
+    ],
+    [
+     474.0,
+     -40.0,
+     2881.57
+    ],
+    [
+     475.0,
+     -40.0,
+     2881.55
+    ],
+    [
+     476.0,
+     -40.0,
+     2881.51
+    ],
+    [
+     477.0,
+     -40.0,
+     2881.46
+    ],
+    [
+     478.0,
+     -40.0,
+     2881.4
+    ],
+    [
+     479.0,
+     -40.0,
+     2881.33
+    ],
+    [
+     480.0,
+     -40.0,
+     2881.24
+    ],
+    [
+     481.0,
+     -40.0,
+     2881.15
+    ]
+   ]
+  },
+  {
+   "of": "MON-21",
+   "h": 3.5,
+   "pts": [
+    [
+     497.0,
+     -40.0,
+     2878.96
+    ],
+    [
+     498.0,
+     -40.0,
+     2878.78
+    ],
+    [
+     499.0,
+     -40.0,
+     2878.59
+    ],
+    [
+     500.0,
+     -40.0,
+     2878.39
+    ],
+    [
+     501.0,
+     -40.0,
+     2878.18
+    ],
+    [
+     502.0,
+     -40.0,
+     2877.97
+    ],
+    [
+     503.0,
+     -40.0,
+     2877.76
+    ],
+    [
+     504.0,
+     -40.0,
+     2877.54
+    ],
+    [
+     505.0,
+     -40.0,
+     2877.33
+    ],
+    [
+     506.0,
+     -40.0,
+     2877.1
+    ],
+    [
+     507.0,
+     -40.0,
+     2876.88
+    ],
+    [
+     508.0,
+     -40.0,
+     2876.66
+    ],
+    [
+     509.0,
+     -40.0,
+     2876.44
+    ]
+   ]
+  },
+  {
+   "of": "MON-21",
+   "h": 3.5,
+   "pts": [
+    [
+     525.0,
+     -40.0,
+     2873.64
+    ],
+    [
+     526.0,
+     -40.0,
+     2873.52
+    ],
+    [
+     527.0,
+     -40.0,
+     2873.39
+    ],
+    [
+     528.0,
+     -40.0,
+     2873.26
+    ],
+    [
+     529.0,
+     -40.0,
+     2873.14
+    ],
+    [
+     530.0,
+     -40.0,
+     2873.01
+    ],
+    [
+     531.0,
+     -40.0,
+     2872.89
+    ],
+    [
+     532.0,
+     -40.0,
+     2872.77
+    ],
+    [
+     533.0,
+     -40.0,
+     2872.65
+    ],
+    [
+     534.0,
+     -40.0,
+     2872.53
+    ],
+    [
+     535.0,
+     -40.0,
+     2872.42
+    ],
+    [
+     536.0,
+     -40.0,
+     2872.3
+    ],
+    [
+     537.0,
+     -40.0,
+     2872.19
+    ]
+   ]
+  },
+  {
+   "of": "MON-21",
+   "h": 3.5,
+   "pts": [
+    [
+     553.0,
+     -40.0,
+     2871.23
+    ],
+    [
+     554.0,
+     -40.0,
+     2871.24
+    ],
+    [
+     555.0,
+     -40.0,
+     2871.27
+    ],
+    [
+     556.0,
+     -40.0,
+     2871.31
+    ],
+    [
+     557.0,
+     -40.0,
+     2871.36
+    ],
+    [
+     558.0,
+     -40.0,
+     2871.42
+    ],
+    [
+     559.0,
+     -40.0,
+     2871.49
+    ],
+    [
+     560.0,
+     -40.0,
+     2871.57
+    ],
+    [
+     561.0,
+     -40.0,
+     2871.65
+    ],
+    [
+     562.0,
+     -40.0,
+     2871.75
+    ],
+    [
+     563.0,
+     -40.0,
+     2871.85
+    ],
+    [
+     564.0,
+     -40.0,
+     2871.96
+    ],
+    [
+     565.0,
+     -40.0,
+     2872.08
+    ]
+   ]
+  },
+  {
+   "of": "MON-21",
+   "h": 3.5,
+   "pts": [
+    [
+     581.0,
+     -40.0,
+     2874.99
+    ],
+    [
+     582.0,
+     -40.0,
+     2875.25
+    ],
+    [
+     583.0,
+     -40.0,
+     2875.53
+    ],
+    [
+     584.0,
+     -40.0,
+     2875.81
+    ],
+    [
+     585.0,
+     -40.0,
+     2876.11
+    ],
+    [
+     586.0,
+     -40.0,
+     2876.41
+    ],
+    [
+     587.0,
+     -40.0,
+     2876.71
+    ],
+    [
+     588.0,
+     -40.0,
+     2877.02
+    ],
+    [
+     589.0,
+     -40.0,
+     2877.34
+    ],
+    [
+     590.0,
+     -40.0,
+     2877.66
+    ],
+    [
+     591.0,
+     -40.0,
+     2877.97
+    ],
+    [
+     592.0,
+     -40.0,
+     2878.29
+    ],
+    [
+     593.0,
+     -40.0,
+     2878.61
+    ]
+   ]
+  },
+  {
+   "of": "MON-21",
+   "h": 3.5,
+   "pts": [
+    [
+     609.0,
+     -40.0,
+     2882.67
+    ],
+    [
+     610.0,
+     -40.0,
+     2882.86
+    ],
+    [
+     611.0,
+     -40.0,
+     2883.05
+    ],
+    [
+     612.0,
+     -40.0,
+     2883.24
+    ],
+    [
+     613.0,
+     -40.0,
+     2883.42
+    ],
+    [
+     614.0,
+     -40.0,
+     2883.6
+    ],
+    [
+     615.0,
+     -40.0,
+     2883.77
+    ],
+    [
+     616.0,
+     -40.0,
+     2883.94
+    ],
+    [
+     617.0,
+     -40.0,
+     2884.1
+    ],
+    [
+     618.0,
+     -40.0,
+     2884.26
+    ],
+    [
+     619.0,
+     -40.0,
+     2884.4
+    ],
+    [
+     620.0,
+     -40.0,
+     2884.55
+    ],
+    [
+     621.0,
+     -40.0,
+     2884.69
+    ]
+   ]
+  },
+  {
+   "of": "MON-21",
+   "h": 3.5,
+   "pts": [
+    [
+     637.0,
+     -40.0,
+     2885.44
+    ],
+    [
+     638.0,
+     -40.0,
+     2885.33
+    ],
+    [
+     639.0,
+     -40.0,
+     2885.2
+    ],
+    [
+     640.0,
+     -40.0,
+     2885.05
+    ],
+    [
+     641.0,
+     -40.0,
+     2884.87
+    ],
+    [
+     642.0,
+     -40.0,
+     2884.68
+    ],
+    [
+     643.0,
+     -40.0,
+     2884.47
+    ],
+    [
+     644.0,
+     -40.0,
+     2884.26
+    ],
+    [
+     645.0,
+     -40.0,
+     2884.04
+    ],
+    [
+     646.0,
+     -40.0,
+     2883.81
+    ],
+    [
+     647.0,
+     -40.0,
+     2883.57
+    ],
+    [
+     648.0,
+     -40.0,
+     2883.33
+    ],
+    [
+     649.0,
+     -40.0,
+     2883.1
+    ]
+   ]
+  },
+  {
+   "of": "MON-21",
+   "h": 3.5,
+   "pts": [
+    [
+     665.0,
+     -40.0,
+     2881.37
+    ],
+    [
+     666.0,
+     -40.0,
+     2881.39
+    ],
+    [
+     667.0,
+     -40.0,
+     2881.41
+    ],
+    [
+     668.0,
+     -40.0,
+     2881.44
+    ],
+    [
+     669.0,
+     -40.0,
+     2881.49
+    ],
+    [
+     670.0,
+     -40.0,
+     2881.55
+    ],
+    [
+     671.0,
+     -40.0,
+     2881.62
+    ],
+    [
+     672.0,
+     -40.0,
+     2881.71
+    ],
+    [
+     673.0,
+     -40.0,
+     2881.81
+    ],
+    [
+     674.0,
+     -40.0,
+     2881.92
+    ],
+    [
+     675.0,
+     -40.0,
+     2882.09
+    ],
+    [
+     676.0,
+     -40.0,
+     2882.31
+    ],
+    [
+     677.0,
+     -40.0,
+     2882.56
+    ]
+   ]
+  },
+  {
+   "of": "MON-21",
+   "h": 3.5,
+   "pts": [
+    [
+     693.0,
+     -40.0,
+     2887.01
+    ],
+    [
+     694.0,
+     -40.0,
+     2887.44
+    ],
+    [
+     695.0,
+     -40.0,
+     2887.89
+    ],
+    [
+     696.0,
+     -40.0,
+     2888.35
+    ],
+    [
+     697.0,
+     -40.0,
+     2888.81
+    ],
+    [
+     698.0,
+     -40.0,
+     2889.29
+    ],
+    [
+     699.0,
+     -40.0,
+     2889.78
+    ],
+    [
+     700.0,
+     -40.0,
+     2890.27
+    ],
+    [
+     701.0,
+     -40.0,
+     2890.77
+    ],
+    [
+     702.0,
+     -40.0,
+     2891.28
+    ],
+    [
+     703.0,
+     -40.0,
+     2891.79
+    ],
+    [
+     704.0,
+     -40.0,
+     2892.3
+    ],
+    [
+     705.0,
+     -40.0,
+     2892.82
+    ],
+    [
+     705.0,
+     -39.0,
+     2893.57
+    ],
+    [
+     705.0,
+     -38.0,
+     2894.33
+    ],
+    [
+     705.0,
+     -37.0,
+     2895.08
+    ],
+    [
+     705.0,
+     -36.0,
+     2895.83
+    ],
+    [
+     705.0,
+     -35.0,
+     2896.58
+    ],
+    [
+     705.0,
+     -34.0,
+     2897.33
+    ],
+    [
+     705.0,
+     -33.0,
+     2898.07
+    ],
+    [
+     705.0,
+     -32.0,
+     2898.81
+    ],
+    [
+     705.0,
+     -31.0,
+     2899.54
+    ],
+    [
+     705.0,
+     -30.0,
+     2900.27
+    ],
+    [
+     705.0,
+     -29.0,
+     2901.0
+    ],
+    [
+     705.0,
+     -28.0,
+     2901.73
+    ],
+    [
+     705.0,
+     -27.0,
+     2902.45
+    ],
+    [
+     705.0,
+     -26.0,
+     2903.17
+    ],
+    [
+     705.0,
+     -25.0,
+     2903.88
+    ],
+    [
+     705.0,
+     -24.0,
+     2904.59
+    ],
+    [
+     705.0,
+     -23.0,
+     2905.3
+    ],
+    [
+     705.0,
+     -22.0,
+     2906.0
+    ],
+    [
+     705.0,
+     -21.0,
+     2906.69
+    ],
+    [
+     705.0,
+     -20.0,
+     2907.38
+    ],
+    [
+     705.0,
+     -19.0,
+     2908.07
+    ],
+    [
+     705.0,
+     -18.0,
+     2908.75
+    ],
+    [
+     705.0,
+     -17.0,
+     2909.43
+    ],
+    [
+     705.0,
+     -16.0,
+     2910.1
+    ],
+    [
+     705.0,
+     -15.0,
+     2910.77
+    ],
+    [
+     705.0,
+     -14.0,
+     2911.43
+    ],
+    [
+     705.0,
+     -13.0,
+     2912.09
+    ],
+    [
+     705.0,
+     -12.0,
+     2912.74
+    ],
+    [
+     705.0,
+     -11.0,
+     2913.39
+    ],
+    [
+     705.0,
+     -10.0,
+     2914.03
+    ],
+    [
+     705.0,
+     -9.0,
+     2914.67
+    ],
+    [
+     705.0,
+     -8.0,
+     2915.31
+    ],
+    [
+     705.0,
+     -7.0,
+     2915.95
+    ],
+    [
+     705.0,
+     -6.0,
+     2916.6
+    ],
+    [
+     705.0,
+     -5.0,
+     2917.24
+    ],
+    [
+     705.0,
+     -4.0,
+     2917.88
+    ],
+    [
+     705.0,
+     -3.0,
+     2918.52
+    ],
+    [
+     705.0,
+     -2.0,
+     2919.16
+    ],
+    [
+     705.0,
+     -1.0,
+     2919.79
+    ],
+    [
+     705.0,
+     0.0,
+     2920.43
+    ],
+    [
+     705.0,
+     1.0,
+     2921.06
+    ],
+    [
+     705.0,
+     2.0,
+     2921.7
+    ],
+    [
+     705.0,
+     3.0,
+     2922.33
+    ],
+    [
+     705.0,
+     4.0,
+     2922.96
+    ],
+    [
+     705.0,
+     5.0,
+     2923.58
+    ],
+    [
+     705.0,
+     6.0,
+     2924.2
+    ],
+    [
+     705.0,
+     7.0,
+     2924.82
+    ],
+    [
+     705.0,
+     8.0,
+     2925.44
+    ],
+    [
+     705.0,
+     9.0,
+     2926.05
+    ],
+    [
+     705.0,
+     10.0,
+     2926.66
+    ],
+    [
+     705.0,
+     11.0,
+     2927.26
+    ],
+    [
+     705.0,
+     12.0,
+     2927.86
+    ],
+    [
+     705.0,
+     13.0,
+     2928.45
+    ],
+    [
+     705.0,
+     14.0,
+     2929.04
+    ],
+    [
+     705.0,
+     15.0,
+     2929.63
+    ],
+    [
+     705.0,
+     16.0,
+     2930.2
+    ],
+    [
+     705.0,
+     17.0,
+     2930.77
+    ],
+    [
+     705.0,
+     18.0,
+     2931.34
+    ],
+    [
+     705.0,
+     19.0,
+     2931.9
+    ],
+    [
+     705.0,
+     20.0,
+     2932.45
+    ],
+    [
+     705.0,
+     21.0,
+     2932.99
+    ],
+    [
+     705.0,
+     22.0,
+     2933.53
+    ],
+    [
+     705.0,
+     23.0,
+     2934.06
+    ],
+    [
+     705.0,
+     24.0,
+     2934.58
+    ],
+    [
+     705.0,
+     25.0,
+     2935.11
+    ],
+    [
+     705.0,
+     26.0,
+     2935.62
+    ],
+    [
+     705.0,
+     27.0,
+     2936.14
+    ],
+    [
+     705.0,
+     28.0,
+     2936.65
+    ],
+    [
+     705.0,
+     29.0,
+     2937.15
+    ],
+    [
+     705.0,
+     30.0,
+     2937.65
+    ],
+    [
+     705.0,
+     31.0,
+     2938.15
+    ],
+    [
+     705.0,
+     32.0,
+     2938.64
+    ],
+    [
+     705.0,
+     33.0,
+     2939.13
+    ],
+    [
+     705.0,
+     34.0,
+     2939.61
+    ],
+    [
+     705.0,
+     35.0,
+     2940.09
+    ],
+    [
+     705.0,
+     36.0,
+     2940.57
+    ],
+    [
+     705.0,
+     37.0,
+     2941.04
+    ],
+    [
+     705.0,
+     38.0,
+     2941.51
+    ],
+    [
+     705.0,
+     39.0,
+     2941.97
+    ],
+    [
+     705.0,
+     40.0,
+     2942.43
+    ],
+    [
+     705.0,
+     41.0,
+     2942.89
+    ],
+    [
+     705.0,
+     42.0,
+     2943.34
+    ],
+    [
+     705.0,
+     43.0,
+     2943.78
+    ],
+    [
+     705.0,
+     44.0,
+     2944.23
+    ],
+    [
+     705.0,
+     45.0,
+     2944.66
+    ],
+    [
+     705.0,
+     46.0,
+     2945.1
+    ],
+    [
+     705.0,
+     47.0,
+     2945.52
+    ],
+    [
+     705.0,
+     48.0,
+     2945.95
+    ],
+    [
+     705.0,
+     49.0,
+     2946.37
+    ],
+    [
+     705.0,
+     50.0,
+     2946.78
+    ],
+    [
+     705.0,
+     51.0,
+     2947.19
+    ],
+    [
+     705.0,
+     52.0,
+     2947.59
+    ],
+    [
+     705.0,
+     53.0,
+     2947.99
+    ],
+    [
+     705.0,
+     54.0,
+     2948.39
+    ],
+    [
+     705.0,
+     55.0,
+     2948.77
+    ],
+    [
+     705.0,
+     56.0,
+     2949.15
+    ],
+    [
+     705.0,
+     57.0,
+     2949.52
+    ],
+    [
+     705.0,
+     58.0,
+     2949.88
+    ],
+    [
+     705.0,
+     59.0,
+     2950.23
+    ],
+    [
+     705.0,
+     60.0,
+     2950.57
+    ],
+    [
+     705.0,
+     61.0,
+     2950.91
+    ],
+    [
+     705.0,
+     62.0,
+     2951.23
+    ],
+    [
+     705.0,
+     63.0,
+     2951.55
+    ],
+    [
+     705.0,
+     64.0,
+     2951.86
+    ],
+    [
+     704.0,
+     64.07,
+     2951.58
+    ],
+    [
+     702.99,
+     64.15,
+     2951.32
+    ],
+    [
+     701.99,
+     64.22,
+     2951.07
+    ],
+    [
+     700.99,
+     64.29,
+     2950.83
+    ],
+    [
+     699.99,
+     64.37,
+     2950.59
+    ],
+    [
+     698.98,
+     64.44,
+     2950.37
+    ],
+    [
+     697.98,
+     64.52,
+     2950.15
+    ],
+    [
+     696.98,
+     64.59,
+     2949.94
+    ],
+    [
+     695.97,
+     64.66,
+     2949.74
+    ],
+    [
+     694.97,
+     64.74,
+     2949.54
+    ],
+    [
+     693.97,
+     64.81,
+     2949.35
+    ],
+    [
+     692.97,
+     64.88,
+     2949.16
+    ],
+    [
+     691.96,
+     64.96,
+     2948.97
+    ],
+    [
+     690.96,
+     65.03,
+     2948.79
+    ],
+    [
+     689.96,
+     65.1,
+     2948.61
+    ],
+    [
+     688.95,
+     65.18,
+     2948.43
+    ],
+    [
+     687.95,
+     65.25,
+     2948.25
+    ],
+    [
+     686.95,
+     65.33,
+     2948.07
+    ],
+    [
+     685.95,
+     65.4,
+     2947.89
+    ],
+    [
+     684.94,
+     65.47,
+     2947.72
+    ],
+    [
+     683.94,
+     65.55,
+     2947.54
+    ],
+    [
+     682.94,
+     65.62,
+     2947.36
+    ],
+    [
+     681.94,
+     65.69,
+     2947.19
+    ],
+    [
+     680.93,
+     65.77,
+     2947.01
+    ],
+    [
+     679.93,
+     65.84,
+     2946.84
+    ],
+    [
+     678.93,
+     65.91,
+     2946.66
+    ],
+    [
+     677.92,
+     65.99,
+     2946.48
+    ],
+    [
+     676.92,
+     66.06,
+     2946.3
+    ],
+    [
+     675.92,
+     66.13,
+     2946.12
+    ],
+    [
+     674.92,
+     66.21,
+     2945.95
+    ],
+    [
+     673.91,
+     66.28,
+     2945.77
+    ]
+   ]
+  },
+  {
+   "of": "MON-21",
+   "h": 3.5,
+   "pts": [
+    [
+     679.09,
+     89.76,
+     2951.16
+    ],
+    [
+     680.09,
+     89.93,
+     2951.35
+    ],
+    [
+     681.09,
+     90.09,
+     2951.53
+    ],
+    [
+     682.08,
+     90.25,
+     2951.71
+    ],
+    [
+     683.08,
+     90.42,
+     2951.9
+    ],
+    [
+     684.08,
+     90.58,
+     2952.08
+    ],
+    [
+     685.07,
+     90.74,
+     2952.26
+    ],
+    [
+     686.07,
+     90.91,
+     2952.45
+    ],
+    [
+     687.06,
+     91.07,
+     2952.63
+    ],
+    [
+     688.06,
+     91.23,
+     2952.83
+    ],
+    [
+     689.06,
+     91.39,
+     2953.02
+    ],
+    [
+     690.05,
+     91.56,
+     2953.22
+    ],
+    [
+     691.05,
+     91.72,
+     2953.43
+    ],
+    [
+     692.05,
+     91.88,
+     2953.65
+    ],
+    [
+     693.04,
+     92.05,
+     2953.88
+    ],
+    [
+     694.04,
+     92.21,
+     2954.11
+    ],
+    [
+     695.04,
+     92.37,
+     2954.36
+    ],
+    [
+     696.03,
+     92.53,
+     2954.62
+    ],
+    [
+     697.03,
+     92.7,
+     2954.89
+    ],
+    [
+     698.03,
+     92.86,
+     2955.16
+    ],
+    [
+     699.02,
+     93.02,
+     2955.45
+    ],
+    [
+     700.02,
+     93.19,
+     2955.74
+    ],
+    [
+     701.01,
+     93.35,
+     2956.05
+    ],
+    [
+     702.01,
+     93.51,
+     2956.37
+    ],
+    [
+     703.01,
+     93.67,
+     2956.7
+    ],
+    [
+     704.0,
+     93.84,
+     2957.05
+    ],
+    [
+     705.0,
+     94.0,
+     2957.4
+    ],
+    [
+     705.0,
+     95.0,
+     2957.46
+    ],
+    [
+     705.0,
+     96.0,
+     2957.52
+    ],
+    [
+     705.0,
+     97.0,
+     2957.57
+    ],
+    [
+     705.0,
+     98.0,
+     2957.61
+    ],
+    [
+     705.0,
+     99.0,
+     2957.66
+    ],
+    [
+     705.0,
+     100.0,
+     2957.7
+    ],
+    [
+     705.0,
+     101.0,
+     2957.74
+    ],
+    [
+     705.0,
+     102.0,
+     2957.78
+    ],
+    [
+     705.0,
+     103.0,
+     2957.82
+    ],
+    [
+     705.0,
+     104.0,
+     2957.87
+    ],
+    [
+     705.0,
+     105.0,
+     2957.91
+    ],
+    [
+     705.0,
+     106.0,
+     2957.96
+    ],
+    [
+     705.0,
+     107.0,
+     2958.02
+    ],
+    [
+     705.0,
+     108.0,
+     2958.08
+    ],
+    [
+     705.0,
+     109.0,
+     2958.15
+    ],
+    [
+     705.0,
+     110.0,
+     2958.23
+    ],
+    [
+     705.0,
+     111.0,
+     2958.31
+    ],
+    [
+     705.0,
+     112.0,
+     2958.41
+    ],
+    [
+     705.0,
+     113.0,
+     2958.52
+    ],
+    [
+     705.0,
+     114.0,
+     2958.64
+    ],
+    [
+     705.0,
+     115.0,
+     2958.77
+    ],
+    [
+     705.0,
+     116.0,
+     2958.92
+    ],
+    [
+     705.0,
+     117.0,
+     2959.08
+    ],
+    [
+     705.0,
+     118.0,
+     2959.27
+    ],
+    [
+     705.0,
+     119.0,
+     2959.47
+    ],
+    [
+     705.0,
+     120.0,
+     2959.7
+    ],
+    [
+     705.0,
+     121.0,
+     2959.95
+    ],
+    [
+     705.0,
+     122.0,
+     2960.22
+    ],
+    [
+     705.0,
+     123.0,
+     2960.51
+    ],
+    [
+     705.0,
+     124.0,
+     2960.82
+    ],
+    [
+     705.0,
+     125.0,
+     2961.14
+    ],
+    [
+     705.0,
+     126.0,
+     2961.49
+    ],
+    [
+     705.0,
+     127.0,
+     2961.85
+    ],
+    [
+     705.0,
+     128.0,
+     2962.23
+    ],
+    [
+     705.0,
+     129.0,
+     2962.62
+    ],
+    [
+     705.0,
+     130.0,
+     2963.03
+    ],
+    [
+     705.0,
+     131.0,
+     2963.45
+    ],
+    [
+     705.0,
+     132.0,
+     2963.89
+    ],
+    [
+     705.0,
+     133.0,
+     2964.34
+    ],
+    [
+     705.0,
+     134.0,
+     2964.79
+    ],
+    [
+     705.0,
+     135.0,
+     2965.26
+    ],
+    [
+     705.0,
+     136.0,
+     2965.74
+    ],
+    [
+     705.0,
+     137.0,
+     2966.22
+    ],
+    [
+     705.0,
+     138.0,
+     2966.71
+    ],
+    [
+     705.0,
+     139.0,
+     2967.2
+    ],
+    [
+     705.0,
+     140.0,
+     2967.7
+    ],
+    [
+     705.0,
+     141.0,
+     2968.19
+    ],
+    [
+     705.0,
+     142.0,
+     2968.7
+    ],
+    [
+     705.0,
+     143.0,
+     2969.2
+    ],
+    [
+     705.0,
+     144.0,
+     2969.7
+    ],
+    [
+     705.0,
+     145.0,
+     2970.19
+    ],
+    [
+     705.0,
+     146.0,
+     2970.69
+    ],
+    [
+     705.0,
+     147.0,
+     2971.18
+    ],
+    [
+     705.0,
+     148.0,
+     2971.67
+    ],
+    [
+     705.0,
+     149.0,
+     2972.15
+    ],
+    [
+     705.0,
+     150.0,
+     2972.64
+    ],
+    [
+     705.0,
+     151.0,
+     2973.13
+    ],
+    [
+     705.0,
+     152.0,
+     2973.63
+    ],
+    [
+     705.0,
+     153.0,
+     2974.14
+    ],
+    [
+     705.0,
+     154.0,
+     2974.65
+    ],
+    [
+     705.0,
+     155.0,
+     2975.18
+    ],
+    [
+     705.0,
+     156.0,
+     2975.71
+    ],
+    [
+     705.0,
+     157.0,
+     2976.24
+    ],
+    [
+     705.0,
+     158.0,
+     2976.78
+    ],
+    [
+     705.0,
+     159.0,
+     2977.33
+    ],
+    [
+     705.0,
+     160.0,
+     2977.88
+    ],
+    [
+     705.0,
+     161.0,
+     2978.44
+    ],
+    [
+     705.0,
+     162.0,
+     2979.0
+    ],
+    [
+     705.0,
+     163.0,
+     2979.56
+    ],
+    [
+     705.0,
+     164.0,
+     2980.13
+    ],
+    [
+     705.0,
+     165.0,
+     2980.7
+    ],
+    [
+     705.0,
+     166.0,
+     2981.27
+    ],
+    [
+     705.0,
+     167.0,
+     2981.84
+    ],
+    [
+     705.0,
+     168.0,
+     2982.41
+    ],
+    [
+     705.0,
+     169.0,
+     2982.98
+    ],
+    [
+     705.0,
+     170.0,
+     2983.55
+    ],
+    [
+     705.0,
+     171.0,
+     2984.12
+    ],
+    [
+     705.0,
+     172.0,
+     2984.69
+    ],
+    [
+     705.0,
+     173.0,
+     2985.26
+    ],
+    [
+     705.0,
+     174.0,
+     2985.83
+    ],
+    [
+     705.0,
+     175.0,
+     2986.39
+    ],
+    [
+     705.0,
+     176.0,
+     2986.91
+    ],
+    [
+     705.0,
+     177.0,
+     2987.36
+    ],
+    [
+     705.0,
+     178.0,
+     2987.79
+    ],
+    [
+     705.0,
+     179.0,
+     2988.23
+    ],
+    [
+     705.0,
+     180.0,
+     2988.68
+    ],
+    [
+     705.0,
+     181.0,
+     2989.13
+    ],
+    [
+     705.0,
+     182.0,
+     2989.58
+    ],
+    [
+     705.0,
+     183.0,
+     2990.04
+    ],
+    [
+     705.0,
+     184.0,
+     2990.51
+    ],
+    [
+     705.0,
+     185.0,
+     2990.98
+    ],
+    [
+     705.0,
+     186.0,
+     2991.45
+    ],
+    [
+     705.0,
+     187.0,
+     2991.93
+    ],
+    [
+     705.0,
+     188.0,
+     2992.41
+    ],
+    [
+     705.0,
+     189.0,
+     2992.9
+    ],
+    [
+     705.0,
+     190.0,
+     2993.4
+    ],
+    [
+     705.0,
+     191.0,
+     2993.9
+    ],
+    [
+     705.0,
+     192.0,
+     2994.41
+    ],
+    [
+     705.0,
+     193.0,
+     2994.92
+    ],
+    [
+     705.0,
+     194.0,
+     2995.44
+    ],
+    [
+     705.0,
+     195.0,
+     2995.97
+    ],
+    [
+     705.0,
+     196.0,
+     2996.5
+    ],
+    [
+     705.0,
+     197.0,
+     2997.04
+    ],
+    [
+     705.0,
+     198.0,
+     2997.58
+    ],
+    [
+     705.0,
+     199.0,
+     2998.13
+    ],
+    [
+     705.0,
+     200.0,
+     2998.69
+    ],
+    [
+     705.0,
+     201.0,
+     2999.25
+    ],
+    [
+     705.0,
+     202.0,
+     2999.82
+    ],
+    [
+     705.0,
+     203.0,
+     3000.4
+    ],
+    [
+     705.0,
+     204.0,
+     3000.98
+    ],
+    [
+     705.0,
+     205.0,
+     3001.57
+    ],
+    [
+     705.0,
+     206.0,
+     3002.16
+    ],
+    [
+     705.0,
+     207.0,
+     3002.76
+    ],
+    [
+     705.0,
+     208.0,
+     3003.37
+    ],
+    [
+     705.0,
+     209.0,
+     3003.99
+    ],
+    [
+     705.0,
+     210.0,
+     3004.61
+    ],
+    [
+     705.0,
+     211.0,
+     3005.23
+    ],
+    [
+     705.0,
+     212.0,
+     3005.87
+    ],
+    [
+     705.0,
+     213.0,
+     3006.51
+    ],
+    [
+     705.0,
+     214.0,
+     3007.15
+    ],
+    [
+     705.0,
+     215.0,
+     3007.8
+    ],
+    [
+     705.0,
+     216.0,
+     3008.46
+    ],
+    [
+     705.0,
+     217.0,
+     3009.12
+    ],
+    [
+     705.0,
+     218.0,
+     3009.79
+    ],
+    [
+     705.0,
+     219.0,
+     3010.46
+    ],
+    [
+     705.0,
+     220.0,
+     3011.13
+    ],
+    [
+     705.0,
+     221.0,
+     3011.81
+    ],
+    [
+     705.0,
+     222.0,
+     3012.48
+    ],
+    [
+     705.0,
+     223.0,
+     3013.03
+    ],
+    [
+     705.0,
+     224.0,
+     3013.49
+    ],
+    [
+     705.0,
+     225.0,
+     3013.94
+    ],
+    [
+     705.0,
+     226.0,
+     3014.38
+    ],
+    [
+     705.0,
+     227.0,
+     3014.83
+    ],
+    [
+     705.0,
+     228.0,
+     3015.27
+    ],
+    [
+     705.0,
+     229.0,
+     3015.71
+    ],
+    [
+     705.0,
+     230.0,
+     3016.16
+    ],
+    [
+     705.0,
+     231.0,
+     3016.61
+    ],
+    [
+     705.0,
+     232.0,
+     3017.05
+    ],
+    [
+     705.0,
+     233.0,
+     3017.51
+    ],
+    [
+     705.0,
+     234.0,
+     3017.97
+    ],
+    [
+     705.0,
+     235.0,
+     3018.43
+    ],
+    [
+     705.0,
+     236.0,
+     3018.9
+    ],
+    [
+     705.0,
+     237.0,
+     3019.38
+    ],
+    [
+     705.0,
+     238.0,
+     3019.87
+    ],
+    [
+     705.0,
+     239.0,
+     3020.37
+    ],
+    [
+     705.0,
+     240.0,
+     3020.88
+    ],
+    [
+     705.0,
+     241.0,
+     3021.4
+    ],
+    [
+     705.0,
+     242.0,
+     3021.94
+    ],
+    [
+     705.0,
+     243.0,
+     3022.49
+    ],
+    [
+     705.0,
+     244.0,
+     3023.06
+    ],
+    [
+     705.0,
+     245.0,
+     3023.64
+    ],
+    [
+     705.0,
+     246.0,
+     3024.23
+    ],
+    [
+     705.0,
+     247.0,
+     3024.82
+    ],
+    [
+     705.0,
+     248.0,
+     3025.41
+    ],
+    [
+     705.0,
+     249.0,
+     3026.01
+    ],
+    [
+     705.0,
+     250.0,
+     3026.61
+    ],
+    [
+     705.0,
+     251.0,
+     3027.22
+    ],
+    [
+     705.0,
+     252.0,
+     3027.83
+    ],
+    [
+     705.0,
+     253.0,
+     3028.44
+    ],
+    [
+     705.0,
+     254.0,
+     3029.06
+    ],
+    [
+     705.0,
+     255.0,
+     3029.68
+    ],
+    [
+     705.0,
+     256.0,
+     3030.31
+    ],
+    [
+     705.0,
+     257.0,
+     3030.94
+    ],
+    [
+     705.0,
+     258.0,
+     3031.58
+    ],
+    [
+     705.0,
+     259.0,
+     3032.21
+    ],
+    [
+     705.0,
+     260.0,
+     3032.86
+    ],
+    [
+     705.0,
+     261.0,
+     3033.51
+    ],
+    [
+     705.0,
+     262.0,
+     3034.16
+    ],
+    [
+     705.0,
+     263.0,
+     3034.81
+    ],
+    [
+     705.0,
+     264.0,
+     3035.47
+    ],
+    [
+     705.0,
+     265.0,
+     3036.14
+    ],
+    [
+     705.0,
+     266.0,
+     3036.8
+    ],
+    [
+     705.0,
+     267.0,
+     3037.48
+    ],
+    [
+     705.0,
+     268.0,
+     3038.15
+    ],
+    [
+     705.0,
+     269.0,
+     3038.83
+    ],
+    [
+     705.0,
+     270.0,
+     3039.51
+    ],
+    [
+     704.0,
+     270.0,
+     3038.62
+    ],
+    [
+     703.0,
+     270.0,
+     3037.74
+    ],
+    [
+     702.0,
+     270.0,
+     3036.86
+    ],
+    [
+     701.0,
+     270.0,
+     3035.98
+    ],
+    [
+     700.0,
+     270.0,
+     3035.11
+    ],
+    [
+     699.0,
+     270.0,
+     3034.24
+    ],
+    [
+     698.0,
+     270.0,
+     3033.39
+    ],
+    [
+     697.0,
+     270.0,
+     3032.54
+    ],
+    [
+     696.0,
+     270.0,
+     3031.69
+    ],
+    [
+     695.0,
+     270.0,
+     3030.86
+    ],
+    [
+     694.0,
+     270.0,
+     3030.04
+    ],
+    [
+     693.0,
+     270.0,
+     3029.23
+    ],
+    [
+     692.0,
+     270.0,
+     3028.43
+    ],
+    [
+     691.0,
+     270.0,
+     3027.64
+    ],
+    [
+     690.0,
+     270.0,
+     3026.86
+    ],
+    [
+     689.0,
+     270.0,
+     3026.1
+    ],
+    [
+     688.0,
+     270.0,
+     3025.36
+    ],
+    [
+     687.0,
+     270.0,
+     3024.62
+    ],
+    [
+     686.0,
+     270.0,
+     3023.9
+    ],
+    [
+     685.0,
+     270.0,
+     3023.2
+    ],
+    [
+     684.0,
+     270.0,
+     3022.5
+    ],
+    [
+     683.0,
+     270.0,
+     3021.81
+    ],
+    [
+     682.0,
+     270.0,
+     3021.13
+    ],
+    [
+     681.0,
+     270.0,
+     3020.47
+    ],
+    [
+     680.0,
+     270.0,
+     3019.81
+    ],
+    [
+     679.0,
+     270.0,
+     3019.17
+    ],
+    [
+     678.0,
+     270.0,
+     3018.54
+    ],
+    [
+     677.0,
+     270.0,
+     3017.93
+    ],
+    [
+     676.0,
+     270.0,
+     3017.32
+    ],
+    [
+     675.0,
+     270.0,
+     3016.73
+    ],
+    [
+     674.0,
+     270.0,
+     3016.15
+    ],
+    [
+     673.0,
+     270.0,
+     3015.59
+    ],
+    [
+     672.0,
+     270.0,
+     3015.04
+    ],
+    [
+     671.0,
+     270.0,
+     3014.5
+    ],
+    [
+     670.0,
+     270.0,
+     3013.97
+    ],
+    [
+     669.0,
+     270.0,
+     3013.45
+    ],
+    [
+     668.0,
+     270.0,
+     3012.94
+    ],
+    [
+     667.0,
+     270.0,
+     3012.44
+    ],
+    [
+     666.0,
+     270.0,
+     3011.95
+    ],
+    [
+     665.0,
+     270.0,
+     3011.47
+    ],
+    [
+     664.0,
+     270.0,
+     3010.99
+    ],
+    [
+     663.0,
+     270.0,
+     3010.52
+    ],
+    [
+     662.0,
+     270.0,
+     3010.05
+    ],
+    [
+     661.0,
+     270.0,
+     3009.59
+    ]
+   ]
+  },
+  {
+   "of": "MON-21",
+   "h": 3.5,
+   "pts": [
+    [
+     659.0,
+     270.0,
+     3008.66
+    ],
+    [
+     658.0,
+     270.0,
+     3008.19
+    ],
+    [
+     657.0,
+     270.0,
+     3007.72
+    ],
+    [
+     656.0,
+     270.0,
+     3007.24
+    ],
+    [
+     655.0,
+     270.0,
+     3006.74
+    ],
+    [
+     654.0,
+     270.0,
+     3006.24
+    ],
+    [
+     653.0,
+     270.0,
+     3005.73
+    ],
+    [
+     652.0,
+     270.0,
+     3005.21
+    ],
+    [
+     651.0,
+     270.0,
+     3004.68
+    ],
+    [
+     650.0,
+     270.0,
+     3004.14
+    ],
+    [
+     649.0,
+     270.0,
+     3003.59
+    ],
+    [
+     648.0,
+     270.0,
+     3003.03
+    ],
+    [
+     647.0,
+     270.0,
+     3002.46
+    ],
+    [
+     646.0,
+     270.0,
+     3001.88
+    ],
+    [
+     645.0,
+     270.0,
+     3001.3
+    ],
+    [
+     644.0,
+     270.0,
+     3000.7
+    ],
+    [
+     643.0,
+     270.0,
+     3000.1
+    ],
+    [
+     642.0,
+     270.0,
+     2999.49
+    ],
+    [
+     641.0,
+     270.0,
+     2998.88
+    ],
+    [
+     640.0,
+     270.0,
+     2998.27
+    ],
+    [
+     639.0,
+     270.0,
+     2997.65
+    ],
+    [
+     638.0,
+     270.0,
+     2997.04
+    ],
+    [
+     637.0,
+     270.0,
+     2996.42
+    ],
+    [
+     636.0,
+     270.0,
+     2995.81
+    ],
+    [
+     635.0,
+     270.0,
+     2995.21
+    ],
+    [
+     634.0,
+     270.0,
+     2994.62
+    ],
+    [
+     633.0,
+     270.0,
+     2994.03
+    ],
+    [
+     632.0,
+     270.0,
+     2993.46
+    ],
+    [
+     631.0,
+     270.0,
+     2992.9
+    ],
+    [
+     630.0,
+     270.0,
+     2992.35
+    ],
+    [
+     629.0,
+     270.0,
+     2991.8
+    ],
+    [
+     628.0,
+     270.0,
+     2991.25
+    ],
+    [
+     627.0,
+     270.0,
+     2990.7
+    ],
+    [
+     626.0,
+     270.0,
+     2990.15
+    ],
+    [
+     625.0,
+     270.0,
+     2989.6
+    ],
+    [
+     624.0,
+     270.0,
+     2989.05
+    ],
+    [
+     623.0,
+     270.0,
+     2988.51
+    ],
+    [
+     622.0,
+     270.0,
+     2987.96
+    ],
+    [
+     621.0,
+     270.0,
+     2987.42
+    ],
+    [
+     620.0,
+     270.0,
+     2986.88
+    ],
+    [
+     619.0,
+     270.0,
+     2986.33
+    ],
+    [
+     618.0,
+     270.0,
+     2985.8
+    ],
+    [
+     617.0,
+     270.0,
+     2985.26
+    ],
+    [
+     616.0,
+     270.0,
+     2984.72
+    ],
+    [
+     615.0,
+     270.0,
+     2984.19
+    ],
+    [
+     614.0,
+     270.0,
+     2983.66
+    ],
+    [
+     613.0,
+     270.0,
+     2983.14
+    ],
+    [
+     612.0,
+     270.0,
+     2982.62
+    ],
+    [
+     611.0,
+     270.0,
+     2982.1
+    ],
+    [
+     610.0,
+     270.0,
+     2981.59
+    ],
+    [
+     609.0,
+     270.0,
+     2981.08
+    ],
+    [
+     608.0,
+     270.0,
+     2980.58
+    ],
+    [
+     607.0,
+     270.0,
+     2980.08
+    ],
+    [
+     606.0,
+     270.0,
+     2979.58
+    ],
+    [
+     605.0,
+     270.0,
+     2979.09
+    ],
+    [
+     604.0,
+     270.0,
+     2978.61
+    ],
+    [
+     603.0,
+     270.0,
+     2978.13
+    ],
+    [
+     602.0,
+     270.0,
+     2977.68
+    ],
+    [
+     601.0,
+     270.0,
+     2977.24
+    ],
+    [
+     600.0,
+     270.0,
+     2976.82
+    ],
+    [
+     599.0,
+     270.0,
+     2976.41
+    ],
+    [
+     598.0,
+     270.0,
+     2976.02
+    ],
+    [
+     597.0,
+     270.0,
+     2975.65
+    ],
+    [
+     596.0,
+     270.0,
+     2975.28
+    ],
+    [
+     595.0,
+     270.0,
+     2974.92
+    ],
+    [
+     594.0,
+     270.0,
+     2974.56
+    ],
+    [
+     593.0,
+     270.0,
+     2974.21
+    ],
+    [
+     592.0,
+     270.0,
+     2973.87
+    ],
+    [
+     591.0,
+     270.0,
+     2973.52
+    ],
+    [
+     590.0,
+     270.0,
+     2973.17
+    ],
+    [
+     589.0,
+     270.0,
+     2972.81
+    ],
+    [
+     588.0,
+     270.0,
+     2972.45
+    ],
+    [
+     587.0,
+     270.0,
+     2972.08
+    ],
+    [
+     586.0,
+     270.0,
+     2971.69
+    ],
+    [
+     585.0,
+     270.0,
+     2971.29
+    ],
+    [
+     584.0,
+     270.0,
+     2970.88
+    ],
+    [
+     583.0,
+     270.0,
+     2970.45
+    ],
+    [
+     582.0,
+     270.0,
+     2970.0
+    ],
+    [
+     581.0,
+     270.0,
+     2969.53
+    ],
+    [
+     580.0,
+     270.0,
+     2969.03
+    ],
+    [
+     579.0,
+     270.0,
+     2968.51
+    ],
+    [
+     578.0,
+     270.0,
+     2967.96
+    ],
+    [
+     577.0,
+     270.0,
+     2967.38
+    ],
+    [
+     576.0,
+     270.0,
+     2966.77
+    ],
+    [
+     575.0,
+     270.0,
+     2966.13
+    ],
+    [
+     574.0,
+     270.0,
+     2965.46
+    ],
+    [
+     573.0,
+     270.0,
+     2964.76
+    ],
+    [
+     572.0,
+     270.0,
+     2964.04
+    ],
+    [
+     571.0,
+     270.0,
+     2963.3
+    ],
+    [
+     570.0,
+     270.0,
+     2962.53
+    ],
+    [
+     569.0,
+     270.0,
+     2961.74
+    ],
+    [
+     568.0,
+     270.0,
+     2960.93
+    ],
+    [
+     567.0,
+     270.0,
+     2960.1
+    ],
+    [
+     566.0,
+     270.0,
+     2959.25
+    ],
+    [
+     565.0,
+     270.0,
+     2958.39
+    ],
+    [
+     564.0,
+     270.0,
+     2957.51
+    ],
+    [
+     563.0,
+     270.0,
+     2956.62
+    ],
+    [
+     562.0,
+     270.0,
+     2955.71
+    ],
+    [
+     561.0,
+     270.0,
+     2954.8
+    ],
+    [
+     560.0,
+     270.0,
+     2953.87
+    ],
+    [
+     559.0,
+     270.0,
+     2952.94
+    ],
+    [
+     558.0,
+     270.0,
+     2952.01
+    ],
+    [
+     557.0,
+     270.0,
+     2951.06
+    ],
+    [
+     556.0,
+     270.0,
+     2950.12
+    ],
+    [
+     555.0,
+     270.0,
+     2949.18
+    ],
+    [
+     554.0,
+     270.0,
+     2948.23
+    ],
+    [
+     553.0,
+     270.0,
+     2947.29
+    ],
+    [
+     552.0,
+     270.0,
+     2946.36
+    ],
+    [
+     551.0,
+     270.0,
+     2945.43
+    ],
+    [
+     550.0,
+     270.0,
+     2944.51
+    ],
+    [
+     549.0,
+     270.0,
+     2943.6
+    ],
+    [
+     548.0,
+     270.0,
+     2942.71
+    ],
+    [
+     547.0,
+     270.0,
+     2941.82
+    ],
+    [
+     546.0,
+     270.0,
+     2940.94
+    ],
+    [
+     545.0,
+     270.0,
+     2940.07
+    ],
+    [
+     544.0,
+     270.0,
+     2939.21
+    ],
+    [
+     543.0,
+     270.0,
+     2938.35
+    ],
+    [
+     542.0,
+     270.0,
+     2937.5
+    ],
+    [
+     541.0,
+     270.0,
+     2936.66
+    ],
+    [
+     540.0,
+     270.0,
+     2935.82
+    ],
+    [
+     539.0,
+     270.0,
+     2934.99
+    ],
+    [
+     538.0,
+     270.0,
+     2934.17
+    ],
+    [
+     537.0,
+     270.0,
+     2933.35
+    ],
+    [
+     536.0,
+     270.0,
+     2932.53
+    ],
+    [
+     535.0,
+     270.0,
+     2931.72
+    ],
+    [
+     534.0,
+     270.0,
+     2930.91
+    ],
+    [
+     533.0,
+     270.0,
+     2930.09
+    ],
+    [
+     532.0,
+     270.0,
+     2929.28
+    ],
+    [
+     531.0,
+     270.0,
+     2928.47
+    ],
+    [
+     530.0,
+     270.0,
+     2927.65
+    ],
+    [
+     529.0,
+     270.0,
+     2926.83
+    ],
+    [
+     528.0,
+     270.0,
+     2926.0
+    ],
+    [
+     527.0,
+     270.0,
+     2925.16
+    ],
+    [
+     526.0,
+     270.0,
+     2924.32
+    ],
+    [
+     525.0,
+     270.0,
+     2923.46
+    ],
+    [
+     524.0,
+     270.0,
+     2922.59
+    ],
+    [
+     523.0,
+     270.0,
+     2921.7
+    ],
+    [
+     522.0,
+     270.0,
+     2920.8
+    ],
+    [
+     521.0,
+     270.0,
+     2919.87
+    ],
+    [
+     520.0,
+     270.0,
+     2918.93
+    ],
+    [
+     519.0,
+     270.0,
+     2917.97
+    ],
+    [
+     518.0,
+     270.0,
+     2917.0
+    ],
+    [
+     517.0,
+     270.0,
+     2916.02
+    ],
+    [
+     516.0,
+     270.0,
+     2915.03
+    ],
+    [
+     515.0,
+     270.0,
+     2914.02
+    ],
+    [
+     514.0,
+     270.0,
+     2913.01
+    ],
+    [
+     513.0,
+     270.0,
+     2911.97
+    ],
+    [
+     512.0,
+     270.0,
+     2910.93
+    ],
+    [
+     511.0,
+     270.0,
+     2909.86
+    ],
+    [
+     510.0,
+     270.0,
+     2908.79
+    ],
+    [
+     509.0,
+     270.0,
+     2907.7
+    ],
+    [
+     508.0,
+     270.0,
+     2906.59
+    ],
+    [
+     507.0,
+     270.0,
+     2905.48
+    ],
+    [
+     506.0,
+     270.0,
+     2904.34
+    ],
+    [
+     505.0,
+     270.0,
+     2903.19
+    ],
+    [
+     504.0,
+     270.0,
+     2902.03
+    ],
+    [
+     503.0,
+     270.0,
+     2900.85
+    ],
+    [
+     502.0,
+     270.0,
+     2899.66
+    ],
+    [
+     501.0,
+     270.0,
+     2898.45
+    ],
+    [
+     500.0,
+     270.0,
+     2897.23
+    ],
+    [
+     499.0,
+     270.0,
+     2895.99
+    ],
+    [
+     498.0,
+     270.0,
+     2894.74
+    ],
+    [
+     497.0,
+     270.0,
+     2893.48
+    ],
+    [
+     496.0,
+     270.0,
+     2892.2
+    ],
+    [
+     495.0,
+     270.0,
+     2890.91
+    ],
+    [
+     494.0,
+     270.0,
+     2889.61
+    ],
+    [
+     493.0,
+     270.0,
+     2888.3
+    ],
+    [
+     492.0,
+     270.0,
+     2886.97
+    ],
+    [
+     491.0,
+     270.0,
+     2885.63
+    ],
+    [
+     490.0,
+     270.0,
+     2884.27
+    ],
+    [
+     489.0,
+     270.0,
+     2882.89
+    ],
+    [
+     488.0,
+     270.0,
+     2881.49
+    ],
+    [
+     487.0,
+     270.0,
+     2880.08
+    ],
+    [
+     486.0,
+     270.0,
+     2878.66
+    ],
+    [
+     485.0,
+     270.0,
+     2877.22
+    ],
+    [
+     484.0,
+     270.0,
+     2875.77
+    ],
+    [
+     483.0,
+     270.0,
+     2874.3
+    ],
+    [
+     482.0,
+     270.0,
+     2872.83
+    ],
+    [
+     481.0,
+     270.0,
+     2871.35
+    ],
+    [
+     480.0,
+     270.0,
+     2869.85
+    ],
+    [
+     479.0,
+     270.0,
+     2868.35
+    ],
+    [
+     478.0,
+     270.0,
+     2866.84
+    ],
+    [
+     477.0,
+     270.0,
+     2865.32
+    ],
+    [
+     476.0,
+     270.0,
+     2863.8
+    ],
+    [
+     475.0,
+     270.0,
+     2862.27
+    ],
+    [
+     474.0,
+     270.0,
+     2860.74
+    ],
+    [
+     473.0,
+     270.0,
+     2859.21
+    ],
+    [
+     472.0,
+     270.0,
+     2857.69
+    ],
+    [
+     471.0,
+     270.0,
+     2856.16
+    ],
+    [
+     470.0,
+     270.0,
+     2854.63
+    ]
+   ]
+  }
+ ]
+}

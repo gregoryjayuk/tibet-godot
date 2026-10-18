@@ -1,0 +1,1325 @@
+{
+ "about": "The codex's entries (docs/plan/07-culture.md, 9), written by tools/culture/codex.py: do not edit by hand. truth: A attested in a period source, G general practice, L told in the town, I the game's invention; two letters: the kind attested, the placing or detail the game's.",
+ "truth": {
+  "A": "attested in a period source",
+  "G": "general practice",
+  "L": "told in the town",
+  "I": "the game's invention"
+ },
+ "entries": [
+  {
+   "id": "CX-001",
+   "district": "ferry",
+   "district_name": "the Landing",
+   "place": "FER-06, FER-07",
+   "nod": "The god and the chorten",
+   "text": "Three metres apart on one bench: the ferrymen's earth god and his wife behind faded red paper, and a whitewashed chorten. A crossing needs every protector it can get.",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-002",
+   "district": "ferry",
+   "district_name": "the Landing",
+   "place": "FER-01",
+   "nod": "The ferry gong",
+   "text": "The gong on the Hejie bank calls the crew of the government boat, which carries officials and Chinese travellers for a fare. Tibetans cross in coracles.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-003",
+   "district": "ferry",
+   "district_name": "the Landing",
+   "place": "FER-04",
+   "nod": "Coracles",
+   "text": "Yak hide on a frame of bent willow, the seams sealed with pitch. The river carries a coracle downstream on every crossing, so the boatman walks it back up on his back.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-004",
+   "district": "ferry",
+   "district_name": "the Landing",
+   "place": "FER-08",
+   "nod": "Swimming the herd",
+   "text": "Animals swim the calm reach behind a coracle on a rope. A crossing takes most of a day, which is why every caravan spends a night in Dungkardo and why the town exists.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-005",
+   "district": "ferry",
+   "district_name": "the Landing",
+   "place": "FER-09",
+   "nod": "The winter bridge",
+   "text": "Boats and planks stacked for winter, when the river falls and a bridge of boats is laid across it.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-006",
+   "district": "ferry",
+   "district_name": "the Landing",
+   "place": "FER-10",
+   "nod": "The rope slide",
+   "text": "Two bamboo cables, one for each direction, each higher at the end you start from; a hinged wooden slider and a leather thong for the nervous. Runaway tenants from Nyarong come over it at night.",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-007",
+   "district": "ferry",
+   "district_name": "the Landing",
+   "place": "FER-11",
+   "nod": "A bow on landing",
+   "text": "Travellers bow at the little shrine when they land from the slide, as Isabella Bird saw on another river.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-008",
+   "district": "ferry",
+   "district_name": "the Landing",
+   "place": "FER-01",
+   "nod": "The foreigner of 1892",
+   "text": "On 29 September 1892 the American diplomat W. W. Rockhill crossed here in Chinese dress and slept in a soldier's house. The old boatmen still tell of the foreigner who wrote everything down.",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-009",
+   "district": "tsonggar",
+   "district_name": "the Caravan Ground",
+   "place": "GAR-01",
+   "nod": "The picket line",
+   "text": "A rope stretched taut between two pegs, each animal tied by a short cord round its near fore pastern, a mastiff chained at each end.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-010",
+   "district": "tsonggar",
+   "district_name": "the Caravan Ground",
+   "place": "GAR-02",
+   "nod": "Walls of tea",
+   "text": "Rawhide cases of brick tea stacked into windbreaks. Two cases make a yak load, and the bricks inside are money.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-011",
+   "district": "tsonggar",
+   "district_name": "the Caravan Ground",
+   "place": "GAR-04",
+   "nod": "The shut yard",
+   "text": "No animal is killed on a good day, so the slaughter yard stands shut on the 1st, 8th, 15th and 25th. At its north end the Hui butcher kills by his own rite and never shares a knife with the Tibetan one.",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-012",
+   "district": "tsonggar",
+   "district_name": "the Caravan Ground",
+   "place": "GAR-12",
+   "nod": "Charity graves",
+   "text": "Thirty-four mounds for soldiers and traders who died far from home, facing the river. Strips of paper from the spring grave-sweeping still cling to them.",
+   "truth": "G/I"
+  },
+  {
+   "id": "CX-013",
+   "district": "tsonggar",
+   "district_name": "the Caravan Ground",
+   "place": "GAR-06",
+   "nod": "The smith at the edge",
+   "text": "Butchers, corpse-cutters, beggars and, in places, smiths ranked lowest of all, so the Tibetan smithy stands at the camp's far corner, outside the lingkor.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-014",
+   "district": "tsonggar",
+   "district_name": "the Caravan Ground",
+   "place": "GAR-07",
+   "nod": "Handprints",
+   "text": "Dung patted into cakes and slapped on a wall to dry, each one printed with the hand that made it: fuel for the poor, the nomads and the caravans.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-015",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-02",
+   "nod": "Black rings",
+   "text": "Scorched circles on the stones by the East Gate, where paper parcels were burnt for the dead at the Ghost Festival in September.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-016",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-03",
+   "nod": "The last gate",
+   "text": "利涉大川, \"it is favourable to cross the great river\", a line of the Yijing over the last Qing gate before the far bank. Travellers who are not natives show their permits here.",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-017",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-05",
+   "nod": "A bright mirror",
+   "text": "明鏡高懸, \"a bright mirror hung high\", hangs over every Qing court. This one looks down on seventeen soldiers present of forty on the roll.",
+   "truth": "G/I"
+  },
+  {
+   "id": "CX-018",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-06",
+   "nod": "The order on an arrow",
+   "text": "An official's demand for men and animals comes written in Chinese and Tibetan and wrapped round an arrow, to show it must travel fast. Rockhill copied one.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-019",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-07",
+   "nod": "The empty lodging",
+   "text": "Swept, aired and empty: the official lodging waits for the new Resident's officers, who will want animals and men at every station on the way to Lhasa.",
+   "truth": "I"
+  },
+  {
+   "id": "CX-020",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-08",
+   "nod": "Guandi or Gesar",
+   "text": "Guan Yu to the Chinese, Gesar to the Tibetans. Muleteers drape khatas on the red-faced general as Tibetans did at the Guandi temple in Lhasa, which they called the Gesar Lhakhang.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-021",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-37",
+   "nod": "Pink couplets",
+   "text": "Red spring couplets pasted at New Year in January, faded to pink by October.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-022",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-08",
+   "nod": "Asking the sticks",
+   "text": "Bamboo lot-sticks shaken in a tube before Guan Yu until one falls out; the keeper reads its numbered slip. Soldiers ask about home, a Tibetan muleteer about the pass.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-023",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-11",
+   "nod": "The stopped clock",
+   "text": "Inns on this road collected old French clocks, and \"very few of the clocks were in working order\" (Wilson, at Dartsedo). This one has said twenty to four for eleven years (chapter 04, 5.7).",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-024",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-14",
+   "nod": "Old mooncakes",
+   "text": "Mooncakes left from Mid-Autumn, three weeks ago, on a plate for anyone who wants one.",
+   "truth": "I"
+  },
+  {
+   "id": "CX-025",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-14",
+   "nod": "Melon-seed husks",
+   "text": "The floor is carpeted with husks: in Sichuan \"scholars and coolies alike\" gossip over roasted melon seeds.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-026",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-14",
+   "nod": "Talking tea",
+   "text": "Two men with a quarrel drink \"talking tea\" and let the room judge; the loser pays for everyone's bowl. A Chengdu custom.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-027",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-15",
+   "nod": "The garlic thread",
+   "text": "Most musk was cut with blood and liver. The test: draw a thread rubbed with garlic through the pod; if no garlic smell remains, it is pure.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-028",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-15",
+   "nod": "Dusty medicine",
+   "text": "\"If only no one in the world fell ill, what matter if the medicine gathers dust\": the pharmacy's couplet, over a wall of a hundred drawers.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-029",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-16",
+   "nod": "Melting rupees",
+   "text": "Indian rupees are melted here into \"nine-eight\" silver ingots; at Dartsedo eight forges were kept going when the rupees poured in.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-030",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-18",
+   "nod": "Odd hours",
+   "text": "The Hui family is making ready for Ramadan, which begins about when the season ends; for a month the noodle house will cook only after dark.",
+   "truth": "I"
+  },
+  {
+   "id": "CX-031",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-19",
+   "nod": "Facing west",
+   "text": "The Hui pray in a room of the butcher's courtyard that faces west, towards Mecca. There is no pork anywhere in their corner of town.",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-032",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-29",
+   "nod": "Parakeets",
+   "text": "Green parakeets with long blue tails are trapped in the walnuts and sent to Chengdu in cages. Lamas buy them to set free, and the dealer raises his price.",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-033",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-12",
+   "nod": "The back room",
+   "text": "A closed door and a sweetish smell. \"All the Chinese settled in the country use it continually\", Rockhill wrote of opium.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-034",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-23",
+   "nod": "Longevity timber",
+   "text": "壽材, \"longevity timber\": the polite word for coffins, painted over the carpenter's door.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-035",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-38",
+   "nod": "Heaven, Earth, Emperor",
+   "text": "天地君親師, Heaven, Earth, Emperor, Parents and Teachers: the tablet over a Sichuan family's altar. Across the yard the Tibetan wife keeps a butter lamp before her own images.",
+   "truth": "G/I"
+  },
+  {
+   "id": "CX-036",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-09",
+   "nod": "A merchant's word list",
+   "text": "Han Desheng's rhyming Chinese–Tibetan phrasebook: heaven *nam*, earth *sa*, horse *ta*, butter *mar*, drink tea *ja thung*. The Shaanxi traders learnt their Tibetan from lists like it.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-037",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "HEJ-35",
+   "nod": "The pieman's dice",
+   "text": "The pieman stakes his cakes against the carriers' coppers, and \"all day long the rattle of the dice could be heard without ceasing\" (Gill, in a Dartsedo yard).",
+   "truth": "A"
+  },
+  {
+   "id": "CX-038",
+   "district": "hejie",
+   "district_name": "Hejie",
+   "place": "H-HEJ-21",
+   "nod": "The dare-stone",
+   "text": "泰山石敢當, \"the stone of Mount Tai dares to resist\", set where a lane runs straight at a house, to stop what travels down it.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-039",
+   "district": "samkha",
+   "district_name": "Samkha",
+   "place": "SAM-03",
+   "nod": "Walking through the lord's house",
+   "text": "Six chains to walk on, two to hold, loose planks, forty metres of air. The bridge lands inside the Pönpo's gate passage, so every traveller on foot passes through his house.",
+   "truth": "I"
+  },
+  {
+   "id": "CX-040",
+   "district": "samkha",
+   "district_name": "Samkha",
+   "place": "SAM-04",
+   "nod": "Three powers in one room",
+   "text": "The Pönpo's toll table, an image of Thangtong Gyalpo, the saint who hung iron bridges across Tibet, and a Qing stele of 1731 saying soldiers built this one.",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-041",
+   "district": "samkha",
+   "district_name": "Samkha",
+   "place": "SAM-01",
+   "nod": "Chinese tiles on a Tibetan castle",
+   "text": "The top pavilion is roofed with grey tiles made by Chinese from Dartsedo who built a kiln, as Rockhill saw on a chief's house near Bagolo.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-042",
+   "district": "samkha",
+   "district_name": "Samkha",
+   "place": "SAM-01",
+   "nod": "The hat with the button",
+   "text": "The Pönpo wears a Qing official's hat and finial over his chuba when officials call. Tibetan chiefs held Qing ranks, and in 1905 a Qing officer at Batang sneered at one for it.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-043",
+   "district": "samkha",
+   "district_name": "Samkha",
+   "place": "SAM-01",
+   "nod": "The price of a life",
+   "text": "Among the Kandze states in 1889 a murder cost 120 bricks of tea for a man of standing, 40 for a woman, and 3 or 4 for a beggar or \"a wandering foreigner\". The Pönpo's court keeps a scale like it.",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-044",
+   "district": "samkha",
+   "district_name": "Samkha",
+   "place": "SAM-12",
+   "nod": "Over the drop",
+   "text": "The castle's latrine hangs 51 m above the torrent and drops onto a ledge, not into the water, so as not to foul the water spirits.",
+   "truth": "G/I"
+  },
+  {
+   "id": "CX-045",
+   "district": "samkha",
+   "district_name": "Samkha",
+   "place": "SAM-02",
+   "nod": "Dogs on the roof",
+   "text": "Mastiffs chained on the castle roof bark down at everyone on the chain bridge.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-046",
+   "district": "samkha",
+   "district_name": "Samkha",
+   "place": "SAM-09",
+   "nod": "The ula",
+   "text": "Men, animals and food are owed to any official with an order. Escorts often took cash instead, or loaded the free animals with goods of their own.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-047",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-01",
+   "nod": "Women's market",
+   "text": "\"In the towns nearly all shops are kept by women,\" Rockhill wrote. Tsongra's stalls are theirs.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-048",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-01",
+   "nod": "Fingers in the sleeve",
+   "text": "Buyer and seller clasp right hands inside their long sleeves and name the price by squeezing fingers: three, then two crossed for ten, then the whole hand for five makes thirty-five.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-049",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-03",
+   "nod": "The darchen",
+   "text": "The great flagpole of the square, renewed with a new banner every Losar.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-050",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-04",
+   "nod": "Five o'clock smoke",
+   "text": "Every day at about five the trading house burns juniper on its roof, as the traveller Pratt saw at a Dartsedo inn in 1889.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-051",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-04",
+   "nod": "The passage under the house",
+   "text": "Caravan animals are driven through a passage under the house to the back yard for the night.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-052",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-04",
+   "nod": "Three in a room",
+   "text": "A deal is made by three people only, buyer, seller and host, and the house guarantees it for two to four per cent.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-053",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-04",
+   "nod": "Achak",
+   "text": "Traders from central Tibet called Dartsedo's hostesses by the Lhasa honorific for an older woman, achak. Here it means Dolkar.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-146",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-04",
+   "nod": "Her namesake",
+   "text": "Dolkar's name means White Tara, and White Tara is the image in her household's chapel. Families of means kept a lama in the house to read before it every morning.",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-054",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-08",
+   "nod": "The great wheel",
+   "text": "A 4.5 m drum packed with printed mantras, turned by bars at its base; a bell rings once at every turn, and the old count the bells.",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-055",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-08",
+   "nod": "Girls at their letters",
+   "text": "At Dartsedo \"the girls attend school as well as a few of the boys, learning to read and write letters, the polite forms of address\". Here they learn upstairs.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-056",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-09",
+   "nod": "A wall in the middle of the lane",
+   "text": "Mani walls split the lanes so walkers in both directions can keep them on their right.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-057",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-27",
+   "nod": "Six colours",
+   "text": "Om white, ma green, ni yellow, pad light blue, me red, hum dark blue: the carver repaints the syllables as they weather.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-058",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-27",
+   "nod": "Beggars' stones",
+   "text": "Beggars carve small mani stones and offer them for a handful of tsampa, and \"a person of any respectability never dreams of refusing to buy\".",
+   "truth": "A"
+  },
+  {
+   "id": "CX-059",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-11",
+   "nod": "The married lama",
+   "text": "Lama Orgyen Dorje keeps his hair long and coiled and wears a white shawl: a Nyingma householder-practitioner, with a wife, not a monk.",
+   "truth": "A/G"
+  },
+  {
+   "id": "CX-060",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-12",
+   "nod": "The founder's eddy",
+   "text": "Here, the Gelug founder says, he saw a right-turning white conch turning where the white water meets the gold. The Nyingma say the Guru was here first; the Chinese say a drum lies under the river.",
+   "truth": "L"
+  },
+  {
+   "id": "CX-061",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-14",
+   "nod": "The spring belongs to the klu",
+   "text": "The Lukhang spring is the water spirits' house. Draw water, but never wash in it.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-062",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-14",
+   "nod": "Water is women's work",
+   "text": "Tibetan men \"neither carry water on their backs, work at the looms, nor tend the cattle\". The women carry 25-litre barrels on a strap across the chest.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-063",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-16",
+   "nod": "The window in the tunnel",
+   "text": "At the top of the tunnel one small east window frames the monastery's golden roofs by day and the hermitage's single lamp by night.",
+   "truth": "I"
+  },
+  {
+   "id": "CX-064",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-17",
+   "nod": "Blessed from above",
+   "text": "Walk through a gateway chorten and you are blessed by what is inside it; look up at the painted mandala on its ceiling.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-065",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-18",
+   "nod": "A room across the lane",
+   "text": "A rich family joined the two halves of its house with a room built on beams over the Mani Lane.",
+   "truth": "I"
+  },
+  {
+   "id": "CX-066",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-20",
+   "nod": "Three fingers, both wrists",
+   "text": "The doctor reads the pulse with three fingers on each wrist; wind, bile and phlegm are the body's three principles.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-067",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-21",
+   "nod": "Maple-burl bowls",
+   "text": "Bowls turned from maple burl, worth \"from 1 to 15 or 20 taels, according to the fineness of the tracings in the wood\". Everyone carries his own bowl inside his coat.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-068",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-24",
+   "nod": "Hot chang",
+   "text": "Barley beer, \"served piping-hot in brass bowls or wooden mugs when the weather is colder\".",
+   "truth": "A"
+  },
+  {
+   "id": "CX-069",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-25",
+   "nod": "The tailor is a man",
+   "text": "\"Sewing and needlework was done by men alone\" in Tibet, a Chinese writer noted in 1804.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-070",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-39",
+   "nod": "Morning smoke, evening song",
+   "text": "Juniper burns on every roof at dawn and at dusk. In the morning \"there is no singing\"; at dusk the women sing and the men join in.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-071",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-40",
+   "nod": "The lifting stone",
+   "text": "A smooth granite boulder of about 150 kg for young men to heave onto a shoulder; \"putting the stone\" is an old New Year game.",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-072",
+   "district": "shol",
+   "district_name": "Shöl",
+   "place": "SHL-37",
+   "nod": "Wood-chip tea",
+   "text": "The poorest infuse wood chips instead of tea and eat pea flour instead of tsampa, as Rockhill found in Kham villages.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-073",
+   "district": "tode",
+   "district_name": "Tödé",
+   "place": "TOD-01",
+   "nod": "The star tower",
+   "text": "Eight points round, nine floors, its door six metres up. Rockhill passed star-shaped towers a day out of Dartsedo in 1892.",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-074",
+   "district": "tode",
+   "district_name": "Tödé",
+   "place": "TOD-04",
+   "nod": "The boy's mother",
+   "text": "The eleven-year-old tulku was born in this farmhouse. His mother still threshes on its roof.",
+   "truth": "I"
+  },
+  {
+   "id": "CX-075",
+   "district": "tode",
+   "district_name": "Tödé",
+   "place": "TOD-07",
+   "nod": "Water that prays",
+   "text": "A painted drum of mantras turns day and night over a paddle wheel in the leat, beside the mill that is the same machine.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-076",
+   "district": "tode",
+   "district_name": "Tödé",
+   "place": "TOD-11",
+   "nod": "Flails",
+   "text": "\"The harvested grain is carried to the tops of the houses, where it is threshed on the flat roofs by means of flails\" (Shelton, at Batang).",
+   "truth": "A"
+  },
+  {
+   "id": "CX-077",
+   "district": "tode",
+   "district_name": "Tödé",
+   "place": "TOD-16",
+   "nod": "White stones on the horns",
+   "text": "The roof corners of the tower-houses rise in crescent horns, each holding a white stone, as in the Gyalrong tower villages east of here.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-078",
+   "district": "tode",
+   "district_name": "Tödé",
+   "place": "TOD-02",
+   "nod": "The yungdrung",
+   "text": "The left-turning swastika, the Bön sign of the eternal; Buddhists use the right-turning one. It is an ancient Asian sign and has nothing to do with its twentieth-century European misuse.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-079",
+   "district": "tode",
+   "district_name": "Tödé",
+   "place": "TOD-03",
+   "nod": "Wheels the other way",
+   "text": "The four Bön households turn their prayer wheels anticlockwise and walk round holy places with them on their left.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-080",
+   "district": "tode",
+   "district_name": "Tödé",
+   "place": "H-TOD-031",
+   "nod": "The crown in the bag",
+   "text": "In a cloth bag on a peg: the five-lobed crown and chest mirror the widow wears when a god of the mountain speaks through her.",
+   "truth": "G/I"
+  },
+  {
+   "id": "CX-081",
+   "district": "tode",
+   "district_name": "Tödé",
+   "place": "TOD-24",
+   "nod": "Maize on the roofs",
+   "text": "Maize ripens to 9,500 feet in the dry Yalong valley, though not at cold, wet Dartsedo; here it dries in golden racks on the roofs.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-082",
+   "district": "tode",
+   "district_name": "Tödé",
+   "place": "TOD-20",
+   "nod": "Green birds",
+   "text": "Green parakeets feed in the walnuts, their cries the loudest thing in the grove.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-083",
+   "district": "dungrong",
+   "district_name": "Dungrong and the monastery stair",
+   "place": "RNG-11",
+   "nod": "Ten rosaries",
+   "text": "1,080 steps: pilgrims count them on the rosary, ten rounds of 108.",
+   "truth": "I"
+  },
+  {
+   "id": "CX-084",
+   "district": "dungrong",
+   "district_name": "Dungrong and the monastery stair",
+   "place": "RNG-12",
+   "nod": "The chorten of the descent",
+   "text": "A stair up each face: this is the chorten of the Buddha's descent from the heaven where he taught his mother, the fifth of the eight chorten forms.",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-085",
+   "district": "dungrong",
+   "district_name": "Dungrong and the monastery stair",
+   "place": "RNG-10",
+   "nod": "Printers in pairs",
+   "text": "One inks the block, the other rolls the paper across it: flags, charms and prayer-wheel rolls, as at the great printing house of Derge.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-086",
+   "district": "dungrong",
+   "district_name": "Dungrong and the monastery stair",
+   "place": "RNG-05",
+   "nod": "Milk on the rock",
+   "text": "Nobody drinks from the gorge spring; it belongs to the water spirits, who are given milk.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-087",
+   "district": "dungrong",
+   "district_name": "Dungrong and the monastery stair",
+   "place": "RNG-14",
+   "nod": "The red shrine",
+   "text": "The tsen are red spirits of rock; their shrine on the Conch Prow is painted red and kept shut.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-088",
+   "district": "gonpa",
+   "district_name": "Dungkar Gönpa",
+   "place": "MON-01",
+   "nod": "The porch",
+   "text": "Four guardian kings, two on each side; the Wheel of Life held in the jaws of impermanence; and, on this Gelug hall, a Mongol leading a tiger on a chain.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-089",
+   "district": "gonpa",
+   "district_name": "Dungkar Gönpa",
+   "place": "MON-07",
+   "nod": "The colour of a white conch",
+   "text": "The first debating textbook uses \"the colour of a white conch\" as a standard example. In the monastery of the White Conch, the novices debate it every autumn.",
+   "truth": "G/I"
+  },
+  {
+   "id": "CX-090",
+   "district": "gonpa",
+   "district_name": "Dungkar Gönpa",
+   "place": "MON-05",
+   "nod": "The founder's conch",
+   "text": "A right-turning white conch, said to be the one the founder saw in the eddy; it is blown only at Losar and on the great days.",
+   "truth": "L"
+  },
+  {
+   "id": "CX-091",
+   "district": "gonpa",
+   "district_name": "Dungkar Gönpa",
+   "place": "MON-05",
+   "nod": "No women",
+   "text": "Women are not admitted to this protector chapel; monasteries differed on the rule.",
+   "truth": "A/G"
+  },
+  {
+   "id": "CX-092",
+   "district": "gonpa",
+   "district_name": "Dungkar Gönpa",
+   "place": "MON-12",
+   "nod": "The cauldrons",
+   "text": "The largest cauldron is 2.4 m across; at Kumbum they were said to be ten feet. Novices pour tea for 280 along the rows.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-093",
+   "district": "gonpa",
+   "district_name": "Dungkar Gönpa",
+   "place": "MON-24",
+   "nod": "Clay chortens",
+   "text": "Tsa-tsa, pressed in moulds, sometimes with a teacher's ashes in the clay. Rockhill watched a whole village spend a festive day making them until a rainstorm melted every one.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-094",
+   "district": "gonpa",
+   "district_name": "Dungkar Gönpa",
+   "place": "MON-22",
+   "nod": "Worn bright",
+   "text": "128 wheels, polished at hand height. The paper inside is wound so that turning clockwise passes the prayers in reading order; turning them backwards \"is held sacrilegious\".",
+   "truth": "A"
+  },
+  {
+   "id": "CX-095",
+   "district": "gonpa",
+   "district_name": "Dungkar Gönpa",
+   "place": "MON-35",
+   "nod": "Hashang",
+   "text": "The grinning mask of Hashang, the fat Chinese monk of an old debate, who clowns through the year-end dance with his children and gets the biggest laugh.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-096",
+   "district": "gonpa",
+   "district_name": "Dungkar Gönpa",
+   "place": "MON-02",
+   "nod": "Three blasts",
+   "text": "At the first blast of the conch the people gather; at the third the dance begins.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-097",
+   "district": "gonpa",
+   "district_name": "Dungkar Gönpa",
+   "place": "MON-11",
+   "nod": "The lender",
+   "text": "The monastery is the valley's largest landlord, lender and trader: barley and silver lent at interest, caravans sent to Dartsedo and Litang.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-098",
+   "district": "gonpa",
+   "district_name": "Dungkar Gönpa",
+   "place": "MON-26",
+   "nod": "Empty houses",
+   "text": "640 monks on the roll and 280 in residence. At Litang in the 1930s there were 3,700 on the roll and fewer than 500 at home.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-099",
+   "district": "gonpa",
+   "district_name": "Dungkar Gönpa",
+   "place": "MON-37",
+   "nod": "Chinese roofing",
+   "text": "Gilded roofs, called \"Chinese roofing\" in Tibetan, cover only the holiest chapels; the halls beneath keep flat roofs.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-100",
+   "district": "gonpa",
+   "district_name": "Dungkar Gönpa",
+   "place": "MON-36",
+   "nod": "Wheel and deer",
+   "text": "A golden wheel between two deer over the door: the first sermon in the Deer Park.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-101",
+   "district": "gonpa",
+   "district_name": "Dungkar Gönpa",
+   "place": "MON-09",
+   "nod": "Ochre",
+   "text": "The tulku's residence is ochre: yellow marks rank, and yellow is the Gelug colour.",
+   "truth": "A/G"
+  },
+  {
+   "id": "CX-102",
+   "district": "gonpa",
+   "district_name": "Dungkar Gönpa",
+   "place": "MON-34",
+   "nod": "The geese",
+   "text": "The monastery keeps geese, which cackle at strangers better than any dog.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-103",
+   "district": "serchu",
+   "district_name": "the Serchu road",
+   "place": "SER-01",
+   "nod": "Under the chorten",
+   "text": "The road passes beneath the Gate Chorten, and every traveller is blessed by what is inside it on the way into town.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-104",
+   "district": "serchu",
+   "district_name": "the Serchu road",
+   "place": "SER-01",
+   "nod": "A flag on a gun",
+   "text": "A caravan man has tied a small printed flag to the fork of his matchlock, as Rockhill saw travellers do.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-105",
+   "district": "serchu",
+   "district_name": "the Serchu road",
+   "place": "SER-02",
+   "nod": "Eight chortens",
+   "text": "Birth, enlightenment, first teaching, miracles, descent, reconciliation, victory, death: eight events of the Buddha's life, told by the shapes of their steps.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-106",
+   "district": "serchu",
+   "district_name": "the Serchu road",
+   "place": "SER-03",
+   "nod": "The plank road",
+   "text": "Beams in square sockets cut in the cliff, planks laid on them; a donor's tablet records who paid.",
+   "truth": "G/I"
+  },
+  {
+   "id": "CX-107",
+   "district": "serchu",
+   "district_name": "the Serchu road",
+   "place": "SER-12",
+   "nod": "Gold that dies",
+   "text": "The washers keep every seventh basket. Old people say gold grows in the ground and taking too much kills it, which is how the Chakla king once closed a mine.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-108",
+   "district": "serchu",
+   "district_name": "the Serchu road",
+   "place": "SER-13",
+   "nod": "Jomo",
+   "text": "In Kham a nun is a jomo. \"It is quite difficult to tell an old ani from a man\" in her shaved head and robes, Rockhill wrote; widows often became nuns.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-109",
+   "district": "serchu",
+   "district_name": "the Serchu road",
+   "place": "SER-14",
+   "nod": "The cairn nobody passes",
+   "text": "A small cairn marks the path that only funerals take.",
+   "truth": "I"
+  },
+  {
+   "id": "CX-110",
+   "district": "serchu",
+   "district_name": "the Serchu road",
+   "place": "SER-19",
+   "nod": "The resting bench",
+   "text": "A long low bench where a carrier can prop his load without taking it off, as on the tea road below Dartsedo.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-111",
+   "district": "tathang",
+   "district_name": "Tathang",
+   "place": "THG-02",
+   "nod": "Bones for flags",
+   "text": "Over one tent hangs a string of sheep's shoulder-blades written with charms, which Tsaidam herders hung instead of prayer flags.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-112",
+   "district": "tathang",
+   "district_name": "Tathang",
+   "place": "THG-02",
+   "nod": "Spinning as they walk",
+   "text": "Nomad men and women spin yarn on a drop spindle as they follow the flocks, the wool kept in the chuba's pouch.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-113",
+   "district": "tathang",
+   "district_name": "Tathang",
+   "place": "THG-03",
+   "nod": "The Lhasang",
+   "text": "The town's juniper fire, lit every morning towards Dungri Karpo, the white rider who owns the valley.",
+   "truth": "G/L"
+  },
+  {
+   "id": "CX-114",
+   "district": "tathang",
+   "district_name": "Tathang",
+   "place": "THG-04",
+   "nod": "Arrows for the god",
+   "text": "New wooden arrows are planted in the god's cairns each year, with wool tied round them.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-115",
+   "district": "tathang",
+   "district_name": "Tathang",
+   "place": "THG-01",
+   "nod": "Gesar's race",
+   "text": "In the epic Gesar won his bride and the throne of Ling in a horse race at twelve. Boys race here every afternoon.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-116",
+   "district": "tathang",
+   "district_name": "Tathang",
+   "place": "THG-10",
+   "nod": "Letters on the mountain",
+   "text": "The six syllables laid out in white quartz on the slope, each taller than a house. Rockhill saw mantras like it readable from four or five miles.",
+   "truth": "A/I"
+  },
+  {
+   "id": "CX-117",
+   "district": "tathang",
+   "district_name": "Tathang",
+   "place": "THG-05",
+   "nod": "Whistling arrows",
+   "text": "Kham archers shoot arrows that whistle in flight at the summer contests.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-118",
+   "district": "ritro",
+   "district_name": "Drakkar Ritrö",
+   "place": "RIT-01",
+   "nod": "The handprint and the lamp",
+   "text": "Guru Rinpoche's handprint is in the rock of the cave, the Nyingma say. The one lamp in its window is seen from every part of town at night.",
+   "truth": "L/I"
+  },
+  {
+   "id": "CX-119",
+   "district": "ritro",
+   "district_name": "Drakkar Ritrö",
+   "place": "RIT-02",
+   "nod": "Sealed in",
+   "text": "The retreat doors are sealed; food goes in through a hatch, and some who are inside will stay three years.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-120",
+   "district": "ritro",
+   "district_name": "Drakkar Ritrö",
+   "place": "RIT-03",
+   "nod": "The hermit",
+   "text": "One Karma Kagyu hermit lives alone in a walled cave apart from the Gelug retreatants. Nobody has seen his face this year.",
+   "truth": "I"
+  },
+  {
+   "id": "CX-121",
+   "district": "ritro",
+   "district_name": "Drakkar Ritrö",
+   "place": "RIT-08",
+   "nod": "The chain",
+   "text": "The last pitch to the cave is climbed on a fixed iron chain.",
+   "truth": "I"
+  },
+  {
+   "id": "CX-122",
+   "district": "durtro",
+   "district_name": "the charnel ground (seen, never entered)",
+   "place": "DUR-01, seen from V-05, V-07",
+   "nod": "Alms to the birds",
+   "text": "Flags on a far crest and birds circling above it. Tibetans call it \"giving alms to the birds\"; the dead are given to the vultures as a last generosity, and the living do not go there without cause.",
+   "truth": "A/G"
+  },
+  {
+   "id": "CX-123",
+   "district": "pharkha",
+   "district_name": "Pharkha",
+   "place": "PHK-02",
+   "nod": "The seized coracles",
+   "text": "Two of the town's coracles lie upturned in the dues house yard, taken in the spring over landing dues; the ferrymen of the two banks have not spoken since.",
+   "truth": "I"
+  },
+  {
+   "id": "CX-124",
+   "district": "pharkha",
+   "district_name": "Pharkha",
+   "place": "PHK-01",
+   "nod": "Lhasa's bank",
+   "text": "Across the river is Nyarong, ruled from Lhasa since Lhasa's troops destroyed Gonpo Namgyal in 1865; this bank answers to the Chakla king and the emperor.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-125",
+   "district": "pharkha",
+   "district_name": "Pharkha",
+   "place": "PHK-03",
+   "nod": "The village chapel",
+   "text": "Pharkha's small Nyingma chapel has a lama who is also its best farmer.",
+   "truth": "I"
+  },
+  {
+   "id": "CX-126",
+   "district": "pharkha",
+   "district_name": "Pharkha",
+   "place": "PHK-10",
+   "nod": "The road west",
+   "text": "Beyond the Laniba pass the mountain is \"a famous lurking place for brigands\" (Rockhill, 1892). Caravans go west together.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-127",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "LAP-01",
+   "nod": "A stone and a shout",
+   "text": "Everyone who crosses adds a stone, ties a rag and shouts \"lha rgyal lo\", the gods are victorious.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-128",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "LAP-01",
+   "nod": "Arrows and wool",
+   "text": "The cairn bristles with arrows and poles bound in wool, planted at the summer rite, when paper wind-horses are thrown into the air.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-129",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "LAP-04",
+   "nod": "Summer place",
+   "text": "Dung-walled huts and corrals, empty now; the herds were up here from early summer.",
+   "truth": "G"
+  },
+  {
+   "id": "CX-130",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "LAP-06",
+   "nod": "Asleep",
+   "text": "Marmot burrows, and no marmots: they are asleep until spring.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-131",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "V-08",
+   "nod": "The great peak",
+   "text": "Minya Konka. Nobody in 1903 knew its height; Rockhill called it the \"Kungka ri\" from the pass to the east. It stands above the cloud for a few minutes a day.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-132",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "any married woman",
+   "nod": "The silver plate",
+   "text": "A married woman wears a silver or gold plate set with coral on the front of her head; if her husband is Chinese, on the back.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-133",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "any Khampa man",
+   "nod": "The crown of hair",
+   "text": "Men wind their queue round the head with a big ivory ring in front and turquoise and coral strung on it.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-134",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "any worker",
+   "nod": "One arm out",
+   "text": "People work with the right arm out of the chuba, the empty sleeve knotted round the waist.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-135",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "anyone",
+   "nod": "The pouch",
+   "text": "The chuba is hitched over the sash into a pouch that holds everything, the wooden bowl \"next to the skin\".",
+   "truth": "A"
+  },
+  {
+   "id": "CX-136",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "anyone",
+   "nod": "The belt",
+   "text": "A knife to cut meat, a flint-and-steel pouch, a needle case on a chatelaine, a charm box: everyone carries the same kit.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-137",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "old people",
+   "nod": "The tongue",
+   "text": "Old country people greet a superior with a bow, palms up and the tongue out; with the tongue shown, \"Ka-dri\" means thank you.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-138",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "anyone",
+   "nod": "The khata",
+   "text": "\"If some one asks a favor of you, a khata in his hand, it is impossible to refuse it.\"",
+   "truth": "A"
+  },
+  {
+   "id": "CX-139",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "anyone",
+   "nod": "Hats off",
+   "text": "Hats come off for a lama or an official; near China, Tibetans dismounted and doffed their hats even to ragged Chinese soldiers.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-140",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "anyone",
+   "nod": "A share for the gods",
+   "text": "Before eating or drinking, the right forefinger dipped in the bowl and a little flicked towards the four quarters, with a short prayer.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-141",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "any boy",
+   "nod": "Shaved heads",
+   "text": "Boys' heads are kept shaved until they are nearly grown.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-142",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "any woman",
+   "nod": "Jew's harps",
+   "text": "\"Nearly all the women carry one\" on the girdle in a carved bamboo case.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-143",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "any traveller",
+   "nod": "Horsehair eye-shades",
+   "text": "Travellers on snow wear eye-shades of woven horsehair against snow-blindness.",
+   "truth": "A"
+  },
+  {
+   "id": "CX-144",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "anyone",
+   "nod": "Paid in tea",
+   "text": "\"The wages of workmen and servants are paid in so many bricks of tea.\"",
+   "truth": "A"
+  },
+  {
+   "id": "CX-145",
+   "district": "laptse",
+   "district_name": "Laptse La",
+   "place": "anyone with a rosary",
+   "nod": "The abacus",
+   "text": "The rosary counts prayers and also money: units on the beads to one side of a large bead, tens on the other.",
+   "truth": "A"
+  }
+ ]
+}

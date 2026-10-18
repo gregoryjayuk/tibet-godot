@@ -1,0 +1,26 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://interiors/room.gd" id="1_tg0al"]
+[ext_resource type="PackedScene" path="res://assets/generated/kit/types/headman_hall2_v1.glb" id="2_i4cyf"]
+
+[node name="headman_hall2" type="Node3D" unique_id=643210057]
+
+[node name="Room" type="Node3D" parent="." unique_id=1712879954]
+script = ExtResource("1_tg0al")
+room_id = "headman_hall2"
+recipe = "LR-07"
+gain = 1.5
+box = AABB(-0.4, -0.2, -4.6, 1.7, 2.5, 8.3)
+floor_band = Vector2(-0.4, 2.66)
+
+[node name="Furnishings" parent="." unique_id=595355332 instance=ExtResource("2_i4cyf")]
+
+[node name="Day_sky_1" type="OmniLight3D" parent="." unique_id=1306173663]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4, 1.6999999, -3.15)
+light_color = Color(0.9529412, 0.92156863, 0.8666667, 1)
+light_energy = 0.9
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 8.0
+omni_attenuation = 2.0
+metadata/kind = "day"

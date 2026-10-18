@@ -1,0 +1,61 @@
+{
+ "about": "The Tibetan shaping test, spike S4 (plan chapter 11, 17.4). Greg checks every stack, vowel sign and mark in every route.",
+ "rows": [
+  {
+   "id": "S4-01",
+   "text": "བསྒྲུབས",
+   "script": "tibetan",
+   "why": "bsgrubs: prefix, superscript, subscript, suffix and post-suffix in one syllable"
+  },
+  {
+   "id": "S4-02",
+   "text": "ཨོཾ་མ་ཎི་པདྨེ་ཧཱུྃ",
+   "script": "tibetan",
+   "why": "oM ma Ni pad+me hU~M: Sanskrit stack, retroflex, long vowel with anusvara and candrabindu"
+  },
+  {
+   "id": "S4-03",
+   "text": "དུང་དཀར་མདོ",
+   "script": "tibetan",
+   "why": "dung dkar mdo: the town's name on the title screen"
+  },
+  {
+   "id": "S4-04",
+   "text": "དགའ་ལྡན་དུང་སྒྲ་གླིང",
+   "script": "tibetan",
+   "why": "dga' ldan dung sgra gling: the monastery's name board"
+  },
+  {
+   "id": "S4-05",
+   "text": "ཆུ་མོ་ཡོས་ལོའི་ཟླ་བ་དགུ་པའི་ཚེས་བརྒྱད།",
+   "script": "tibetan",
+   "why": "the almanac line: shad and the 'i genitive"
+  },
+  {
+   "id": "S4-06",
+   "text": "ཀྵ",
+   "script": "tibetan",
+   "why": "k+Sa: a Sanskrit ligature some fonts draw as a unit"
+  },
+  {
+   "id": "S4-07",
+   "text": "༡༥ ༣༧",
+   "script": "tibetan",
+   "why": "Tibetan digits: the 15th rab byung, its 37th year"
+  },
+  {
+   "id": "S4-08",
+   "text": "ཕེབས་སོང་ངམ། ཁྱེད་རང་སྐུ་གཟུགས་བདེ་པོ་ཡིན་པས། ཁྱི་ཟུངས། ཡར་ཕེབས། ཕེབས་དང་། བཞུགས་དང་། ཇ་མཆོད། ཞལ་ལག་མཆོད་རོགས་གནང་། ག་ལེ་ཕེབས། ག་ལེ་བཞུགས། བདེ་མོ་ཕེབས། དགོས་མ་རེད། བཀའ་དྲིན་ཆེ། ཐུགས་རྗེ་ཆེ། ལགས་སོ། ལགས་མིན། དགོངས་དག ག་ནས་ཕེབས་པ་ཡིན། ག་པར་ཕེབས་ཀྱི་ཡོད། ང་ཉག་རོང་ནས་ཡིན། ལོ་ཏོག་ཡག་པོ་བྱུང་ངམ། ད་རིང་གནམ་ཡག་པོ་འདུག ཚོང་ཡག་པོ་བྱུང་ངམ། འདི་གོང་ག་ཚོད་རེད། གོང་ཆེ་དྲགས་འདུག",
+   "script": "tibetan",
+   "why": "line breaking after the tsheg in a 30-em box: 91 syllables, phrasebook lines PB-T01 to PB-T26",
+   "wrap_em": 30
+  },
+  {
+   "id": "S4-09",
+   "text": "茶號　銅鼓渡　利涉大川",
+   "script": "chinese",
+   "why": "cháhào, Tónggǔdù, lì shè dà chuān: sign and plaque strings; the last also baked vertically",
+   "vertical_bake": "利涉大川"
+  }
+ ]
+}

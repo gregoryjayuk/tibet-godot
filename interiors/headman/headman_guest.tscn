@@ -1,0 +1,43 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://interiors/room.gd" id="1_ck523"]
+[ext_resource type="PackedScene" path="res://assets/generated/kit/types/headman_guest_v1.glb" id="2_rt3ge"]
+[ext_resource type="Shader" path="res://shaders/flame.gdshader" id="3_xgl4l"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_11xkw"]
+render_priority = 0
+shader = ExtResource("3_xgl4l")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 3.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_cm17b"]
+size = Vector2(0.035, 0.07)
+
+[node name="headman_guest" type="Node3D" unique_id=307277252]
+
+[node name="Room" type="Node3D" parent="." unique_id=1554407430]
+script = ExtResource("1_ck523")
+room_id = "headman_guest"
+recipe = "LR-07"
+gain = 1.5
+box = AABB(-0.5, -0.2, -3.5, 3.7, 2.5, 3.5)
+floor_band = Vector2(-0.4, 2.66)
+
+[node name="Furnishings" parent="." unique_id=562855212 instance=ExtResource("2_rt3ge")]
+
+[node name="Day_window_1" type="OmniLight3D" parent="." unique_id=1168870845]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.030000001, 1.4, -1.75)
+light_color = Color(0.9529412, 0.92156863, 0.8666667, 1)
+light_energy = 1.3
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 8.0
+omni_attenuation = 2.0
+metadata/kind = "day"
+
+[node name="Flame_3" type="MeshInstance3D" parent="." unique_id=678653308]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.35, 1.693, -0.02)
+material_override = SubResource("ShaderMaterial_11xkw")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_cm17b")

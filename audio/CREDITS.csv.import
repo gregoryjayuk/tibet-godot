@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cia1vapt050o5"
+
+[deps]
+
+files=["res://audio/CREDITS.source.translation", "res://audio/CREDITS.licence.translation", "res://audio/CREDITS.credit.translation", "res://audio/CREDITS.notes.translation"]
+
+source_file="res://audio/CREDITS.csv"
+dest_files=["res://audio/CREDITS.source.translation", "res://audio/CREDITS.licence.translation", "res://audio/CREDITS.credit.translation", "res://audio/CREDITS.notes.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

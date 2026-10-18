@@ -1,0 +1,92 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://interiors/room.gd" id="1_kg1k8"]
+[ext_resource type="PackedScene" path="res://assets/generated/kit/types/chang_room_b2_in_v1.glb" id="2_ahojm"]
+[ext_resource type="Shader" path="res://shaders/flame.gdshader" id="3_dqu2q"]
+[ext_resource type="Script" path="res://world/tea.gd" id="4_qwyno"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mkf7i"]
+render_priority = 0
+shader = ExtResource("3_dqu2q")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 10.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_56qt7"]
+size = Vector2(0.035, 0.07)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mm8hx"]
+render_priority = 0
+shader = ExtResource("3_dqu2q")
+shader_parameter/kind = 1
+shader_parameter/strength = 1.2
+shader_parameter/seed = 25.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_box5d"]
+size = Vector2(0.3, 0.24)
+
+[node name="chang_room_b2_in_v1" type="Node3D" unique_id=1869362237]
+
+[node name="Room" type="Node3D" parent="." unique_id=1028147438]
+script = ExtResource("1_kg1k8")
+room_id = "chang_room_b2_in_v1"
+recipe = "LR-04"
+gain = 1.7
+box = AABB(-2.592, -0.2, -7.216, 7.53, 2.45, 7.216)
+metadata/music = ["SND-229", 1140.0, 1285.0, Vector3(2.837, 0.96000004, -6.506)]
+
+[node name="Furnishings" parent="." unique_id=1482640121 instance=ExtResource("2_ahojm")]
+
+[node name="Fire_fire_1" type="OmniLight3D" parent="." unique_id=1603389306]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.888, 0.32, -0.85)
+light_color = Color(1, 0.54901963, 0.2901961, 1)
+light_energy = 1.3
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 8.0
+omni_attenuation = 2.0
+metadata/kind = "fire"
+
+[node name="Day_door" type="OmniLight3D" parent="." unique_id=1662160402]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3, -0.6)
+light_color = Color(0.9647059, 0.93333334, 0.8862745, 1)
+light_energy = 1.4
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 8.0
+omni_attenuation = 2.0
+metadata/kind = "day"
+
+[node name="Flame_flame_1" type="OmniLight3D" parent="." unique_id=1927825641]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0804423, 0.565, -5.4840546)
+light_color = Color(0.95686275, 0.69803923, 0.2901961, 1)
+light_energy = 0.8
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 7.0
+omni_attenuation = 2.0
+metadata/kind = "flame"
+metadata/dusk = true
+
+[node name="Flame_10" type="MeshInstance3D" parent="." unique_id=1032249087]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.311, 0.51, -5.676)
+material_override = SubResource("ShaderMaterial_mkf7i")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_56qt7")
+metadata/dusk = true
+
+[node name="Coals_25" type="MeshInstance3D" parent="." unique_id=1457046569]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.888, 0.2, -0.85)
+material_override = SubResource("ShaderMaterial_mm8hx")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_box5d")
+
+[node name="Tea" type="Node3D" parent="." unique_id=1916365830]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.568, 0.3, -6.016)
+script = ExtResource("4_qwyno")
+metadata/r = 0.06
+metadata/stand = 0.0
+metadata/liquid = "chang"
+metadata/vessel = "ladle"
+metadata/pour_line = "CV-010"
+metadata/host = Vector3(0, -0.3, 0.5499997)

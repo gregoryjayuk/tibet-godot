@@ -1,0 +1,16 @@
+{
+ "id": "m2_order",
+ "about": "Mission 2, What the town is saying (plan chapter 14, 4.1; chapter 05, NPC-13 and NPC-26): at 16:30 the post's interpreter Jiang Deshun comes to the chang house with the resident's order, which reached the castle at 14:40 wrapped round an arrow, and Ama Yudrön feeds him for news. His words are chapter 05's.",
+ "place": "chang_room_b2_in_v2",
+ "from": 990, "to": 1070,
+ "needs": ["jiang_deshun", "ama_yudron"],
+ "once": "heard_ula_order",
+ "lines": [
+  {"who": "ama_yudron", "line": "CV-020", "en": "Eat, Dorje, eat. And the resident's arrow? What did it say?"},
+  {"who": "jiang_deshun", "line": "CV-021", "en": "Animals, men and fodder, for the resident's officers, at the new moon."},
+  {"who": "ama_yudron", "line": "CV-022", "en": "How many animals?"},
+  {"who": "jiang_deshun", "line": "CV-023", "en": "It does not say how many. The castle will say."},
+  {"narrate": "He goes back to his bowl. For a moment nobody in the room is drinking."}
+ ],
+ "do": [["write", "m2_order", "note", "At the chang house: the resident's order, as Jiang Deshun the post's interpreter tells it, wants animals, men and fodder for the resident's officers at the new moon. He would not say how many.", "jiang_deshun", "the chang house"]]
+}

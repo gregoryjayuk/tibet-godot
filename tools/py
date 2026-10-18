@@ -1,0 +1,5 @@
+#!/bin/bash
+# Run the project's Python (Pillow 12.3.0 with raqm, rasterio 1.5.1 with GDAL 3.12, numpy, scipy 1.18.1), kept in ~/.cache/dungkardo/venv
+# so it is not synced. Rebuild it: uv venv ~/.cache/dungkardo/venv --python 3.14 &&
+#   uv pip install --python ~/.cache/dungkardo/venv/bin/python pillow==12.3.0 rasterio==1.5.1 scipy==1.18.1   (docs/VENDOR.md)
+exec "$HOME/.cache/dungkardo/venv/bin/python" "$@"

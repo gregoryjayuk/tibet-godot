@@ -1,0 +1,16 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://interiors/room.gd" id="1_3xtx2"]
+[ext_resource type="PackedScene" path="res://assets/generated/kit/types/headman_bed1_v1.glb" id="2_8j26a"]
+
+[node name="headman_bed1" type="Node3D" unique_id=28409695]
+
+[node name="Room" type="Node3D" parent="." unique_id=976929908]
+script = ExtResource("1_3xtx2")
+room_id = "headman_bed1"
+recipe = "LR-07"
+gain = 1.6
+box = AABB(-3.25, -0.2, -4.5, 4.3, 2.5, 4.5)
+floor_band = Vector2(-0.4, 2.66)
+
+[node name="Furnishings" parent="." unique_id=491354675 instance=ExtResource("2_8j26a")]

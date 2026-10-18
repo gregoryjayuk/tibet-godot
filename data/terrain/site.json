@@ -1,0 +1,10 @@
+{
+ "about": "Where chapter 02's designed valley sits on the real ground. Read by tools/terrain/site.py for fetch.py, export_t3d.py, terrain_check.py and site_fit.py. The design's grid (x east, y north, metres from Tsongra) is a transverse Mercator centred on tsongra_lat and tsongra_lon, turned by turn_deg (clockwise positive; -15 turns the design 15 degrees anticlockwise, so the design's north lies on the real bearing 345 degrees). The design's north is the game's north and the sun's (docs/DECISIONS.md). The real ground stands shift_m above the design's heights (at the rivers); the game lowers it by that much, so the design's heights, Tsongra's 2,662 m among them, stay the game's altitudes.",
+ "decided": "Greg, 2026-09-25 15:04: MOVE, the best fit of tools/terrain/site_fit.py (720 m east, 6,300 m south of the old anchor, turned -15 degrees; 133 m of height error against 416 m). docs/terrain/site-map.jpg, ISS-019.",
+ "tsongra_lat": 29.973167,
+ "tsongra_lon": 101.01746,
+ "turn_deg": -15.0,
+ "shift_m": 15.0,
+ "shift_why": "Chosen so the design's Yalong (2,541 m at y -170, +0.5 m per 100 m upstream) meets the real river, whose bed lies at 2,546-2,569 m across the valley map. site_fit.py's best shift, +178 m, is a median over all 27 points and would have perched the designed river 164 m above the real one at both edges of the map. With the river pinned, the height error at this placement is about 200 m RMS (KEEP: 429 m), and a search with the river pinned finds nothing much better within 9 km (docs/terrain/base-report.md, section 5).",
+ "previous": {"tsongra_lat": 30.03, "tsongra_lon": 101.01, "turn_deg": 0.0, "shift_m": 0.0, "until": "2026-09-25"}
+}

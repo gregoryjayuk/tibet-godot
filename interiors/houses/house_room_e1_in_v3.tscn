@@ -1,0 +1,153 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://interiors/room.gd" id="1_ch8u0"]
+[ext_resource type="PackedScene" path="res://assets/generated/kit/types/house_room_e1_in_v3.glb" id="2_xienh"]
+[ext_resource type="Shader" path="res://shaders/flame.gdshader" id="3_35r7j"]
+[ext_resource type="Shader" path="res://shaders/shaft.gdshader" id="4_rdubs"]
+[ext_resource type="Script" path="res://world/tea.gd" id="5_w2rkm"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_n40wg"]
+render_priority = 0
+shader = ExtResource("3_35r7j")
+shader_parameter/kind = 1
+shader_parameter/strength = 1.1
+shader_parameter/seed = 0.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_5hdjo"]
+size = Vector2(0.36, 0.2)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2isbh"]
+render_priority = 0
+shader = ExtResource("3_35r7j")
+shader_parameter/kind = 0
+shader_parameter/strength = 0.7
+shader_parameter/seed = 0.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_pd6pg"]
+size = Vector2(0.11, 0.2)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ypogr"]
+render_priority = 0
+shader = ExtResource("3_35r7j")
+shader_parameter/kind = 0
+shader_parameter/strength = 0.7
+shader_parameter/seed = 1.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_i38pc"]
+size = Vector2(0.11, 0.2)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lwt4o"]
+render_priority = 0
+shader = ExtResource("3_35r7j")
+shader_parameter/kind = 0
+shader_parameter/strength = 0.7
+shader_parameter/seed = 2.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_hegpl"]
+size = Vector2(0.11, 0.2)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xh1hx"]
+render_priority = 0
+shader = ExtResource("3_35r7j")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 5.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_tngcw"]
+size = Vector2(0.035, 0.07)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_iep7r"]
+render_priority = 0
+shader = ExtResource("4_rdubs")
+shader_parameter/strength = null
+
+[sub_resource type="QuadMesh" id="QuadMesh_188y3"]
+size = Vector2(0.4, 1.9550002)
+
+[node name="house_room_e1_in_v3" type="Node3D" unique_id=126271439]
+
+[node name="Room" type="Node3D" parent="." unique_id=640081459]
+script = ExtResource("1_ch8u0")
+room_id = "house_room_e1_in_v3"
+recipe = "LR-04"
+gain = 1.25
+box = AABB(-1.622, -0.2, -3.488, 4.852, 2.205, 3.488)
+
+[node name="Furnishings" parent="." unique_id=1543984375 instance=ExtResource("2_xienh")]
+
+[node name="Fire_fire_1" type="OmniLight3D" parent="." unique_id=701793103]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.065, 0.17999999, -1.468)
+light_color = Color(1, 0.54901963, 0.2901961, 1)
+light_energy = 0.9
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 7.0
+omni_attenuation = 2.0
+metadata/kind = "fire"
+
+[node name="Day_smokehole_1" type="OmniLight3D" parent="." unique_id=1748421767]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.065, 0.9, -1.468)
+light_color = Color(0.9529412, 0.92156863, 0.8666667, 1)
+light_energy = 0.45
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 7.0
+omni_attenuation = 2.0
+metadata/kind = "day"
+
+[node name="Day_door" type="OmniLight3D" parent="." unique_id=2001299403]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3, -0.6)
+light_color = Color(0.9647059, 0.93333334, 0.8862745, 1)
+light_energy = 0.8
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 7.0
+omni_attenuation = 2.0
+metadata/kind = "day"
+
+[node name="Coals_0" type="MeshInstance3D" parent="." unique_id=541774001]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.065, 0.06, -1.468)
+material_override = SubResource("ShaderMaterial_n40wg")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_5hdjo")
+
+[node name="Fire_0_0" type="MeshInstance3D" parent="." unique_id=1225291044]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0035692193, 0.14, -1.4344403)
+material_override = SubResource("ShaderMaterial_2isbh")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_pd6pg")
+
+[node name="Fire_0_1" type="MeshInstance3D" parent="." unique_id=1499352498]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.124779016, 0.14, -1.4315794)
+material_override = SubResource("ShaderMaterial_ypogr")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_i38pc")
+
+[node name="Fire_0_2" type="MeshInstance3D" parent="." unique_id=227187668]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.06665176, 0.14, -1.5379806)
+material_override = SubResource("ShaderMaterial_lwt4o")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_hegpl")
+
+[node name="Flame_5" type="MeshInstance3D" parent="." unique_id=252392623]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.492, 1.405, -3.398)
+material_override = SubResource("ShaderMaterial_xh1hx")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_tngcw")
+metadata/dusk = true
+
+[node name="Shaft" type="MeshInstance3D" parent="." unique_id=1336074174]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.065, 1.0275, -1.468)
+material_override = SubResource("ShaderMaterial_iep7r")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_188y3")
+metadata/shaft = true
+
+[node name="Tea" type="Node3D" parent="." unique_id=1549219589]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.685, 0.24, -1.27)
+script = ExtResource("5_w2rkm")
+metadata/r = 0.06
+metadata/stand = 0.0
+metadata/thin = true
+metadata/vessel = "ladle"
+metadata/host = Vector3(0, -0.24, 0.52)

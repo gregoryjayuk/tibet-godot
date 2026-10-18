@@ -1,0 +1,71 @@
+{
+  "about": "The named eight's default days in M1's slice (docs/plan/05-people.md, 4.2; M1 sprint 6, step 3), read by tools/town/graph.py into the street graph's walkers. Each stop: [place, arrive, leave, how, loops, seat] in game minutes from midnight; place a graph anchor (their names in docs/town/street-graph-report.md) or a house; how: stand, talk, sit, cross (cross-legged on a Tibetan bench or the floor; ISS-088), crouch, inside (also: away beyond the slice, out of sight at its edge), mani (loops round the wall), wheel; seat: where at the place (talkers:<tread>[:<across>], a tread of the talkers' steps, counted from the bottom, and metres east of the stair's axis; pitch, Pasang's seat block; pitch_helper, crouched by his stone; dechen_gate, in Dechen-tsang's gateway; door, at the house's door; stall:<k>[:<along>], behind the k-th fuel stall's counter from the west), or null for the place itself. Arrivals are the schedule; TownSim leaves each place as late as the next arrival allows. Chapter 05's days were written in real minutes: at the clock's 6:1 a walk takes six times as much of the day (Kalsang's spring is 270 m and 123 steps above her house, nearly an hour of game time), so the days keep their arrival times and drop repeats (her five water trips are two, and Pasang, 63, is home from his evening round of the barkor at 18:45, not 17:15; 26 Sep 2026). Where 4.2 puts someone beyond the slice (the castle court, the camp, the Landing, Hejie, Tathang), they walk to its edge (the Yak Gate or the Sky Stair's top) and are away until they come back; 17:15 on the roofs is indoors until the roofs have people. Since M2 sprint 11, step 5 the castle is on the walkers' ground: the headman goes up its steps (castle_door) to sit at the Pönpo's side at his morning hearing (world/samkha_people.gd draws him there) and when he is sent for at 15:15.",
+  "people": {
+    "achak_dolkar": {"home": "dechen", "pace": 1.05, "up": 0.75, "down": 0.5, "day": [
+      ["dechen", 0, 820, "inside", 0, null],
+      ["dechen", 830, 846, "talk", 0, "room:dechen_tibetan:spot:1.1:1.5:20"],
+      ["dechen", 852, 866, "talk", 0, "room:dechen_chinese:spot:-1.3:2.2:0"],
+      ["dechen", 872, 880, "talk", 0, "room:dechen_tibetan:spot:1.1:1.5:20"],
+      ["yak_gate", 900, 974, "inside", 0, null],
+      ["dechen", 985, 1010, "talk", 0, "dechen_gate"],
+      ["dechen", 1020, 1031, "talk", 0, "roof:-4.3:20.2:270"],
+      ["dechen", 1046, 1050, "stand", 0, "room:dechen_dolkar:spot:-1.15:3.2:0"],
+      ["dechen", 1060, 1088, "cross", 0, "room:dechen_tibetan:seat:1"],
+      ["dechen", 1100, 1440, "inside", 0, null]]},
+    "yang_shouren": {"home": "dechen", "pace": 0.95, "up": 0.8, "down": 0.55, "day": [
+      ["dechen", 0, 799, "inside", 0, null],
+      ["dechen", 800, 812, "stand", 0, "dechen_gate"],
+      ["dechen", 822, 1140, "sit", 0, "room:dechen_chinese:seat:3"],
+      ["dechen", 1150, 1440, "inside", 0, null]]},
+    "sonam_wangyal": {"home": "headman", "pace": 1.0, "up": 0.8, "down": 0.55, "day": [
+      ["headman", 0, 395, "inside", 0, null],
+      ["headman", 402, 420, "cross", 0, "room:headman_kitchen:seat:4"],
+      ["castle_door", 450, 706, "inside", 0, null],
+      ["headman", 735, 762, "cross", 0, "room:headman_kitchen:seat:4"],
+      ["headman", 772, 905, "inside", 0, null],
+      ["castle_door", 925, 955, "inside", 0, null],
+      ["talkers", 985, 1030, "sit", 0, "talkers:2:-4"],
+      ["headman", 1080, 1200, "cross", 0, "room:headman_kitchen:seat:4"],
+      ["headman", 1210, 1440, "inside", 0, null]]},
+    "pasang_carver": {"home": "H-SHL-020", "pace": 0.72, "up": 1.1, "down": 0.7, "day": [
+      ["H-SHL-020", 0, 280, "inside", 0, null],
+      ["mani", 370, 420, "mani", 1, null],
+      ["pitch", 480, 955, "sit", 0, "pitch"],
+      ["mani", 985, 1030, "mani", 2, null],
+      ["H-SHL-020", 1125, 1440, "inside", 0, null]]},
+    "kalsang_drolma": {"home": "H-SHL-078", "pace": 1.05, "up": 0.7, "down": 0.5, "day": [
+      ["H-SHL-078", 0, 250, "inside", 0, null],
+      ["spring", 330, 345, "stand", 0, null],
+      ["H-SHL-078", 405, 420, "inside", 0, null],
+      ["stalls", 485, 720, "talk", 0, "stall:0"],
+      ["H-SHL-078", 800, 855, "stand", 0, "door"],
+      ["spring", 930, 945, "stand", 0, null],
+      ["H-SHL-078", 1005, 1440, "inside", 0, null]]},
+    "tsomo_nomad": {"home": "stair_top", "pace": 1.0, "up": 0.8, "down": 0.5, "day": [
+      ["stair_top", 0, 455, "inside", 0, null],
+      ["stalls", 510, 715, "talk", 0, "stall:2:2.2"],
+      ["stair_top", 790, 1440, "inside", 0, null]]},
+    "ngodrup_dedpon": {"home": "yak_gate", "pace": 1.15, "up": 0.65, "down": 0.45, "day": [
+      ["yak_gate", 0, 600, "inside", 0, null],
+      ["dechen", 620, 690, "inside", 0, null],
+      ["yak_gate", 705, 790, "inside", 0, null],
+      ["dechen", 815, 965, "cross", 0, "room:dechen_tibetan:seat:2"],
+      ["yak_gate", 990, 1250, "inside", 0, null],
+      ["dechen", 1266, 1308, "cross", 0, "dyard:1.5:10.6:248"],
+      ["dechen", 1318, 1380, "inside", 0, null],
+      ["yak_gate", 1395, 1440, "inside", 0, null]]},
+    "nyima_boy": {"home": "H-SHL-044", "pace": 1.2, "up": 0.55, "down": 0.4, "day": [
+      ["H-SHL-044", 0, 355, "inside", 0, null],
+      ["tailor", 375, 380, "stand", 0, null],
+      ["saddler", 395, 400, "stand", 0, null],
+      ["turner", 415, 420, "stand", 0, null],
+      ["H-SHL-044", 440, 470, "inside", 0, null],
+      ["stalls", 480, 590, "talk", 0, "stall:1:0.8"],
+      ["yak_gate", 610, 645, "inside", 0, null],
+      ["talkers", 665, 780, "crouch", 0, "talkers:9:5"],
+      ["H-SHL-044", 800, 840, "inside", 0, null],
+      ["pitch", 885, 908, "crouch", 0, "pitch_helper"],
+      ["tsongra", 960, 1030, "stand", 0, null],
+      ["H-SHL-044", 1045, 1440, "inside", 0, null]]}
+  }
+}

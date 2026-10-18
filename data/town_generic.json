@@ -1,0 +1,3172 @@
+{
+ "about": "Generic houses laid out by tools/town/builder.py (first cut; regenerate, never edit by hand). Positions in the town grid; z is the house's pad, the stable floor.",
+ "houses": [
+  {
+   "id": "H-SHL-001",
+   "type": "B",
+   "variant": "B1",
+   "district": "shol",
+   "quarter": "shol.tsongra",
+   "seed": 6,
+   "pos": [
+    -13.4,
+    27.0,
+    2672.2
+   ],
+   "rot_deg": 189.6,
+   "footprint": [
+    9.3,
+    8.1
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pl"
+  },
+  {
+   "id": "H-SHL-002",
+   "type": "B",
+   "variant": "B1",
+   "district": "shol",
+   "quarter": "shol.tsongra",
+   "seed": 5,
+   "pos": [
+    -22.8,
+    28.7,
+    2672.4
+   ],
+   "rot_deg": 189.6,
+   "footprint": [
+    9.7,
+    8.1
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pr"
+  },
+  {
+   "id": "H-SHL-003",
+   "type": "B",
+   "variant": "B1",
+   "district": "shol",
+   "quarter": "shol.tsongra",
+   "seed": 6,
+   "pos": [
+    11.2,
+    36.9,
+    2675.4
+   ],
+   "rot_deg": 193.5,
+   "footprint": [
+    9.2,
+    8.2
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-004",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 3,
+   "pos": [
+    15.7,
+    50.4,
+    2680.7
+   ],
+   "rot_deg": 192.0,
+   "footprint": [
+    9.7,
+    8.0
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-005",
+   "type": "B",
+   "variant": "B1",
+   "district": "shol",
+   "quarter": "shol.tsongra",
+   "seed": 5,
+   "pos": [
+    24.3,
+    33.9,
+    2677.5
+   ],
+   "rot_deg": 187.7,
+   "footprint": [
+    9.9,
+    8.0
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-006",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 3,
+   "pos": [
+    -45.2,
+    45.9,
+    2673.6
+   ],
+   "rot_deg": 189.0,
+   "footprint": [
+    9.9,
+    8.3
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pl"
+  },
+  {
+   "id": "H-SHL-007",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 1,
+   "pos": [
+    -45.3,
+    32.1,
+    2667.9
+   ],
+   "rot_deg": 190.6,
+   "footprint": [
+    9.8,
+    8.1
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-008",
+   "type": "B",
+   "variant": "B1",
+   "district": "shol",
+   "quarter": "shol.tsongra",
+   "seed": 1,
+   "pos": [
+    -39.1,
+    17.3,
+    2666.3
+   ],
+   "rot_deg": 193.4,
+   "footprint": [
+    9.1,
+    8.0
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-009",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 5,
+   "pos": [
+    -30.2,
+    72.7,
+    2689.2
+   ],
+   "rot_deg": 194.0,
+   "footprint": [
+    9.5,
+    8.3
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-010",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 4,
+   "pos": [
+    -44.1,
+    60.9,
+    2681.9
+   ],
+   "rot_deg": 191.4,
+   "footprint": [
+    9.6,
+    8.2
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-011",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 6,
+   "pos": [
+    23.3,
+    62.3,
+    2684.3
+   ],
+   "rot_deg": 189.1,
+   "footprint": [
+    9.6,
+    8.1
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-012",
+   "type": "B",
+   "variant": "B1",
+   "district": "shol",
+   "quarter": "shol.tsongra",
+   "seed": 3,
+   "pos": [
+    -32.5,
+    1.5,
+    2662.7
+   ],
+   "rot_deg": 186.3,
+   "footprint": [
+    9.0,
+    7.8
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pl"
+  },
+  {
+   "id": "H-SHL-013",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 1,
+   "pos": [
+    -54.6,
+    47.5,
+    2672.4
+   ],
+   "rot_deg": 189.0,
+   "footprint": [
+    9.3,
+    8.3
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pb"
+  },
+  {
+   "id": "H-SHL-014",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 4,
+   "pos": [
+    -21.8,
+    84.5,
+    2695.5
+   ],
+   "rot_deg": 190.0,
+   "footprint": [
+    9.9,
+    8.2
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-015",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 5,
+   "pos": [
+    -43.1,
+    73.9,
+    2689.2
+   ],
+   "rot_deg": 190.8,
+   "footprint": [
+    9.3,
+    8.3
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pl"
+  },
+  {
+   "id": "H-SHL-016",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 5,
+   "pos": [
+    37.7,
+    32.3,
+    2680.4
+   ],
+   "rot_deg": 193.0,
+   "footprint": [
+    9.4,
+    8.0
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pr"
+  },
+  {
+   "id": "H-SHL-017",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 6,
+   "pos": [
+    -58.0,
+    34.0,
+    2665.2
+   ],
+   "rot_deg": 192.7,
+   "footprint": [
+    9.6,
+    8.4
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pl"
+  },
+  {
+   "id": "H-SHL-018",
+   "type": "B",
+   "variant": "B1",
+   "district": "shol",
+   "quarter": "shol.tsongra",
+   "seed": 1,
+   "pos": [
+    -41.8,
+    3.1,
+    2663.4
+   ],
+   "rot_deg": 186.3,
+   "footprint": [
+    9.8,
+    7.8
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pr"
+  },
+  {
+   "id": "H-SHL-020",
+   "type": "B",
+   "variant": "B1",
+   "district": "shol",
+   "quarter": "shol.tsongra",
+   "seed": 3,
+   "pos": [
+    35.9,
+    17.4,
+    2672.5
+   ],
+   "rot_deg": 191.3,
+   "footprint": [
+    9.1,
+    8.4
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-021",
+   "type": "B",
+   "variant": "B3",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 1,
+   "pos": [
+    -57.7,
+    62.0,
+    2680.8
+   ],
+   "rot_deg": 190.5,
+   "footprint": [
+    9.5,
+    8.3
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-022",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 3,
+   "pos": [
+    -64.0,
+    49.2,
+    2670.7
+   ],
+   "rot_deg": 189.0,
+   "footprint": [
+    9.9,
+    8.3
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "party": "pr"
+  },
+  {
+   "id": "H-SHL-023",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 6,
+   "pos": [
+    -52.5,
+    75.5,
+    2689.0
+   ],
+   "rot_deg": 190.8,
+   "footprint": [
+    9.8,
+    8.3
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pb"
+  },
+  {
+   "id": "H-SHL-024",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 1,
+   "pos": [
+    47.2,
+    43.9,
+    2686.4
+   ],
+   "rot_deg": 187.6,
+   "footprint": [
+    9.7,
+    8.0
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-025",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 1,
+   "pos": [
+    -67.3,
+    35.6,
+    2662.6
+   ],
+   "rot_deg": 192.7,
+   "footprint": [
+    9.2,
+    8.4
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "party": "pr"
+  },
+  {
+   "id": "H-SHL-026",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 3,
+   "pos": [
+    47.2,
+    30.7,
+    2681.4
+   ],
+   "rot_deg": 193.0,
+   "footprint": [
+    9.8,
+    8.0
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pb"
+  },
+  {
+   "id": "H-SHL-028",
+   "type": "B",
+   "variant": "B1",
+   "district": "shol",
+   "quarter": "shol.tsongra",
+   "seed": 6,
+   "pos": [
+    38.7,
+    3.5,
+    2666.7
+   ],
+   "rot_deg": 188.5,
+   "footprint": [
+    9.9,
+    7.9
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pr"
+  },
+  {
+   "id": "H-SHL-029",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 2,
+   "pos": [
+    41.3,
+    73.9,
+    2689.4
+   ],
+   "rot_deg": 186.8,
+   "footprint": [
+    9.9,
+    8.0
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-031",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 6,
+   "pos": [
+    48.4,
+    14.9,
+    2672.9
+   ],
+   "rot_deg": 191.0,
+   "footprint": [
+    9.9,
+    8.1
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pr"
+  },
+  {
+   "id": "H-SHL-032",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 4,
+   "pos": [
+    -61.7,
+    77.2,
+    2688.3
+   ],
+   "rot_deg": 190.8,
+   "footprint": [
+    9.1,
+    8.3
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "party": "pr"
+  },
+  {
+   "id": "H-SHL-033",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 1,
+   "pos": [
+    -70.5,
+    65.3,
+    2679.6
+   ],
+   "rot_deg": 193.4,
+   "footprint": [
+    9.2,
+    8.4
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pl"
+  },
+  {
+   "id": "H-SHL-035",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 4,
+   "pos": [
+    54.8,
+    56.5,
+    2689.7
+   ],
+   "rot_deg": 186.2,
+   "footprint": [
+    9.7,
+    8.3
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pr"
+  },
+  {
+   "id": "H-SHL-036",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 2,
+   "pos": [
+    56.5,
+    29.0,
+    2681.6
+   ],
+   "rot_deg": 193.0,
+   "footprint": [
+    9.1,
+    8.0
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pl"
+  },
+  {
+   "id": "H-SHL-038",
+   "type": "B",
+   "variant": "B1",
+   "district": "shol",
+   "quarter": "shol.tsongra",
+   "seed": 2,
+   "pos": [
+    48.1,
+    1.9,
+    2667.1
+   ],
+   "rot_deg": 188.5,
+   "footprint": [
+    9.4,
+    7.9
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pl"
+  },
+  {
+   "id": "H-SHL-039",
+   "type": "B",
+   "variant": "B1",
+   "district": "shol",
+   "quarter": "shol.tsongra",
+   "seed": 1,
+   "pos": [
+    -26.5,
+    -27.6,
+    2652.0
+   ],
+   "rot_deg": 186.4,
+   "footprint": [
+    9.2,
+    8.3
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-040",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 4,
+   "pos": [
+    59.6,
+    41.9,
+    2687.2
+   ],
+   "rot_deg": 187.2,
+   "footprint": [
+    9.5,
+    8.1
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-041",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 2,
+   "pos": [
+    -80.0,
+    38.1,
+    2659.3
+   ],
+   "rot_deg": 186.7,
+   "footprint": [
+    9.1,
+    8.2
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-042",
+   "type": "B",
+   "variant": "B1",
+   "district": "shol",
+   "quarter": "shol.tsongra",
+   "seed": 1,
+   "pos": [
+    -13.3,
+    -30.1,
+    2652.6
+   ],
+   "rot_deg": 186.7,
+   "footprint": [
+    9.3,
+    8.2
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pr"
+  },
+  {
+   "id": "H-SHL-043",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 3,
+   "pos": [
+    53.5,
+    70.8,
+    2691.0
+   ],
+   "rot_deg": 187.6,
+   "footprint": [
+    9.0,
+    8.2
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-044",
+   "type": "B",
+   "variant": "B1",
+   "district": "shol",
+   "quarter": "shol.tsongra",
+   "seed": 2,
+   "pos": [
+    -73.1,
+    8.0,
+    2657.8
+   ],
+   "rot_deg": 187.1,
+   "footprint": [
+    9.3,
+    8.1
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-045",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 1,
+   "pos": [
+    -80.0,
+    23.9,
+    2655.0
+   ],
+   "rot_deg": 189.6,
+   "footprint": [
+    9.2,
+    8.4
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-046",
+   "type": "B",
+   "variant": "B1",
+   "district": "shol",
+   "quarter": "shol.tsongra",
+   "seed": 2,
+   "pos": [
+    -4.1,
+    -31.7,
+    2653.3
+   ],
+   "rot_deg": 186.7,
+   "footprint": [
+    9.4,
+    8.2
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pb"
+  },
+  {
+   "id": "H-SHL-047",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 4,
+   "pos": [
+    57.8,
+    13.2,
+    2672.8
+   ],
+   "rot_deg": 191.0,
+   "footprint": [
+    9.3,
+    8.1
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pl"
+  },
+  {
+   "id": "H-SHL-049",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 5,
+   "pos": [
+    48.3,
+    86.3,
+    2693.6
+   ],
+   "rot_deg": 190.3,
+   "footprint": [
+    9.7,
+    8.0
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-050",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 2,
+   "pos": [
+    -79.7,
+    67.0,
+    2678.1
+   ],
+   "rot_deg": 193.4,
+   "footprint": [
+    9.6,
+    8.4
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "party": "pr"
+  },
+  {
+   "id": "H-SHL-051",
+   "type": "B",
+   "variant": "B1",
+   "district": "shol",
+   "quarter": "shol.tsongra",
+   "seed": 4,
+   "pos": [
+    5.4,
+    -33.4,
+    2654.4
+   ],
+   "rot_deg": 186.7,
+   "footprint": [
+    9.8,
+    8.2
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pl"
+  },
+  {
+   "id": "H-SHL-052",
+   "type": "B",
+   "variant": "B3",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 2,
+   "pos": [
+    -73.9,
+    79.7,
+    2687.0
+   ],
+   "rot_deg": 191.6,
+   "footprint": [
+    9.7,
+    8.1
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-053",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 1,
+   "pos": [
+    64.0,
+    54.8,
+    2691.5
+   ],
+   "rot_deg": 186.2,
+   "footprint": [
+    9.0,
+    8.3
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "party": "pl"
+  },
+  {
+   "id": "H-SHL-054",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 2,
+   "pos": [
+    -25.5,
+    114.0,
+    2712.4
+   ],
+   "rot_deg": 192.9,
+   "footprint": [
+    9.8,
+    8.1
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-055",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.lower",
+   "seed": 1,
+   "pos": [
+    -72.0,
+    -9.35,
+    2654.65
+   ],
+   "rot_deg": 180.0,
+   "footprint": [
+    9.3,
+    8.1
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "way": "R-06"
+  },
+  {
+   "id": "H-SHL-056",
+   "type": "A",
+   "variant": "A3",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 3,
+   "pos": [
+    -95.0,
+    205.0,
+    2750.4
+   ],
+   "rot_deg": 190.0,
+   "footprint": [
+    10.2,
+    8.6
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-057",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 8,
+   "pos": [
+    -37.1,
+    187.5,
+    2742.6
+   ],
+   "rot_deg": 187.0,
+   "footprint": [
+    9.5,
+    9.4
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-058",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 5,
+   "pos": [
+    -34.8,
+    173.3,
+    2735.9
+   ],
+   "rot_deg": 193.8,
+   "footprint": [
+    9.9,
+    8.9
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-059",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 6,
+   "pos": [
+    -52.4,
+    190.1,
+    2742.2
+   ],
+   "rot_deg": 185.7,
+   "footprint": [
+    9.9,
+    9.1
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-060",
+   "type": "A",
+   "variant": "A4",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 7,
+   "pos": [
+    -49.4,
+    175.3,
+    2735.2
+   ],
+   "rot_deg": 184.4,
+   "footprint": [
+    9.8,
+    8.9
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-061",
+   "type": "A",
+   "variant": "A4",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 1,
+   "pos": [
+    -26.1,
+    185.6,
+    2742.9
+   ],
+   "rot_deg": 187.0,
+   "footprint": [
+    9.6,
+    9.0
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-062",
+   "type": "A",
+   "variant": "A2",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 2,
+   "pos": [
+    -42.3,
+    202.0,
+    2748.9
+   ],
+   "rot_deg": 186.0,
+   "footprint": [
+    9.9,
+    9.2
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-063",
+   "type": "A",
+   "variant": "A2",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 1,
+   "pos": [
+    -26.8,
+    199.9,
+    2750.4
+   ],
+   "rot_deg": 195.9,
+   "footprint": [
+    9.7,
+    8.5
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-064",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 9,
+   "pos": [
+    -60.5,
+    177.2,
+    2734.9
+   ],
+   "rot_deg": 184.4,
+   "footprint": [
+    10.2,
+    8.4
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-065",
+   "type": "A",
+   "variant": "A4",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 2,
+   "pos": [
+    -53.4,
+    204.2,
+    2748.8
+   ],
+   "rot_deg": 186.0,
+   "footprint": [
+    10.2,
+    8.9
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-066",
+   "type": "A",
+   "variant": "A2",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 9,
+   "pos": [
+    -63.7,
+    191.9,
+    2742.1
+   ],
+   "rot_deg": 185.7,
+   "footprint": [
+    9.8,
+    8.5
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-067",
+   "type": "A",
+   "variant": "A4",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 9,
+   "pos": [
+    -36.4,
+    159.1,
+    2728.9
+   ],
+   "rot_deg": 184.9,
+   "footprint": [
+    10.5,
+    9.2
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-068",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 3,
+   "pos": [
+    -51.2,
+    161.0,
+    2728.0
+   ],
+   "rot_deg": 186.8,
+   "footprint": [
+    9.7,
+    8.8
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-069",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 2,
+   "pos": [
+    -37.5,
+    215.5,
+    2756.0
+   ],
+   "rot_deg": 191.0,
+   "footprint": [
+    9.4,
+    9.0
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-070",
+   "type": "A",
+   "variant": "A4",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 8,
+   "pos": [
+    -62.2,
+    162.8,
+    2727.7
+   ],
+   "rot_deg": 186.8,
+   "footprint": [
+    10.1,
+    8.5
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-071",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 1,
+   "pos": [
+    -25.5,
+    156.0,
+    2729.4
+   ],
+   "rot_deg": 184.9,
+   "footprint": [
+    9.4,
+    8.5
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-072",
+   "type": "A",
+   "variant": "A4",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 3,
+   "pos": [
+    -67.7,
+    206.6,
+    2749.0
+   ],
+   "rot_deg": 193.6,
+   "footprint": [
+    9.6,
+    8.5
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-073",
+   "type": "A",
+   "variant": "A2",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 5,
+   "pos": [
+    -52.5,
+    218.3,
+    2755.7
+   ],
+   "rot_deg": 188.2,
+   "footprint": [
+    10.3,
+    9.1
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-074",
+   "type": "A",
+   "variant": "A2",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 6,
+   "pos": [
+    -76.1,
+    180.1,
+    2734.8
+   ],
+   "rot_deg": 193.3,
+   "footprint": [
+    10.1,
+    8.5
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-075",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 7,
+   "pos": [
+    -42.9,
+    146.2,
+    2722.2
+   ],
+   "rot_deg": 192.8,
+   "footprint": [
+    9.5,
+    9.0
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-076",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 4,
+   "pos": [
+    -78.5,
+    194.3,
+    2742.2
+   ],
+   "rot_deg": 184.9,
+   "footprint": [
+    9.5,
+    8.4
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-077",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 8,
+   "pos": [
+    -76.4,
+    165.9,
+    2727.7
+   ],
+   "rot_deg": 192.5,
+   "footprint": [
+    9.6,
+    9.3
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-078",
+   "type": "A",
+   "variant": "A3",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 2,
+   "pos": [
+    -57.7,
+    147.1,
+    2720.9
+   ],
+   "rot_deg": 194.0,
+   "footprint": [
+    10.4,
+    9.4
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-079",
+   "type": "A",
+   "variant": "A2",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 3,
+   "pos": [
+    -32.4,
+    142.6,
+    2722.5
+   ],
+   "rot_deg": 192.8,
+   "footprint": [
+    9.7,
+    8.5
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-080",
+   "type": "A",
+   "variant": "A2",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 8,
+   "pos": [
+    4.6,
+    179.6,
+    2743.2
+   ],
+   "rot_deg": 187.5,
+   "footprint": [
+    9.7,
+    8.7
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-081",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 3,
+   "pos": [
+    -78.9,
+    208.5,
+    2750.2
+   ],
+   "rot_deg": 193.6,
+   "footprint": [
+    10.0,
+    8.8
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-082",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 5,
+   "pos": [
+    -87.3,
+    182.1,
+    2735.2
+   ],
+   "rot_deg": 193.3,
+   "footprint": [
+    9.5,
+    9.0
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-083",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 1,
+   "pos": [
+    -49.0,
+    232.4,
+    2762.7
+   ],
+   "rot_deg": 186.3,
+   "footprint": [
+    10.4,
+    8.8
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-084",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 2,
+   "pos": [
+    -73.5,
+    149.7,
+    2720.5
+   ],
+   "rot_deg": 189.1,
+   "footprint": [
+    9.9,
+    8.7
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-085",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 9,
+   "pos": [
+    2.6,
+    209.4,
+    2762.5
+   ],
+   "rot_deg": 189.8,
+   "footprint": [
+    9.6,
+    9.1
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-086",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 6,
+   "pos": [
+    -3.6,
+    224.5,
+    2766.7
+   ],
+   "rot_deg": 192.8,
+   "footprint": [
+    10.1,
+    9.1
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-087",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 2,
+   "pos": [
+    -91.2,
+    168.6,
+    2727.8
+   ],
+   "rot_deg": 187.7,
+   "footprint": [
+    9.5,
+    8.5
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-088",
+   "type": "A",
+   "variant": "A4",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 6,
+   "pos": [
+    -52.9,
+    132.4,
+    2714.6
+   ],
+   "rot_deg": 186.7,
+   "footprint": [
+    10.5,
+    9.2
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-089",
+   "type": "A",
+   "variant": "A3",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 4,
+   "pos": [
+    -40.8,
+    130.0,
+    2715.3
+   ],
+   "rot_deg": 186.7,
+   "footprint": [
+    10.5,
+    9.0
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-090",
+   "type": "A",
+   "variant": "A2",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 7,
+   "pos": [
+    3.7,
+    151.1,
+    2729.9
+   ],
+   "rot_deg": 191.5,
+   "footprint": [
+    10.3,
+    9.1
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-091",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 4,
+   "pos": [
+    12.0,
+    164.8,
+    2735.8
+   ],
+   "rot_deg": 192.3,
+   "footprint": [
+    10.4,
+    8.7
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-092",
+   "type": "A",
+   "variant": "A3",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 8,
+   "pos": [
+    16.1,
+    178.3,
+    2743.5
+   ],
+   "rot_deg": 187.5,
+   "footprint": [
+    10.1,
+    9.2
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-093",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 7,
+   "pos": [
+    -67.9,
+    135.0,
+    2714.3
+   ],
+   "rot_deg": 187.2,
+   "footprint": [
+    9.6,
+    9.3
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-094",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 3,
+   "pos": [
+    -88.9,
+    153.4,
+    2720.5
+   ],
+   "rot_deg": 193.6,
+   "footprint": [
+    10.4,
+    8.9
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-095",
+   "type": "A",
+   "variant": "A4",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 5,
+   "pos": [
+    7.9,
+    221.5,
+    2769.5
+   ],
+   "rot_deg": 192.8,
+   "footprint": [
+    10.1,
+    9.1
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-096",
+   "type": "A",
+   "variant": "A3",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 9,
+   "pos": [
+    17.5,
+    205.1,
+    2763.7
+   ],
+   "rot_deg": 190.9,
+   "footprint": [
+    10.6,
+    9.0
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-097",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 8,
+   "pos": [
+    -101.9,
+    184.6,
+    2737.0
+   ],
+   "rot_deg": 195.3,
+   "footprint": [
+    10.1,
+    8.6
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-098",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 6,
+   "pos": [
+    -82.0,
+    139.0,
+    2714.5
+   ],
+   "rot_deg": 193.2,
+   "footprint": [
+    10.1,
+    8.9
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-099",
+   "type": "A",
+   "variant": "A4",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 4,
+   "pos": [
+    0.7,
+    236.9,
+    2772.5
+   ],
+   "rot_deg": 192.3,
+   "footprint": [
+    10.6,
+    8.6
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-100",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 7,
+   "pos": [
+    -94.1,
+    225.1,
+    2764.0
+   ],
+   "rot_deg": 192.7,
+   "footprint": [
+    10.0,
+    9.0
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-101",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 9,
+   "pos": [
+    -106.0,
+    170.4,
+    2728.2
+   ],
+   "rot_deg": 190.9,
+   "footprint": [
+    10.6,
+    8.5
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-102",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 1,
+   "pos": [
+    9.4,
+    136.7,
+    2722.9
+   ],
+   "rot_deg": 189.6,
+   "footprint": [
+    9.6,
+    9.0
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-103",
+   "type": "A",
+   "variant": "A3",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 1,
+   "pos": [
+    19.1,
+    148.8,
+    2728.9
+   ],
+   "rot_deg": 184.6,
+   "footprint": [
+    9.8,
+    8.8
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-104",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 5,
+   "pos": [
+    -105.3,
+    156.4,
+    2720.8
+   ],
+   "rot_deg": 186.8,
+   "footprint": [
+    10.5,
+    9.1
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-105",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 4,
+   "pos": [
+    -96.5,
+    141.4,
+    2714.0
+   ],
+   "rot_deg": 188.0,
+   "footprint": [
+    10.1,
+    9.2
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-106",
+   "type": "A",
+   "variant": "A3",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 6,
+   "pos": [
+    30.9,
+    173.9,
+    2743.6
+   ],
+   "rot_deg": 185.3,
+   "footprint": [
+    10.5,
+    8.4
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-107",
+   "type": "A",
+   "variant": "A4",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 7,
+   "pos": [
+    27.8,
+    160.6,
+    2735.6
+   ],
+   "rot_deg": 185.1,
+   "footprint": [
+    10.5,
+    9.0
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-108",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 4,
+   "pos": [
+    -109.1,
+    213.8,
+    2758.9
+   ],
+   "rot_deg": 191.7,
+   "footprint": [
+    10.2,
+    9.3
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-109",
+   "type": "A",
+   "variant": "A2",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 4,
+   "pos": [
+    -116.5,
+    187.3,
+    2739.9
+   ],
+   "rot_deg": 195.5,
+   "footprint": [
+    9.5,
+    8.7
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-110",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.upper",
+   "seed": 6,
+   "pos": [
+    -120.1,
+    173.8,
+    2730.8
+   ],
+   "rot_deg": 187.0,
+   "footprint": [
+    9.9,
+    8.5
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-136",
+   "type": "E",
+   "variant": "E1",
+   "district": "shol",
+   "quarter": "shol.nub",
+   "seed": 1,
+   "pos": [
+    -296.0,
+    45.2,
+    2622.8
+   ],
+   "rot_deg": 187.9,
+   "footprint": [
+    6.1,
+    4.7
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-137",
+   "type": "E",
+   "variant": "E1",
+   "district": "shol",
+   "quarter": "shol.nub",
+   "seed": 1,
+   "pos": [
+    -287.7,
+    53.6,
+    2631.4
+   ],
+   "rot_deg": 183.7,
+   "footprint": [
+    6.0,
+    5.0
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-138",
+   "type": "E",
+   "variant": "E1",
+   "district": "shol",
+   "quarter": "shol.nub",
+   "seed": 3,
+   "pos": [
+    -283.0,
+    41.8,
+    2625.5
+   ],
+   "rot_deg": 187.9,
+   "footprint": [
+    5.9,
+    4.8
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-139",
+   "type": "E",
+   "variant": "E1",
+   "district": "shol",
+   "quarter": "shol.nub",
+   "seed": 2,
+   "pos": [
+    -287.1,
+    33.7,
+    2619.0
+   ],
+   "rot_deg": 196.0,
+   "footprint": [
+    6.2,
+    5.0
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-140",
+   "type": "E",
+   "variant": "E1",
+   "district": "shol",
+   "quarter": "shol.nub",
+   "seed": 3,
+   "pos": [
+    -298.0,
+    25.4,
+    2609.5
+   ],
+   "rot_deg": 182.1,
+   "footprint": [
+    5.9,
+    4.7
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-141",
+   "type": "E",
+   "variant": "E1",
+   "district": "shol",
+   "quarter": "shol.nub",
+   "seed": 2,
+   "pos": [
+    -289.3,
+    24.1,
+    2612.3
+   ],
+   "rot_deg": 183.8,
+   "footprint": [
+    5.9,
+    4.7
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-142",
+   "type": "E",
+   "variant": "E1",
+   "district": "shol",
+   "quarter": "shol.nub",
+   "seed": 2,
+   "pos": [
+    -275.3,
+    50.7,
+    2633.5
+   ],
+   "rot_deg": 183.7,
+   "footprint": [
+    6.3,
+    4.6
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-143",
+   "type": "E",
+   "variant": "E1",
+   "district": "shol",
+   "quarter": "shol.nub",
+   "seed": 2,
+   "pos": [
+    -278.8,
+    31.3,
+    2620.6
+   ],
+   "rot_deg": 197.2,
+   "footprint": [
+    5.9,
+    5.1
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-144",
+   "type": "E",
+   "variant": "E1",
+   "district": "shol",
+   "quarter": "shol.nub",
+   "seed": 1,
+   "pos": [
+    -274.7,
+    40.0,
+    2627.2
+   ],
+   "rot_deg": 197.9,
+   "footprint": [
+    5.9,
+    4.8
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-145",
+   "type": "E",
+   "variant": "E1",
+   "district": "shol",
+   "quarter": "shol.nub",
+   "seed": 1,
+   "pos": [
+    -278.4,
+    61.1,
+    2639.3
+   ],
+   "rot_deg": 190.0,
+   "footprint": [
+    5.9,
+    5.3
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-146",
+   "type": "E",
+   "variant": "E1",
+   "district": "shol",
+   "quarter": "shol.nub",
+   "seed": 3,
+   "pos": [
+    -304.3,
+    16.2,
+    2601.1
+   ],
+   "rot_deg": 192.8,
+   "footprint": [
+    6.0,
+    5.2
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-147",
+   "type": "E",
+   "variant": "E1",
+   "district": "shol",
+   "quarter": "shol.nub",
+   "seed": 3,
+   "pos": [
+    -295.5,
+    15.2,
+    2604.6
+   ],
+   "rot_deg": 182.1,
+   "footprint": [
+    6.2,
+    5.0
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-148",
+   "type": "E",
+   "variant": "E1",
+   "district": "shol",
+   "quarter": "shol.nub",
+   "seed": 1,
+   "pos": [
+    -301.8,
+    75.3,
+    2640.9
+   ],
+   "rot_deg": 182.0,
+   "footprint": [
+    5.9,
+    5.0
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-149",
+   "type": "E",
+   "variant": "E1",
+   "district": "shol",
+   "quarter": "shol.nub",
+   "seed": 3,
+   "pos": [
+    -313.3,
+    18.0,
+    2597.8
+   ],
+   "rot_deg": 191.1,
+   "footprint": [
+    6.2,
+    5.2
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-150",
+   "type": "E",
+   "variant": "E1",
+   "district": "shol",
+   "quarter": "shol.nub",
+   "seed": 1,
+   "pos": [
+    -270.9,
+    29.5,
+    2622.3
+   ],
+   "rot_deg": 192.2,
+   "footprint": [
+    5.9,
+    5.1
+   ],
+   "storeys": 1,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-111",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 5,
+   "pos": [
+    170.6,
+    -18.0,
+    2692.7
+   ],
+   "rot_deg": 190.9,
+   "footprint": [
+    9.2,
+    8.6
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-112",
+   "type": "A",
+   "variant": "A2",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 7,
+   "pos": [
+    176.1,
+    -4.8,
+    2696.8
+   ],
+   "rot_deg": 188.7,
+   "footprint": [
+    9.2,
+    8.8
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-113",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 4,
+   "pos": [
+    175.1,
+    -32.3,
+    2687.0
+   ],
+   "rot_deg": 188.6,
+   "footprint": [
+    9.7,
+    8.1
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-114",
+   "type": "A",
+   "variant": "A3",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 7,
+   "pos": [
+    157.5,
+    -15.5,
+    2689.9
+   ],
+   "rot_deg": 191.7,
+   "footprint": [
+    9.8,
+    8.4
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-115",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 1,
+   "pos": [
+    162.5,
+    -31.3,
+    2686.9
+   ],
+   "rot_deg": 195.5,
+   "footprint": [
+    9.3,
+    8.4
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-116",
+   "type": "A",
+   "variant": "A4",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 6,
+   "pos": [
+    189.3,
+    -21.3,
+    2690.2
+   ],
+   "rot_deg": 190.9,
+   "footprint": [
+    9.1,
+    8.4
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-117",
+   "type": "A",
+   "variant": "A3",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 5,
+   "pos": [
+    189.2,
+    -7.0,
+    2695.9
+   ],
+   "rot_deg": 190.1,
+   "footprint": [
+    9.1,
+    9.0
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-118",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 4,
+   "pos": [
+    187.6,
+    -35.1,
+    2683.9
+   ],
+   "rot_deg": 188.5,
+   "footprint": [
+    9.9,
+    8.2
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "party": "pr"
+  },
+  {
+   "id": "H-SHL-119",
+   "type": "B",
+   "variant": "B3",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 3,
+   "pos": [
+    149.7,
+    -27.9,
+    2683.4
+   ],
+   "rot_deg": 195.6,
+   "footprint": [
+    10.0,
+    8.6
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-120",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 1,
+   "pos": [
+    154.7,
+    0.2,
+    2692.2
+   ],
+   "rot_deg": 185.9,
+   "footprint": [
+    9.2,
+    8.8
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-121",
+   "type": "A",
+   "variant": "A3",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 4,
+   "pos": [
+    176.4,
+    9.5,
+    2701.7
+   ],
+   "rot_deg": 193.4,
+   "footprint": [
+    9.5,
+    8.7
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-122",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 4,
+   "pos": [
+    144.6,
+    -12.6,
+    2683.4
+   ],
+   "rot_deg": 195.1,
+   "footprint": [
+    10.0,
+    8.2
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "party": "pl"
+  },
+  {
+   "id": "H-SHL-123",
+   "type": "A",
+   "variant": "A3",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 1,
+   "pos": [
+    189.3,
+    6.7,
+    2701.9
+   ],
+   "rot_deg": 186.6,
+   "footprint": [
+    9.2,
+    8.4
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-124",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 2,
+   "pos": [
+    202.0,
+    -9.5,
+    2692.2
+   ],
+   "rot_deg": 188.4,
+   "footprint": [
+    9.5,
+    8.9
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-125",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 1,
+   "pos": [
+    202.8,
+    -23.0,
+    2685.4
+   ],
+   "rot_deg": 191.6,
+   "footprint": [
+    9.6,
+    8.8
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pr"
+  },
+  {
+   "id": "H-SHL-126",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 3,
+   "pos": [
+    197.3,
+    -36.8,
+    2680.0
+   ],
+   "rot_deg": 188.5,
+   "footprint": [
+    9.8,
+    8.4
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pl"
+  },
+  {
+   "id": "H-SHL-127",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 7,
+   "pos": [
+    157.5,
+    12.9,
+    2697.1
+   ],
+   "rot_deg": 193.4,
+   "footprint": [
+    9.8,
+    8.8
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-128",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 4,
+   "pos": [
+    146.4,
+    -40.9,
+    2679.0
+   ],
+   "rot_deg": 186.4,
+   "footprint": [
+    9.6,
+    8.4
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pl"
+  },
+  {
+   "id": "H-SHL-129",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 6,
+   "pos": [
+    137.3,
+    -25.5,
+    2677.2
+   ],
+   "rot_deg": 187.7,
+   "footprint": [
+    9.3,
+    8.8
+   ],
+   "storeys": 3,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-130",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 2,
+   "pos": [
+    135.1,
+    -10.9,
+    2678.0
+   ],
+   "rot_deg": 195.1,
+   "footprint": [
+    9.3,
+    8.4
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pr"
+  },
+  {
+   "id": "H-SHL-131",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 9,
+   "pos": [
+    202.6,
+    4.7,
+    2699.4
+   ],
+   "rot_deg": 187.7,
+   "footprint": [
+    9.5,
+    8.6
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-132",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 1,
+   "pos": [
+    212.4,
+    -24.7,
+    2681.0
+   ],
+   "rot_deg": 191.6,
+   "footprint": [
+    9.9,
+    8.3
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pl"
+  },
+  {
+   "id": "H-SHL-133",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 3,
+   "pos": [
+    137.0,
+    -39.3,
+    2675.8
+   ],
+   "rot_deg": 186.4,
+   "footprint": [
+    9.3,
+    8.9
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "party": "pr"
+  },
+  {
+   "id": "H-SHL-134",
+   "type": "B",
+   "variant": "B2",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 3,
+   "pos": [
+    196.7,
+    -50.9,
+    2673.6
+   ],
+   "rot_deg": 184.7,
+   "footprint": [
+    9.8,
+    8.2
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SHL-135",
+   "type": "A",
+   "variant": "A1",
+   "district": "shol",
+   "quarter": "shol.ngakpa",
+   "seed": 8,
+   "pos": [
+    182.6,
+    22.2,
+    2709.6
+   ],
+   "rot_deg": 189.1,
+   "footprint": [
+    10.0,
+    8.2
+   ],
+   "storeys": 2,
+   "enterable": false
+  },
+  {
+   "id": "H-SAM-01",
+   "type": "B",
+   "variant": "B3",
+   "district": "samkha",
+   "quarter": "samkha.castle_lane",
+   "seed": 6,
+   "pos": [
+    -118.5,
+    -32.8,
+    2645.79
+   ],
+   "rot_deg": 210.4,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "yard": 1.5
+  },
+  {
+   "id": "H-SAM-02",
+   "type": "B",
+   "variant": "B2",
+   "district": "samkha",
+   "quarter": "samkha.castle_lane",
+   "seed": 2,
+   "pos": [
+    -125.1,
+    -44.0,
+    2645.79
+   ],
+   "rot_deg": 30.4,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "yard": 1.5
+  },
+  {
+   "id": "H-SAM-03",
+   "type": "B",
+   "variant": "B2",
+   "district": "samkha",
+   "quarter": "samkha.castle_lane",
+   "seed": 3,
+   "pos": [
+    -127.2,
+    -27.7,
+    2644.9
+   ],
+   "rot_deg": 210.4,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "yard": 1.5
+  },
+  {
+   "id": "H-SAM-04",
+   "type": "B",
+   "variant": "B2",
+   "district": "samkha",
+   "quarter": "samkha.castle_lane",
+   "seed": 5,
+   "pos": [
+    -133.7,
+    -38.9,
+    2644.9
+   ],
+   "rot_deg": 30.4,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "yard": 1.5
+  },
+  {
+   "id": "H-SAM-05",
+   "type": "B",
+   "variant": "B2",
+   "district": "samkha",
+   "quarter": "samkha.castle_lane",
+   "seed": 1,
+   "pos": [
+    -135.8,
+    -22.7,
+    2643.16
+   ],
+   "rot_deg": 210.4,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "yard": 1.5
+  },
+  {
+   "id": "H-SAM-06",
+   "type": "B",
+   "variant": "B2",
+   "district": "samkha",
+   "quarter": "samkha.castle_lane",
+   "seed": 4,
+   "pos": [
+    -142.4,
+    -33.9,
+    2643.16
+   ],
+   "rot_deg": 30.4,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "yard": 1.5
+  },
+  {
+   "id": "H-SAM-07",
+   "type": "B",
+   "variant": "B2",
+   "district": "samkha",
+   "quarter": "samkha.castle_lane",
+   "seed": 2,
+   "pos": [
+    -144.4,
+    -17.6,
+    2640.46
+   ],
+   "rot_deg": 210.4,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 2,
+   "enterable": false,
+   "yard": 1.5
+  },
+  {
+   "id": "H-SAM-08",
+   "type": "B",
+   "variant": "B2",
+   "district": "samkha",
+   "quarter": "samkha.castle_lane",
+   "seed": 4,
+   "pos": [
+    -151.0,
+    -28.8,
+    2640.46
+   ],
+   "rot_deg": 30.4,
+   "footprint": [
+    9.0,
+    8.0
+   ],
+   "storeys": 3,
+   "enterable": false,
+   "yard": 1.5
+  },
+  {
+   "id": "H-SAM-09",
+   "type": "E",
+   "variant": "E1",
+   "district": "samkha",
+   "quarter": "samkha.rock",
+   "seed": 1,
+   "pos": [
+    -126.0,
+    -64.0,
+    2644.12
+   ],
+   "rot_deg": 0.0,
+   "footprint": [
+    6.0,
+    5.0
+   ],
+   "storeys": 1,
+   "enterable": false,
+   "yard": 1.2
+  },
+  {
+   "id": "H-SAM-10",
+   "type": "E",
+   "variant": "E1",
+   "district": "samkha",
+   "quarter": "samkha.rock",
+   "seed": 1,
+   "pos": [
+    -132.5,
+    -64.0,
+    2642.77
+   ],
+   "rot_deg": 0.0,
+   "footprint": [
+    6.0,
+    5.0
+   ],
+   "storeys": 1,
+   "enterable": false,
+   "yard": 1.2
+  },
+  {
+   "id": "H-SAM-11",
+   "type": "E",
+   "variant": "E1",
+   "district": "samkha",
+   "quarter": "samkha.rock",
+   "seed": 2,
+   "pos": [
+    -139.0,
+    -64.0,
+    2641.12
+   ],
+   "rot_deg": 0.0,
+   "footprint": [
+    6.0,
+    5.0
+   ],
+   "storeys": 1,
+   "enterable": false,
+   "yard": 1.2
+  },
+  {
+   "id": "H-SAM-12",
+   "type": "E",
+   "variant": "E1",
+   "district": "samkha",
+   "quarter": "samkha.rock",
+   "seed": 3,
+   "pos": [
+    -145.5,
+    -64.0,
+    2639.35
+   ],
+   "rot_deg": 0.0,
+   "footprint": [
+    6.0,
+    5.0
+   ],
+   "storeys": 1,
+   "enterable": false,
+   "yard": 1.2
+  }
+ ]
+}

@@ -1,0 +1,7766 @@
+{
+ "about": "The G\u00f6nkor R-10 beyond its south stretch (tools/town/gonkor.py; M3 sprint 7, step 1; ISS-204): `lanes` its pieces in tools/terrain/pads.py's form, GK-<stretch>.<n> (E up the east side to the great wheel house's door, N on up round the north-east corner, behind the Labrang and down the north side round the wall's west end to the Gorge Stair's top, F along the face from the Gorge Stair's landing 23 to the 1,080 steps' forecourt, S from their landing 20 along the face to the south stretch's west end; `face` the face's pieces, `gallery` a timber gallery's deck), each `gonkor_way` its stretch; `loop` the way's points from the south stretch's east end round to its west end, as laid (anticlockwise: walk it backwards), with the Gorge Stair's last flight and the steps' last three that it walks; `stretches` what each found; `steps_gaps` the gaps in the 1,080 steps' landings' walls where it joins them (../tibet-blender export_lanes.py: [side, from, to]); `parapet_gaps` where it comes onto another way's landing, [its id, x0, y0, x1, y1]: that landing's parapet opened within a metre of the line (tools/town/walls.py); `marks` the places along it by name (x, y), for the routes. Regenerated with the terrain.",
+ "lanes": [
+  {
+   "id": "GK-E.01",
+   "from": [
+    695.0,
+    -45.0
+   ],
+   "dir": [
+    -0.4472,
+    0.8944
+   ],
+   "length": 4.47,
+   "width": 2.2,
+   "z_a": 2884.02,
+   "z_b": 2883.2,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2884.02
+    ],
+    [
+     4.47,
+     2883.2
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.02",
+   "from": [
+    699.0,
+    -47.0
+   ],
+   "dir": [
+    -0.8944,
+    0.4472
+   ],
+   "length": 4.47,
+   "width": 2.2,
+   "z_a": 2884.38,
+   "z_b": 2884.02,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2884.38
+    ],
+    [
+     4.47,
+     2884.02
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.03",
+   "from": [
+    699.0,
+    -47.0
+   ],
+   "dir": [
+    0.8944,
+    0.4472
+   ],
+   "length": 8.94,
+   "width": 2.2,
+   "z_a": 2884.38,
+   "z_b": 2891.57,
+   "profile": [
+    [
+     0.0,
+     2884.28
+    ],
+    [
+     8.94,
+     2891.47
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_e_03",
+    "s": 0.0,
+    "rise": 7.189,
+    "z": 2884.38,
+    "n": 38,
+    "run": 0.235,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.04",
+   "from": [
+    707.0,
+    -43.0
+   ],
+   "dir": [
+    0.3714,
+    0.9285
+   ],
+   "length": 4.835,
+   "z_a": 2891.57,
+   "z_b": 2896.405,
+   "profile": [
+    [
+     0.0,
+     2891.47
+    ],
+    [
+     4.835,
+     2896.305
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_04",
+    "s": 0.0,
+    "rise": 4.835,
+    "z": 2891.57,
+    "n": 26,
+    "run": 0.186,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.05",
+   "from": [
+    708.796,
+    -38.511
+   ],
+   "dir": [
+    0.3714,
+    0.9285
+   ],
+   "length": 1.1,
+   "z_a": 2896.405,
+   "z_b": 2896.405,
+   "profile": [
+    [
+     0.0,
+     2896.305
+    ],
+    [
+     1.1,
+     2896.305
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_05",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2896.405,
+    "n": 0,
+    "length": 1.1,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.06",
+   "from": [
+    709.204,
+    -37.489
+   ],
+   "dir": [
+    0.3714,
+    0.9285
+   ],
+   "length": 4.835,
+   "z_a": 2896.405,
+   "z_b": 2901.24,
+   "profile": [
+    [
+     0.0,
+     2896.305
+    ],
+    [
+     4.835,
+     2901.14
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_06",
+    "s": 0.0,
+    "rise": 4.835,
+    "z": 2896.405,
+    "n": 26,
+    "run": 0.186,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.07",
+   "from": [
+    711.0,
+    -33.0
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 6.25,
+   "z_a": 2901.24,
+   "z_b": 2906.275,
+   "profile": [
+    [
+     0.0,
+     2901.14
+    ],
+    [
+     6.25,
+     2906.175
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_07",
+    "s": 0.0,
+    "rise": 5.035,
+    "z": 2901.24,
+    "n": 26,
+    "run": 0.24,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.08",
+   "from": [
+    711.0,
+    -26.75
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 2906.275,
+   "z_b": 2906.275,
+   "profile": [
+    [
+     0.0,
+     2906.175
+    ],
+    [
+     1.5,
+     2906.175
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_08",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2906.275,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.09",
+   "from": [
+    711.0,
+    -25.25
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 6.25,
+   "z_a": 2906.275,
+   "z_b": 2911.31,
+   "profile": [
+    [
+     0.0,
+     2906.175
+    ],
+    [
+     6.25,
+     2911.21
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_09",
+    "s": 0.0,
+    "rise": 5.035,
+    "z": 2906.275,
+    "n": 26,
+    "run": 0.24,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.10",
+   "from": [
+    711.0,
+    -19.0
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.333,
+   "z_a": 2911.31,
+   "z_b": 2917.173,
+   "profile": [
+    [
+     0.0,
+     2911.21
+    ],
+    [
+     8.333,
+     2917.073
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_10",
+    "s": 0.0,
+    "rise": 5.863,
+    "z": 2911.31,
+    "n": 31,
+    "run": 0.269,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.11",
+   "from": [
+    711.0,
+    -10.667
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 2917.173,
+   "z_b": 2917.173,
+   "profile": [
+    [
+     0.0,
+     2917.073
+    ],
+    [
+     1.5,
+     2917.073
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_11",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2917.173,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.12",
+   "from": [
+    711.0,
+    -9.167
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.333,
+   "z_a": 2917.173,
+   "z_b": 2923.037,
+   "profile": [
+    [
+     0.0,
+     2917.073
+    ],
+    [
+     8.333,
+     2922.937
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_12",
+    "s": 0.0,
+    "rise": 5.863,
+    "z": 2917.173,
+    "n": 31,
+    "run": 0.269,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.13",
+   "from": [
+    711.0,
+    -0.833
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 2923.037,
+   "z_b": 2923.037,
+   "profile": [
+    [
+     0.0,
+     2922.937
+    ],
+    [
+     1.5,
+     2922.937
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_13",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2923.037,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.14",
+   "from": [
+    711.0,
+    0.667
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.333,
+   "z_a": 2923.037,
+   "z_b": 2928.9,
+   "profile": [
+    [
+     0.0,
+     2922.937
+    ],
+    [
+     8.333,
+     2928.8
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_14",
+    "s": 0.0,
+    "rise": 5.863,
+    "z": 2923.037,
+    "n": 31,
+    "run": 0.269,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.15",
+   "from": [
+    711.0,
+    9.0
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.083,
+   "z_a": 2928.9,
+   "z_b": 2933.105,
+   "profile": [
+    [
+     0.0,
+     2928.8
+    ],
+    [
+     8.083,
+     2933.005
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_15",
+    "s": 0.0,
+    "rise": 4.205,
+    "z": 2928.9,
+    "n": 22,
+    "run": 0.367,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.16",
+   "from": [
+    711.0,
+    17.083
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 2933.105,
+   "z_b": 2933.105,
+   "profile": [
+    [
+     0.0,
+     2933.005
+    ],
+    [
+     1.5,
+     2933.005
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_16",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2933.105,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.17",
+   "from": [
+    711.0,
+    18.583
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.083,
+   "z_a": 2933.105,
+   "z_b": 2937.31,
+   "profile": [
+    [
+     0.0,
+     2933.005
+    ],
+    [
+     8.083,
+     2937.21
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_17",
+    "s": 0.0,
+    "rise": 4.205,
+    "z": 2933.105,
+    "n": 22,
+    "run": 0.367,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.18",
+   "from": [
+    711.0,
+    26.667
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 2937.31,
+   "z_b": 2937.31,
+   "profile": [
+    [
+     0.0,
+     2937.21
+    ],
+    [
+     1.5,
+     2937.21
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_18",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2937.31,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.19",
+   "from": [
+    711.0,
+    28.167
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.083,
+   "z_a": 2937.31,
+   "z_b": 2941.515,
+   "profile": [
+    [
+     0.0,
+     2937.21
+    ],
+    [
+     8.083,
+     2941.415
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_19",
+    "s": 0.0,
+    "rise": 4.205,
+    "z": 2937.31,
+    "n": 22,
+    "run": 0.367,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.20",
+   "from": [
+    711.0,
+    36.25
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 2941.515,
+   "z_b": 2941.515,
+   "profile": [
+    [
+     0.0,
+     2941.415
+    ],
+    [
+     1.5,
+     2941.415
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_20",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2941.515,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.21",
+   "from": [
+    711.0,
+    37.75
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.083,
+   "z_a": 2941.515,
+   "z_b": 2945.72,
+   "profile": [
+    [
+     0.0,
+     2941.415
+    ],
+    [
+     8.083,
+     2945.62
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_21",
+    "s": 0.0,
+    "rise": 4.205,
+    "z": 2941.515,
+    "n": 22,
+    "run": 0.367,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.22",
+   "from": [
+    711.0,
+    45.833
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 2945.72,
+   "z_b": 2945.72,
+   "profile": [
+    [
+     0.0,
+     2945.62
+    ],
+    [
+     1.5,
+     2945.62
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_22",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2945.72,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.23",
+   "from": [
+    711.0,
+    47.333
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.083,
+   "z_a": 2945.72,
+   "z_b": 2949.925,
+   "profile": [
+    [
+     0.0,
+     2945.62
+    ],
+    [
+     8.083,
+     2949.825
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_23",
+    "s": 0.0,
+    "rise": 4.205,
+    "z": 2945.72,
+    "n": 22,
+    "run": 0.367,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.24",
+   "from": [
+    711.0,
+    55.417
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 2949.925,
+   "z_b": 2949.925,
+   "profile": [
+    [
+     0.0,
+     2949.825
+    ],
+    [
+     1.5,
+     2949.825
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_24",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2949.925,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-E.25",
+   "from": [
+    711.0,
+    56.917
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.083,
+   "z_a": 2949.925,
+   "z_b": 2954.13,
+   "profile": [
+    [
+     0.0,
+     2949.825
+    ],
+    [
+     8.083,
+     2954.03
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_e_25",
+    "s": 0.0,
+    "rise": 4.205,
+    "z": 2949.925,
+    "n": 22,
+    "run": 0.367,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.26",
+   "from": [
+    711.0,
+    67.0
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 2.0,
+   "width": 2.2,
+   "z_a": 2954.71,
+   "z_b": 2954.13,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2954.71
+    ],
+    [
+     2.0,
+     2954.13
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.27",
+   "from": [
+    711.0,
+    67.0
+   ],
+   "dir": [
+    0.4472,
+    0.8944
+   ],
+   "length": 4.47,
+   "width": 2.2,
+   "z_a": 2954.71,
+   "z_b": 2956.52,
+   "profile": [
+    [
+     0.0,
+     2954.61
+    ],
+    [
+     4.47,
+     2956.42
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_e_27",
+    "s": 0.0,
+    "rise": 1.816,
+    "z": 2954.71,
+    "n": 10,
+    "run": 0.447,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.28",
+   "from": [
+    709.0,
+    79.0
+   ],
+   "dir": [
+    0.4472,
+    -0.8944
+   ],
+   "length": 8.94,
+   "width": 2.2,
+   "z_a": 2956.8,
+   "z_b": 2956.52,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2956.8
+    ],
+    [
+     8.94,
+     2956.52
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.29",
+   "from": [
+    709.0,
+    79.0
+   ],
+   "dir": [
+    0.4472,
+    0.8944
+   ],
+   "length": 4.47,
+   "width": 2.2,
+   "z_a": 2956.8,
+   "z_b": 2958.31,
+   "profile": [
+    [
+     0.0,
+     2956.7
+    ],
+    [
+     4.47,
+     2958.21
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_e_29",
+    "s": 0.0,
+    "rise": 1.504,
+    "z": 2956.8,
+    "n": 8,
+    "run": 0.559,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.30",
+   "from": [
+    709.0,
+    87.0
+   ],
+   "dir": [
+    0.4472,
+    -0.8944
+   ],
+   "length": 4.47,
+   "width": 2.2,
+   "z_a": 2958.18,
+   "z_b": 2958.31,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2958.18
+    ],
+    [
+     4.47,
+     2958.31
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.31",
+   "from": [
+    709.0,
+    111.0
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 24.0,
+   "width": 2.2,
+   "z_a": 2960.16,
+   "z_b": 2958.18,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2960.16
+    ],
+    [
+     24.0,
+     2958.18
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.32",
+   "from": [
+    709.0,
+    111.0
+   ],
+   "dir": [
+    0.4472,
+    0.8944
+   ],
+   "length": 8.94,
+   "width": 2.2,
+   "z_a": 2960.16,
+   "z_b": 2963.86,
+   "profile": [
+    [
+     0.0,
+     2960.06
+    ],
+    [
+     8.94,
+     2963.76
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_e_32",
+    "s": 0.0,
+    "rise": 3.693,
+    "z": 2960.16,
+    "n": 19,
+    "run": 0.471,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.33",
+   "from": [
+    713.0,
+    121.0
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 2.0,
+   "width": 2.2,
+   "z_a": 2964.42,
+   "z_b": 2963.86,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2964.42
+    ],
+    [
+     2.0,
+     2963.86
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.34",
+   "from": [
+    713.0,
+    121.0
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 2.0,
+   "width": 2.2,
+   "z_a": 2964.42,
+   "z_b": 2965.05,
+   "profile": [
+    [
+     0.0,
+     2964.32
+    ],
+    [
+     2.0,
+     2964.95
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_e_34",
+    "s": 0.0,
+    "rise": 0.633,
+    "z": 2964.42,
+    "n": 3,
+    "run": 0.667,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.35",
+   "from": [
+    711.0,
+    127.0
+   ],
+   "dir": [
+    0.4472,
+    -0.8944
+   ],
+   "length": 4.47,
+   "width": 2.2,
+   "z_a": 2965.22,
+   "z_b": 2965.05,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2965.22
+    ],
+    [
+     4.47,
+     2965.05
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.36",
+   "from": [
+    711.0,
+    127.0
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.0,
+   "width": 2.2,
+   "z_a": 2965.22,
+   "z_b": 2968.68,
+   "profile": [
+    [
+     0.0,
+     2965.12
+    ],
+    [
+     8.0,
+     2968.58
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_e_36",
+    "s": 0.0,
+    "rise": 3.466,
+    "z": 2965.22,
+    "n": 18,
+    "run": 0.444,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.37",
+   "from": [
+    709.0,
+    139.0
+   ],
+   "dir": [
+    0.4472,
+    -0.8944
+   ],
+   "length": 4.47,
+   "width": 2.2,
+   "z_a": 2969.37,
+   "z_b": 2968.68,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2969.37
+    ],
+    [
+     4.47,
+     2968.68
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.38",
+   "from": [
+    709.0,
+    139.0
+   ],
+   "dir": [
+    0.8944,
+    0.4472
+   ],
+   "length": 4.47,
+   "width": 2.2,
+   "z_a": 2969.37,
+   "z_b": 2973.5,
+   "profile": [
+    [
+     0.0,
+     2969.27
+    ],
+    [
+     4.47,
+     2973.4
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_e_38",
+    "s": 0.0,
+    "rise": 4.131,
+    "z": 2969.37,
+    "n": 22,
+    "run": 0.203,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-E.39",
+   "from": [
+    713.0,
+    141.0
+   ],
+   "dir": [
+    0.8137,
+    -0.5812
+   ],
+   "length": 1.72,
+   "width": 2.2,
+   "z_a": 2973.5,
+   "z_b": 2973.5,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "profile": [
+    [
+     0.0,
+     2973.5
+    ],
+    [
+     1.72,
+     2973.5
+    ]
+   ],
+   "road": true,
+   "flight": null,
+   "parapet": true,
+   "gonkor_way": "E",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.01",
+   "from": [
+    713.0,
+    143.0
+   ],
+   "dir": [
+    0.7071,
+    -0.7071
+   ],
+   "length": 2.83,
+   "width": 2.2,
+   "z_a": 2973.84,
+   "z_b": 2973.5,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2973.84
+    ],
+    [
+     2.83,
+     2973.5
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.02",
+   "from": [
+    713.0,
+    143.0
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.222,
+   "z_a": 2973.84,
+   "z_b": 2979.181,
+   "profile": [
+    [
+     0.0,
+     2973.74
+    ],
+    [
+     8.222,
+     2979.081
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_02",
+    "s": 0.0,
+    "rise": 5.341,
+    "z": 2973.84,
+    "n": 28,
+    "run": 0.294,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.03",
+   "from": [
+    713.0,
+    151.222
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 2979.181,
+   "z_b": 2979.181,
+   "profile": [
+    [
+     0.0,
+     2979.081
+    ],
+    [
+     1.5,
+     2979.081
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_03",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2979.181,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.04",
+   "from": [
+    713.0,
+    152.722
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.222,
+   "z_a": 2979.181,
+   "z_b": 2984.522,
+   "profile": [
+    [
+     0.0,
+     2979.081
+    ],
+    [
+     8.222,
+     2984.422
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_04",
+    "s": 0.0,
+    "rise": 5.341,
+    "z": 2979.181,
+    "n": 28,
+    "run": 0.294,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.05",
+   "from": [
+    713.0,
+    160.944
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 2984.522,
+   "z_b": 2984.522,
+   "profile": [
+    [
+     0.0,
+     2984.422
+    ],
+    [
+     1.5,
+     2984.422
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_05",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2984.522,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.06",
+   "from": [
+    713.0,
+    162.444
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.222,
+   "z_a": 2984.522,
+   "z_b": 2989.863,
+   "profile": [
+    [
+     0.0,
+     2984.422
+    ],
+    [
+     8.222,
+     2989.763
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_06",
+    "s": 0.0,
+    "rise": 5.341,
+    "z": 2984.522,
+    "n": 28,
+    "run": 0.294,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.07",
+   "from": [
+    713.0,
+    170.667
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 2989.863,
+   "z_b": 2989.863,
+   "profile": [
+    [
+     0.0,
+     2989.763
+    ],
+    [
+     1.5,
+     2989.763
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_07",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2989.863,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.08",
+   "from": [
+    713.0,
+    172.167
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.222,
+   "z_a": 2989.863,
+   "z_b": 2995.204,
+   "profile": [
+    [
+     0.0,
+     2989.763
+    ],
+    [
+     8.222,
+     2995.104
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_08",
+    "s": 0.0,
+    "rise": 5.341,
+    "z": 2989.863,
+    "n": 28,
+    "run": 0.294,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.09",
+   "from": [
+    713.0,
+    180.389
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 2995.204,
+   "z_b": 2995.204,
+   "profile": [
+    [
+     0.0,
+     2995.104
+    ],
+    [
+     1.5,
+     2995.104
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_09",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2995.204,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.10",
+   "from": [
+    713.0,
+    181.889
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.222,
+   "z_a": 2995.204,
+   "z_b": 3000.546,
+   "profile": [
+    [
+     0.0,
+     2995.104
+    ],
+    [
+     8.222,
+     3000.446
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_10",
+    "s": 0.0,
+    "rise": 5.341,
+    "z": 2995.204,
+    "n": 28,
+    "run": 0.294,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.11",
+   "from": [
+    713.0,
+    190.111
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 3000.546,
+   "z_b": 3000.546,
+   "profile": [
+    [
+     0.0,
+     3000.446
+    ],
+    [
+     1.5,
+     3000.446
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_11",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 3000.546,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.12",
+   "from": [
+    713.0,
+    191.611
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.222,
+   "z_a": 3000.546,
+   "z_b": 3005.887,
+   "profile": [
+    [
+     0.0,
+     3000.446
+    ],
+    [
+     8.222,
+     3005.787
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_12",
+    "s": 0.0,
+    "rise": 5.341,
+    "z": 3000.546,
+    "n": 28,
+    "run": 0.294,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.13",
+   "from": [
+    713.0,
+    199.833
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 3005.887,
+   "z_b": 3005.887,
+   "profile": [
+    [
+     0.0,
+     3005.787
+    ],
+    [
+     1.5,
+     3005.787
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_13",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 3005.887,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.14",
+   "from": [
+    713.0,
+    201.333
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.222,
+   "z_a": 3005.887,
+   "z_b": 3011.228,
+   "profile": [
+    [
+     0.0,
+     3005.787
+    ],
+    [
+     8.222,
+     3011.128
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_14",
+    "s": 0.0,
+    "rise": 5.341,
+    "z": 3005.887,
+    "n": 28,
+    "run": 0.294,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.15",
+   "from": [
+    713.0,
+    209.556
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 3011.228,
+   "z_b": 3011.228,
+   "profile": [
+    [
+     0.0,
+     3011.128
+    ],
+    [
+     1.5,
+     3011.128
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_15",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 3011.228,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.16",
+   "from": [
+    713.0,
+    211.056
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.222,
+   "z_a": 3011.228,
+   "z_b": 3016.569,
+   "profile": [
+    [
+     0.0,
+     3011.128
+    ],
+    [
+     8.222,
+     3016.469
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_16",
+    "s": 0.0,
+    "rise": 5.341,
+    "z": 3011.228,
+    "n": 28,
+    "run": 0.294,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.17",
+   "from": [
+    713.0,
+    219.278
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 3016.569,
+   "z_b": 3016.569,
+   "profile": [
+    [
+     0.0,
+     3016.469
+    ],
+    [
+     1.5,
+     3016.469
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_17",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 3016.569,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.18",
+   "from": [
+    713.0,
+    220.778
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 8.222,
+   "z_a": 3016.569,
+   "z_b": 3021.91,
+   "profile": [
+    [
+     0.0,
+     3016.469
+    ],
+    [
+     8.222,
+     3021.81
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_18",
+    "s": 0.0,
+    "rise": 5.341,
+    "z": 3016.569,
+    "n": 28,
+    "run": 0.294,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.19",
+   "from": [
+    711.0,
+    233.0
+   ],
+   "dir": [
+    0.4472,
+    -0.8944
+   ],
+   "length": 4.47,
+   "width": 2.2,
+   "z_a": 3022.2,
+   "z_b": 3021.91,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     3022.2
+    ],
+    [
+     4.47,
+     3021.91
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.20",
+   "from": [
+    711.0,
+    233.0
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 7.875,
+   "z_a": 3022.2,
+   "z_b": 3027.702,
+   "profile": [
+    [
+     0.0,
+     3022.1
+    ],
+    [
+     7.875,
+     3027.602
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_20",
+    "s": 0.0,
+    "rise": 5.503,
+    "z": 3022.2,
+    "n": 29,
+    "run": 0.272,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.21",
+   "from": [
+    711.0,
+    240.875
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 3027.702,
+   "z_b": 3027.702,
+   "profile": [
+    [
+     0.0,
+     3027.602
+    ],
+    [
+     1.5,
+     3027.602
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_21",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 3027.702,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.22",
+   "from": [
+    711.0,
+    242.375
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 7.875,
+   "z_a": 3027.702,
+   "z_b": 3033.205,
+   "profile": [
+    [
+     0.0,
+     3027.602
+    ],
+    [
+     7.875,
+     3033.105
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_22",
+    "s": 0.0,
+    "rise": 5.503,
+    "z": 3027.702,
+    "n": 29,
+    "run": 0.272,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.23",
+   "from": [
+    711.0,
+    250.25
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 3033.205,
+   "z_b": 3033.205,
+   "profile": [
+    [
+     0.0,
+     3033.105
+    ],
+    [
+     1.5,
+     3033.105
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_23",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 3033.205,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.24",
+   "from": [
+    711.0,
+    251.75
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 7.875,
+   "z_a": 3033.205,
+   "z_b": 3038.707,
+   "profile": [
+    [
+     0.0,
+     3033.105
+    ],
+    [
+     7.875,
+     3038.608
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_24",
+    "s": 0.0,
+    "rise": 5.503,
+    "z": 3033.205,
+    "n": 29,
+    "run": 0.272,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.25",
+   "from": [
+    711.0,
+    259.625
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 1.5,
+   "z_a": 3038.707,
+   "z_b": 3038.707,
+   "profile": [
+    [
+     0.0,
+     3038.608
+    ],
+    [
+     1.5,
+     3038.608
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_25",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 3038.707,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.26",
+   "from": [
+    711.0,
+    261.125
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 7.875,
+   "z_a": 3038.707,
+   "z_b": 3044.21,
+   "profile": [
+    [
+     0.0,
+     3038.608
+    ],
+    [
+     7.875,
+     3044.11
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_26",
+    "s": 0.0,
+    "rise": 5.503,
+    "z": 3038.707,
+    "n": 29,
+    "run": 0.272,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.27",
+   "from": [
+    709.0,
+    271.0
+   ],
+   "dir": [
+    0.7071,
+    -0.7071
+   ],
+   "length": 2.83,
+   "width": 2.2,
+   "z_a": 3043.8,
+   "z_b": 3044.21,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     3043.8
+    ],
+    [
+     2.83,
+     3044.21
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.28",
+   "from": [
+    665.0,
+    293.0
+   ],
+   "dir": [
+    0.8944,
+    -0.4472
+   ],
+   "length": 8.638,
+   "z_a": 3021.95,
+   "z_b": 3026.32,
+   "profile": [
+    [
+     0.0,
+     3021.85
+    ],
+    [
+     8.638,
+     3026.22
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_28",
+    "s": 0.0,
+    "rise": 4.37,
+    "z": 3021.95,
+    "n": 23,
+    "run": 0.376,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.29",
+   "from": [
+    672.726,
+    289.137
+   ],
+   "dir": [
+    0.8944,
+    -0.4472
+   ],
+   "length": 1.5,
+   "z_a": 3026.32,
+   "z_b": 3026.32,
+   "profile": [
+    [
+     0.0,
+     3026.22
+    ],
+    [
+     1.5,
+     3026.22
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_29",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 3026.32,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.30",
+   "from": [
+    674.067,
+    288.466
+   ],
+   "dir": [
+    0.8944,
+    -0.4472
+   ],
+   "length": 8.638,
+   "z_a": 3026.32,
+   "z_b": 3030.69,
+   "profile": [
+    [
+     0.0,
+     3026.22
+    ],
+    [
+     8.638,
+     3030.59
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_30",
+    "s": 0.0,
+    "rise": 4.37,
+    "z": 3026.32,
+    "n": 23,
+    "run": 0.376,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.31",
+   "from": [
+    681.793,
+    284.603
+   ],
+   "dir": [
+    0.8944,
+    -0.4472
+   ],
+   "length": 1.5,
+   "z_a": 3030.69,
+   "z_b": 3030.69,
+   "profile": [
+    [
+     0.0,
+     3030.59
+    ],
+    [
+     1.5,
+     3030.59
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_31",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 3030.69,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.32",
+   "from": [
+    683.135,
+    283.933
+   ],
+   "dir": [
+    0.8944,
+    -0.4472
+   ],
+   "length": 8.638,
+   "z_a": 3030.69,
+   "z_b": 3035.06,
+   "profile": [
+    [
+     0.0,
+     3030.59
+    ],
+    [
+     8.638,
+     3034.96
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_32",
+    "s": 0.0,
+    "rise": 4.37,
+    "z": 3030.69,
+    "n": 23,
+    "run": 0.376,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.33",
+   "from": [
+    690.861,
+    280.07
+   ],
+   "dir": [
+    0.8944,
+    -0.4472
+   ],
+   "length": 1.5,
+   "z_a": 3035.06,
+   "z_b": 3035.06,
+   "profile": [
+    [
+     0.0,
+     3034.96
+    ],
+    [
+     1.5,
+     3034.96
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_33",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 3035.06,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.34",
+   "from": [
+    692.202,
+    279.399
+   ],
+   "dir": [
+    0.8944,
+    -0.4472
+   ],
+   "length": 8.638,
+   "z_a": 3035.06,
+   "z_b": 3039.43,
+   "profile": [
+    [
+     0.0,
+     3034.96
+    ],
+    [
+     8.638,
+     3039.33
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_34",
+    "s": 0.0,
+    "rise": 4.37,
+    "z": 3035.06,
+    "n": 23,
+    "run": 0.376,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.35",
+   "from": [
+    699.928,
+    275.536
+   ],
+   "dir": [
+    0.8944,
+    -0.4472
+   ],
+   "length": 1.5,
+   "z_a": 3039.43,
+   "z_b": 3039.43,
+   "profile": [
+    [
+     0.0,
+     3039.33
+    ],
+    [
+     1.5,
+     3039.33
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_35",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 3039.43,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.36",
+   "from": [
+    701.27,
+    274.865
+   ],
+   "dir": [
+    0.8944,
+    -0.4472
+   ],
+   "length": 8.638,
+   "z_a": 3039.43,
+   "z_b": 3043.8,
+   "profile": [
+    [
+     0.0,
+     3039.33
+    ],
+    [
+     8.638,
+     3043.7
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_36",
+    "s": 0.0,
+    "rise": 4.37,
+    "z": 3039.43,
+    "n": 23,
+    "run": 0.376,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.37",
+   "from": [
+    661.0,
+    295.0
+   ],
+   "dir": [
+    0.8944,
+    -0.4472
+   ],
+   "length": 4.47,
+   "width": 2.2,
+   "z_a": 3020.65,
+   "z_b": 3021.95,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     3020.65
+    ],
+    [
+     4.47,
+     3021.95
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.38",
+   "from": [
+    581.0,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 8.688,
+   "z_a": 2964.92,
+   "z_b": 2971.886,
+   "profile": [
+    [
+     0.0,
+     2964.82
+    ],
+    [
+     8.688,
+     2971.786
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_38",
+    "s": 0.0,
+    "rise": 6.966,
+    "z": 2964.92,
+    "n": 37,
+    "run": 0.235,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.39",
+   "from": [
+    589.688,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 1.5,
+   "z_a": 2971.886,
+   "z_b": 2971.886,
+   "profile": [
+    [
+     0.0,
+     2971.786
+    ],
+    [
+     1.5,
+     2971.786
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_39",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2971.886,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.40",
+   "from": [
+    591.188,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 8.688,
+   "z_a": 2971.886,
+   "z_b": 2978.852,
+   "profile": [
+    [
+     0.0,
+     2971.786
+    ],
+    [
+     8.688,
+     2978.753
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_40",
+    "s": 0.0,
+    "rise": 6.966,
+    "z": 2971.886,
+    "n": 37,
+    "run": 0.235,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.41",
+   "from": [
+    599.875,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 1.5,
+   "z_a": 2978.852,
+   "z_b": 2978.852,
+   "profile": [
+    [
+     0.0,
+     2978.753
+    ],
+    [
+     1.5,
+     2978.753
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_41",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2978.852,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.42",
+   "from": [
+    601.375,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 8.688,
+   "z_a": 2978.852,
+   "z_b": 2985.819,
+   "profile": [
+    [
+     0.0,
+     2978.753
+    ],
+    [
+     8.688,
+     2985.719
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_42",
+    "s": 0.0,
+    "rise": 6.966,
+    "z": 2978.852,
+    "n": 37,
+    "run": 0.235,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.43",
+   "from": [
+    610.062,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 1.5,
+   "z_a": 2985.819,
+   "z_b": 2985.819,
+   "profile": [
+    [
+     0.0,
+     2985.719
+    ],
+    [
+     1.5,
+     2985.719
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_43",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2985.819,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.44",
+   "from": [
+    611.562,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 8.688,
+   "z_a": 2985.819,
+   "z_b": 2992.785,
+   "profile": [
+    [
+     0.0,
+     2985.719
+    ],
+    [
+     8.688,
+     2992.685
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_44",
+    "s": 0.0,
+    "rise": 6.966,
+    "z": 2985.819,
+    "n": 37,
+    "run": 0.235,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.45",
+   "from": [
+    620.25,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 1.5,
+   "z_a": 2992.785,
+   "z_b": 2992.785,
+   "profile": [
+    [
+     0.0,
+     2992.685
+    ],
+    [
+     1.5,
+     2992.685
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_45",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2992.785,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.46",
+   "from": [
+    621.75,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 8.688,
+   "z_a": 2992.785,
+   "z_b": 2999.751,
+   "profile": [
+    [
+     0.0,
+     2992.685
+    ],
+    [
+     8.688,
+     2999.651
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_46",
+    "s": 0.0,
+    "rise": 6.966,
+    "z": 2992.785,
+    "n": 37,
+    "run": 0.235,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.47",
+   "from": [
+    630.438,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 1.5,
+   "z_a": 2999.751,
+   "z_b": 2999.751,
+   "profile": [
+    [
+     0.0,
+     2999.651
+    ],
+    [
+     1.5,
+     2999.651
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_47",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2999.751,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.48",
+   "from": [
+    631.938,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 8.688,
+   "z_a": 2999.751,
+   "z_b": 3006.717,
+   "profile": [
+    [
+     0.0,
+     2999.651
+    ],
+    [
+     8.688,
+     3006.617
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_48",
+    "s": 0.0,
+    "rise": 6.966,
+    "z": 2999.751,
+    "n": 37,
+    "run": 0.235,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.49",
+   "from": [
+    640.625,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 1.5,
+   "z_a": 3006.717,
+   "z_b": 3006.717,
+   "profile": [
+    [
+     0.0,
+     3006.617
+    ],
+    [
+     1.5,
+     3006.617
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_49",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 3006.717,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.50",
+   "from": [
+    642.125,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 8.688,
+   "z_a": 3006.717,
+   "z_b": 3013.684,
+   "profile": [
+    [
+     0.0,
+     3006.617
+    ],
+    [
+     8.688,
+     3013.584
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_50",
+    "s": 0.0,
+    "rise": 6.966,
+    "z": 3006.717,
+    "n": 37,
+    "run": 0.235,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.51",
+   "from": [
+    650.812,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 1.5,
+   "z_a": 3013.684,
+   "z_b": 3013.684,
+   "profile": [
+    [
+     0.0,
+     3013.584
+    ],
+    [
+     1.5,
+     3013.584
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_51",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 3013.684,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.52",
+   "from": [
+    652.312,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 8.688,
+   "z_a": 3013.684,
+   "z_b": 3020.65,
+   "profile": [
+    [
+     0.0,
+     3013.584
+    ],
+    [
+     8.688,
+     3020.55
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_52",
+    "s": 0.0,
+    "rise": 6.966,
+    "z": 3013.684,
+    "n": 37,
+    "run": 0.235,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.53",
+   "from": [
+    577.0,
+    295.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 4.0,
+   "width": 2.2,
+   "z_a": 2961.47,
+   "z_b": 2964.92,
+   "profile": [
+    [
+     0.0,
+     2961.37
+    ],
+    [
+     4.0,
+     2964.82
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_n_53",
+    "s": 0.0,
+    "rise": 3.44,
+    "z": 2961.47,
+    "n": 18,
+    "run": 0.222,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.54",
+   "from": [
+    569.0,
+    299.0
+   ],
+   "dir": [
+    0.8944,
+    -0.4472
+   ],
+   "length": 8.94,
+   "width": 2.2,
+   "z_a": 2952.74,
+   "z_b": 2961.47,
+   "profile": [
+    [
+     0.0,
+     2952.64
+    ],
+    [
+     8.94,
+     2961.37
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_n_54",
+    "s": 0.0,
+    "rise": 8.737,
+    "z": 2952.74,
+    "n": 46,
+    "run": 0.194,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.55",
+   "from": [
+    559.0,
+    309.0
+   ],
+   "dir": [
+    0.7071,
+    -0.7071
+   ],
+   "length": 14.14,
+   "width": 2.2,
+   "z_a": 2939.26,
+   "z_b": 2952.74,
+   "profile": [
+    [
+     0.0,
+     2939.16
+    ],
+    [
+     14.14,
+     2952.64
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_n_55",
+    "s": 0.0,
+    "rise": 13.479,
+    "z": 2939.26,
+    "n": 71,
+    "run": 0.199,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.56",
+   "from": [
+    555.0,
+    313.0
+   ],
+   "dir": [
+    0.7071,
+    -0.7071
+   ],
+   "length": 5.66,
+   "width": 2.2,
+   "z_a": 2934.05,
+   "z_b": 2939.26,
+   "profile": [
+    [
+     0.0,
+     2933.95
+    ],
+    [
+     5.66,
+     2939.16
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_n_56",
+    "s": 0.0,
+    "rise": 5.211,
+    "z": 2934.05,
+    "n": 27,
+    "run": 0.21,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.57",
+   "from": [
+    547.0,
+    315.0
+   ],
+   "dir": [
+    0.9701,
+    -0.2425
+   ],
+   "length": 8.25,
+   "width": 2.2,
+   "z_a": 2925.74,
+   "z_b": 2934.05,
+   "profile": [
+    [
+     0.0,
+     2925.64
+    ],
+    [
+     8.25,
+     2933.95
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_n_57",
+    "s": 0.0,
+    "rise": 8.305,
+    "z": 2925.74,
+    "n": 44,
+    "run": 0.187,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.58",
+   "from": [
+    543.0,
+    315.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 4.0,
+   "width": 2.2,
+   "z_a": 2921.87,
+   "z_b": 2925.74,
+   "profile": [
+    [
+     0.0,
+     2921.77
+    ],
+    [
+     4.0,
+     2925.64
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_n_58",
+    "s": 0.0,
+    "rise": 3.877,
+    "z": 2921.87,
+    "n": 20,
+    "run": 0.2,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.59",
+   "from": [
+    535.0,
+    313.0
+   ],
+   "dir": [
+    0.9701,
+    0.2425
+   ],
+   "length": 8.25,
+   "width": 2.2,
+   "z_a": 2914.35,
+   "z_b": 2921.87,
+   "profile": [
+    [
+     0.0,
+     2914.25
+    ],
+    [
+     8.25,
+     2921.77
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_n_59",
+    "s": 0.0,
+    "rise": 7.518,
+    "z": 2914.35,
+    "n": 40,
+    "run": 0.206,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.60",
+   "from": [
+    495.0,
+    293.0
+   ],
+   "dir": [
+    0.8944,
+    0.4472
+   ],
+   "length": 7.744,
+   "z_a": 2875.88,
+   "z_b": 2883.574,
+   "profile": [
+    [
+     0.0,
+     2875.78
+    ],
+    [
+     7.744,
+     2883.474
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_60",
+    "s": 0.0,
+    "rise": 7.694,
+    "z": 2875.88,
+    "n": 40,
+    "run": 0.194,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.61",
+   "from": [
+    501.926,
+    296.463
+   ],
+   "dir": [
+    0.8944,
+    0.4472
+   ],
+   "length": 1.5,
+   "z_a": 2883.574,
+   "z_b": 2883.574,
+   "profile": [
+    [
+     0.0,
+     2883.474
+    ],
+    [
+     1.5,
+     2883.474
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_61",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2883.574,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.62",
+   "from": [
+    503.268,
+    297.134
+   ],
+   "dir": [
+    0.8944,
+    0.4472
+   ],
+   "length": 7.744,
+   "z_a": 2883.574,
+   "z_b": 2891.268,
+   "profile": [
+    [
+     0.0,
+     2883.474
+    ],
+    [
+     7.744,
+     2891.168
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_62",
+    "s": 0.0,
+    "rise": 7.694,
+    "z": 2883.574,
+    "n": 40,
+    "run": 0.194,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.63",
+   "from": [
+    510.194,
+    300.597
+   ],
+   "dir": [
+    0.8944,
+    0.4472
+   ],
+   "length": 1.5,
+   "z_a": 2891.268,
+   "z_b": 2891.268,
+   "profile": [
+    [
+     0.0,
+     2891.168
+    ],
+    [
+     1.5,
+     2891.168
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_63",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2891.268,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.64",
+   "from": [
+    511.536,
+    301.268
+   ],
+   "dir": [
+    0.8944,
+    0.4472
+   ],
+   "length": 7.744,
+   "z_a": 2891.268,
+   "z_b": 2898.962,
+   "profile": [
+    [
+     0.0,
+     2891.168
+    ],
+    [
+     7.744,
+     2898.862
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_64",
+    "s": 0.0,
+    "rise": 7.694,
+    "z": 2891.268,
+    "n": 40,
+    "run": 0.194,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.65",
+   "from": [
+    518.462,
+    304.731
+   ],
+   "dir": [
+    0.8944,
+    0.4472
+   ],
+   "length": 1.5,
+   "z_a": 2898.962,
+   "z_b": 2898.962,
+   "profile": [
+    [
+     0.0,
+     2898.862
+    ],
+    [
+     1.5,
+     2898.862
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_65",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2898.962,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.66",
+   "from": [
+    519.804,
+    305.402
+   ],
+   "dir": [
+    0.8944,
+    0.4472
+   ],
+   "length": 7.744,
+   "z_a": 2898.962,
+   "z_b": 2906.656,
+   "profile": [
+    [
+     0.0,
+     2898.862
+    ],
+    [
+     7.744,
+     2906.556
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_66",
+    "s": 0.0,
+    "rise": 7.694,
+    "z": 2898.962,
+    "n": 40,
+    "run": 0.194,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.67",
+   "from": [
+    526.73,
+    308.865
+   ],
+   "dir": [
+    0.8944,
+    0.4472
+   ],
+   "length": 1.5,
+   "z_a": 2906.656,
+   "z_b": 2906.656,
+   "profile": [
+    [
+     0.0,
+     2906.556
+    ],
+    [
+     1.5,
+     2906.556
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_67",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2906.656,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.68",
+   "from": [
+    528.071,
+    309.536
+   ],
+   "dir": [
+    0.8944,
+    0.4472
+   ],
+   "length": 7.744,
+   "z_a": 2906.656,
+   "z_b": 2914.35,
+   "profile": [
+    [
+     0.0,
+     2906.556
+    ],
+    [
+     7.744,
+     2914.25
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_68",
+    "s": 0.0,
+    "rise": 7.694,
+    "z": 2906.656,
+    "n": 40,
+    "run": 0.194,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.69",
+   "from": [
+    487.0,
+    289.0
+   ],
+   "dir": [
+    0.8944,
+    0.4472
+   ],
+   "length": 8.94,
+   "width": 2.2,
+   "z_a": 2867.66,
+   "z_b": 2875.88,
+   "profile": [
+    [
+     0.0,
+     2867.56
+    ],
+    [
+     8.94,
+     2875.78
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_n_69",
+    "s": 0.0,
+    "rise": 8.221,
+    "z": 2867.66,
+    "n": 43,
+    "run": 0.208,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.70",
+   "from": [
+    479.0,
+    283.0
+   ],
+   "dir": [
+    0.8,
+    0.6
+   ],
+   "length": 10.0,
+   "width": 2.2,
+   "z_a": 2859.82,
+   "z_b": 2867.66,
+   "profile": [
+    [
+     0.0,
+     2859.72
+    ],
+    [
+     10.0,
+     2867.56
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_n_70",
+    "s": 0.0,
+    "rise": 7.84,
+    "z": 2859.82,
+    "n": 41,
+    "run": 0.244,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.71",
+   "from": [
+    469.0,
+    273.0
+   ],
+   "dir": [
+    0.7071,
+    0.7071
+   ],
+   "length": 6.32,
+   "z_a": 2851.12,
+   "z_b": 2855.47,
+   "profile": [
+    [
+     0.0,
+     2851.02
+    ],
+    [
+     6.32,
+     2855.37
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_71",
+    "s": 0.0,
+    "rise": 4.35,
+    "z": 2851.12,
+    "n": 23,
+    "run": 0.275,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.72",
+   "from": [
+    473.469,
+    277.469
+   ],
+   "dir": [
+    0.7071,
+    0.7071
+   ],
+   "length": 1.5,
+   "z_a": 2855.47,
+   "z_b": 2855.47,
+   "profile": [
+    [
+     0.0,
+     2855.37
+    ],
+    [
+     1.5,
+     2855.37
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_72",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2855.47,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.73",
+   "from": [
+    474.53,
+    278.53
+   ],
+   "dir": [
+    0.7071,
+    0.7071
+   ],
+   "length": 6.32,
+   "z_a": 2855.47,
+   "z_b": 2859.82,
+   "profile": [
+    [
+     0.0,
+     2855.37
+    ],
+    [
+     6.32,
+     2859.72
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_73",
+    "s": 0.0,
+    "rise": 4.35,
+    "z": 2855.47,
+    "n": 23,
+    "run": 0.275,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.74",
+   "from": [
+    467.0,
+    269.0
+   ],
+   "dir": [
+    0.4472,
+    0.8944
+   ],
+   "length": 4.47,
+   "width": 2.2,
+   "z_a": 2850.74,
+   "z_b": 2851.12,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2850.74
+    ],
+    [
+     4.47,
+     2851.12
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.75",
+   "from": [
+    467.0,
+    269.0
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 6.333,
+   "z_a": 2850.74,
+   "z_b": 2856.19,
+   "profile": [
+    [
+     0.0,
+     2850.64
+    ],
+    [
+     6.333,
+     2856.09
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_75",
+    "s": 0.0,
+    "rise": 5.45,
+    "z": 2850.74,
+    "n": 29,
+    "run": 0.218,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.76",
+   "from": [
+    467.0,
+    262.667
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 1.5,
+   "z_a": 2856.19,
+   "z_b": 2856.19,
+   "profile": [
+    [
+     0.0,
+     2856.09
+    ],
+    [
+     1.5,
+     2856.09
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_76",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2856.19,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.77",
+   "from": [
+    467.0,
+    261.167
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 6.333,
+   "z_a": 2856.19,
+   "z_b": 2861.64,
+   "profile": [
+    [
+     0.0,
+     2856.09
+    ],
+    [
+     6.333,
+     2861.54
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_77",
+    "s": 0.0,
+    "rise": 5.45,
+    "z": 2856.19,
+    "n": 29,
+    "run": 0.218,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.78",
+   "from": [
+    467.0,
+    254.833
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 1.5,
+   "z_a": 2861.64,
+   "z_b": 2861.64,
+   "profile": [
+    [
+     0.0,
+     2861.54
+    ],
+    [
+     1.5,
+     2861.54
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_78",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2861.64,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.79",
+   "from": [
+    467.0,
+    253.333
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 6.333,
+   "z_a": 2861.64,
+   "z_b": 2867.09,
+   "profile": [
+    [
+     0.0,
+     2861.54
+    ],
+    [
+     6.333,
+     2866.99
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_79",
+    "s": 0.0,
+    "rise": 5.45,
+    "z": 2861.64,
+    "n": 29,
+    "run": 0.218,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.80",
+   "from": [
+    463.0,
+    239.0
+   ],
+   "dir": [
+    0.4472,
+    0.8944
+   ],
+   "length": 8.94,
+   "width": 2.2,
+   "z_a": 2867.32,
+   "z_b": 2867.09,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2867.32
+    ],
+    [
+     8.94,
+     2867.09
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.81",
+   "from": [
+    463.0,
+    239.0
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 4.0,
+   "width": 2.2,
+   "z_a": 2867.32,
+   "z_b": 2870.71,
+   "profile": [
+    [
+     0.0,
+     2867.22
+    ],
+    [
+     4.0,
+     2870.61
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_n_81",
+    "s": 0.0,
+    "rise": 3.395,
+    "z": 2867.32,
+    "n": 18,
+    "run": 0.222,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.82",
+   "from": [
+    447.0,
+    203.0
+   ],
+   "dir": [
+    0.4472,
+    0.8944
+   ],
+   "length": 35.78,
+   "width": 2.2,
+   "z_a": 2870.68,
+   "z_b": 2870.71,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2870.68
+    ],
+    [
+     35.78,
+     2870.71
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.83",
+   "from": [
+    447.0,
+    203.0
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 7.667,
+   "z_a": 2870.68,
+   "z_b": 2876.097,
+   "profile": [
+    [
+     0.0,
+     2870.58
+    ],
+    [
+     7.667,
+     2875.997
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_83",
+    "s": 0.0,
+    "rise": 5.417,
+    "z": 2870.68,
+    "n": 29,
+    "run": 0.264,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.84",
+   "from": [
+    447.0,
+    195.333
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 1.5,
+   "z_a": 2876.097,
+   "z_b": 2876.097,
+   "profile": [
+    [
+     0.0,
+     2875.997
+    ],
+    [
+     1.5,
+     2875.997
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_84",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2876.097,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.85",
+   "from": [
+    447.0,
+    193.833
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 7.667,
+   "z_a": 2876.097,
+   "z_b": 2881.513,
+   "profile": [
+    [
+     0.0,
+     2875.997
+    ],
+    [
+     7.667,
+     2881.413
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_85",
+    "s": 0.0,
+    "rise": 5.417,
+    "z": 2876.097,
+    "n": 29,
+    "run": 0.264,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.86",
+   "from": [
+    447.0,
+    186.167
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 1.5,
+   "z_a": 2881.513,
+   "z_b": 2881.513,
+   "profile": [
+    [
+     0.0,
+     2881.413
+    ],
+    [
+     1.5,
+     2881.413
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_86",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2881.513,
+    "n": 0,
+    "length": 1.5,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "width": 2.2,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "path": true,
+   "id": "GK-N.87",
+   "from": [
+    447.0,
+    184.667
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 7.667,
+   "z_a": 2881.513,
+   "z_b": 2886.93,
+   "profile": [
+    [
+     0.0,
+     2881.413
+    ],
+    [
+     7.667,
+     2886.83
+    ]
+   ],
+   "steps": true,
+   "flight": {
+    "file": "gonkor_n_87",
+    "s": 0.0,
+    "rise": 5.417,
+    "z": 2881.513,
+    "n": 29,
+    "run": 0.264,
+    "top": 0.0,
+    "walls": null
+   },
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.88",
+   "from": [
+    447.0,
+    165.0
+   ],
+   "dir": [
+    0.0,
+    1.0
+   ],
+   "length": 12.0,
+   "width": 2.2,
+   "z_a": 2889.89,
+   "z_b": 2886.93,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2889.89
+    ],
+    [
+     12.0,
+     2886.93
+    ]
+   ],
+   "road": true,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.89",
+   "from": [
+    445.0,
+    163.0
+   ],
+   "dir": [
+    0.7071,
+    0.7071
+   ],
+   "length": 2.83,
+   "width": 2.2,
+   "z_a": 2888.16,
+   "z_b": 2889.89,
+   "profile": [
+    [
+     0.0,
+     2888.06
+    ],
+    [
+     2.83,
+     2889.79
+    ]
+   ],
+   "steps": true,
+   "path": true,
+   "flight": {
+    "file": "gonkor_n_89",
+    "s": 0.0,
+    "rise": 1.734,
+    "z": 2888.16,
+    "n": 9,
+    "run": 0.314,
+    "top": 0.0,
+    "walls": null
+   },
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-N.90",
+   "from": [
+    445.0,
+    163.0
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 3.0,
+   "width": 2.2,
+   "z_a": 2888.16,
+   "z_b": 2888.16,
+   "path": true,
+   "wall_min": [
+    1.6,
+    1.4
+   ],
+   "profile": [
+    [
+     0.0,
+     2888.16
+    ],
+    [
+     3.0,
+     2888.16
+    ]
+   ],
+   "road": true,
+   "flight": null,
+   "parapet": true,
+   "gonkor_way": "N",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-F.01",
+   "from": [
+    442.601,
+    170.768
+   ],
+   "dir": [
+    -0.99942,
+    -0.03394
+   ],
+   "length": 2.5,
+   "width": 1.4,
+   "z_a": 2881.121,
+   "z_b": 2881.121,
+   "road": true,
+   "flight": {
+    "file": "gonkor_f_01",
+    "s": 0.0,
+    "rise": 0.0,
+    "z": 2881.121,
+    "n": 0,
+    "length": 2.5,
+    "gallery": true,
+    "deck": true,
+    "inner": -1,
+    "walls": null
+   },
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "gallery": true,
+   "profile": [
+    [
+     0.0,
+     2880.871
+    ],
+    [
+     2.5,
+     2880.871
+    ]
+   ],
+   "gonkor_way": "F",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-F.02",
+   "from": [
+    439.327,
+    165.718
+   ],
+   "dir": [
+    0.15436,
+    0.98802
+   ],
+   "length": 5.025,
+   "width": 1.4,
+   "z_a": 2876.2,
+   "z_b": 2881.121,
+   "road": true,
+   "steps": true,
+   "gallery": true,
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2875.95
+    ],
+    [
+     5.025,
+     2880.871
+    ]
+   ],
+   "flight": {
+    "file": "gonkor_f_02",
+    "s": 0.0,
+    "rise": 4.921,
+    "z": 2876.2,
+    "n": 26,
+    "run": 0.193,
+    "top": 0.0,
+    "gallery": true,
+    "inner": 1,
+    "walls": null
+   },
+   "gonkor_way": "F",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-F.03",
+   "from": [
+    439.327,
+    165.718
+   ],
+   "dir": [
+    -0.17084,
+    -0.9853
+   ],
+   "length": 11.041,
+   "width": 2.2,
+   "z_a": 2876.2,
+   "z_b": 2877.3,
+   "road": true,
+   "flight": {
+    "file": "gonkor_f_03",
+    "s": 0.0,
+    "rise": 1.1,
+    "z": 2876.2,
+    "n": 0,
+    "length": 11.041,
+    "gallery": true,
+    "deck": true,
+    "inner": -1,
+    "walls": null
+   },
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "gallery": true,
+   "profile": [
+    [
+     0.0,
+     2875.95
+    ],
+    [
+     11.041,
+     2877.05
+    ]
+   ],
+   "gonkor_way": "F",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-F.04",
+   "from": [
+    437.441,
+    154.839
+   ],
+   "dir": [
+    -0.28148,
+    -0.95957
+   ],
+   "length": 11.193,
+   "width": 2.2,
+   "z_a": 2877.3,
+   "z_b": 2878.4,
+   "road": true,
+   "flight": {
+    "file": "gonkor_f_04",
+    "s": 0.0,
+    "rise": 1.1,
+    "z": 2877.3,
+    "n": 0,
+    "length": 11.193,
+    "gallery": true,
+    "deck": true,
+    "inner": -1,
+    "walls": null
+   },
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "gallery": true,
+   "profile": [
+    [
+     0.0,
+     2877.05
+    ],
+    [
+     11.193,
+     2878.15
+    ]
+   ],
+   "gonkor_way": "F",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-F.05",
+   "from": [
+    434.29,
+    144.099
+   ],
+   "dir": [
+    -0.28237,
+    -0.95931
+   ],
+   "length": 11.532,
+   "width": 2.2,
+   "z_a": 2878.4,
+   "z_b": 2879.5,
+   "road": true,
+   "flight": {
+    "file": "gonkor_f_05",
+    "s": 0.0,
+    "rise": 1.1,
+    "z": 2878.4,
+    "n": 0,
+    "length": 11.532,
+    "gallery": true,
+    "deck": true,
+    "inner": -1,
+    "walls": null
+   },
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "gallery": true,
+   "profile": [
+    [
+     0.0,
+     2878.15
+    ],
+    [
+     11.532,
+     2879.25
+    ]
+   ],
+   "gonkor_way": "F",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-F.06",
+   "from": [
+    431.034,
+    133.036
+   ],
+   "dir": [
+    -0.13556,
+    -0.99077
+   ],
+   "length": 11.548,
+   "width": 2.2,
+   "z_a": 2879.5,
+   "z_b": 2880.6,
+   "road": true,
+   "flight": {
+    "file": "gonkor_f_06",
+    "s": 0.0,
+    "rise": 1.1,
+    "z": 2879.5,
+    "n": 0,
+    "length": 11.548,
+    "gallery": true,
+    "deck": true,
+    "inner": -1,
+    "walls": null
+   },
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "gallery": true,
+   "profile": [
+    [
+     0.0,
+     2879.25
+    ],
+    [
+     11.548,
+     2880.35
+    ]
+   ],
+   "gonkor_way": "F",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-F.07",
+   "from": [
+    429.468,
+    121.595
+   ],
+   "dir": [
+    -0.06945,
+    -0.99759
+   ],
+   "length": 4.227,
+   "width": 2.2,
+   "z_a": 2880.6,
+   "z_b": 2881.0,
+   "road": true,
+   "flight": {
+    "file": "gonkor_f_07",
+    "s": 0.0,
+    "rise": 0.4,
+    "z": 2880.6,
+    "n": 0,
+    "length": 4.227,
+    "gallery": true,
+    "deck": true,
+    "inner": -1,
+    "walls": null
+   },
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "gallery": true,
+   "profile": [
+    [
+     0.0,
+     2880.35
+    ],
+    [
+     4.227,
+     2880.75
+    ]
+   ],
+   "gonkor_way": "F",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-F.08",
+   "from": [
+    429.175,
+    117.378
+   ],
+   "dir": [
+    -0.00326,
+    -0.99999
+   ],
+   "length": 11.684,
+   "width": 2.2,
+   "z_a": 2881.0,
+   "z_b": 2881.6,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2881.0
+    ],
+    [
+     11.684,
+     2881.6
+    ]
+   ],
+   "gonkor_way": "F",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-F.09",
+   "from": [
+    429.137,
+    105.694
+   ],
+   "dir": [
+    0.08728,
+    -0.99618
+   ],
+   "length": 8.545,
+   "width": 2.2,
+   "z_a": 2881.6,
+   "z_b": 2881.0,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2881.6
+    ],
+    [
+     8.545,
+     2881.0
+    ]
+   ],
+   "gonkor_way": "F",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-F.10",
+   "from": [
+    429.882,
+    97.181
+   ],
+   "dir": [
+    0.36577,
+    -0.93071
+   ],
+   "length": 10.681,
+   "width": 2.2,
+   "z_a": 2881.0,
+   "z_b": 2881.3,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2881.0
+    ],
+    [
+     10.681,
+     2881.3
+    ]
+   ],
+   "gonkor_way": "F",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-F.11",
+   "from": [
+    433.789,
+    87.241
+   ],
+   "dir": [
+    0.60397,
+    -0.79701
+   ],
+   "length": 10.994,
+   "width": 2.2,
+   "z_a": 2881.3,
+   "z_b": 2882.5,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2881.3
+    ],
+    [
+     10.994,
+     2882.5
+    ]
+   ],
+   "gonkor_way": "F",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-F.12",
+   "from": [
+    440.429,
+    78.478
+   ],
+   "dir": [
+    0.59356,
+    -0.80479
+   ],
+   "length": 11.55,
+   "width": 2.2,
+   "z_a": 2882.5,
+   "z_b": 2882.0,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2882.5
+    ],
+    [
+     11.55,
+     2882.0
+    ]
+   ],
+   "gonkor_way": "F",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-F.13",
+   "from": [
+    447.285,
+    69.182
+   ],
+   "dir": [
+    0.61619,
+    -0.78759
+   ],
+   "length": 3.1,
+   "width": 2.2,
+   "z_a": 2882.0,
+   "z_b": 2882.1,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2882.0
+    ],
+    [
+     3.1,
+     2882.1
+    ]
+   ],
+   "gonkor_way": "F",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-F.14",
+   "from": [
+    449.195,
+    66.741
+   ],
+   "dir": [
+    0.6376,
+    -0.77037
+   ],
+   "length": 5.129,
+   "width": 2.2,
+   "z_a": 2882.1,
+   "z_b": 2882.6,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2882.1
+    ],
+    [
+     5.129,
+     2882.6
+    ]
+   ],
+   "gonkor_way": "F",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-S.01",
+   "from": [
+    414.844,
+    40.094
+   ],
+   "dir": [
+    0.2585,
+    -0.96601
+   ],
+   "length": 2.5,
+   "width": 2.2,
+   "z_a": 2858.03,
+   "z_b": 2858.03,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2858.03
+    ],
+    [
+     2.5,
+     2858.03
+    ]
+   ],
+   "gonkor_way": "S",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-S.02",
+   "from": [
+    415.49,
+    37.679
+   ],
+   "dir": [
+    -0.46389,
+    -0.88589
+   ],
+   "length": 5.763,
+   "width": 2.2,
+   "z_a": 2858.03,
+   "z_b": 2859.6,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2858.03
+    ],
+    [
+     5.763,
+     2859.6
+    ]
+   ],
+   "gonkor_way": "S",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-S.03",
+   "from": [
+    412.817,
+    32.573
+   ],
+   "dir": [
+    0.02418,
+    -0.99971
+   ],
+   "length": 11.372,
+   "width": 2.2,
+   "z_a": 2859.6,
+   "z_b": 2861.6,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2859.6
+    ],
+    [
+     11.372,
+     2861.6
+    ]
+   ],
+   "gonkor_way": "S",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-S.04",
+   "from": [
+    413.092,
+    21.205
+   ],
+   "dir": [
+    0.05466,
+    -0.99851
+   ],
+   "length": 11.88,
+   "width": 2.2,
+   "z_a": 2861.6,
+   "z_b": 2863.6,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2861.6
+    ],
+    [
+     11.88,
+     2863.6
+    ]
+   ],
+   "gonkor_way": "S",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-S.05",
+   "from": [
+    413.741,
+    9.342
+   ],
+   "dir": [
+    0.05385,
+    -0.99855
+   ],
+   "length": 11.405,
+   "width": 2.2,
+   "z_a": 2863.6,
+   "z_b": 2865.4,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2863.6
+    ],
+    [
+     11.405,
+     2865.4
+    ]
+   ],
+   "gonkor_way": "S",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-S.06",
+   "from": [
+    414.355,
+    -2.046
+   ],
+   "dir": [
+    0.18525,
+    -0.98269
+   ],
+   "length": 11.11,
+   "width": 2.2,
+   "z_a": 2865.4,
+   "z_b": 2867.2,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2865.4
+    ],
+    [
+     11.11,
+     2867.2
+    ]
+   ],
+   "gonkor_way": "S",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-S.07",
+   "from": [
+    416.413,
+    -12.964
+   ],
+   "dir": [
+    0.40367,
+    -0.91491
+   ],
+   "length": 10.423,
+   "width": 2.2,
+   "z_a": 2867.2,
+   "z_b": 2869.0,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2867.2
+    ],
+    [
+     10.423,
+     2869.0
+    ]
+   ],
+   "gonkor_way": "S",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-S.08",
+   "from": [
+    420.62,
+    -22.5
+   ],
+   "dir": [
+    0.6025,
+    -0.79812
+   ],
+   "length": 11.186,
+   "width": 2.2,
+   "z_a": 2869.0,
+   "z_b": 2870.5,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2869.0
+    ],
+    [
+     11.186,
+     2870.5
+    ]
+   ],
+   "gonkor_way": "S",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-S.09",
+   "from": [
+    427.36,
+    -31.428
+   ],
+   "dir": [
+    0.68804,
+    -0.72568
+   ],
+   "length": 11.171,
+   "width": 2.2,
+   "z_a": 2870.5,
+   "z_b": 2869.1,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2870.5
+    ],
+    [
+     11.171,
+     2869.1
+    ]
+   ],
+   "gonkor_way": "S",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-S.10",
+   "from": [
+    435.046,
+    -39.534
+   ],
+   "dir": [
+    0.83719,
+    -0.54691
+   ],
+   "length": 5.594,
+   "width": 2.2,
+   "z_a": 2869.1,
+   "z_b": 2868.5,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2869.1
+    ],
+    [
+     5.594,
+     2868.5
+    ]
+   ],
+   "gonkor_way": "S",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-S.11",
+   "from": [
+    439.729,
+    -42.593
+   ],
+   "dir": [
+    0.9533,
+    -0.30204
+   ],
+   "length": 2.365,
+   "width": 2.2,
+   "z_a": 2868.5,
+   "z_b": 2868.9,
+   "road": true,
+   "flight": null,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "face": true,
+   "profile": [
+    [
+     0.0,
+     2868.5
+    ],
+    [
+     2.365,
+     2868.9
+    ]
+   ],
+   "gonkor_way": "S",
+   "margin": 0.6
+  },
+  {
+   "id": "GK-S.12",
+   "from": [
+    441.984,
+    -43.308
+   ],
+   "dir": [
+    0.95227,
+    0.30526
+   ],
+   "length": 5.267,
+   "width": 2.2,
+   "z_a": 2868.9,
+   "z_b": 2873.43,
+   "steps": true,
+   "face": true,
+   "wall_min": [
+    0.6,
+    0.4
+   ],
+   "profile": [
+    [
+     0.0,
+     2868.8
+    ],
+    [
+     5.267,
+     2873.33
+    ]
+   ],
+   "flight": {
+    "file": "gonkor_s_12",
+    "s": 0.0,
+    "rise": 4.53,
+    "z": 2868.9,
+    "n": 24,
+    "run": 0.219,
+    "top": 0.0,
+    "walls": null
+   },
+   "gonkor_way": "S",
+   "margin": 0.6
+  }
+ ],
+ "loop": [
+  [
+   693.0,
+   -41.0,
+   2883.2
+  ],
+  [
+   695.0,
+   -45.0,
+   2884.02
+  ],
+  [
+   699.0,
+   -47.0,
+   2884.38
+  ],
+  [
+   707.0,
+   -43.0,
+   2891.57
+  ],
+  [
+   711.0,
+   -33.0,
+   2901.24
+  ],
+  [
+   711.0,
+   -19.0,
+   2911.31
+  ],
+  [
+   711.0,
+   9.0,
+   2928.9
+  ],
+  [
+   711.0,
+   65.0,
+   2954.13
+  ],
+  [
+   711.0,
+   67.0,
+   2954.71
+  ],
+  [
+   713.0,
+   71.0,
+   2956.52
+  ],
+  [
+   709.0,
+   79.0,
+   2956.8
+  ],
+  [
+   711.0,
+   83.0,
+   2958.31
+  ],
+  [
+   709.0,
+   87.0,
+   2958.18
+  ],
+  [
+   709.0,
+   111.0,
+   2960.16
+  ],
+  [
+   713.0,
+   119.0,
+   2963.86
+  ],
+  [
+   713.0,
+   121.0,
+   2964.42
+  ],
+  [
+   713.0,
+   123.0,
+   2965.05
+  ],
+  [
+   711.0,
+   127.0,
+   2965.22
+  ],
+  [
+   711.0,
+   135.0,
+   2968.68
+  ],
+  [
+   709.0,
+   139.0,
+   2969.37
+  ],
+  [
+   713.0,
+   141.0,
+   2973.5
+  ],
+  [
+   714.4,
+   140.0,
+   2973.5
+  ],
+  [
+   715.0,
+   141.0,
+   2973.5
+  ],
+  [
+   713.0,
+   143.0,
+   2973.84
+  ],
+  [
+   713.0,
+   229.0,
+   3021.91
+  ],
+  [
+   711.0,
+   233.0,
+   3022.2
+  ],
+  [
+   711.0,
+   269.0,
+   3044.21
+  ],
+  [
+   709.0,
+   271.0,
+   3043.8
+  ],
+  [
+   665.0,
+   293.0,
+   3021.95
+  ],
+  [
+   661.0,
+   295.0,
+   3020.65
+  ],
+  [
+   581.0,
+   295.0,
+   2964.92
+  ],
+  [
+   577.0,
+   295.0,
+   2961.47
+  ],
+  [
+   569.0,
+   299.0,
+   2952.74
+  ],
+  [
+   559.0,
+   309.0,
+   2939.26
+  ],
+  [
+   555.0,
+   313.0,
+   2934.05
+  ],
+  [
+   547.0,
+   315.0,
+   2925.74
+  ],
+  [
+   543.0,
+   315.0,
+   2921.87
+  ],
+  [
+   535.0,
+   313.0,
+   2914.35
+  ],
+  [
+   495.0,
+   293.0,
+   2875.88
+  ],
+  [
+   487.0,
+   289.0,
+   2867.66
+  ],
+  [
+   479.0,
+   283.0,
+   2859.82
+  ],
+  [
+   469.0,
+   273.0,
+   2851.12
+  ],
+  [
+   467.0,
+   269.0,
+   2850.74
+  ],
+  [
+   467.0,
+   247.0,
+   2867.09
+  ],
+  [
+   463.0,
+   239.0,
+   2867.32
+  ],
+  [
+   463.0,
+   235.0,
+   2870.71
+  ],
+  [
+   447.0,
+   203.0,
+   2870.68
+  ],
+  [
+   447.0,
+   177.0,
+   2886.93
+  ],
+  [
+   447.0,
+   165.0,
+   2889.89
+  ],
+  [
+   445.0,
+   163.0,
+   2888.16
+  ],
+  [
+   445.0,
+   160.0,
+   2888.16
+  ],
+  [
+   443.58,
+   160.47,
+   2888.16
+  ],
+  [
+   443.58,
+   160.48,
+   2888.16
+  ],
+  [
+   443.25,
+   170.09,
+   2881.12
+  ],
+  [
+   443.25,
+   170.09,
+   2881.12
+  ],
+  [
+   443.23,
+   170.79,
+   2881.12
+  ],
+  [
+   443.23,
+   170.79,
+   2881.12
+  ],
+  [
+   442.6,
+   170.77,
+   2881.12
+  ],
+  [
+   440.1,
+   170.68,
+   2881.12
+  ],
+  [
+   439.33,
+   165.72,
+   2876.2
+  ],
+  [
+   439.19,
+   164.72,
+   2876.3
+  ],
+  [
+   439.06,
+   163.72,
+   2876.4
+  ],
+  [
+   438.91,
+   162.72,
+   2876.5
+  ],
+  [
+   438.76,
+   161.72,
+   2876.6
+  ],
+  [
+   438.6,
+   160.73,
+   2876.7
+  ],
+  [
+   438.44,
+   159.74,
+   2876.8
+  ],
+  [
+   438.26,
+   158.76,
+   2876.9
+  ],
+  [
+   438.07,
+   157.78,
+   2877.0
+  ],
+  [
+   437.88,
+   156.79,
+   2877.1
+  ],
+  [
+   437.66,
+   155.82,
+   2877.2
+  ],
+  [
+   437.44,
+   154.84,
+   2877.3
+  ],
+  [
+   437.21,
+   153.86,
+   2877.4
+  ],
+  [
+   436.96,
+   152.89,
+   2877.5
+  ],
+  [
+   436.7,
+   151.92,
+   2877.6
+  ],
+  [
+   436.43,
+   150.94,
+   2877.7
+  ],
+  [
+   436.15,
+   149.97,
+   2877.8
+  ],
+  [
+   435.85,
+   149.0,
+   2877.9
+  ],
+  [
+   435.55,
+   148.02,
+   2878.0
+  ],
+  [
+   435.25,
+   147.04,
+   2878.1
+  ],
+  [
+   434.93,
+   146.06,
+   2878.2
+  ],
+  [
+   434.61,
+   145.08,
+   2878.3
+  ],
+  [
+   434.29,
+   144.1,
+   2878.4
+  ],
+  [
+   433.97,
+   143.11,
+   2878.5
+  ],
+  [
+   433.64,
+   142.12,
+   2878.6
+  ],
+  [
+   433.32,
+   141.13,
+   2878.7
+  ],
+  [
+   433.01,
+   140.13,
+   2878.8
+  ],
+  [
+   432.69,
+   139.13,
+   2878.9
+  ],
+  [
+   432.39,
+   138.12,
+   2879.0
+  ],
+  [
+   432.09,
+   137.11,
+   2879.1
+  ],
+  [
+   431.81,
+   136.1,
+   2879.2
+  ],
+  [
+   431.53,
+   135.08,
+   2879.3
+  ],
+  [
+   431.28,
+   134.06,
+   2879.4
+  ],
+  [
+   431.03,
+   133.04,
+   2879.5
+  ],
+  [
+   430.81,
+   132.01,
+   2879.6
+  ],
+  [
+   430.6,
+   130.98,
+   2879.7
+  ],
+  [
+   430.41,
+   129.94,
+   2879.8
+  ],
+  [
+   430.25,
+   128.91,
+   2879.9
+  ],
+  [
+   430.11,
+   127.87,
+   2880.0
+  ],
+  [
+   429.99,
+   126.83,
+   2880.1
+  ],
+  [
+   429.88,
+   125.78,
+   2880.2
+  ],
+  [
+   429.77,
+   124.74,
+   2880.3
+  ],
+  [
+   429.66,
+   123.69,
+   2880.4
+  ],
+  [
+   429.56,
+   122.64,
+   2880.5
+  ],
+  [
+   429.47,
+   121.59,
+   2880.6
+  ],
+  [
+   429.38,
+   120.54,
+   2880.7
+  ],
+  [
+   429.3,
+   119.49,
+   2880.8
+  ],
+  [
+   429.23,
+   118.43,
+   2880.9
+  ],
+  [
+   429.17,
+   117.38,
+   2881.0
+  ],
+  [
+   429.13,
+   116.32,
+   2881.1
+  ],
+  [
+   429.09,
+   115.26,
+   2881.2
+  ],
+  [
+   429.07,
+   114.2,
+   2881.3
+  ],
+  [
+   429.06,
+   113.14,
+   2881.4
+  ],
+  [
+   429.07,
+   112.09,
+   2881.5
+  ],
+  [
+   429.09,
+   111.03,
+   2881.6
+  ],
+  [
+   429.14,
+   109.97,
+   2881.7
+  ],
+  [
+   429.13,
+   108.9,
+   2881.7
+  ],
+  [
+   429.13,
+   107.84,
+   2881.7
+  ],
+  [
+   429.16,
+   106.77,
+   2881.7
+  ],
+  [
+   429.14,
+   105.69,
+   2881.6
+  ],
+  [
+   429.13,
+   104.62,
+   2881.5
+  ],
+  [
+   429.14,
+   103.54,
+   2881.4
+  ],
+  [
+   429.18,
+   102.47,
+   2881.3
+  ],
+  [
+   429.24,
+   101.4,
+   2881.2
+  ],
+  [
+   429.32,
+   100.33,
+   2881.1
+  ],
+  [
+   429.43,
+   99.26,
+   2881.0
+  ],
+  [
+   429.56,
+   98.2,
+   2880.9
+  ],
+  [
+   429.88,
+   97.18,
+   2881.0
+  ],
+  [
+   430.23,
+   96.17,
+   2881.1
+  ],
+  [
+   430.61,
+   95.16,
+   2881.2
+  ],
+  [
+   431.01,
+   94.17,
+   2881.3
+  ],
+  [
+   431.36,
+   93.16,
+   2881.3
+  ],
+  [
+   431.72,
+   92.16,
+   2881.3
+  ],
+  [
+   432.1,
+   91.16,
+   2881.3
+  ],
+  [
+   432.5,
+   90.17,
+   2881.3
+  ],
+  [
+   432.83,
+   89.16,
+   2881.2
+  ],
+  [
+   433.26,
+   88.18,
+   2881.2
+  ],
+  [
+   433.79,
+   87.24,
+   2881.3
+  ],
+  [
+   434.43,
+   86.33,
+   2881.5
+  ],
+  [
+   435.1,
+   85.44,
+   2881.7
+  ],
+  [
+   435.79,
+   84.56,
+   2881.9
+  ],
+  [
+   436.5,
+   83.69,
+   2882.1
+  ],
+  [
+   437.14,
+   82.81,
+   2882.2
+  ],
+  [
+   437.8,
+   81.93,
+   2882.3
+  ],
+  [
+   438.48,
+   81.07,
+   2882.4
+  ],
+  [
+   439.19,
+   80.22,
+   2882.5
+  ],
+  [
+   439.8,
+   79.34,
+   2882.5
+  ],
+  [
+   440.43,
+   78.48,
+   2882.5
+  ],
+  [
+   441.09,
+   77.63,
+   2882.5
+  ],
+  [
+   441.76,
+   76.79,
+   2882.5
+  ],
+  [
+   442.46,
+   75.96,
+   2882.5
+  ],
+  [
+   443.03,
+   75.09,
+   2882.4
+  ],
+  [
+   443.59,
+   74.22,
+   2882.3
+  ],
+  [
+   444.16,
+   73.35,
+   2882.2
+  ],
+  [
+   444.71,
+   72.48,
+   2882.1
+  ],
+  [
+   445.24,
+   71.6,
+   2882.0
+  ],
+  [
+   445.95,
+   70.8,
+   2882.0
+  ],
+  [
+   446.63,
+   69.99,
+   2882.0
+  ],
+  [
+   447.29,
+   69.18,
+   2882.0
+  ],
+  [
+   447.9,
+   68.35,
+   2882.0
+  ],
+  [
+   448.45,
+   67.5,
+   2882.0
+  ],
+  [
+   449.2,
+   66.74,
+   2882.1
+  ],
+  [
+   452.47,
+   62.79,
+   2882.6
+  ],
+  [
+   456.4,
+   52.72,
+   2882.6
+  ],
+  [
+   444.84,
+   49.62,
+   2874.41
+  ],
+  [
+   444.84,
+   49.62,
+   2874.41
+  ],
+  [
+   441.94,
+   48.85,
+   2874.41
+  ],
+  [
+   441.94,
+   48.85,
+   2874.41
+  ],
+  [
+   430.38,
+   45.75,
+   2866.22
+  ],
+  [
+   430.38,
+   45.75,
+   2866.22
+  ],
+  [
+   427.48,
+   44.98,
+   2866.22
+  ],
+  [
+   427.48,
+   44.98,
+   2866.22
+  ],
+  [
+   415.92,
+   41.88,
+   2858.03
+  ],
+  [
+   415.92,
+   41.88,
+   2858.03
+  ],
+  [
+   414.47,
+   41.49,
+   2858.03
+  ],
+  [
+   414.47,
+   41.49,
+   2858.03
+  ],
+  [
+   414.84,
+   40.09,
+   2858.03
+  ],
+  [
+   415.49,
+   37.68,
+   2858.03
+  ],
+  [
+   412.82,
+   32.57,
+   2859.6
+  ],
+  [
+   412.8,
+   31.44,
+   2859.8
+  ],
+  [
+   412.8,
+   30.31,
+   2860.0
+  ],
+  [
+   412.8,
+   29.18,
+   2860.2
+  ],
+  [
+   412.82,
+   28.05,
+   2860.4
+  ],
+  [
+   412.85,
+   26.91,
+   2860.6
+  ],
+  [
+   412.89,
+   25.78,
+   2860.8
+  ],
+  [
+   412.93,
+   24.64,
+   2861.0
+  ],
+  [
+   412.98,
+   23.5,
+   2861.2
+  ],
+  [
+   413.03,
+   22.35,
+   2861.4
+  ],
+  [
+   413.09,
+   21.2,
+   2861.6
+  ],
+  [
+   413.15,
+   20.05,
+   2861.8
+  ],
+  [
+   413.22,
+   18.89,
+   2862.0
+  ],
+  [
+   413.28,
+   17.73,
+   2862.2
+  ],
+  [
+   413.35,
+   16.55,
+   2862.4
+  ],
+  [
+   413.42,
+   15.37,
+   2862.6
+  ],
+  [
+   413.49,
+   14.19,
+   2862.8
+  ],
+  [
+   413.55,
+   12.99,
+   2863.0
+  ],
+  [
+   413.62,
+   11.78,
+   2863.2
+  ],
+  [
+   413.68,
+   10.57,
+   2863.4
+  ],
+  [
+   413.74,
+   9.34,
+   2863.6
+  ],
+  [
+   413.8,
+   8.11,
+   2863.8
+  ],
+  [
+   413.85,
+   6.86,
+   2864.0
+  ],
+  [
+   413.91,
+   5.6,
+   2864.2
+  ],
+  [
+   413.96,
+   4.33,
+   2864.4
+  ],
+  [
+   414.02,
+   3.06,
+   2864.6
+  ],
+  [
+   414.08,
+   1.78,
+   2864.8
+  ],
+  [
+   414.16,
+   0.5,
+   2865.0
+  ],
+  [
+   414.25,
+   -0.77,
+   2865.2
+  ],
+  [
+   414.36,
+   -2.05,
+   2865.4
+  ],
+  [
+   414.48,
+   -3.31,
+   2865.6
+  ],
+  [
+   414.63,
+   -4.57,
+   2865.8
+  ],
+  [
+   414.8,
+   -5.81,
+   2866.0
+  ],
+  [
+   415.0,
+   -7.05,
+   2866.2
+  ],
+  [
+   415.23,
+   -8.26,
+   2866.4
+  ],
+  [
+   415.48,
+   -9.47,
+   2866.6
+  ],
+  [
+   415.76,
+   -10.65,
+   2866.8
+  ],
+  [
+   416.07,
+   -11.82,
+   2867.0
+  ],
+  [
+   416.41,
+   -12.96,
+   2867.2
+  ],
+  [
+   416.78,
+   -14.09,
+   2867.4
+  ],
+  [
+   417.18,
+   -15.2,
+   2867.6
+  ],
+  [
+   417.6,
+   -16.3,
+   2867.8
+  ],
+  [
+   418.04,
+   -17.38,
+   2868.0
+  ],
+  [
+   418.51,
+   -18.44,
+   2868.2
+  ],
+  [
+   419.0,
+   -19.48,
+   2868.4
+  ],
+  [
+   419.51,
+   -20.51,
+   2868.6
+  ],
+  [
+   420.06,
+   -21.51,
+   2868.8
+  ],
+  [
+   420.62,
+   -22.5,
+   2869.0
+  ],
+  [
+   421.21,
+   -23.46,
+   2869.2
+  ],
+  [
+   421.83,
+   -24.41,
+   2869.4
+  ],
+  [
+   422.46,
+   -25.33,
+   2869.6
+  ],
+  [
+   423.13,
+   -26.23,
+   2869.8
+  ],
+  [
+   423.82,
+   -27.11,
+   2870.0
+  ],
+  [
+   424.53,
+   -27.96,
+   2870.2
+  ],
+  [
+   425.22,
+   -28.85,
+   2870.3
+  ],
+  [
+   425.92,
+   -29.72,
+   2870.4
+  ],
+  [
+   426.66,
+   -30.56,
+   2870.5
+  ],
+  [
+   427.36,
+   -31.43,
+   2870.5
+  ],
+  [
+   428.09,
+   -32.27,
+   2870.5
+  ],
+  [
+   428.85,
+   -33.09,
+   2870.5
+  ],
+  [
+   429.57,
+   -33.95,
+   2870.4
+  ],
+  [
+   430.33,
+   -34.77,
+   2870.3
+  ],
+  [
+   431.05,
+   -35.63,
+   2870.1
+  ],
+  [
+   431.8,
+   -36.47,
+   2869.9
+  ],
+  [
+   432.58,
+   -37.27,
+   2869.7
+  ],
+  [
+   433.38,
+   -38.05,
+   2869.5
+  ],
+  [
+   434.2,
+   -38.81,
+   2869.3
+  ],
+  [
+   435.05,
+   -39.53,
+   2869.1
+  ],
+  [
+   435.91,
+   -40.24,
+   2868.9
+  ],
+  [
+   436.8,
+   -40.91,
+   2868.7
+  ],
+  [
+   437.7,
+   -41.57,
+   2868.5
+  ],
+  [
+   438.62,
+   -42.21,
+   2868.3
+  ],
+  [
+   439.73,
+   -42.59,
+   2868.5
+  ],
+  [
+   440.85,
+   -42.96,
+   2868.7
+  ],
+  [
+   441.98,
+   -43.31,
+   2868.9
+  ],
+  [
+   447.0,
+   -41.7,
+   2873.43
+  ]
+ ],
+ "stretches": {
+  "E": "39 pieces (20 flights, 9 landings), 211 m, from 2883 to 2974 m",
+  "N": "90 pieces (50 flights, 31 landings), 516 m, from 2974 to 2888 m",
+  "F": "14 pieces (1 flights, 0 landings, 57 m of gallery), 119 m, from 2881 to 2883 m",
+  "S": "12 pieces (1 flights, 0 landings), 100 m, from 2858 to 2873 m"
+ },
+ "steps_gaps": {
+  "R04.L20": [
+   1,
+   0.4,
+   2.6
+  ]
+ },
+ "parapet_gaps": [
+  [
+   "R07E.L23",
+   443.23,
+   170.79,
+   441.1,
+   170.72
+  ],
+  [
+   "R04.L20",
+   414.47,
+   41.49,
+   415.23,
+   38.65
+  ]
+ ],
+ "marks": {
+  "great wheel house": [
+   714.4,
+   140.0
+  ],
+  "West Gate": [
+   445.0,
+   160.0
+  ],
+  "landing 20": [
+   414.84,
+   40.09
+  ],
+  "landing 23": [
+   442.6,
+   170.77
+  ],
+  "forecourt": [
+   452.47,
+   62.79
+  ],
+  "behind the Labrang": [
+   710.0,
+   274.0
+  ]
+ }
+}

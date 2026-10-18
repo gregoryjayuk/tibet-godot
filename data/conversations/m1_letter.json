@@ -1,0 +1,204 @@
+{
+ "id": "m1_letter",
+ "about": "Mission 1, The letter (plan chapter 14, 4.1; M2 sprint 1, step 5): day 1, the player arrives with the caravan carrying the head of the family house's sealed letter: its tea pledged on the Lhasa caravan is lost, and the house can no longer stand behind Achak Dolkar's credit. Given in the open (at her gateway, before the caravan's people), others see it handed over and word reaches Yang Shouren within the hour and the household by night; given in one of her rooms with the door shut and no one else by, only she knows. Lines with an id CV-nnn are the story's own: English until a native speaker write them in Tibetan (docs/culture/conversation-lines-check.md).",
+ "who": "achak_dolkar",
+ "if": [
+  [
+   "flag",
+   "has_letter"
+  ],
+  [
+   "not",
+   "letter_given"
+  ]
+ ],
+ "start": "a",
+ "nodes": {
+  "a": {
+   "say": "PB-T01",
+   "replies": [
+    {
+     "en": "Hand her the house's letter, here.",
+     "if": [
+      [
+       "not_shut_in"
+      ]
+     ],
+     "next": "open1",
+     "do": [
+      [
+       "flag",
+       "letter_given"
+      ],
+      [
+       "unflag",
+       "has_letter"
+      ],
+      [
+       "tell",
+       "achak_dolkar",
+       "letter_news"
+      ],
+      [
+       "witnesses",
+       "letter_seen",
+       10.0
+      ],
+      [
+       "pass_on",
+       "letter_seen",
+       [
+        "yang_shouren"
+       ],
+       60.0
+      ],
+      [
+       "pass_on",
+       "letter_seen",
+       [
+        "kitchen_woman",
+        "cook",
+        "dechen_child"
+       ],
+       360.0
+      ],
+      [
+       "done",
+       "m1_letter"
+      ],
+      [
+       "write",
+       "m1_given",
+       "note",
+       "Gave Achak Dolkar the house's letter in the open. Others saw it handed over.",
+       "achak_dolkar"
+      ]
+     ]
+    },
+    {
+     "en": "Give her the letter now, with the door shut.",
+     "if": [
+      [
+       "shut_in"
+      ],
+      [
+       "alone",
+       6.0
+      ]
+     ],
+     "next": "shut1",
+     "do": [
+      [
+       "flag",
+       "letter_given"
+      ],
+      [
+       "flag",
+       "letter_private"
+      ],
+      [
+       "unflag",
+       "has_letter"
+      ],
+      [
+       "tell",
+       "achak_dolkar",
+       "letter_news"
+      ],
+      [
+       "done",
+       "m1_letter"
+      ],
+      [
+       "write",
+       "m1_given",
+       "note",
+       "Gave Achak Dolkar the house's letter behind a shut door. Only she knows.",
+       "achak_dolkar"
+      ]
+     ]
+    },
+    {
+     "en": "Greet her, and keep the letter until you are alone with her.",
+     "if": [
+      [
+       "not",
+       "letter_waiting"
+      ]
+     ],
+     "next": "wait1",
+     "do": [
+      [
+       "flag",
+       "letter_waiting"
+      ],
+      [
+       "write",
+       "m1_letter",
+       "mission",
+       "Give Achak Dolkar the house's letter where no one else sees: in one of her rooms with the door shut. She counts the day alone in her Tibetan room before dark.",
+       "achak_dolkar",
+       "Dechen-tsang"
+      ]
+     ]
+    }
+   ]
+  },
+  "open1": {
+   "narrate": "She breaks the seal, reads it through, and folds it into her sleeve without a word.",
+   "next": "open2"
+  },
+  "open2": {
+   "line": "CV-001",
+   "en": "We will speak of this indoors, not here. Go up and rest; the child will show you the roofs at dusk. Tomorrow I must ride out to the caravan ground: you will carry the last offers between my rooms.",
+   "do": [
+    [
+     "write",
+     "m1_roofs",
+     "note",
+     "The child of the house will show me the way up onto the roofs at dusk.",
+     "",
+     "Dechen-tsang's guest yard"
+    ],
+    [
+     "write",
+     "m3_price",
+     "mission",
+     "Tomorrow afternoon, while Achak Dolkar rides out to the caravan ground, carry the last offers between her two counting rooms: the Litang agent in the Tibetan room, Yang Shouren in the Chinese. No one opens a price.",
+     "achak_dolkar",
+     "Dechen-tsang's counting rooms"
+    ]
+   ],
+   "next": "end"
+  },
+  "shut1": {
+   "narrate": "She reads it twice in the light from the window and puts it away inside her robe.",
+   "next": "shut2"
+  },
+  "shut2": {
+   "line": "CV-002",
+   "en": "You did well to bring this to me yourself. Say nothing of it in the town. Nothing. Tomorrow I must ride out to the caravan ground: you will carry the last offers between my rooms.",
+   "do": [
+    [
+     "favour",
+     "achak_dolkar",
+     1
+    ],
+    [
+     "write",
+     "m3_price",
+     "mission",
+     "Tomorrow afternoon, while Achak Dolkar rides out to the caravan ground, carry the last offers between her two counting rooms: the Litang agent in the Tibetan room, Yang Shouren in the Chinese. No one opens a price.",
+     "achak_dolkar",
+     "Dechen-tsang's counting rooms"
+    ]
+   ],
+   "next": "end"
+  },
+  "wait1": {
+   "line": "CV-003",
+   "en": "Then come to the house. Tea first; the rest after.",
+   "next": "end"
+  }
+ }
+}

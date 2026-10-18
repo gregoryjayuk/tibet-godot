@@ -1,0 +1,5571 @@
+{
+ "about": "The masterplan as data (plan chapter 02, 12), written by tools/town/gazetteer.py from chapter 02's tables; regenerate, never edit by hand. Positions are the town grid: x east, y north, metres from Tsongra; z metres above sea level.",
+ "control": {
+  "T": {
+   "pos": [
+    0,
+    0,
+    2662
+   ],
+   "what": "Tsongra market square, the origin"
+  },
+  "C": {
+   "pos": [
+    210,
+    -95,
+    2660
+   ],
+   "what": "Confluence pool of Dungchu and Serchu"
+  },
+  "X": {
+   "pos": [
+    -190,
+    -118,
+    2593
+   ],
+   "what": "Slot exit and apex of the fan"
+  },
+  "M": {
+   "pos": [
+    -487,
+    -172,
+    2541
+   ],
+   "what": "Mouth of the Dungchu in the Yalong"
+  },
+  "Yalong centreline": {
+   "rule": "x = −525 + 0.04y",
+   "z": "2,541 at y = −170; +0.5 m per 100 m upstream",
+   "what": "90 m wide; east bank at centreline +45"
+  },
+  "U2": {
+   "pos": [
+    330,
+    185,
+    2712
+   ],
+   "what": "Upper cantilever bridge over the Dungchu",
+   "water": true
+  },
+  "U5": {
+   "pos": [
+    620,
+    800,
+    2822
+   ],
+   "what": "Lingkor high bridge",
+   "water": true
+  },
+  "Leat intake": {
+   "pos": [
+    1150,
+    1850,
+    2992
+   ],
+   "what": "Head of the Tödé leat on the Dungchu"
+  },
+  "S0": {
+   "pos": [
+    430,
+    -228,
+    2695
+   ],
+   "what": "Serchu at the head of the Golden Slot, just below the mills (added in review; the Serchu is the polyline C → S0 → S1 → S3 → S5)",
+   "water": true
+  },
+  "S1": {
+   "pos": [
+    500,
+    -230,
+    2700
+   ],
+   "what": "Serchu at the mills",
+   "water": true
+  },
+  "S3": {
+   "pos": [
+    1250,
+    -520,
+    2805
+   ],
+   "what": "Serchu Zampa, where the road changes bank",
+   "water": true
+  },
+  "S5": {
+   "pos": [
+    2150,
+    -850,
+    2955
+   ],
+   "what": "Serchu below Jomo Gönpa",
+   "water": true
+  },
+  "Gate Chorten": {
+   "pos": [
+    170,
+    -175,
+    2692
+   ],
+   "what": "Where the road turns the ridge nose and the town appears"
+  },
+  "Samkha Khar": {
+   "pos": [
+    -130,
+    -78,
+    2640
+   ],
+   "what": "The Pönpo's castle on its rock"
+  },
+  "South Gate": {
+   "pos": [
+    465,
+    65,
+    2882
+   ],
+   "what": "Monastery main gate, top of the 1,080 steps"
+  },
+  "Tsokchen court": {
+   "pos": [
+    535,
+    110,
+    2928
+   ],
+   "what": "Assembly-hall courtyard"
+  },
+  "Labrang": {
+   "pos": [
+    620,
+    215,
+    2990
+   ],
+   "what": "The tulku's residence, highest building"
+  },
+  "Guru Drubphuk": {
+   "pos": [
+    1080,
+    400,
+    3360
+   ],
+   "what": "The Guru's cave at Drakkar Ritrö"
+  },
+  "Durtro": {
+   "pos": [
+    1160,
+    -1040,
+    3150
+   ],
+   "what": "Charnel ground (no entry)"
+  },
+  "Pharkha dues house": {
+   "pos": [
+    -700,
+    -140,
+    2620
+   ],
+   "what": "Nyarong's agent at the far landing"
+  },
+  "Laptse La": {
+   "pos": [
+    4760,
+    2750,
+    4480
+   ],
+   "what": "Pass and cairn; 5.5 km from T at bearing 060°"
+  },
+  "Dungri Karpo": {
+   "pos": [
+    8360,
+    9960,
+    5420
+   ],
+   "what": "The town's god; 13 km from T at bearing 040°"
+  },
+  "Minya Konka": {
+   "pos": [
+    69889,
+    -61708,
+    7509
+   ],
+   "what": "93.2 km from T at bearing 131° [25 Sep 2026: was +83,950, −48,130, 96.8 km at 120°, before the valley moved]"
+  }
+ },
+ "levels": [
+  {
+   "level": "Yalong water at the Landing",
+   "z": [
+    2541
+   ],
+   "district": "D01"
+  },
+  {
+   "level": "Ferry slip and coracle beach",
+   "z": [
+    2543,
+    2546
+   ],
+   "district": "D01"
+  },
+  {
+   "level": "Caravan ground",
+   "z": [
+    2550,
+    2585
+   ],
+   "district": "D02"
+  },
+  {
+   "level": "Hejie Water Gate",
+   "z": [
+    2558
+   ],
+   "district": "D03"
+  },
+  {
+   "level": "Hejie River Street",
+   "z": [
+    2558,
+    2598
+   ],
+   "district": "D03"
+  },
+  {
+   "level": "Hejie East Gate",
+   "z": [
+    2598
+   ],
+   "district": "D03"
+  },
+  {
+   "level": "Slot water under the castle",
+   "z": [
+    2604
+   ],
+   "district": "D04"
+  },
+  {
+   "level": "Lower cantilever bridge deck",
+   "z": [
+    2626
+   ],
+   "district": "D04"
+  },
+  {
+   "level": "Samkha Khar: base, parapet, tiled pavilion ridge",
+   "z": [
+    2640,
+    2658,
+    2664
+   ],
+   "district": "D04"
+  },
+  {
+   "level": "Chain bridge deck (north end, low point, south end)",
+   "z": [
+    2647,
+    2644,
+    2652
+   ],
+   "district": "D04"
+  },
+  {
+   "level": "Yak Gate",
+   "z": [
+    2652
+   ],
+   "district": "D04"
+  },
+  {
+   "level": "Confluence pool",
+   "z": [
+    2660
+   ],
+   "district": "D04/D05"
+  },
+  {
+   "level": "Tsongra",
+   "z": [
+    2662
+   ],
+   "district": "D05"
+  },
+  {
+   "level": "Pema Ö Lhakhang floor",
+   "z": [
+    2670
+   ],
+   "district": "D05"
+  },
+  {
+   "level": "Conch Bridge deck",
+   "z": [
+    2672
+   ],
+   "district": "D07"
+  },
+  {
+   "level": "Gate Chorten",
+   "z": [
+    2692
+   ],
+   "district": "D09"
+  },
+  {
+   "level": "Mani Lhakhang, Shöl's centre",
+   "z": [
+    2705
+   ],
+   "district": "D05"
+  },
+  {
+   "level": "Serchu mills",
+   "z": [
+    2695,
+    2710
+   ],
+   "district": "D09"
+  },
+  {
+   "level": "Upper cantilever bridge deck",
+   "z": [
+    2722
+   ],
+   "district": "D07"
+  },
+  {
+   "level": "Lhabab Chorten, landing 6 of the 1,080 steps",
+   "z": [
+    2742
+   ],
+   "district": "D07"
+  },
+  {
+   "level": "Lukhang spring, top of Shöl",
+   "z": [
+    2775
+   ],
+   "district": "D05"
+  },
+  {
+   "level": "Shöl–Tödé boundary",
+   "z": [
+    2780
+   ],
+   "district": "D05/D06"
+  },
+  {
+   "level": "Tödé watchtower base and top",
+   "z": [
+    2880,
+    2912
+   ],
+   "district": "D06"
+  },
+  {
+   "level": "Monastery South Gate",
+   "z": [
+    2882
+   ],
+   "district": "D08"
+  },
+  {
+   "level": "Monastery West Gate",
+   "z": [
+    2890
+   ],
+   "district": "D08"
+  },
+  {
+   "level": "Thangka wall base and top",
+   "z": [
+    2905,
+    2931
+   ],
+   "district": "D08"
+  },
+  {
+   "level": "Tsokchen courtyard",
+   "z": [
+    2928
+   ],
+   "district": "D08"
+  },
+  {
+   "level": "Monastery East Gate",
+   "z": [
+    2952
+   ],
+   "district": "D08"
+  },
+  {
+   "level": "Tödé leat, top of the fields",
+   "z": [
+    2978
+   ],
+   "district": "D06"
+  },
+  {
+   "level": "Labrang floor and roof",
+   "z": [
+    2990,
+    3005
+   ],
+   "district": "D08"
+  },
+  {
+   "level": "Monastery Upper Gate",
+   "z": [
+    3000
+   ],
+   "district": "D08"
+  },
+  {
+   "level": "Jomo Gönpa",
+   "z": [
+    3050
+   ],
+   "district": "D09"
+  },
+  {
+   "level": "Tathang race course",
+   "z": [
+    3050,
+    3070
+   ],
+   "district": "D10"
+  },
+  {
+   "level": "Nomad camp",
+   "z": [
+    3080
+   ],
+   "district": "D10"
+  },
+  {
+   "level": "Durtro",
+   "z": [
+    3150
+   ],
+   "district": "D12"
+  },
+  {
+   "level": "Ritro cliff foot, cave, top huts",
+   "z": [
+    3300,
+    3360,
+    3400
+   ],
+   "district": "D11"
+  },
+  {
+   "level": "Yarsa summer huts (empty)",
+   "z": [
+    3960
+   ],
+   "district": "D14"
+  },
+  {
+   "level": "Timber line",
+   "z": [
+    4100
+   ],
+   "district": "D14"
+  },
+  {
+   "level": "False-summit lhatse",
+   "z": [
+    4300
+   ],
+   "district": "D14"
+  },
+  {
+   "level": "Laptse La",
+   "z": [
+    4480
+   ],
+   "district": "D14"
+  },
+  {
+   "level": "Dungri Karpo",
+   "z": [
+    5420
+   ],
+   "district": "—"
+  },
+  {
+   "level": "Minya Konka",
+   "z": [
+    7509
+   ],
+   "district": "—"
+  }
+ ],
+ "buildings": [
+  {
+   "id": "FER-01",
+   "name_en": "Ferry slip and gong post",
+   "type": "infrastructure",
+   "district": "ferry",
+   "pos": [
+    -480,
+    -60,
+    2543
+   ],
+   "footprint": [
+    30,
+    12
+   ],
+   "footprint_text": "30 × 12 ramp",
+   "enterable": true,
+   "occupants": "6 Han boatmen",
+   "note": "Gong calls the government boat's crew (chapter 01)"
+  },
+  {
+   "id": "FER-02",
+   "name_en": "Government boat",
+   "name_zh": "官渡船",
+   "type": "vessel",
+   "district": "ferry",
+   "pos": [
+    -482,
+    -62,
+    2541
+   ],
+   "footprint": [
+    11,
+    3
+   ],
+   "footprint_text": "11 × 3 hull",
+   "enterable": true,
+   "occupants": "6 rowers",
+   "note": "Officials and Chinese travellers, for a fare; size design"
+  },
+  {
+   "id": "FER-03",
+   "name_en": "Boat shed",
+   "type": "shed",
+   "district": "ferry",
+   "pos": [
+    -470,
+    -30,
+    2546
+   ],
+   "footprint": [
+    16,
+    6
+   ],
+   "footprint_text": "16 × 6",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "2 on night watch",
+   "note": "Oars, poles, the boat-bridge planks"
+  },
+  {
+   "id": "FER-04",
+   "name_en": "Coracle beach and racks",
+   "type": "infrastructure",
+   "district": "ferry",
+   "pos": [
+    -482,
+    -120,
+    2542
+   ],
+   "footprint": [
+    25,
+    10
+   ],
+   "footprint_text": "25 × 10",
+   "enterable": true,
+   "occupants": "coracle men",
+   "note": "8 coracles, 1.5 × 1.2 m, hide over wicker (research 07, 9)"
+  },
+  {
+   "id": "FER-05",
+   "name_en": "Coracle-makers' sheds (4)",
+   "type": "sheds",
+   "district": "ferry",
+   "pos": [
+    -468,
+    10,
+    2548
+   ],
+   "footprint": [
+    5,
+    4
+   ],
+   "footprint_text": "5 × 4 each",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "4 coracle households by day",
+   "note": "Hides stretching, frames of bent willow"
+  },
+  {
+   "id": "FER-06",
+   "name_en": "Earth-god shrine",
+   "name_zh": "土地祠",
+   "type": "Chinese shrine",
+   "district": "ferry",
+   "pos": [
+    -472,
+    -85,
+    2547
+   ],
+   "footprint": [
+    1.2,
+    1
+   ],
+   "footprint_text": "1.2 × 1.0, 1.5 high",
+   "enterable": false,
+   "occupants": "Tudi and his wife",
+   "note": "For the ferrymen; incense stubs, red paper (chapter 01)"
+  },
+  {
+   "id": "FER-07",
+   "name_en": "Landing chorten",
+   "type": "chorten, byang chub type",
+   "district": "ferry",
+   "pos": [
+    -472,
+    -80,
+    2548
+   ],
+   "footprint": [
+    3,
+    3
+   ],
+   "footprint_text": "3 × 3, 5 high",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Three metres from the earth god: a chorten at the crossing. Both stand on the bench north of the Water Gate stair, clear of the gate (review fix: the old positions overlapped HEJ-03's footprint)"
+  },
+  {
+   "id": "FER-08",
+   "name_en": "Swimming ramp",
+   "type": "infrastructure",
+   "district": "ferry",
+   "pos": [
+    -485,
+    -215,
+    2540
+   ],
+   "footprint": [
+    12,
+    6
+   ],
+   "footprint_text": "12 × 6",
+   "enterable": true,
+   "occupants": "drovers",
+   "note": "Animals swim the calm reach behind a coracle on a rope"
+  },
+  {
+   "id": "FER-09",
+   "name_en": "Winter boat-bridge store",
+   "type": "stack",
+   "district": "ferry",
+   "pos": [
+    -462,
+    30,
+    2550
+   ],
+   "footprint": [
+    20,
+    6
+   ],
+   "footprint_text": "20 × 6",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Boats and planks for the winter bridge of boats (chapter 01)"
+  },
+  {
+   "id": "FER-10",
+   "name_en": "Rope slide, two cables",
+   "name_zh": "溜索",
+   "type": "crossing",
+   "district": "ferry",
+   "pos": [
+    -500,
+    785,
+    2568
+   ],
+   "z_range": [
+    2568,
+    2584
+   ],
+   "footprint_text": "78 m span, 2 cables 30 m apart",
+   "enterable": true,
+   "occupants": "locals, runaways",
+   "note": "Bamboo cables with high and low ends, one each way (research 07, 10)"
+  },
+  {
+   "id": "FER-11",
+   "name_en": "Slide head sheds and shrine (2)",
+   "type": "sheds",
+   "district": "ferry",
+   "pos": [
+    -455,
+    785,
+    2584
+   ],
+   "footprint": [
+    4,
+    3
+   ],
+   "footprint_text": "4 × 3",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "slide keeper",
+   "note": "Travellers bow at the shrine on landing (Bird, via research 07)"
+  },
+  {
+   "id": "GAR-01",
+   "name_en": "Caravan ground picket lines",
+   "type": "open ground",
+   "district": "tsonggar",
+   "pos": [
+    -360,
+    -235,
+    2565
+   ],
+   "footprint": [
+    180,
+    110
+   ],
+   "footprint_text": "180 × 110",
+   "enterable": true,
+   "occupants": "40–150 transients",
+   "note": "Rope and pegs, mastiffs at each end"
+  },
+  {
+   "id": "GAR-02",
+   "name_en": "Tea-case windbreaks",
+   "type": "stacks",
+   "district": "tsonggar",
+   "pos": [
+    -340,
+    -220,
+    2566
+   ],
+   "footprint_text": "3–12 m walls",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Rawhide cases of 9–12 bricks, 60 × 35 × 25 cm (design)"
+  },
+  {
+   "id": "GAR-03",
+   "name_en": "Caravan men's black tents (2)",
+   "type": "tent",
+   "district": "tsonggar",
+   "pos": [
+    -395,
+    -255,
+    2560
+   ],
+   "footprint": [
+    8,
+    5
+   ],
+   "footprint_text": "8 × 5",
+   "storeys": 1,
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "a caravan's crew",
+   "note": "སྦྲ་ནག (sbra nag); dung stove, men's and women's sides (research 05, 4)"
+  },
+  {
+   "id": "GAR-04",
+   "name_en": "Slaughter yard",
+   "type": "yard",
+   "district": "tsonggar",
+   "pos": [
+    -455,
+    -285,
+    2551
+   ],
+   "footprint": [
+    18,
+    14
+   ],
+   "footprint_text": "18 × 14 walled",
+   "enterable": false,
+   "occupants": "Hui butcher and the Tibetan butcher",
+   "note": "Outside the lingkor and downstream; idle on good days. Two killing floors behind a partition: the Hui butcher kills by his own rite at the north end, facing west, and never shares knives or floor with the Tibetan butcher (design)"
+  },
+  {
+   "id": "GAR-05",
+   "name_en": "Tibetan butcher's house",
+   "type": "E",
+   "district": "tsonggar",
+   "pos": [
+    -440,
+    -295,
+    2552
+   ],
+   "footprint": [
+    7,
+    6
+   ],
+   "footprint_text": "7 × 6",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "1 household, 6",
+   "note": "བཤན་པ (bshan pa, butcher)"
+  },
+  {
+   "id": "GAR-06",
+   "name_en": "Smithy",
+   "name_bo": "མགར་བ",
+   "type": "E + forge shed",
+   "district": "tsonggar",
+   "pos": [
+    -420,
+    -290,
+    2555
+   ],
+   "footprint": [
+    8,
+    6
+   ],
+   "footprint_text": "8 × 6 + 6 × 5",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "1 household, 7",
+   "note": "Farrier for caravans; kept near the butchers (research 08, 4)"
+  },
+  {
+   "id": "GAR-07",
+   "name_en": "Dung-drying walls",
+   "type": "walls",
+   "district": "tsonggar",
+   "pos": [
+    -300,
+    -270,
+    2572
+   ],
+   "footprint_text": "60 m run",
+   "enterable": false,
+   "occupants": "women of the west edge",
+   "note": "Dung cakes with handprints (research 02, 7)"
+  },
+  {
+   "id": "GAR-08",
+   "name_en": "Hide pits",
+   "type": "pits",
+   "district": "tsonggar",
+   "pos": [
+    -430,
+    -260,
+    2553
+   ],
+   "footprint_text": "3 pits, 3 × 2",
+   "enterable": false,
+   "occupants": "tea stitchers",
+   "note": "Rawhide soaked for re-sewing tea cases"
+  },
+  {
+   "id": "GAR-09",
+   "name_en": "Hui mule-hirer's corral",
+   "type": "corral",
+   "district": "tsonggar",
+   "pos": [
+    -300,
+    -190,
+    2578
+   ],
+   "footprint": [
+    30,
+    20
+   ],
+   "footprint_text": "30 × 20",
+   "enterable": true,
+   "occupants": "the mule-hirer's grooms",
+   "note": "Chinese framed pack saddles stacked by the gate"
+  },
+  {
+   "id": "GAR-10",
+   "name_en": "Fan-channel plank bridge",
+   "type": "bridge",
+   "district": "tsonggar",
+   "pos": [
+    -440,
+    -158,
+    2552
+   ],
+   "footprint_text": "9 m span, 1.5 wide",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Links the camp to the Water Gate and the Landing"
+  },
+  {
+   "id": "GAR-11",
+   "name_en": "Caravan Ramp",
+   "type": "route",
+   "district": "tsonggar",
+   "pos": [
+    -220,
+    -200,
+    2575
+   ],
+   "z_range": [
+    2575,
+    2655
+   ],
+   "footprint_text": "600 m, 5 zigzags",
+   "enterable": true,
+   "occupants": "caravans",
+   "note": "Animals reach the camp without crossing the slot (R-03)"
+  },
+  {
+   "id": "GAR-12",
+   "name_en": "Chinese graveyard",
+   "name_zh": "義塚",
+   "type": "graves",
+   "district": "tsonggar",
+   "pos": [
+    -300,
+    -300,
+    2588
+   ],
+   "footprint": [
+    40,
+    20
+   ],
+   "footprint_text": "40 × 20, 34 mounds",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Soldiers and traders who died here; Qingming visits"
+  },
+  {
+   "id": "GAR-13",
+   "name_en": "Fodder yard (added in the consistency edit, from chapter 06)",
+   "type": "yard",
+   "district": "tsonggar",
+   "pos": [
+    -330,
+    -175,
+    2578
+   ],
+   "footprint": [
+    20,
+    12
+   ],
+   "footprint_text": "20 × 12",
+   "enterable": true,
+   "occupants": "Tödé and hamlet women selling",
+   "note": "Hay, barley straw and barley; nosebags filled at 20 cash; the fan has no pasture, so caravans buy fodder (chapter 06, 3.1)"
+  },
+  {
+   "id": "GAR-14",
+   "name_en": "The drowned footings (ruin, level 3; added from chapter 03, which proposed it as GAR-13)",
+   "type": "ruin",
+   "district": "tsonggar",
+   "pos": [
+    -380,
+    -300,
+    2556
+   ],
+   "footprint": [
+    30,
+    20
+   ],
+   "footprint_text": "30 × 20",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Footings of the pre-1786 settlement on the fan, buried by the flood that cleared it, showing through the turf (chapter 01, 5.2; chapter 03, 12.3)"
+  },
+  {
+   "id": "HEJ-01",
+   "name_en": "Hejie wall",
+   "type": "wall",
+   "district": "hejie",
+   "place": "circuit",
+   "footprint_text": "720 m, 3.5–4.5 high",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Dry stone, crenellated; south side on the flood embankment"
+  },
+  {
+   "id": "HEJ-02",
+   "name_en": "East Gate",
+   "name_zh": "靖邊門",
+   "type": "gate tower",
+   "district": "hejie",
+   "pos": [
+    -218,
+    -80,
+    2598
+   ],
+   "footprint": [
+    9,
+    7
+   ],
+   "footprint_text": "9 × 7",
+   "rot_deg": 90,
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "2 soldiers by day",
+   "note": "Tiled pavilion over a stone arch; the pieman and barber inside"
+  },
+  {
+   "id": "HEJ-03",
+   "name_en": "Water Gate",
+   "name_zh": "利涉門",
+   "type": "gate tower",
+   "district": "hejie",
+   "pos": [
+    -463,
+    -95,
+    2558
+   ],
+   "footprint": [
+    8,
+    7
+   ],
+   "footprint_text": "8 × 7",
+   "rot_deg": 270,
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "1 soldier, the permit clerk",
+   "note": "Plaque 利涉大川; permits of non-natives checked here"
+  },
+  {
+   "id": "HEJ-04",
+   "name_en": "Postern",
+   "name_zh": "小北門",
+   "type": "gate",
+   "district": "hejie",
+   "pos": [
+    -330,
+    10,
+    2586
+   ],
+   "footprint_text": "3 m arch",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Into Shöl's west edge; barred at night"
+  },
+  {
+   "id": "HEJ-05",
+   "name_en": "The post",
+   "name_zh": "銅鼓汛 汛署",
+   "type": "yamen",
+   "district": "hejie",
+   "pos": [
+    -400,
+    -60,
+    2567
+   ],
+   "footprint": [
+    30,
+    24
+   ],
+   "footprint_text": "30 × 24",
+   "storeys": [
+    1,
+    2
+   ],
+   "enterable": true,
+   "occupants": "Liu Dechang, 17 soldiers",
+   "note": "Gate, court hall with the 明鏡高懸 plaque, office wings, barracks, lock-up, drum, flagpole"
+  },
+  {
+   "id": "HEJ-06",
+   "name_en": "Relay station",
+   "name_zh": "銅鼓塘 塘房",
+   "type": "stables and rooms",
+   "district": "hejie",
+   "pos": [
+    -430,
+    -40,
+    2563
+   ],
+   "footprint": [
+    20,
+    16
+   ],
+   "footprint_text": "20 × 16",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "6 relay men, 8 horses",
+   "note": "Couriers change horses; the arrow-wrapped ula order arrives here"
+  },
+  {
+   "id": "HEJ-07",
+   "name_en": "Official lodging",
+   "name_zh": "公館",
+   "type": "courtyard house",
+   "district": "hejie",
+   "pos": [
+    -370,
+    -20,
+    2572
+   ],
+   "footprint": [
+    22,
+    16
+   ],
+   "footprint_text": "22 × 16",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "empty; the resident's officers expected",
+   "note": "Swept and waiting (chapter 01, thread 1) (design)"
+  },
+  {
+   "id": "HEJ-08",
+   "name_en": "Guandi temple; Tibetans' Gesar Lhakhang",
+   "name_bo": "གེ་སར་ལྷ་ཁང",
+   "name_zh": "關帝廟",
+   "type": "temple",
+   "district": "hejie",
+   "pos": [
+    -300,
+    -55,
+    2582
+   ],
+   "footprint": [
+    22,
+    40
+   ],
+   "footprint_text": "40 × 22",
+   "storeys": 2,
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "a Han keeper",
+   "note": "Stage tower over the gate facing the hall; red-faced Guan Yu with a khata on him; the merchants' hall (chapter 01)"
+  },
+  {
+   "id": "HEJ-09",
+   "name_en": "Han Desheng's shop and godown",
+   "name_zh": "恆興號",
+   "type": "F, large",
+   "district": "hejie",
+   "pos": [
+    -270,
+    -100,
+    2586
+   ],
+   "footprint": [
+    14,
+    24
+   ],
+   "footprint_text": "14 × 24",
+   "rot_deg": 0,
+   "storeys": 2,
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "Han Desheng, 58, and clerks",
+   "note": "Cloth, Chengdu khatags, needles, tobacco; the new Sichuan rupee in his purse"
+  },
+  {
+   "id": "HEJ-10",
+   "name_en": "tea godown (invented)",
+   "name_zh": "天順茶號",
+   "type": "long hall",
+   "district": "hejie",
+   "pos": [
+    -420,
+    -120,
+    2560
+   ],
+   "footprint": [
+    30,
+    12
+   ],
+   "footprint_text": "30 × 12",
+   "rot_deg": 0,
+   "storeys": 1,
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "a Ya'an firm's agent",
+   "note": "Rawhide cases in transit; bricks sold singly as money"
+  },
+  {
+   "id": "HEJ-11",
+   "name_en": "inn (invented)",
+   "name_zh": "雲來客棧",
+   "type": "G",
+   "district": "hejie",
+   "pos": [
+    -330,
+    -75,
+    2577
+   ],
+   "footprint": [
+    16,
+    20
+   ],
+   "footprint_text": "16 × 20",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "innkeeper; 10–25 guests",
+   "note": "Rooms over the stable; a French clock that has stopped"
+  },
+  {
+   "id": "HEJ-12",
+   "name_en": "inn (invented)",
+   "name_zh": "太和客棧",
+   "type": "G",
+   "district": "hejie",
+   "pos": [
+    -365,
+    -95,
+    2570
+   ],
+   "footprint": [
+    14,
+    18
+   ],
+   "footprint_text": "14 × 18",
+   "rot_deg": 0,
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "innkeeper; 6–20 guests",
+   "note": "The opium room at the back is a closed door and a smell (chapter 01, 11)"
+  },
+  {
+   "id": "HEJ-13",
+   "name_en": "Carriers' inn",
+   "name_zh": "腳店",
+   "type": "F",
+   "district": "hejie",
+   "pos": [
+    -440,
+    -70,
+    2561
+   ],
+   "footprint": [
+    8,
+    14
+   ],
+   "footprint_text": "8 × 14",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "local carriers",
+   "note": "Long low benches for propping loads (research 07, 2)"
+  },
+  {
+   "id": "HEJ-14",
+   "name_en": "teahouse (invented)",
+   "name_zh": "春和茶館",
+   "type": "F, open front",
+   "district": "hejie",
+   "pos": [
+    -300,
+    -85,
+    2581
+   ],
+   "footprint": [
+    8,
+    12
+   ],
+   "footprint_text": "8 × 12",
+   "storeys": 2,
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "owner, 5–30 drinkers",
+   "note": "Bamboo chairs, covered bowls, melon-seed husks; a storyteller at night"
+  },
+  {
+   "id": "HEJ-15",
+   "name_en": "pharmacy (invented)",
+   "name_zh": "濟生堂",
+   "type": "F",
+   "district": "hejie",
+   "pos": [
+    -345,
+    -60,
+    2574
+   ],
+   "footprint": [
+    7,
+    12
+   ],
+   "footprint_text": "7 × 12",
+   "storeys": 2,
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "pharmacist, apprentice",
+   "note": "Drawer wall, deer horn, musk bought across the counter"
+  },
+  {
+   "id": "HEJ-16",
+   "name_en": "Silversmith",
+   "name_zh": "銀匠鋪",
+   "type": "F",
+   "district": "hejie",
+   "pos": [
+    -385,
+    -80,
+    2568
+   ],
+   "footprint": [
+    6,
+    10
+   ],
+   "footprint_text": "6 × 10",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "smith and son",
+   "note": "Tibetan clasps and head plates of Chinese make; a small rupee-melting forge"
+  },
+  {
+   "id": "HEJ-17",
+   "name_en": "Wine shop",
+   "name_zh": "酒鋪",
+   "type": "F",
+   "district": "hejie",
+   "pos": [
+    -255,
+    -75,
+    2590
+   ],
+   "footprint": [
+    6,
+    10
+   ],
+   "footprint_text": "6 × 10",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "a Sichuan widower",
+   "note": "Wine-pot sign; chrysanthemum wine sold out today"
+  },
+  {
+   "id": "HEJ-18",
+   "name_en": "Hui noodle house",
+   "name_zh": "清真麵館",
+   "type": "F",
+   "district": "hejie",
+   "pos": [
+    -430,
+    -110,
+    2558
+   ],
+   "footprint": [
+    6,
+    10
+   ],
+   "footprint_text": "6 × 10",
+   "rot_deg": 0,
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "a Hui family",
+   "note": "清真 sign, Arabic above"
+  },
+  {
+   "id": "HEJ-19",
+   "name_en": "Hui butcher's shop, courtyard and prayer room",
+   "type": "G",
+   "district": "hejie",
+   "pos": [
+    -445,
+    -130,
+    2557
+   ],
+   "footprint": [
+    12,
+    14
+   ],
+   "footprint_text": "12 × 14",
+   "rot_deg": 0,
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "the butcher's household",
+   "note": "The Hui pray here (chapter 01, 8.3); prayer room faces west"
+  },
+  {
+   "id": "HEJ-20",
+   "name_en": "Brassware shop (Hui trader from Taozhou )",
+   "name_zh": "洮州",
+   "type": "F",
+   "district": "hejie",
+   "pos": [
+    -410,
+    -100,
+    2563
+   ],
+   "footprint": [
+    6,
+    10
+   ],
+   "footprint_text": "6 × 10",
+   "rot_deg": 0,
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "trader and nephew",
+   "note": "Gansu brass bowls and ladles (research 08, 4)"
+  },
+  {
+   "id": "HEJ-21",
+   "name_en": "Mule-hirer's house",
+   "name_zh": "騾馬店",
+   "type": "F + yard",
+   "district": "hejie",
+   "pos": [
+    -315,
+    -125,
+    2578
+   ],
+   "footprint": [
+    10,
+    16
+   ],
+   "footprint_text": "10 × 16",
+   "rot_deg": 0,
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "Hui mule-hirer",
+   "note": "His corral is outside the wall (GAR-09)"
+  },
+  {
+   "id": "HEJ-22",
+   "name_en": "Farrier and blacksmith",
+   "name_zh": "鐵匠鋪",
+   "type": "F + forge",
+   "district": "hejie",
+   "pos": [
+    -240,
+    -115,
+    2592
+   ],
+   "footprint": [
+    8,
+    10
+   ],
+   "footprint_text": "8 × 10",
+   "rot_deg": 0,
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "Han smith",
+   "note": "Horseshoes and nails; the Tibetan smith works at the camp"
+  },
+  {
+   "id": "HEJ-23",
+   "name_en": "Carpenter and coffin-maker",
+   "name_zh": "木匠",
+   "type": "F",
+   "district": "hejie",
+   "pos": [
+    -395,
+    -125,
+    2563
+   ],
+   "footprint": [
+    7,
+    12
+   ],
+   "footprint_text": "7 × 12",
+   "rot_deg": 0,
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "Han carpenter",
+   "note": "Coffins for the Han graveyard"
+  },
+  {
+   "id": "HEJ-24",
+   "name_en": "Candle, incense and paper shop",
+   "name_zh": "香燭鋪",
+   "type": "F",
+   "district": "hejie",
+   "pos": [
+    -285,
+    -70,
+    2585
+   ],
+   "footprint": [
+    5,
+    10
+   ],
+   "footprint_text": "5 × 10",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "owner",
+   "note": "Red candles, paper money, door gods"
+  },
+  {
+   "id": "HEJ-25",
+   "name_en": "Silk and cloth shop",
+   "name_zh": "綢緞鋪",
+   "type": "F",
+   "district": "hejie",
+   "pos": [
+    -265,
+    -120,
+    2589
+   ],
+   "footprint": [
+    6,
+    12
+   ],
+   "footprint_text": "6 × 12",
+   "rot_deg": 0,
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "Shaanxi owner",
+   "note": "Brocade for Tibetan chubas and monastery banners"
+  },
+  {
+   "id": "HEJ-26",
+   "name_en": "Grain and salt shop",
+   "name_zh": "米鹽鋪",
+   "type": "F",
+   "district": "hejie",
+   "pos": [
+    -350,
+    -115,
+    2571
+   ],
+   "footprint": [
+    6,
+    10
+   ],
+   "footprint_text": "6 × 10",
+   "rot_deg": 0,
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "owner",
+   "note": "Rice carried up from the lowlands"
+  },
+  {
+   "id": "HEJ-27",
+   "name_en": "Tailor",
+   "name_zh": "裁縫",
+   "type": "F",
+   "district": "hejie",
+   "pos": [
+    -320,
+    -105,
+    2576
+   ],
+   "footprint": [
+    5,
+    10
+   ],
+   "footprint_text": "5 × 10",
+   "rot_deg": 0,
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "tailor",
+   "note": "—"
+  },
+  {
+   "id": "HEJ-28",
+   "name_en": "Straw sandals and cobbler",
+   "type": "stall",
+   "district": "hejie",
+   "pos": [
+    -230,
+    -90,
+    2595
+   ],
+   "footprint": [
+    3,
+    2
+   ],
+   "footprint_text": "3 × 2",
+   "enterable": true,
+   "occupants": "cobbler",
+   "note": "By the East Gate"
+  },
+  {
+   "id": "HEJ-29",
+   "name_en": "Parakeet dealer's house",
+   "type": "F",
+   "district": "hejie",
+   "pos": [
+    -375,
+    -40,
+    2570
+   ],
+   "footprint": [
+    6,
+    10
+   ],
+   "footprint_text": "6 × 10",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "dealer",
+   "note": "Cages of green parakeets for Chengdu (chapter 01, thread 10)"
+  },
+  {
+   "id": "HEJ-30",
+   "name_en": "Interpreter's house",
+   "name_zh": "通事",
+   "type": "F",
+   "district": "hejie",
+   "pos": [
+    -395,
+    -30,
+    2567
+   ],
+   "footprint": [
+    7,
+    10
+   ],
+   "footprint_text": "7 × 10",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "the interpreter, Tibetan mother",
+   "note": "Bilingual household"
+  },
+  {
+   "id": "HEJ-31",
+   "name_en": "Hejie well",
+   "name_zh": "井",
+   "type": "well",
+   "district": "hejie",
+   "pos": [
+    -350,
+    -50,
+    2573
+   ],
+   "footprint_text": "2 m across",
+   "enterable": true,
+   "occupants": "—",
+   "note": "12 m into the fan gravels (design); not river water"
+  },
+  {
+   "id": "HEJ-32",
+   "name_en": "Vegetable gardens",
+   "type": "gardens",
+   "district": "hejie",
+   "pos": [
+    -440,
+    -5,
+    2565
+   ],
+   "footprint": [
+    30,
+    25
+   ],
+   "footprint_text": "30 × 25",
+   "enterable": true,
+   "occupants": "households",
+   "note": "Cabbages, celery, peppers, onions (chapter 01, 7.1)"
+  },
+  {
+   "id": "HEJ-33",
+   "name_en": "Latrine and night-soil pit",
+   "type": "latrine",
+   "district": "hejie",
+   "pos": [
+    -455,
+    -20,
+    2560
+   ],
+   "footprint": [
+    4,
+    3
+   ],
+   "footprint_text": "4 × 3",
+   "storeys": 1,
+   "enterable": false,
+   "occupants": "—",
+   "note": "Night soil goes to the gardens (general practice; unverified here)"
+  },
+  {
+   "id": "HEJ-34",
+   "name_en": "Pigsties",
+   "type": "sties",
+   "district": "hejie",
+   "place": "various",
+   "footprint": [
+    3,
+    2
+   ],
+   "footprint_text": "3 × 2 each",
+   "enterable": false,
+   "occupants": "5 pigs",
+   "note": "Pigs are the Chinese marker (research 07, 12); none in the Hui corner round HEJ-18 to HEJ-21"
+  },
+  {
+   "id": "HEJ-35",
+   "name_en": "Square inside the East Gate",
+   "type": "open space",
+   "district": "hejie",
+   "pos": [
+    -232,
+    -78,
+    2596
+   ],
+   "footprint": [
+    14,
+    10
+   ],
+   "footprint_text": "14 × 10",
+   "enterable": true,
+   "occupants": "pieman, barber",
+   "note": "Dice all day (research 04, 3)"
+  },
+  {
+   "id": "HEJ-36",
+   "name_en": "Tudi niche at the East Gate",
+   "type": "shrine",
+   "district": "hejie",
+   "pos": [
+    -222,
+    -68,
+    2598
+   ],
+   "footprint": [
+    0.8,
+    0.6
+   ],
+   "footprint_text": "0.8 × 0.6",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Earth god at the gate (research 04, 6)"
+  },
+  {
+   "id": "HEJ-37",
+   "name_en": "Houses H-HEJ-01 to H-HEJ-32",
+   "type": "F",
+   "district": "hejie",
+   "place": "along River Street and lanes",
+   "footprint_text": "6–8 × 12",
+   "storeys": 2,
+   "enterable": false,
+   "occupants": "1 household each",
+   "note": "Variants F1–F4 by frontage and roof"
+  },
+  {
+   "id": "HEJ-38",
+   "name_en": "Houses H-HEJ-33 to H-HEJ-40",
+   "type": "G",
+   "district": "hejie",
+   "place": "back lanes",
+   "footprint": [
+    14,
+    18
+   ],
+   "footprint_text": "14 × 18",
+   "storeys": [
+    1,
+    2
+   ],
+   "enterable": false,
+   "occupants": "richer households",
+   "note": "Mixed families; Tibetan chapel room in two"
+  },
+  {
+   "id": "HEJ-39",
+   "name_en": "Mule mill (added in the consistency edit, from chapter 06)",
+   "type": "courtyard mill",
+   "district": "hejie",
+   "pos": [
+    -355,
+    -130,
+    2570
+   ],
+   "footprint": [
+    10,
+    10
+   ],
+   "footprint_text": "10 × 10",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "a Han miller and one blindfolded mule",
+   "note": "\"The Chinese traders have a number of small grist-mills worked by mules\" (Rockhill 1891, p. 250, via chapter 06, 9); clear of HEJ-23 and HEJ-26 (checked)"
+  },
+  {
+   "id": "SAM-01",
+   "name_en": "Samkha Khar",
+   "name_bo": "ཟམ་ཁ་མཁར",
+   "type": "castle",
+   "district": "samkha",
+   "pos": [
+    -130,
+    -78,
+    2640
+   ],
+   "footprint_text": "tower 22 × 18; outer ward 40 × 28",
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "the Pönpo's household, about 35",
+   "note": "Ground: stores and lock-up; 2nd: court hall of 12 pillars; 4th: chapel and a household gönkhang; tiled pavilion on top; penbe; battered 7°"
+  },
+  {
+   "id": "SAM-02",
+   "name_en": "Castle gate passage",
+   "type": "covered passage",
+   "district": "samkha",
+   "pos": [
+    -128,
+    -88,
+    2647
+   ],
+   "footprint": [
+    14,
+    3
+   ],
+   "footprint_text": "14 × 3",
+   "enterable": true,
+   "occupants": "a gatekeeper",
+   "note": "The chain bridge lands inside it; prayer wheel at the inner door"
+  },
+  {
+   "id": "SAM-03",
+   "name_en": "Chain footbridge",
+   "name_bo": "ལྕགས་ཟམ",
+   "type": "bridge",
+   "district": "samkha",
+   "pos": [
+    -130,
+    -115,
+    2644
+   ],
+   "z_range": [
+    2644,
+    2652
+   ],
+   "footprint_text": "58 m span, 1.6 wide",
+   "enterable": true,
+   "occupants": "—",
+   "note": "6 deck chains, 2 hand chains, loose planks; 40 m above the water"
+  },
+  {
+   "id": "SAM-04",
+   "name_en": "South pavilion, toll table, shrine and stele",
+   "type": "pavilion",
+   "district": "samkha",
+   "pos": [
+    -130,
+    -145,
+    2655
+   ],
+   "footprint": [
+    10,
+    6
+   ],
+   "footprint_text": "10 × 6",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "the Pönpo's toll steward",
+   "note": "Thangtong Gyalpo's image; a 雍正九年 stele; the road forks here"
+  },
+  {
+   "id": "SAM-05",
+   "name_en": "Lower cantilever bridge",
+   "name_bo": "ཟམ་ཁ་ཟམ་པ",
+   "type": "bridge",
+   "district": "samkha",
+   "pos": [
+    -55,
+    -108,
+    2626
+   ],
+   "footprint_text": "22 m span, 3 wide",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Four cantilever tiers each side; animals; 10 m above the water"
+  },
+  {
+   "id": "SAM-06",
+   "name_en": "South and north ramps",
+   "type": "ramps",
+   "district": "samkha",
+   "points": [
+    [
+     -40,
+     -125
+    ],
+    [
+     -55,
+     -90
+    ]
+   ],
+   "pos": [
+    -40,
+    -125,
+    null
+   ],
+   "footprint_text": "195 m and 180 m, 15% (29 m down from the pavilion, 27 m up to the Yak Gate)",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Zigzags cut into the slot walls"
+  },
+  {
+   "id": "SAM-07",
+   "name_en": "Yak Gate",
+   "type": "gate",
+   "district": "samkha",
+   "pos": [
+    -55,
+    -78,
+    2652
+   ],
+   "footprint_text": "4 m arch",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Where animals enter Shöl; a small chorten beside it"
+  },
+  {
+   "id": "SAM-08",
+   "name_en": "Castle stables and granary",
+   "type": "range",
+   "district": "samkha",
+   "pos": [
+    -165,
+    -60,
+    2636
+   ],
+   "footprint": [
+    24,
+    10
+   ],
+   "footprint_text": "24 × 10",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "grooms",
+   "note": "The Pönpo's riding mules and grain dues"
+  },
+  {
+   "id": "SAM-09",
+   "name_en": "Ula yard",
+   "type": "courtyard",
+   "district": "samkha",
+   "pos": [
+    -190,
+    -45,
+    2625
+   ],
+   "footprint": [
+    30,
+    20
+   ],
+   "footprint_text": "30 × 20",
+   "enterable": true,
+   "occupants": "the headman's men",
+   "note": "Borrowed animals gathered for officials (research 07, 7)"
+  },
+  {
+   "id": "SAM-10",
+   "name_en": "Castle Ramp",
+   "type": "route",
+   "district": "samkha",
+   "pos": [
+    -175,
+    -70,
+    2598
+   ],
+   "z_range": [
+    2598,
+    2645
+   ],
+   "footprint_text": "300 m, 3 legs",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Castle gate to Hejie's East Gate"
+  },
+  {
+   "id": "SAM-11",
+   "name_en": "Leat Fall",
+   "type": "waterfall",
+   "district": "samkha",
+   "pos": [
+    -70,
+    -82,
+    2652
+   ],
+   "footprint_text": "30 m drop",
+   "enterable": false,
+   "occupants": "—",
+   "note": "The Shöl leat falls into the slot"
+  },
+  {
+   "id": "SAM-12",
+   "name_en": "Castle latrine bay",
+   "type": "latrine",
+   "district": "samkha",
+   "pos": [
+    -140,
+    -90,
+    2655
+   ],
+   "footprint": [
+    2,
+    1.5
+   ],
+   "footprint_text": "2 × 1.5",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Cantilevered over the slot's rock face, 51 m above the water; the drop lands on a ledge midden, not in the torrent, for fear of fouling the klu (general belief; unverified in a period Kham text)"
+  },
+  {
+   "id": "SAM-13",
+   "name_en": "Conch Fall",
+   "type": "waterfall",
+   "district": "samkha",
+   "pos": [
+    170,
+    -98,
+    2650
+   ],
+   "footprint_text": "7 m fall",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Spray lit by the first sun"
+  },
+  {
+   "id": "SAM-14",
+   "name_en": "Retainers' houses H-SAM-01 to H-SAM-08",
+   "type": "B",
+   "district": "samkha",
+   "place": "Castle Lane and the rim",
+   "footprint": [
+    9,
+    8
+   ],
+   "footprint_text": "9 × 8",
+   "storeys": 3,
+   "enterable": false,
+   "occupants": "11 households (three houses hold two)",
+   "note": "Steward, groom, the Pönpo's scribe; with SAM-15 and the castle, Samkha's 16 households"
+  },
+  {
+   "id": "SAM-15",
+   "name_en": "Poor houses H-SAM-09 to H-SAM-12",
+   "type": "E",
+   "district": "samkha",
+   "place": "under the castle rock",
+   "footprint": [
+    6,
+    5
+   ],
+   "footprint_text": "6 × 5",
+   "storeys": 1,
+   "enterable": false,
+   "occupants": "4 households",
+   "note": "Servants and a mastiff-keeper"
+  },
+  {
+   "id": "SAM-16",
+   "name_en": "The 1861 breach (ruin, level 2; added from chapter 03)",
+   "type": "ruin",
+   "district": "samkha",
+   "pos": [
+    -95,
+    -80,
+    2648
+   ],
+   "footprint": [
+    12,
+    6
+   ],
+   "footprint_text": "12 × 6",
+   "enterable": true,
+   "occupants": "—",
+   "note": "A ruined outwork on the castle's east approach, between the outer ward and the Yak Gate on the slot's north rim, where the siege of 1861 was held (chapter 01, 5.2); moved from chapter 03's (−95, −55), which lay inside Dechen-tsang (SHL-04)"
+  },
+  {
+   "id": "SHL-01",
+   "name_en": "Tsongra, market square",
+   "name_bo": "ཚོང་ར",
+   "type": "square",
+   "district": "shol",
+   "pos": [
+    0,
+    0,
+    2662
+   ],
+   "footprint": [
+    40,
+    30
+   ],
+   "footprint_text": "40 × 30 on two levels",
+   "enterable": true,
+   "occupants": "60–140 at market",
+   "note": "The origin; women keep most stalls (research 06, 1)"
+  },
+  {
+   "id": "SHL-02",
+   "name_en": "Tsongra basin",
+   "type": "fountain",
+   "district": "shol",
+   "pos": [
+    12,
+    10,
+    2664
+   ],
+   "footprint": [
+    3,
+    2
+   ],
+   "footprint_text": "3 × 2 stone trough",
+   "enterable": true,
+   "occupants": "water carriers",
+   "note": "Fed from the Lukhang spring by a stone channel"
+  },
+  {
+   "id": "SHL-03",
+   "name_en": "Tsongra darchen",
+   "type": "flagpole",
+   "district": "shol",
+   "pos": [
+    -8,
+    5,
+    2662
+   ],
+   "footprint_text": "12 m pole",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Renewed at Losar"
+  },
+  {
+   "id": "SHL-04",
+   "name_en": "Dechen-tsang",
+   "name_bo": "བདེ་ཆེན་ཚང",
+   "name_zh": "楊家鍋莊",
+   "type": "trading house",
+   "district": "shol",
+   "pos": [
+    -75,
+    -40,
+    2650
+   ],
+   "footprint": [
+    62,
+    48
+   ],
+   "footprint_text": "62 × 48",
+   "storeys": [
+    2,
+    3
+   ],
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "Achak Dolkar, 41, household, 20–60 guests",
+   "note": "Granite gateway, tiled gate-eave over a red-yellow-blue lintel; three yards; galleries; chapel; roof sang at 17:00"
+  },
+  {
+   "id": "SHL-05",
+   "name_en": "Sampel-tsang; (invented)",
+   "name_bo": "བསམ་འཕེལ་ཚང",
+   "name_zh": "羅家鍋莊",
+   "type": "trading house",
+   "district": "shol",
+   "pos": [
+    60,
+    -30,
+    2660
+   ],
+   "footprint": [
+    40,
+    32
+   ],
+   "footprint_text": "40 × 32",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "a Tibetan widow and her Han son-in-law; 15–40 guests",
+   "note": "North Road and Nyarong traders; the Lijiang firm's agent has a room here"
+  },
+  {
+   "id": "SHL-06",
+   "name_en": "Norbu-tsang; (invented)",
+   "name_bo": "ནོར་བུ་ཚང",
+   "name_zh": "周家鍋莊",
+   "type": "trading house",
+   "district": "shol",
+   "pos": [
+    -140,
+    5,
+    2640
+   ],
+   "footprint": [
+    30,
+    26
+   ],
+   "footprint_text": "30 × 26",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "host family; 10–25 guests",
+   "note": "Batang and Chamdo traders"
+  },
+  {
+   "id": "SHL-07",
+   "name_en": "Lhündrub-tsang; (invented)",
+   "name_bo": "ལྷུན་གྲུབ་ཚང",
+   "name_zh": "倫珠鍋莊",
+   "type": "trading house",
+   "district": "shol",
+   "pos": [
+    110,
+    20,
+    2670
+   ],
+   "footprint": [
+    24,
+    20
+   ],
+   "footprint_text": "24 × 20",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "a widow; 5–20 guests",
+   "note": "Nomads and the Minyak hamlets"
+  },
+  {
+   "id": "SHL-08",
+   "name_en": "Mani Lhakhang",
+   "name_bo": "མ་ཎི་ལྷ་ཁང",
+   "type": "great-wheel house",
+   "district": "shol",
+   "pos": [
+    10,
+    95,
+    2705
+   ],
+   "footprint": [
+    14,
+    12
+   ],
+   "footprint_text": "14 × 12",
+   "rot_deg": 270,
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "a keeper",
+   "note": "A 4.5 m wheel turned by bars, a bell struck each turn; reading room upstairs where girls and boys learn letters (research 06, 6)"
+  },
+  {
+   "id": "SHL-09",
+   "name_en": "Mani wall of the barkor",
+   "type": "mani wall",
+   "district": "shol",
+   "pos": [
+    -50,
+    95,
+    2700
+   ],
+   "footprint": [
+    120,
+    1.2
+   ],
+   "footprint_text": "120 × 1.2, 1.8 high",
+   "enterable": false,
+   "occupants": "a carver",
+   "note": "Splits the Mani Lane; keep it on your right"
+  },
+  {
+   "id": "SHL-10",
+   "name_en": "Western mani wall",
+   "type": "mani wall",
+   "district": "shol",
+   "pos": [
+    -325,
+    100,
+    2620
+   ],
+   "z_range": [
+    2620,
+    2780
+   ],
+   "footprint_text": "260 m long",
+   "enterable": false,
+   "occupants": "—",
+   "note": "The lingkor's west side"
+  },
+  {
+   "id": "SHL-11",
+   "name_en": "Pema Ö Lhakhang",
+   "name_bo": "པདྨ་འོད་ལྷ་ཁང",
+   "type": "Nyingma temple",
+   "district": "shol",
+   "pos": [
+    165,
+    -55,
+    2670
+   ],
+   "footprint": [
+    16,
+    14
+   ],
+   "footprint_text": "16 × 14",
+   "rot_deg": 140,
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "Lama Orgyen Dorje, 67; 9 monks",
+   "note": "Guru Rinpoche; 36-wheel corridor; faces the confluence (chapter 01)"
+  },
+  {
+   "id": "SHL-12",
+   "name_en": "Conch terrace",
+   "type": "terrace",
+   "district": "shol",
+   "pos": [
+    190,
+    -90,
+    2664
+   ],
+   "footprint": [
+    30,
+    14
+   ],
+   "footprint_text": "30 × 14",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Sang burner; where white and gold waters run side by side (V-02)"
+  },
+  {
+   "id": "SHL-13",
+   "name_en": "Pema Ö chortens (2)",
+   "type": "chortens",
+   "district": "shol",
+   "points": [
+    [
+     150,
+     -70
+    ],
+    [
+     180,
+     -70
+    ]
+   ],
+   "pos": [
+    150,
+    -70,
+    null
+   ],
+   "footprint": [
+    3,
+    3
+   ],
+   "footprint_text": "3 × 3, 5 high",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Flank the temple's steps"
+  },
+  {
+   "id": "SHL-14",
+   "name_en": "Lukhang spring and naga shrine",
+   "name_bo": "ཀླུ་ཁང",
+   "type": "spring and shrine",
+   "district": "shol",
+   "pos": [
+    -110,
+    240,
+    2775
+   ],
+   "footprint": [
+    12,
+    8
+   ],
+   "footprint_text": "yard 12 × 8",
+   "rot_deg": 190,
+   "enterable": true,
+   "occupants": "women with barrels at dawn",
+   "note": "Drinking water for Shöl; no washing at the spring"
+  },
+  {
+   "id": "SHL-15",
+   "name_en": "Sky Stair",
+   "type": "stair lane",
+   "district": "shol",
+   "line": [
+    [
+     0,
+     15
+    ],
+    [
+     -20,
+     255
+    ]
+   ],
+   "pos": [
+    -10,
+    135,
+    null
+   ],
+   "footprint_text": "270 m, 620 steps",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Between house walls 8–12 m high (R-05)"
+  },
+  {
+   "id": "SHL-16",
+   "name_en": "Tunnel under three houses",
+   "type": "covered passage",
+   "district": "shol",
+   "pos": [
+    -10,
+    60,
+    2688
+   ],
+   "footprint": [
+    34,
+    1.8
+   ],
+   "footprint_text": "34 × 1.8",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Dark, a lamp niche, a prayer wheel at the top"
+  },
+  {
+   "id": "SHL-17",
+   "name_en": "Gateway chorten over the Sky Stair",
+   "type": "gateway chorten",
+   "district": "shol",
+   "pos": [
+    0,
+    25,
+    2670
+   ],
+   "footprint": [
+    6,
+    6
+   ],
+   "footprint_text": "6 × 6, 8 high",
+   "enterable": true,
+   "occupants": "—",
+   "note": "The stair passes through it; a painted mandala on the ceiling"
+  },
+  {
+   "id": "SHL-18",
+   "name_en": "Room-bridge over the Mani Lane",
+   "type": "covered bridge",
+   "district": "shol",
+   "pos": [
+    40,
+    130,
+    2720
+   ],
+   "footprint": [
+    6,
+    3
+   ],
+   "footprint_text": "6 × 3, one room",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "a rich family",
+   "note": "Joins two halves of one house across the lane"
+  },
+  {
+   "id": "SHL-19",
+   "name_en": "Headman's house",
+   "name_bo": "རྒན་པོ",
+   "type": "B, large",
+   "district": "shol",
+   "pos": [
+    -95,
+    30,
+    2655
+   ],
+   "footprint": [
+    12,
+    10
+   ],
+   "footprint_text": "12 × 10",
+   "storeys": 3,
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "the Shöl headman's household",
+   "note": "Named by the Pönpo (chapter 01); the rich Kham house interior, stable to roof room, on Flora Shelton's Batang model (research 05, 3.1)"
+  },
+  {
+   "id": "SHL-20",
+   "name_en": "Doctor's house",
+   "name_bo": "སྨན་པ",
+   "type": "B",
+   "district": "shol",
+   "pos": [
+    40,
+    55,
+    2688
+   ],
+   "footprint": [
+    9,
+    8
+   ],
+   "footprint_text": "9 × 8",
+   "storeys": 3,
+   "enterable": true,
+   "occupants": "a lay physician",
+   "note": "Pouches of powders, a brass mortar (research 08, 2)"
+  },
+  {
+   "id": "SHL-21",
+   "name_en": "Bowl-turner, maker of",
+   "name_bo": "ཕོར་པ",
+   "type": "B, workshop",
+   "district": "shol",
+   "pos": [
+    -30,
+    40,
+    2680
+   ],
+   "footprint": [
+    9,
+    8
+   ],
+   "footprint_text": "9 × 8",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "turner and apprentice",
+   "note": "Maple-burl bowls (chapter 01, 7.1)"
+  },
+  {
+   "id": "SHL-22",
+   "name_en": "Saddler",
+   "type": "B, workshop",
+   "district": "shol",
+   "pos": [
+    -60,
+    15,
+    2668
+   ],
+   "footprint": [
+    9,
+    8
+   ],
+   "footprint_text": "9 × 8",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "saddler",
+   "note": "Derge-style saddles"
+  },
+  {
+   "id": "SHL-23",
+   "name_en": "Felt-maker's yard",
+   "type": "A + yard",
+   "district": "shol",
+   "pos": [
+    -200,
+    80,
+    2660
+   ],
+   "footprint": [
+    10,
+    9
+   ],
+   "footprint_text": "10 × 9 + 12 × 8",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "family",
+   "note": "Felt rolled wet on a reed mat"
+  },
+  {
+   "id": "SHL-24",
+   "name_en": "Chang house",
+   "type": "B",
+   "district": "shol",
+   "pos": [
+    70,
+    30,
+    2678
+   ],
+   "footprint": [
+    9,
+    8
+   ],
+   "footprint_text": "9 × 8",
+   "storeys": 2,
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "a widow, drinkers",
+   "note": "Chang served hot; the Gesar bard's second venue"
+  },
+  {
+   "id": "SHL-25",
+   "name_en": "Tailor (a man)",
+   "type": "B",
+   "district": "shol",
+   "pos": [
+    -40,
+    -15,
+    2657
+   ],
+   "footprint": [
+    9,
+    8
+   ],
+   "footprint_text": "9 × 8",
+   "storeys": 3,
+   "enterable": true,
+   "occupants": "tailor",
+   "note": "In Tibet sewing was men's work (research 06, 1)"
+  },
+  {
+   "id": "SHL-26",
+   "name_en": "Boot-maker",
+   "type": "B",
+   "district": "shol",
+   "pos": [
+    20,
+    -25,
+    2660
+   ],
+   "footprint": [
+    9,
+    8
+   ],
+   "footprint_text": "9 × 8",
+   "storeys": 3,
+   "enterable": true,
+   "occupants": "boot-maker",
+   "note": "Rawhide soles, cloth legs"
+  },
+  {
+   "id": "SHL-27",
+   "name_en": "Mani-stone carver's pitch",
+   "type": "pitch",
+   "district": "shol",
+   "pos": [
+    -70,
+    100,
+    2700
+   ],
+   "footprint": [
+    3,
+    3
+   ],
+   "footprint_text": "3 × 3",
+   "enterable": true,
+   "occupants": "a carver",
+   "note": "Six paint pots by the wall"
+  },
+  {
+   "id": "SHL-28",
+   "name_en": "Thangka painter's workshop",
+   "type": "A",
+   "district": "shol",
+   "pos": [
+    140,
+    60,
+    2700
+   ],
+   "footprint": [
+    10,
+    9
+   ],
+   "footprint_text": "10 × 9",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "painter and two pupils",
+   "note": "In the Ngakpa quarter; Karma Gardri manner"
+  },
+  {
+   "id": "SHL-29",
+   "name_en": "Fuel stalls: juniper, pine splinters, dung cakes",
+   "type": "stalls",
+   "district": "shol",
+   "pos": [
+    -15,
+    -10,
+    2660
+   ],
+   "footprint_text": "3 stalls",
+   "enterable": true,
+   "occupants": "women from the hamlets",
+   "note": "On Tsongra's lower level"
+  },
+  {
+   "id": "SHL-30",
+   "name_en": "Rooftop Way plank bridges (4)",
+   "type": "bridges",
+   "district": "shol",
+   "place": "between roofs",
+   "footprint_text": "3–5 m spans",
+   "enterable": true,
+   "occupants": "—",
+   "note": "See R-06"
+  },
+  {
+   "id": "SHL-31",
+   "name_en": "Shöl leat",
+   "type": "channel",
+   "district": "shol",
+   "place": "down the Mani Lane",
+   "footprint_text": "0.4 m channel, 330 m",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Washing and gardens, not drinking"
+  },
+  {
+   "id": "SHL-32",
+   "name_en": "Gorge Rim Lookout",
+   "type": "lookout",
+   "district": "shol",
+   "pos": [
+    215,
+    215,
+    2778
+   ],
+   "footprint": [
+    4,
+    6
+   ],
+   "footprint_text": "6 × 4 terrace",
+   "rot_deg": 34,
+   "enterable": true,
+   "occupants": "—",
+   "note": "Dungri Karpo in the notch of the gorge (V-13)"
+  },
+  {
+   "id": "SHL-33",
+   "name_en": "Walled gardens and orchards",
+   "type": "gardens",
+   "district": "shol",
+   "place": "upper Shöl",
+   "footprint_text": "12 plots",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Walnut, apple, pear"
+  },
+  {
+   "id": "SHL-34",
+   "name_en": "Town houses H-SHL-001 to 055",
+   "type": "B",
+   "district": "shol",
+   "place": "lower Shöl",
+   "footprint": [
+    9,
+    8
+   ],
+   "footprint_text": "9 × 8",
+   "storeys": 3,
+   "enterable": false,
+   "occupants": "70 households",
+   "note": "Shops on the lanes; 4 variants"
+  },
+  {
+   "id": "SHL-35",
+   "name_en": "Log-storey houses H-SHL-056 to 110",
+   "type": "A",
+   "district": "shol",
+   "place": "upper Shöl",
+   "footprint": [
+    10,
+    9
+   ],
+   "footprint_text": "10 × 9",
+   "storeys": [
+    2,
+    3
+   ],
+   "enterable": false,
+   "occupants": "60 households",
+   "note": "4 variants"
+  },
+  {
+   "id": "SHL-36",
+   "name_en": "Ngakpa quarter H-SHL-111 to 135",
+   "type": "A and B",
+   "district": "shol",
+   "place": "round Pema Ö",
+   "footprint_text": "9–10 × 8–9",
+   "storeys": [
+    2,
+    3
+   ],
+   "enterable": false,
+   "occupants": "25 tantric households",
+   "note": "Long-haired men in white shawls (research 06, 3)"
+  },
+  {
+   "id": "SHL-37",
+   "name_en": "West-edge houses H-SHL-136 to 150",
+   "type": "E",
+   "district": "shol",
+   "place": "above Hejie's wall",
+   "footprint": [
+    6,
+    5
+   ],
+   "footprint_text": "6 × 5",
+   "storeys": [
+    1,
+    2
+   ],
+   "enterable": false,
+   "occupants": "15 households",
+   "note": "Coracle men, porters' families, beggars"
+  },
+  {
+   "id": "SHL-38",
+   "name_en": "House latrine boxes",
+   "type": "latrines",
+   "district": "shol",
+   "place": "on lane walls",
+   "footprint": [
+    1.2,
+    1
+   ],
+   "footprint_text": "1.2 × 1",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Top floor, lane side, away from the door (research 02, 3.8)"
+  },
+  {
+   "id": "SHL-39",
+   "name_en": "Roof sang burners",
+   "type": "burners",
+   "district": "shol",
+   "place": "every roof",
+   "footprint_text": "0.5 m high",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Juniper at dawn; dusk singing"
+  },
+  {
+   "id": "SHL-40",
+   "name_en": "Tsongra's upper steps (the talkers' steps)",
+   "type": "steps",
+   "district": "shol",
+   "pos": [
+    0,
+    20,
+    2667
+   ],
+   "footprint_text": "20 m of wide steps",
+   "enterable": true,
+   "occupants": "old men",
+   "note": "Where news is traded"
+  },
+  {
+   "id": "TOD-01",
+   "name_en": "Tödé tower, (invented)",
+   "name_bo": "སྟོད་སྡེ་མཁར",
+   "name_zh": "碉樓",
+   "type": "watchtower",
+   "district": "tode",
+   "pos": [
+    -180,
+    430,
+    2880
+   ],
+   "footprint_text": "8-point star, 9 m across the points",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Door 6 m up, reached by a plank from the next house (widely said, unverified); a lookout (V-12)"
+  },
+  {
+   "id": "TOD-02",
+   "name_en": "Yungdrung Lhakhang",
+   "name_bo": "གཡུང་དྲུང་ལྷ་ཁང",
+   "type": "Bön chapel",
+   "district": "tode",
+   "pos": [
+    -250,
+    560,
+    2950
+   ],
+   "footprint": [
+    9,
+    7
+   ],
+   "footprint_text": "9 × 7",
+   "enterable": true,
+   "occupants": "4 Bön households keep it",
+   "note": "Left-turning swastika on the door; circled anticlockwise (chapter 01)"
+  },
+  {
+   "id": "TOD-03",
+   "name_en": "Bön households H-TOD-045 to 048",
+   "type": "D",
+   "district": "tode",
+   "place": "round TOD-02",
+   "footprint": [
+    14,
+    11
+   ],
+   "footprint_text": "14 × 11",
+   "storeys": 2,
+   "enterable": false,
+   "occupants": "4 households",
+   "note": "Their wheels turn the other way"
+  },
+  {
+   "id": "TOD-04",
+   "name_en": "The tulku's family house",
+   "type": "C",
+   "district": "tode",
+   "pos": [
+    60,
+    500,
+    2930
+   ],
+   "footprint": [
+    11,
+    10
+   ],
+   "footprint_text": "11 × 10",
+   "storeys": 5,
+   "enterable": true,
+   "occupants": "farming family; his mother",
+   "note": "The eleven-year-old visits (chapter 01, thread 8). It is H-TOD-001 of TOD-16, not an extra house"
+  },
+  {
+   "id": "TOD-05",
+   "name_en": "Upper mill",
+   "name_bo": "ཆུ་རང",
+   "type": "mill",
+   "district": "tode",
+   "pos": [
+    90,
+    590,
+    2960
+   ],
+   "footprint": [
+    4,
+    4
+   ],
+   "footprint_text": "4 × 4",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "miller",
+   "note": "Horizontal wheel on the leat"
+  },
+  {
+   "id": "TOD-06",
+   "name_en": "Lower mill",
+   "type": "mill",
+   "district": "tode",
+   "pos": [
+    20,
+    400,
+    2895
+   ],
+   "footprint": [
+    4,
+    4
+   ],
+   "footprint_text": "4 × 4",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "miller",
+   "note": "—"
+  },
+  {
+   "id": "TOD-07",
+   "name_en": "Water prayer wheel house 1",
+   "name_bo": "ཆུ་འཁོར",
+   "type": "wheel house",
+   "district": "tode",
+   "pos": [
+    70,
+    540,
+    2945
+   ],
+   "footprint": [
+    2.5,
+    2.5
+   ],
+   "footprint_text": "2.5 × 2.5",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "—",
+   "note": "Drum turning over a horizontal paddle wheel; a bell each turn (bell unverified)"
+  },
+  {
+   "id": "TOD-08",
+   "name_en": "Water prayer wheel house 2",
+   "type": "wheel house",
+   "district": "tode",
+   "pos": [
+    40,
+    470,
+    2920
+   ],
+   "footprint": [
+    2.5,
+    2.5
+   ],
+   "footprint_text": "2.5 × 2.5",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "TOD-09",
+   "name_en": "Water prayer wheel house 3",
+   "type": "wheel house",
+   "district": "tode",
+   "pos": [
+    0,
+    320,
+    2860
+   ],
+   "footprint": [
+    2.5,
+    2.5
+   ],
+   "footprint_text": "2.5 × 2.5",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "TOD-10",
+   "name_en": "Tödé leat",
+   "name_bo": "ཡུར་བ",
+   "type": "channel",
+   "district": "tode",
+   "place": "intake to (+120, +640)",
+   "footprint_text": "1.9 km, 0.6 m wide",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Edge of cultivation: fields below, grazing above"
+  },
+  {
+   "id": "TOD-11",
+   "name_en": "Threshing floor 1",
+   "type": "threshing floor",
+   "district": "tode",
+   "pos": [
+    -200,
+    300,
+    2830
+   ],
+   "footprint_text": "14 m circle",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Beaten earth; flails"
+  },
+  {
+   "id": "TOD-12",
+   "name_en": "Threshing floor 2",
+   "type": "threshing floor",
+   "district": "tode",
+   "pos": [
+    -60,
+    360,
+    2855
+   ],
+   "footprint_text": "14 m circle",
+   "enterable": true,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "TOD-13",
+   "name_en": "Threshing floor 3",
+   "type": "threshing floor",
+   "district": "tode",
+   "pos": [
+    120,
+    420,
+    2880
+   ],
+   "footprint_text": "12 m circle",
+   "enterable": true,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "TOD-14",
+   "name_en": "Threshing floor 4",
+   "type": "threshing floor",
+   "district": "tode",
+   "pos": [
+    -120,
+    560,
+    2940
+   ],
+   "footprint_text": "12 m circle",
+   "enterable": true,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "TOD-15",
+   "name_en": "Gyalrong masons' house",
+   "type": "C",
+   "district": "tode",
+   "pos": [
+    -280,
+    330,
+    2845
+   ],
+   "footprint": [
+    11,
+    10
+   ],
+   "footprint_text": "11 × 10",
+   "storeys": 4,
+   "enterable": true,
+   "occupants": "2 mason families",
+   "note": "They keep the tower in repair (chapter 01, 8.1). It is H-TOD-002 of TOD-16; its two families are chapter 01's \"Others\", not among Tödé's 72 households"
+  },
+  {
+   "id": "TOD-16",
+   "name_en": "Tower-houses H-TOD-001 to 014",
+   "type": "C",
+   "district": "tode",
+   "place": "upper Tödé",
+   "footprint": [
+    11,
+    10
+   ],
+   "footprint_text": "11 × 10",
+   "storeys": [
+    4,
+    5
+   ],
+   "enterable": false,
+   "occupants": "13 Tödé households, and the masons in H-TOD-002",
+   "note": "Horn-merlons with white stones; H-TOD-001 is TOD-04, H-TOD-002 is TOD-15"
+  },
+  {
+   "id": "TOD-17",
+   "name_en": "Log-storey houses H-TOD-015 to 044",
+   "type": "A",
+   "district": "tode",
+   "place": "lower and east Tödé",
+   "footprint": [
+    10,
+    9
+   ],
+   "footprint_text": "10 × 9",
+   "storeys": [
+    2,
+    3
+   ],
+   "enterable": false,
+   "occupants": "33 households",
+   "note": "—"
+  },
+  {
+   "id": "TOD-18",
+   "name_en": "Rammed-earth houses H-TOD-049 to 064",
+   "type": "D",
+   "district": "tode",
+   "place": "west Tödé",
+   "footprint": [
+    14,
+    11
+   ],
+   "footprint_text": "14 × 11",
+   "storeys": 2,
+   "enterable": false,
+   "occupants": "18 households",
+   "note": "Yellow pisé"
+  },
+  {
+   "id": "TOD-19",
+   "name_en": "Poor houses H-TOD-065 to 068",
+   "type": "E",
+   "district": "tode",
+   "place": "field edges",
+   "footprint": [
+    6,
+    5
+   ],
+   "footprint_text": "6 × 5",
+   "storeys": 1,
+   "enterable": false,
+   "occupants": "4 households",
+   "note": "—"
+  },
+  {
+   "id": "TOD-20",
+   "name_en": "Walnut grove",
+   "type": "trees",
+   "district": "tode",
+   "pos": [
+    -100,
+    470,
+    2900
+   ],
+   "footprint": [
+    60,
+    40
+   ],
+   "footprint_text": "60 × 40",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Green parakeets in the walnuts (chapter 01, 9.4)"
+  },
+  {
+   "id": "TOD-21",
+   "name_en": "Tödé chorten",
+   "type": "chorten, rnam rgyal type",
+   "district": "tode",
+   "pos": [
+    -20,
+    262,
+    2782
+   ],
+   "footprint": [
+    4,
+    4
+   ],
+   "footprint_text": "4 × 4, 6 high",
+   "enterable": false,
+   "occupants": "—",
+   "note": "At the head of the Sky Stair: the entrance to the upper quarter"
+  },
+  {
+   "id": "TOD-22",
+   "name_en": "Byres and hay stores",
+   "type": "outbuildings",
+   "district": "tode",
+   "place": "various",
+   "footprint": [
+    6,
+    5
+   ],
+   "footprint_text": "6 × 5",
+   "storeys": 1,
+   "enterable": false,
+   "occupants": "—",
+   "note": "Dzo, a few yak, chickens"
+  },
+  {
+   "id": "TOD-23",
+   "name_en": "Tödé mani wall",
+   "type": "mani wall",
+   "district": "tode",
+   "pos": [
+    -340,
+    450,
+    2900
+   ],
+   "footprint_text": "90 m",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Continues the western mani wall"
+  },
+  {
+   "id": "TOD-24",
+   "name_en": "Maize and turnip racks",
+   "type": "racks",
+   "district": "tode",
+   "place": "on roofs and fields",
+   "footprint_text": "4 m frames",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Drying in October"
+  },
+  {
+   "id": "TOD-25",
+   "name_en": "Tödé window stall (added in review)",
+   "type": "stall in a house wall",
+   "district": "tode",
+   "pos": [
+    -10,
+    270,
+    2785
+   ],
+   "footprint_text": "1.5 m window",
+   "enterable": true,
+   "occupants": "a Tödé widow",
+   "note": "Brick tea, salt, needles, tobacco and thread sold through a window at the head of the Sky Stair: the highest shop in the lay town (design)"
+  },
+  {
+   "id": "TOD-26",
+   "name_en": "The empty tower-house (ruin, level 1; added from chapter 03)",
+   "type": "C1, abandoned",
+   "district": "tode",
+   "pos": [
+    -230,
+    520,
+    2935
+   ],
+   "footprint": [
+    11,
+    10
+   ],
+   "footprint_text": "11 × 10",
+   "storeys": 4,
+   "enterable": false,
+   "occupants": "—",
+   "note": "Its family died out and its fields are let to neighbours (chapter 03, 15); not one of TOD-16's fourteen lived-in tower-houses"
+  },
+  {
+   "id": "RNG-01",
+   "name_en": "Conch Bridge, (invented)",
+   "name_bo": "དུང་ཟམ",
+   "type": "cantilever bridge",
+   "district": "dungrong",
+   "pos": [
+    225,
+    -62,
+    2672
+   ],
+   "footprint_text": "18 m span, 2 wide",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Just above the confluence; flags across it"
+  },
+  {
+   "id": "RNG-02",
+   "name_en": "Upper cantilever bridge",
+   "name_bo": "དུང་རོང་ཟམ་པ",
+   "type": "cantilever bridge",
+   "district": "dungrong",
+   "pos": [
+    330,
+    185,
+    2722
+   ],
+   "footprint_text": "24 m span, 2.2 wide",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Raw new timber, 1902, on old abutments; 10 m over the water"
+  },
+  {
+   "id": "RNG-03",
+   "name_en": "Lingkor high bridge",
+   "type": "log bridge",
+   "district": "dungrong",
+   "pos": [
+    620,
+    800,
+    2830
+   ],
+   "footprint_text": "14 m span",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Three logs with a hand rope"
+  },
+  {
+   "id": "RNG-04",
+   "name_en": "Gorge water prayer wheel house",
+   "type": "wheel house",
+   "district": "dungrong",
+   "pos": [
+    318,
+    172,
+    2716
+   ],
+   "footprint": [
+    2.5,
+    2.5
+   ],
+   "footprint_text": "2.5 × 2.5",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "—",
+   "note": "On a side channel by the upper bridge"
+  },
+  {
+   "id": "RNG-05",
+   "name_en": "Gorge naga shrine and spring",
+   "type": "klu khang",
+   "district": "dungrong",
+   "pos": [
+    345,
+    230,
+    2735
+   ],
+   "footprint": [
+    1.5,
+    1.2
+   ],
+   "footprint_text": "1.5 × 1.2",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Under an overhang; offerings of milk"
+  },
+  {
+   "id": "RNG-06",
+   "name_en": "Gorge prayer-flag spans (6)",
+   "type": "flag lines",
+   "district": "dungrong",
+   "place": "y +120 to +260",
+   "footprint_text": "180–240 m spans",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Rim to monastery face; renewed at Losar"
+  },
+  {
+   "id": "RNG-07",
+   "name_en": "Gorge Stair, west leg",
+   "type": "stair",
+   "district": "dungrong",
+   "line": [
+    [
+     230,
+     265
+    ],
+    [
+     330,
+     185
+    ]
+   ],
+   "pos": [
+    280,
+    225,
+    null
+   ],
+   "footprint_text": "180 m, 385 steps",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Switchbacks down Tödé's gorge wall"
+  },
+  {
+   "id": "RNG-08",
+   "name_en": "Gorge Stair, east leg, with 3 galleries",
+   "type": "stair and galleries",
+   "district": "dungrong",
+   "line": [
+    [
+     330,
+     185
+    ],
+    [
+     445,
+     160
+    ]
+   ],
+   "pos": [
+    387.5,
+    172.5,
+    null
+   ],
+   "footprint_text": "420 m, 885 steps",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Cut in rock, galleries on socketed beams; passes under monks' houses at the top"
+  },
+  {
+   "id": "RNG-09",
+   "name_en": "Gorge rest gallery",
+   "type": "roofed gallery",
+   "district": "dungrong",
+   "pos": [
+    390,
+    175,
+    2810
+   ],
+   "footprint": [
+    8,
+    2.5
+   ],
+   "footprint_text": "8 × 2.5",
+   "enterable": true,
+   "occupants": "—",
+   "note": "A prayer wheel and a bench, halfway up (V-17)"
+  },
+  {
+   "id": "RNG-10",
+   "name_en": "Parkhang, the monastery's printing house",
+   "name_bo": "པར་ཁང",
+   "type": "printing house",
+   "district": "dungrong",
+   "pos": [
+    290,
+    -60,
+    2690
+   ],
+   "footprint": [
+    28,
+    20
+   ],
+   "footprint_text": "28 × 20",
+   "storeys": 3,
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "12 printers, a lama in charge",
+   "note": "Courtyard; arcade; blocks racked on the top floor; prints flags, charms and wheel rolls"
+  },
+  {
+   "id": "RNG-11",
+   "name_en": "The 1,080 steps, (invented)",
+   "name_bo": "ཐེམ་སྐས་སྟོང",
+   "type": "stair",
+   "district": "dungrong",
+   "line": [
+    [
+     240,
+     -65
+    ],
+    [
+     465,
+     65
+    ]
+   ],
+   "pos": [
+    352.5,
+    0,
+    null
+   ],
+   "footprint_text": "380 m, 23 flights",
+   "enterable": true,
+   "occupants": "—",
+   "note": "1,080 steps of 19.5 cm: ten rounds of a 108-bead rosary"
+  },
+  {
+   "id": "RNG-12",
+   "name_en": "Lhabab Chorten",
+   "name_bo": "ལྷ་བབས་མཆོད་རྟེན",
+   "type": "chorten",
+   "district": "dungrong",
+   "pos": [
+    330,
+    -5,
+    2742
+   ],
+   "footprint": [
+    6,
+    6
+   ],
+   "footprint_text": "6 × 6, 9 high",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Stair up each face; landing 6; the Double Ninth drinking place (V-04)"
+  },
+  {
+   "id": "RNG-13",
+   "name_en": "Steps chortens (2) and rest house",
+   "type": "chortens, shelter",
+   "district": "dungrong",
+   "place": "landings 12 and 23",
+   "footprint": [
+    4,
+    4
+   ],
+   "footprint_text": "4 × 4; rest house 6 × 4",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "—",
+   "note": "byang chub type at 12, rnam rgyal at the top"
+  },
+  {
+   "id": "RNG-14",
+   "name_en": "Tsenkhang on the Conch Prow",
+   "name_bo": "བཙན་ཁང",
+   "type": "shrine",
+   "district": "dungrong",
+   "pos": [
+    235,
+    -75,
+    2675
+   ],
+   "footprint": [
+    2,
+    2
+   ],
+   "footprint_text": "2 × 2, red",
+   "enterable": false,
+   "occupants": "—",
+   "note": "For the tsen spirit of the spur's rock"
+  },
+  {
+   "id": "MON-01",
+   "name_en": "Tsokchen",
+   "name_bo": "ཚོགས་ཆེན",
+   "type": "great assembly hall",
+   "district": "gonpa",
+   "pos": [
+    540,
+    150,
+    2932
+   ],
+   "footprint": [
+    27,
+    33
+   ],
+   "footprint_text": "27 × 33 (9 × 11 bays of 3 m)",
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "280 at assembly",
+   "note": "Portico of 6 columns with the Four Kings, Wheel of Life, Mongol and tiger; clerestory over 3 × 5 bays; golden roof over the inner chapel"
+  },
+  {
+   "id": "MON-02",
+   "name_en": "Tsokchen courtyard (the cham courtyard)",
+   "type": "courtyard",
+   "district": "gonpa",
+   "pos": [
+    535,
+    110,
+    2928
+   ],
+   "footprint": [
+    44,
+    36
+   ],
+   "footprint_text": "44 × 36",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Flagged; monks' galleries on three sides; rehearsals in the season"
+  },
+  {
+   "id": "MON-03",
+   "name_en": "Great darchen",
+   "type": "flagpole",
+   "district": "gonpa",
+   "pos": [
+    535,
+    98,
+    2928
+   ],
+   "footprint_text": "16 m",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Yak-tail tuft at the top"
+  },
+  {
+   "id": "MON-04",
+   "name_en": "Jampa Lhakhang",
+   "name_bo": "བྱམས་པ་ལྷ་ཁང",
+   "type": "Maitreya chapel",
+   "district": "gonpa",
+   "pos": [
+    585,
+    160,
+    2945
+   ],
+   "footprint": [
+    16,
+    14
+   ],
+   "footprint_text": "16 × 14",
+   "storeys": 3,
+   "enterable": true,
+   "occupants": "a sacristan",
+   "note": "7 m seated Maitreya through two storeys; golden roof with ganjira"
+  },
+  {
+   "id": "MON-05",
+   "name_en": "Gönkhang",
+   "name_bo": "མགོན་ཁང",
+   "type": "protector chapel",
+   "district": "gonpa",
+   "pos": [
+    500,
+    150,
+    2935
+   ],
+   "footprint": [
+    12,
+    10
+   ],
+   "footprint_text": "12 × 10, red",
+   "storeys": 2,
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "2 monks",
+   "note": "Palden Lhamo, Dungri Karpo as worldly protector; the white conch; masks, a stuffed wild yak; black-ground murals; black yak-hair banners"
+  },
+  {
+   "id": "MON-06",
+   "name_en": "Tsenyi Dratsang",
+   "name_bo": "མཚན་ཉིད་གྲྭ་ཚང",
+   "type": "philosophy college",
+   "district": "gonpa",
+   "pos": [
+    600,
+    100,
+    2935
+   ],
+   "footprint": [
+    18,
+    15
+   ],
+   "footprint_text": "18 × 15",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "150 students",
+   "note": "—"
+  },
+  {
+   "id": "MON-07",
+   "name_en": "Chöra",
+   "name_bo": "ཆོས་ར",
+   "type": "debate courtyard",
+   "district": "gonpa",
+   "pos": [
+    630,
+    75,
+    2938
+   ],
+   "footprint": [
+    30,
+    24
+   ],
+   "footprint_text": "30 × 24",
+   "enterable": true,
+   "occupants": "40–90 in the afternoon",
+   "note": "Crushed white stone under poplars; claps carry across the valley"
+  },
+  {
+   "id": "MON-08",
+   "name_en": "Gyüpa Dratsang",
+   "name_bo": "རྒྱུད་པ་གྲྭ་ཚང",
+   "type": "tantric college",
+   "district": "gonpa",
+   "pos": [
+    480,
+    190,
+    2945
+   ],
+   "footprint": [
+    16,
+    13
+   ],
+   "footprint_text": "16 × 13",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "40 monks",
+   "note": "Deep-voiced chant at night only (research 08, 9)"
+  },
+  {
+   "id": "MON-09",
+   "name_en": "Labrang",
+   "name_bo": "བླ་བྲང",
+   "type": "lama's residence",
+   "district": "gonpa",
+   "pos": [
+    620,
+    215,
+    2990
+   ],
+   "footprint": [
+    20,
+    16
+   ],
+   "footprint_text": "20 × 16, ochre",
+   "storeys": 4,
+   "enterable": true,
+   "occupants": "the fifth Dungkar Tulku, 11; tutor; 6 attendants",
+   "note": "Highest building; thin penbe; small golden roof"
+  },
+  {
+   "id": "MON-10",
+   "name_en": "Abbot's residence",
+   "type": "residence",
+   "district": "gonpa",
+   "pos": [
+    575,
+    235,
+    2975
+   ],
+   "footprint": [
+    12,
+    10
+   ],
+   "footprint_text": "12 × 10",
+   "storeys": 3,
+   "enterable": true,
+   "occupants": "Geshe Sherab Wangdü, 61",
+   "note": "A Lhasa accent; Sera books"
+  },
+  {
+   "id": "MON-11",
+   "name_en": "Estate office, treasury and granaries",
+   "name_bo": "ཕྱག་མཛོད",
+   "type": "offices and stores",
+   "district": "gonpa",
+   "pos": [
+    660,
+    185,
+    2975
+   ],
+   "footprint": [
+    18,
+    12
+   ],
+   "footprint_text": "18 × 12 + stores 20 × 8",
+   "storeys": 3,
+   "enterable": true,
+   "occupants": "Lobsang Dargye, 52; clerks",
+   "note": "Loans, caravans, ledgers in headless script"
+  },
+  {
+   "id": "MON-12",
+   "name_en": "Jakhang",
+   "name_bo": "ཇ་ཁང",
+   "type": "kitchen",
+   "district": "gonpa",
+   "pos": [
+    560,
+    75,
+    2925
+   ],
+   "footprint": [
+    18,
+    12
+   ],
+   "footprint_text": "18 × 12",
+   "enterable": true,
+   "occupants": "8 kitchen monks",
+   "note": "Three cauldrons, the largest 2.4 m; a hundred copper beakers (research 05, 2.5)"
+  },
+  {
+   "id": "MON-13",
+   "name_en": "Dronkhang",
+   "name_bo": "མགྲོན་ཁང",
+   "type": "guest house",
+   "district": "gonpa",
+   "pos": [
+    480,
+    70,
+    2888
+   ],
+   "footprint": [
+    16,
+    12
+   ],
+   "footprint_text": "16 × 12",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "guests",
+   "note": "For the Pönpo, visiting lamas, the Qing officer"
+  },
+  {
+   "id": "MON-14",
+   "name_en": "Kangyur Lhakhang",
+   "name_bo": "བཀའ་འགྱུར་ལྷ་ཁང",
+   "type": "library",
+   "district": "gonpa",
+   "pos": [
+    520,
+    200,
+    2955
+   ],
+   "footprint": [
+    12,
+    10
+   ],
+   "footprint_text": "12 × 10",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "a librarian",
+   "note": "108 volumes in a 12 × 9 wall of pigeonholes"
+  },
+  {
+   "id": "MON-15",
+   "name_en": "Reliquary chapel",
+   "name_bo": "གདུང་རྟེན་ལྷ་ཁང",
+   "type": "tomb chapel",
+   "district": "gonpa",
+   "pos": [
+    560,
+    205,
+    2965
+   ],
+   "footprint": [
+    14,
+    12
+   ],
+   "footprint_text": "14 × 12, red",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "a keeper",
+   "note": "The founder's and four previous tulkus' reliquary chortens"
+  },
+  {
+   "id": "MON-16",
+   "name_en": "Thangka wall",
+   "type": "display wall",
+   "district": "gonpa",
+   "pos": [
+    470,
+    25,
+    2905
+   ],
+   "footprint_text": "20 wide, 26 high",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Faces 225°, over the confluence; used in summer"
+  },
+  {
+   "id": "MON-17",
+   "name_en": "South Gate",
+   "type": "gate house",
+   "district": "gonpa",
+   "pos": [
+    465,
+    65,
+    2882
+   ],
+   "footprint": [
+    8,
+    6
+   ],
+   "footprint_text": "8 × 6",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "a gatekeeper monk",
+   "note": "Top of the 1,080 steps; forecourt 20 × 12"
+  },
+  {
+   "id": "MON-18",
+   "name_en": "West Gate",
+   "type": "gate",
+   "district": "gonpa",
+   "pos": [
+    445,
+    160,
+    2890
+   ],
+   "footprint_text": "3 m door",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Top of the Gorge Stair"
+  },
+  {
+   "id": "MON-19",
+   "name_en": "East Gate, stables and fodder",
+   "type": "gate and range",
+   "district": "gonpa",
+   "pos": [
+    672,
+    78,
+    2952
+   ],
+   "footprint": [
+    24,
+    8
+   ],
+   "footprint_text": "24 × 8",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "grooms",
+   "note": "Top of the Yak Road (moved east in review: at +650 it overlapped the Chöra)"
+  },
+  {
+   "id": "MON-20",
+   "name_en": "Upper Gate",
+   "type": "gate",
+   "district": "gonpa",
+   "pos": [
+    660,
+    250,
+    3000
+   ],
+   "footprint_text": "3 m door",
+   "enterable": true,
+   "occupants": "—",
+   "note": "To the ritro; left open at night"
+  },
+  {
+   "id": "MON-21",
+   "name_en": "Monastery wall",
+   "type": "wall",
+   "district": "gonpa",
+   "place": "circuit",
+   "footprint_text": "1,050 m, 3–4 high",
+   "enterable": false,
+   "occupants": "—",
+   "note": "On the gorge face the houses are the wall"
+  },
+  {
+   "id": "MON-22",
+   "name_en": "Gönkor prayer-wheel gallery",
+   "type": "gallery",
+   "district": "gonpa",
+   "place": "south and east walls",
+   "footprint_text": "128 wheels in 8 sections of 16 m",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Worn bright at hand height"
+  },
+  {
+   "id": "MON-23",
+   "name_en": "Great wheel house",
+   "name_bo": "མ་ཎི་དུང་འཁོར",
+   "type": "wheel house",
+   "district": "gonpa",
+   "pos": [
+    690,
+    140,
+    2960
+   ],
+   "footprint": [
+    7,
+    7
+   ],
+   "footprint_text": "7 × 7",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "—",
+   "note": "3.5 m wheel on the Gönkor's east side"
+  },
+  {
+   "id": "MON-24",
+   "name_en": "Tsha khang, tsha khang (tsa-tsa house; script unverified)",
+   "type": "tsa-tsa house",
+   "district": "gonpa",
+   "pos": [
+    700,
+    40,
+    2945
+   ],
+   "footprint": [
+    3,
+    3
+   ],
+   "footprint_text": "3 × 3",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Window stacked with clay tsa-tsa"
+  },
+  {
+   "id": "MON-25",
+   "name_en": "Courtyard sang burner",
+   "name_bo": "བསང་ཁང",
+   "type": "burner",
+   "district": "gonpa",
+   "pos": [
+    520,
+    95,
+    2928
+   ],
+   "footprint": [
+    2,
+    2
+   ],
+   "footprint_text": "2 × 2, 2.5 high",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Kit sangkhang()"
+  },
+  {
+   "id": "MON-26",
+   "name_en": "Khamtsen halls (4)",
+   "name_bo": "ཁམས་ཚན",
+   "type": "regional houses",
+   "district": "gonpa",
+   "place": "round the lower zone",
+   "footprint": [
+    12,
+    10
+   ],
+   "footprint_text": "12 × 10 each",
+   "storeys": 2,
+   "enterable": false,
+   "occupants": "—",
+   "note": "Dungkar (local), Minyak, Nyarong, Litang houses"
+  },
+  {
+   "id": "MON-27",
+   "name_en": "Monks' houses H-MON-001 to 060",
+   "type": "M1",
+   "district": "gonpa",
+   "place": "west face and south flank",
+   "footprint": [
+    6,
+    6
+   ],
+   "footprint_text": "6 × 6",
+   "storeys": 2,
+   "enterable": false,
+   "occupants": "1–2 each; about 25 shut",
+   "note": "The cliff-dwelling face"
+  },
+  {
+   "id": "MON-28",
+   "name_en": "Monks' houses H-MON-061 to 104",
+   "type": "M2",
+   "district": "gonpa",
+   "place": "lower and middle zones",
+   "footprint": [
+    9,
+    8
+   ],
+   "footprint_text": "9 × 8",
+   "storeys": [
+    2,
+    3
+   ],
+   "enterable": false,
+   "occupants": "3–5 each; about 15 shut",
+   "note": "—"
+  },
+  {
+   "id": "MON-29",
+   "name_en": "Khamtsen ranges H-MON-105 to 112",
+   "type": "M3",
+   "district": "gonpa",
+   "place": "lower zone",
+   "footprint": [
+    24,
+    7
+   ],
+   "footprint_text": "24 × 7",
+   "storeys": 2,
+   "enterable": false,
+   "occupants": "6 cells each",
+   "note": "—"
+  },
+  {
+   "id": "MON-30",
+   "name_en": "Novices' yard",
+   "type": "yard",
+   "district": "gonpa",
+   "pos": [
+    500,
+    45,
+    2900
+   ],
+   "footprint": [
+    16,
+    12
+   ],
+   "footprint_text": "16 × 12",
+   "enterable": true,
+   "occupants": "60 novices",
+   "note": "Memorising aloud, rocking"
+  },
+  {
+   "id": "MON-31",
+   "name_en": "Monastery latrine block",
+   "type": "latrine",
+   "district": "gonpa",
+   "pos": [
+    440,
+    120,
+    2895
+   ],
+   "footprint": [
+    8,
+    3
+   ],
+   "footprint_text": "8 × 3",
+   "storeys": 1,
+   "enterable": false,
+   "occupants": "—",
+   "note": "Over the gorge edge, a 40 m drop onto scree, not into the Dungchu (the klu rule, as SAM-12)"
+  },
+  {
+   "id": "MON-32",
+   "name_en": "Monastery spring and cistern",
+   "type": "spring",
+   "district": "gonpa",
+   "pos": [
+    600,
+    250,
+    2985
+   ],
+   "footprint": [
+    4,
+    3
+   ],
+   "footprint_text": "4 × 3",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Its water in wooden pipes to the kitchen"
+  },
+  {
+   "id": "MON-33",
+   "name_en": "Butter store",
+   "type": "store",
+   "district": "gonpa",
+   "pos": [
+    680,
+    200,
+    2978
+   ],
+   "footprint": [
+    8,
+    6
+   ],
+   "footprint_text": "8 × 6",
+   "storeys": 1,
+   "enterable": false,
+   "occupants": "—",
+   "note": "Butter sewn in skins"
+  },
+  {
+   "id": "MON-34",
+   "name_en": "Geese pen",
+   "type": "pen",
+   "district": "gonpa",
+   "pos": [
+    610,
+    55,
+    2935
+   ],
+   "footprint": [
+    6,
+    4
+   ],
+   "footprint_text": "6 × 4",
+   "enterable": false,
+   "occupants": "6 geese",
+   "note": "They cackle at strangers"
+  },
+  {
+   "id": "MON-35",
+   "name_en": "Cham mask store",
+   "type": "store room",
+   "district": "gonpa",
+   "place": "in MON-05, upper floor",
+   "footprint_text": "—",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Masks and costumes; Hashang's grinning mask"
+  },
+  {
+   "id": "MON-36",
+   "name_en": "Roof victory banners and wheel with deer",
+   "type": "ornaments",
+   "district": "gonpa",
+   "place": "Tsokchen roof",
+   "footprint_text": "—",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Gilt banners at four corners, black yak-hair banners on MON-05 (research 03, implication 5)"
+  },
+  {
+   "id": "MON-37",
+   "name_en": "Three gilded roofs",
+   "type": "roofs",
+   "district": "gonpa",
+   "place": "MON-01 inner chapel, MON-04, MON-09",
+   "footprint_text": "—",
+   "enterable": false,
+   "occupants": "—",
+   "note": "The weenie seen from everywhere"
+  },
+  {
+   "id": "MON-38",
+   "name_en": "Monastery dogs' kennel",
+   "type": "kennel",
+   "district": "gonpa",
+   "place": "by MON-19",
+   "footprint": [
+    4,
+    3
+   ],
+   "footprint_text": "4 × 3",
+   "enterable": false,
+   "occupants": "3 mastiffs",
+   "note": "Loose inside the wall at night"
+  },
+  {
+   "id": "MON-39",
+   "name_en": "Dungri Karpo's shrine in the Gönkhang",
+   "type": "shrine",
+   "district": "gonpa",
+   "place": "in MON-05",
+   "footprint_text": "—",
+   "enterable": true,
+   "occupants": "—",
+   "note": "White rider on a white horse (chapter 01, 5.1)"
+  },
+  {
+   "id": "MON-40",
+   "name_en": "Tsokchen roof terrace",
+   "type": "roof",
+   "district": "gonpa",
+   "pos": [
+    540,
+    150,
+    2952
+   ],
+   "footprint": [
+    27,
+    33
+   ],
+   "footprint_text": "27 × 33",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Horns at dawn and dusk; V-05"
+  },
+  {
+   "id": "MON-41",
+   "name_en": "Thangka terrace (added from chapter 08)",
+   "type": "terrace",
+   "district": "gonpa",
+   "pos": [
+    428,
+    -17,
+    2880
+   ],
+   "footprint": [
+    40,
+    20
+   ],
+   "footprint_text": "40 × 20",
+   "enterable": true,
+   "occupants": "lay patrons on a display morning",
+   "note": "Paved, low parapet, 60 m in front of the thangka wall MON-16 on the spur's south-west shoulder, outside the wall; from it the cloth fills 18° × 19° (chapter 08, V-32)"
+  },
+  {
+   "id": "SER-01",
+   "name_en": "Gate Chorten",
+   "type": "gateway chorten",
+   "district": "serchu",
+   "pos": [
+    170,
+    -175,
+    2692
+   ],
+   "footprint": [
+    7,
+    7
+   ],
+   "footprint_text": "7 × 7, 9 high",
+   "enterable": true,
+   "occupants": "—",
+   "note": "The road passes through; mandala ceiling; the reveal (V-01)"
+  },
+  {
+   "id": "SER-02",
+   "name_en": "Eight chortens",
+   "name_bo": "བདེ་གཤེགས་མཆོད་རྟེན་བརྒྱད",
+   "type": "row of 8",
+   "district": "serchu",
+   "place": "+60 to +130, −150, 2,684",
+   "footprint": [
+    64,
+    5
+   ],
+   "footprint_text": "64 × 5 row; each 4 × 4, 6 high",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Birth to nirvana in order; the road splits so both directions keep them on the right"
+  },
+  {
+   "id": "SER-03",
+   "name_en": "Cliff gallery (plank road)",
+   "name_zh": "棧道",
+   "type": "gallery",
+   "district": "serchu",
+   "line": [
+    [
+     420,
+     -245
+    ],
+    [
+     285,
+     -150
+    ]
+   ],
+   "pos": [
+    352.5,
+    -197.5,
+    2712
+   ],
+   "z_range": [
+    2712,
+    2700
+   ],
+   "footprint_text": "160 m, 1.8 wide",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Beams in sockets, loose planks, a donor's tablet; 10–20 m from the water across the slot, 17–28 m above it (review fix: the old west end lay 70 m from the river)"
+  },
+  {
+   "id": "SER-04",
+   "name_en": "Serchu Zampa, with gateway chorten",
+   "name_bo": "གསེར་ཆུ་ཟམ་པ",
+   "type": "cantilever bridge",
+   "district": "serchu",
+   "pos": [
+    1250,
+    -520,
+    2812
+   ],
+   "footprint_text": "18 m span",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Where the road changes bank"
+  },
+  {
+   "id": "SER-05",
+   "name_en": "Monastery mill 1",
+   "type": "mill",
+   "district": "serchu",
+   "pos": [
+    450,
+    -205,
+    2697
+   ],
+   "footprint": [
+    4,
+    4
+   ],
+   "footprint_text": "4 × 4",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "a lay miller",
+   "note": "On the Serchu leat"
+  },
+  {
+   "id": "SER-06",
+   "name_en": "Monastery mill 2",
+   "type": "mill",
+   "district": "serchu",
+   "pos": [
+    480,
+    -215,
+    2699
+   ],
+   "footprint": [
+    4,
+    4
+   ],
+   "footprint_text": "4 × 4",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "SER-07",
+   "name_en": "The Pönpo's mill",
+   "type": "mill",
+   "district": "serchu",
+   "pos": [
+    515,
+    -228,
+    2702
+   ],
+   "footprint": [
+    4,
+    4
+   ],
+   "footprint_text": "4 × 4",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "SER-08",
+   "name_en": "Tödé families' mill",
+   "type": "mill",
+   "district": "serchu",
+   "pos": [
+    545,
+    -240,
+    2705
+   ],
+   "footprint": [
+    4,
+    4
+   ],
+   "footprint_text": "4 × 4",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "SER-09",
+   "name_en": "Serchu water prayer wheels (2)",
+   "type": "wheel houses",
+   "district": "serchu",
+   "place": "+420, −195 and +575, −252",
+   "footprint": [
+    2.5,
+    2.5
+   ],
+   "footprint_text": "2.5 × 2.5",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "—",
+   "note": "Beside the mills (research 08, 2)"
+  },
+  {
+   "id": "SER-10",
+   "name_en": "Serchu leat",
+   "type": "channel",
+   "district": "serchu",
+   "line": [
+    [
+     600,
+     -262
+    ],
+    [
+     420,
+     -195
+    ]
+   ],
+   "pos": [
+    510,
+    -228.5,
+    null
+   ],
+   "footprint_text": "200 m",
+   "enterable": false,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "SER-11",
+   "name_en": "Monastery footbridge at the mills",
+   "type": "log bridge",
+   "district": "serchu",
+   "pos": [
+    470,
+    -229,
+    2700
+   ],
+   "footprint_text": "12 m span",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Yak Road foot to the south bank"
+  },
+  {
+   "id": "SER-12",
+   "name_en": "Gold washings and three bark-roofed huts",
+   "type": "camp",
+   "district": "serchu",
+   "pos": [
+    850,
+    -380,
+    2748
+   ],
+   "footprint_text": "bars 200 m; huts 4 × 3",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "12 washers",
+   "note": "Trough, woollen rag, yak-horn bottle (research 01, via chapter 01, 7.1)"
+  },
+  {
+   "id": "SER-13",
+   "name_en": "Jomo Gönpa",
+   "name_bo": "ཇོ་མོ་དགོན་པ",
+   "type": "nunnery",
+   "district": "serchu",
+   "pos": [
+    2120,
+    -720,
+    3050
+   ],
+   "footprint_text": "hall 12 × 10; 12 cells",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "26 nuns",
+   "note": "On a sunny terrace above the road"
+  },
+  {
+   "id": "SER-14",
+   "name_en": "Durtro path cairn",
+   "type": "cairn",
+   "district": "serchu",
+   "pos": [
+    1000,
+    -470,
+    2775
+   ],
+   "footprint_text": "1 m",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Marks the path nobody takes but funerals"
+  },
+  {
+   "id": "SER-15",
+   "name_en": "Road mani wall",
+   "type": "mani wall",
+   "district": "serchu",
+   "pos": [
+    700,
+    -320,
+    2735
+   ],
+   "footprint_text": "90 m",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Slabs carved with the mantra (Gill, via research 04)"
+  },
+  {
+   "id": "SER-16",
+   "name_en": "The Shade Wood",
+   "type": "woodlot",
+   "district": "serchu",
+   "place": "south ridge above the slot",
+   "footprint_text": "about 40 ha",
+   "enterable": true,
+   "occupants": "woodcutters",
+   "note": "Larch, birch, spruce, fir; firewood"
+  },
+  {
+   "id": "SER-17",
+   "name_en": "Monastery barley terraces",
+   "type": "fields",
+   "district": "serchu",
+   "place": "spur south flank",
+   "footprint_text": "12 ha",
+   "enterable": true,
+   "occupants": "tenants",
+   "note": "Stubble in October"
+  },
+  {
+   "id": "SER-18",
+   "name_en": "Yak Road",
+   "type": "track",
+   "district": "serchu/gonpa",
+   "place": "mills to the East Gate",
+   "footprint_text": "2.1 km, 11 switchbacks",
+   "enterable": true,
+   "occupants": "supply animals",
+   "note": "R-09"
+  },
+  {
+   "id": "SER-19",
+   "name_en": "Toll-free porters' rest at the Serchu Zampa",
+   "type": "shelter",
+   "district": "serchu",
+   "pos": [
+    1235,
+    -535,
+    2806
+   ],
+   "footprint": [
+    6,
+    4
+   ],
+   "footprint_text": "6 × 4",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "—",
+   "note": "Long low bench for propping loads"
+  },
+  {
+   "id": "SER-20",
+   "name_en": "Road chorten at the gallery's east end",
+   "type": "chorten",
+   "district": "serchu",
+   "pos": [
+    430,
+    -250,
+    2712
+   ],
+   "footprint": [
+    3,
+    3
+   ],
+   "footprint_text": "3 × 3",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Crossings and dangerous places get chortens"
+  },
+  {
+   "id": "THG-01",
+   "name_en": "Race course",
+   "type": "open ground",
+   "district": "tathang",
+   "line": [
+    [
+     -420,
+     860
+    ],
+    [
+     460,
+     960
+    ]
+   ],
+   "pos": [
+    20,
+    910,
+    3050
+   ],
+   "z_range": [
+    3050,
+    3070
+   ],
+   "footprint": [
+    900,
+    30
+   ],
+   "footprint_text": "900 × 30",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Start cairn west, finish post east"
+  },
+  {
+   "id": "THG-02",
+   "name_en": "Nomad autumn camp (5 tents)",
+   "type": "tents",
+   "district": "tathang",
+   "place": "−100 to +100, +950 to +1,020, 3,080",
+   "footprint": [
+    8,
+    6
+   ],
+   "footprint_text": "8 × 6 to 14 × 10",
+   "storeys": 1,
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "30–40 nomads",
+   "note": "Dung walls, mastiffs, a string of inscribed shoulder-blades over one tent (research 08, 2)"
+  },
+  {
+   "id": "THG-03",
+   "name_en": "Lhasang, the town's juniper burner",
+   "name_bo": "ལྷ་བསང",
+   "type": "burner",
+   "district": "tathang",
+   "pos": [
+    470,
+    690,
+    3000
+   ],
+   "footprint_text": "2.5 high",
+   "enterable": false,
+   "occupants": "a keeper from Tödé",
+   "note": "Smokes every morning towards Dungri Karpo"
+  },
+  {
+   "id": "THG-04",
+   "name_en": "Town cairn to Dungri Karpo",
+   "type": "cairn",
+   "district": "tathang",
+   "pos": [
+    480,
+    700,
+    3002
+   ],
+   "footprint_text": "2 m",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Arrows and flags; the big one is on the Laptse La"
+  },
+  {
+   "id": "THG-05",
+   "name_en": "Archery range",
+   "type": "butts",
+   "district": "tathang",
+   "pos": [
+    -380,
+    900,
+    3060
+   ],
+   "footprint_text": "120 m",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Whistling arrows at festivals (research 07, 11)"
+  },
+  {
+   "id": "THG-06",
+   "name_en": "Summer festival tent ground",
+   "type": "open ground",
+   "district": "tathang",
+   "pos": [
+    0,
+    900,
+    3065
+   ],
+   "footprint": [
+    200,
+    80
+   ],
+   "footprint_text": "200 × 80",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Stone hearth rings, empty in October"
+  },
+  {
+   "id": "THG-07",
+   "name_en": "Juniper slope",
+   "type": "scrub",
+   "district": "tathang",
+   "place": "above +1,050",
+   "footprint_text": "about 30 ha",
+   "enterable": true,
+   "occupants": "gatherers",
+   "note": "Green juniper for sang"
+  },
+  {
+   "id": "THG-08",
+   "name_en": "Tathang chorten",
+   "type": "chorten",
+   "district": "tathang",
+   "pos": [
+    -300,
+    860,
+    3050
+   ],
+   "footprint": [
+    4,
+    4
+   ],
+   "footprint_text": "4 × 4",
+   "enterable": false,
+   "occupants": "—",
+   "note": "At the lingkor's turn"
+  },
+  {
+   "id": "THG-09",
+   "name_en": "Hay barns (3)",
+   "type": "barns",
+   "district": "tathang",
+   "place": "lower edge",
+   "footprint": [
+    8,
+    5
+   ],
+   "footprint_text": "8 × 5",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "—",
+   "note": "Tödé's winter fodder"
+  },
+  {
+   "id": "THG-10",
+   "name_en": "Stone mantra (added from chapter 07)",
+   "type": "hillside letters",
+   "district": "tathang",
+   "place": "about +450, +1,060, 3,115",
+   "footprint_text": "six syllables in white quartz, each about 25 m tall",
+   "enterable": false,
+   "occupants": "—",
+   "note": "ཨོཾ་མ་ཎི་པདྨེ་ཧཱུྃ laid on the juniper slope at the meadow's upper edge, facing south-west, after the giant hillside mantras Rockhill saw (chapter 07, 6.7); placed in the consistency edit so that it falls inside V-03's and V-21's frames"
+  },
+  {
+   "id": "RIT-01",
+   "name_en": "Guru Drubphuk",
+   "name_bo": "གུ་རུ་སྒྲུབ་ཕུག",
+   "type": "cave temple",
+   "district": "ritro",
+   "pos": [
+    1080,
+    400,
+    3360
+   ],
+   "footprint_text": "cave 9 deep; façade 10 × 5",
+   "storeys": 2,
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "1 keeper",
+   "note": "Handprint in the rock; the one lamp at night"
+  },
+  {
+   "id": "RIT-02",
+   "name_en": "Retreat huts (7)",
+   "name_bo": "མཚམས་ཁང",
+   "type": "R",
+   "district": "ritro",
+   "place": "ledges 3,320–3,400",
+   "footprint": [
+    3.5,
+    3.5
+   ],
+   "footprint_text": "3.5 × 3.5 to 4 × 5",
+   "storeys": 1,
+   "enterable": false,
+   "occupants": "7 monks in retreat",
+   "note": "Sealed doors; food passed through a hatch"
+  },
+  {
+   "id": "RIT-03",
+   "name_en": "Karma Kagyu hermit's cave",
+   "type": "walled cave",
+   "district": "ritro",
+   "pos": [
+    1130,
+    445,
+    3380
+   ],
+   "footprint": [
+    4,
+    3
+   ],
+   "footprint_text": "4 × 3",
+   "enterable": false,
+   "occupants": "1 hermit",
+   "note": "Apart from the others (chapter 01, 8.3)"
+  },
+  {
+   "id": "RIT-04",
+   "name_en": "Attendants' hut and kitchen",
+   "type": "R",
+   "district": "ritro",
+   "pos": [
+    1050,
+    380,
+    3330
+   ],
+   "footprint": [
+    5,
+    4
+   ],
+   "footprint_text": "5 × 4",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "2 attendant monks",
+   "note": "Carries water from the spring"
+  },
+  {
+   "id": "RIT-05",
+   "name_en": "Ritro spring",
+   "type": "spring",
+   "district": "ritro",
+   "pos": [
+    1060,
+    370,
+    3320
+   ],
+   "footprint_text": "—",
+   "enterable": true,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "RIT-06",
+   "name_en": "Cliff flag lines",
+   "type": "flag lines",
+   "district": "ritro",
+   "place": "across the cliff",
+   "footprint_text": "60 m",
+   "enterable": false,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "RIT-07",
+   "name_en": "Ritro chorten",
+   "type": "chorten",
+   "district": "ritro",
+   "pos": [
+    1040,
+    370,
+    3300
+   ],
+   "footprint": [
+    3,
+    3
+   ],
+   "footprint_text": "3 × 3",
+   "enterable": false,
+   "occupants": "—",
+   "note": "At the cliff foot"
+  },
+  {
+   "id": "RIT-08",
+   "name_en": "Chain handhold",
+   "type": "fixed chain",
+   "district": "ritro",
+   "pos": [
+    1070,
+    390,
+    3340
+   ],
+   "footprint_text": "12 m",
+   "enterable": true,
+   "occupants": "—",
+   "note": "The last pitch to the cave"
+  },
+  {
+   "id": "RIT-09",
+   "name_en": "The fallen hut (ruin, level 2; added from chapter 03)",
+   "type": "R, ruined",
+   "district": "ritro",
+   "pos": [
+    1110,
+    460,
+    3390
+   ],
+   "footprint": [
+    3.5,
+    3.5
+   ],
+   "footprint_text": "3.5 × 3.5",
+   "storeys": 1,
+   "enterable": false,
+   "occupants": "—",
+   "note": "A retreat hut whose ledge gave way, its doorway still sealed (chapter 03, 15)"
+  },
+  {
+   "id": "DUR-01",
+   "name_en": "Crest cairn and flags",
+   "type": "cairn",
+   "district": "durtro",
+   "pos": [
+    1120,
+    -1000,
+    3165
+   ],
+   "footprint_text": "2 m, flag poles",
+   "enterable": false,
+   "occupants": "—",
+   "note": "The only part seen from town"
+  },
+  {
+   "id": "DUR-02",
+   "name_en": "Charnel ground",
+   "type": "site",
+   "district": "durtro",
+   "pos": [
+    1160,
+    -1040,
+    3150
+   ],
+   "footprint": [
+    20,
+    15
+   ],
+   "footprint_text": "20 × 15",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Never modelled close; never entered"
+  },
+  {
+   "id": "PHK-01",
+   "name_en": "Pharkha landing and chorten",
+   "type": "beach, chorten",
+   "district": "pharkha",
+   "pos": [
+    -575,
+    -150,
+    2541
+   ],
+   "footprint": [
+    25,
+    10
+   ],
+   "footprint_text": "25 × 10",
+   "enterable": true,
+   "occupants": "coracle men",
+   "note": "Coracles land diagonally downstream"
+  },
+  {
+   "id": "PHK-02",
+   "name_en": "Dues house of the Nyarong commissioner's agent",
+   "type": "B, large",
+   "district": "pharkha",
+   "pos": [
+    -700,
+    -140,
+    2620
+   ],
+   "footprint": [
+    14,
+    12
+   ],
+   "footprint_text": "14 × 12",
+   "storeys": 3,
+   "enterable": true,
+   "tags": [
+    "hero"
+   ],
+   "occupants": "the agent, 3 guards",
+   "note": "Two seized coracles upturned in the yard"
+  },
+  {
+   "id": "PHK-03",
+   "name_en": "Pharkha Lhakhang",
+   "type": "chapel",
+   "district": "pharkha",
+   "pos": [
+    -850,
+    -90,
+    2675
+   ],
+   "footprint": [
+    10,
+    8
+   ],
+   "footprint_text": "10 × 8",
+   "storeys": 2,
+   "enterable": true,
+   "occupants": "a village lama",
+   "note": "Nyingma (design)"
+  },
+  {
+   "id": "PHK-04",
+   "name_en": "Pharkha mani wall",
+   "type": "mani wall",
+   "district": "pharkha",
+   "pos": [
+    -760,
+    -60,
+    2650
+   ],
+   "footprint_text": "70 m",
+   "enterable": false,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "PHK-05",
+   "name_en": "Houses H-PHK-01 to 16",
+   "type": "D",
+   "district": "pharkha",
+   "place": "the bluff",
+   "footprint": [
+    14,
+    11
+   ],
+   "footprint_text": "14 × 11",
+   "storeys": 2,
+   "enterable": false,
+   "occupants": "16 households",
+   "note": "Yellow pisé among red buckwheat"
+  },
+  {
+   "id": "PHK-06",
+   "name_en": "Houses H-PHK-17 to 22",
+   "type": "E",
+   "district": "pharkha",
+   "place": "the bluff",
+   "footprint": [
+    6,
+    5
+   ],
+   "footprint_text": "6 × 5",
+   "storeys": 1,
+   "enterable": false,
+   "occupants": "6 households",
+   "note": "—"
+  },
+  {
+   "id": "PHK-07",
+   "name_en": "Threshing floors (2)",
+   "type": "threshing floors",
+   "district": "pharkha",
+   "place": "−800, −200 and −900, −20",
+   "footprint_text": "12 m circles",
+   "enterable": true,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "PHK-08",
+   "name_en": "Buckwheat terraces",
+   "type": "fields",
+   "district": "pharkha",
+   "place": "the bluff",
+   "footprint_text": "15 ha",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Red stubble #9B3A2E"
+  },
+  {
+   "id": "PHK-09",
+   "name_en": "Pharkha spring",
+   "type": "spring",
+   "district": "pharkha",
+   "pos": [
+    -880,
+    -60,
+    2690
+   ],
+   "footprint_text": "—",
+   "enterable": true,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "PHK-10",
+   "name_en": "Road west and roadside cairn",
+   "type": "road",
+   "district": "pharkha",
+   "pos": [
+    -1000,
+    -250,
+    2700
+   ],
+   "footprint_text": "—",
+   "enterable": true,
+   "occupants": "—",
+   "note": "To Laniba and Litang (R-20)"
+  },
+  {
+   "id": "PHK-11",
+   "name_en": "Swim-out beach (added from chapter 06)",
+   "type": "beach",
+   "district": "pharkha",
+   "place": "about −595, −480, 2,540",
+   "footprint_text": "about 60 × 15",
+   "enterable": true,
+   "occupants": "drovers catching swum animals",
+   "note": "Where loose-driven animals land after the current carries them 250–350 m down (chapter 06, 8.7); just south of D13's band; the terrain must leave a beach below Pharkha's river cliff"
+  },
+  {
+   "id": "LAP-01",
+   "name_en": "Laptse La cairn",
+   "name_bo": "ལབ་རྩེ",
+   "type": "cairn",
+   "district": "laptse",
+   "pos": [
+    4760,
+    2750,
+    4480
+   ],
+   "footprint_text": "3.5 m mound, 8 m across",
+   "enterable": true,
+   "occupants": "—",
+   "note": "Arrows, wool-bound poles, flags radiating; add a stone, shout lha rgyal lo"
+  },
+  {
+   "id": "LAP-02",
+   "name_en": "Pass sang burner",
+   "type": "burner",
+   "district": "laptse",
+   "pos": [
+    4755,
+    2745,
+    4480
+   ],
+   "footprint_text": "1.2 m",
+   "enterable": false,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "LAP-03",
+   "name_en": "False-summit lhatse",
+   "type": "cairn",
+   "district": "laptse",
+   "place": "4,300 m on the path",
+   "footprint_text": "2 m",
+   "enterable": false,
+   "occupants": "—",
+   "note": "—"
+  },
+  {
+   "id": "LAP-04",
+   "name_en": "Yarsa summer huts and corrals (4)",
+   "name_bo": "དབྱར་ས",
+   "type": "huts",
+   "district": "laptse",
+   "place": "3,960 m on the path",
+   "footprint": [
+    5,
+    4
+   ],
+   "footprint_text": "5 × 4",
+   "storeys": 1,
+   "enterable": true,
+   "occupants": "empty in October",
+   "note": "Dung walls, a stone hearth"
+  },
+  {
+   "id": "LAP-05",
+   "name_en": "Rest cairns (2)",
+   "type": "cairns",
+   "district": "laptse",
+   "place": "3,700 and 4,150 m",
+   "footprint_text": "1.5 m",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Skip points (design)"
+  },
+  {
+   "id": "LAP-06",
+   "name_en": "Marmot colony",
+   "type": "burrows",
+   "district": "laptse",
+   "place": "4,150–4,300 m",
+   "footprint_text": "—",
+   "enterable": false,
+   "occupants": "—",
+   "note": "Asleep for the winter"
+  },
+  {
+   "id": "LAP-07",
+   "name_en": "Dungtso, (invented; added from chapter 08)",
+   "name_bo": "དུང་མཚོ",
+   "type": "cirque lake",
+   "district": "laptse",
+   "place": "centre +4,950, +3,150, 4,380",
+   "footprint_text": "about 380 × 220 m",
+   "enterable": true,
+   "occupants": "—",
+   "note": "450 m north-north-east of and 100 m below the pass, inside the high zone's corridor; outflow to the Dungchu; a 1.2 km clockwise path round it (chapter 08, V-24)"
+  }
+ ],
+ "routes": [
+  {
+   "id": "R-01",
+   "name_en": "Lamchen, : the South Road through town",
+   "name_bo": "ལམ་ཆེན",
+   "from_to": "Serchu Zampa (2,812) → cliff gallery → Gate Chorten → south pavilion → chain bridge → castle passage → Castle Ramp → East Gate → River Street → Water Gate → Landing (2,543)",
+   "length": "about 2.2 km (the straight segments alone sum to 2.06 km)",
+   "climb": "−269 m",
+   "steps": "about 290 in River Street and the Water Gate stair",
+   "gradient": "road 6–12%, ramp 15%, River Street 16% in flights",
+   "users": "Everyone on foot; officials"
+  },
+  {
+   "id": "R-02",
+   "name_en": "Animal branch",
+   "name_bo": null,
+   "from_to": "South pavilion → south ramp → lower cantilever bridge → north ramp → Yak Gate → Tsongra",
+   "length": "520 m",
+   "climb": "−29 m, then +36 m",
+   "steps": "0",
+   "gradient": "15% ramps",
+   "users": "Animals bound for the trading houses"
+  },
+  {
+   "id": "R-03",
+   "name_en": "Caravan Ramp",
+   "name_bo": null,
+   "from_to": "South pavilion → the camp",
+   "length": "600 m",
+   "climb": "−80 m",
+   "steps": "0",
+   "gradient": "13%, 5 zigzags",
+   "users": "Herds, loads for the ferry"
+  },
+  {
+   "id": "R-04",
+   "name_en": "The 1,080 steps",
+   "name_bo": null,
+   "from_to": "Conch Bridge (2,672) → South Gate (2,882)",
+   "length": "380 m of path",
+   "climb": "+210 m",
+   "steps": "1,080 of 19.5 cm, in 23 flights",
+   "gradient": "29° along the path",
+   "users": "Pilgrims, monks, the Double Ninth party"
+  },
+  {
+   "id": "R-05",
+   "name_en": "Sky Stair",
+   "name_bo": null,
+   "from_to": "Tsongra (2,665) → Tödé chorten (2,782)",
+   "length": "270 m",
+   "climb": "+117 m",
+   "steps": "620 of 19 cm, 16 flights",
+   "gradient": "26°",
+   "users": "Townspeople, water carriers"
+  },
+  {
+   "id": "R-06",
+   "name_en": "Rooftop Way",
+   "name_bo": null,
+   "from_to": "Dechen-tsang roof (2,659) → upper Shöl roof by the spring (2,745)",
+   "length": "260 m",
+   "climb": "+86 m",
+   "steps": "9 ladders (about 35 m of the climb), 4 plank bridges, 11 roofs; the other 50 m by roof-terrace steps and five short lane stairs crossed on the way, since one ladder of 3–4.5 m cannot climb a whole house (review fix)",
+   "gradient": "—",
+   "users": "Residents, children, the player"
+  },
+  {
+   "id": "R-07",
+   "name_en": "Gorge Stair",
+   "name_bo": null,
+   "from_to": "Tödé east terrace (2,795) → upper cantilever bridge (2,722) → West Gate (2,890)",
+   "length": "600 m",
+   "climb": "−73 m, +168 m",
+   "steps": "385 + 885, three galleries",
+   "gradient": "40% west wall, 55° east face",
+   "users": "Monks with Tödé families"
+  },
+  {
+   "id": "R-08",
+   "name_en": "Nétsang Lam, (invented)",
+   "name_bo": "གནས་ཚང་ལམ",
+   "from_to": "Castle gate (2,645) → Tsongra → Conch terrace and Pema Ö (2,670)",
+   "length": "400 m",
+   "climb": "+25 m",
+   "steps": "60 in short flights",
+   "gradient": "4–8%",
+   "users": "Traders, the market"
+  },
+  {
+   "id": "R-09",
+   "name_en": "Yak Road",
+   "name_bo": null,
+   "from_to": "Serchu mills (2,697) → East Gate (2,952)",
+   "length": "2.1 km",
+   "climb": "+255 m",
+   "steps": "0",
+   "gradient": "12%, 11 switchbacks",
+   "users": "Supply yak and mules"
+  },
+  {
+   "id": "R-10",
+   "name_en": "Gönkor",
+   "name_bo": "དགོན་སྐོར",
+   "from_to": "Round the monastery wall",
+   "length": "1.1 km loop",
+   "climb": "±125 m (South Gate 2,882 to behind the Labrang 3,005)",
+   "steps": "about 700",
+   "gradient": "varies, 23% on average; a 40 m timber gallery on the gorge face",
+   "users": "Monks, pilgrims; clockwise"
+  },
+  {
+   "id": "R-11",
+   "name_en": "Lingkor",
+   "name_bo": "གླིང་སྐོར",
+   "from_to": "Pema Ö → Nétsang Lam → castle → western mani wall → Tathang chorten → leat → high bridge → spur at 3,100 m → east flank → Serchu mills → Conch Bridge → Pema Ö",
+   "length": "5.2 km loop",
+   "climb": "+690 m, −690 m",
+   "steps": "about 1,400",
+   "gradient": "mixed",
+   "users": "Pilgrims, the old at dawn; about 3½ hours (design)"
+  },
+  {
+   "id": "R-12",
+   "name_en": "Leat walk",
+   "name_bo": null,
+   "from_to": "Tödé top (2,978) → high-bridge branch → intake (2,992)",
+   "length": "1.9 km",
+   "climb": "+14 m",
+   "steps": "0",
+   "gradient": "0.7%",
+   "users": "Farmers, the quick way to the high bridge"
+  },
+  {
+   "id": "R-13",
+   "name_en": "Cliff Path",
+   "name_bo": null,
+   "from_to": "Upper Gate (3,000) → ritro chorten (3,300) → chain handhold → cave (3,360) → top huts (3,400)",
+   "length": "1.05 km",
+   "climb": "+400 m",
+   "steps": "310 cut in rock",
+   "gradient": "38% average",
+   "users": "Attendants, pilgrims"
+  },
+  {
+   "id": "R-14",
+   "name_en": "Laptse path",
+   "name_bo": null,
+   "from_to": "Ritro top (3,400) → Laptse La (4,480)",
+   "length": "5.3 km",
+   "climb": "+1,080 m",
+   "steps": "0",
+   "gradient": "20%",
+   "users": "Pilgrims"
+  },
+  {
+   "id": "R-15",
+   "name_en": "Water Gate stair",
+   "name_bo": null,
+   "from_to": "Water Gate (2,558) → Landing (2,545)",
+   "length": "26 m",
+   "climb": "−13 m",
+   "steps": "70 of 18.5 cm",
+   "gradient": "32°",
+   "users": "Everyone crossing"
+  },
+  {
+   "id": "R-16",
+   "name_en": "Castle passage and Castle Ramp",
+   "name_bo": null,
+   "from_to": "Chain bridge north end (2,647) → castle ward → East Gate (2,598)",
+   "length": "320 m",
+   "climb": "−49 m",
+   "steps": "12 in the passage",
+   "gradient": "15% ramp",
+   "users": "Foot traffic east–west"
+  },
+  {
+   "id": "R-17",
+   "name_en": "Shöl Barkor",
+   "name_bo": "བར་སྐོར",
+   "from_to": "Round the Mani Lhakhang",
+   "length": "460 m loop",
+   "climb": "±30 m",
+   "steps": "150",
+   "gradient": "—",
+   "users": "The old, at dawn and dusk; clockwise"
+  },
+  {
+   "id": "R-18",
+   "name_en": "Ferry crossing",
+   "name_bo": null,
+   "from_to": "Landing ↔ Pharkha landing",
+   "length": "about 130 m of water, diagonally downstream from (−480, −60) to (−575, −150)",
+   "climb": "—",
+   "steps": "—",
+   "gradient": "—",
+   "users": "Coracle 6–8 min, carried back upstream; boat 10 min (design)"
+  },
+  {
+   "id": "R-19",
+   "name_en": "Rope slide and bank path",
+   "name_bo": null,
+   "from_to": "Landing → narrows → east head; cable to the west head",
+   "length": "850 m path; 78 m cable",
+   "climb": "+40 m",
+   "steps": "—",
+   "gradient": "—",
+   "users": "Locals, runaways from Nyarong (chapter 01, thread 5)"
+  },
+  {
+   "id": "R-20",
+   "name_en": "Road west",
+   "name_bo": null,
+   "from_to": "Pharkha landing (2,541) → village → first bend at (−1,300, −400), 3,000 m, the map's west exit",
+   "length": "1.8 km",
+   "climb": "+460 m",
+   "steps": "0",
+   "gradient": "18–26%",
+   "users": "Caravans to Laniba and Litang"
+  },
+  {
+   "id": "R-21",
+   "name_en": "Durtro path",
+   "name_bo": null,
+   "from_to": "Cairn SER-14 (2,775) → ravine → durtro (3,150)",
+   "length": "900 m",
+   "climb": "+375 m",
+   "steps": "—",
+   "gradient": "42%",
+   "users": "Funerals only; restricted"
+  },
+  {
+   "id": "R-22",
+   "name_en": "Tathang track",
+   "name_bo": null,
+   "from_to": "Tödé chorten (2,782) → field lanes → Tathang (3,050)",
+   "length": "1.5 km (the straight line is 640 m; 700 m would have been 39%)",
+   "climb": "+270 m",
+   "steps": "0",
+   "gradient": "18%, zigzags",
+   "users": "Herders, animals, nomads coming to market"
+  },
+  {
+   "id": "R-23",
+   "name_en": "Nangkor",
+   "name_bo": "ནང་སྐོར",
+   "from_to": "Round the Tsokchen's inner chapel",
+   "length": "64 m",
+   "climb": "0",
+   "steps": "0",
+   "gradient": "—",
+   "users": "Monks and pilgrims"
+  },
+  {
+   "id": "R-24",
+   "name_en": "Yungdrung circuit",
+   "name_bo": null,
+   "from_to": "Round the Bön chapel",
+   "length": "90 m",
+   "climb": "±4 m",
+   "steps": "0",
+   "gradient": "—",
+   "users": "Bön households; anticlockwise"
+  },
+  {
+   "id": "R-25",
+   "name_en": "Herd Lane (added from chapter 06)",
+   "name_bo": null,
+   "from_to": "Tsongra's west end → Nétsang Lam west → western mani wall (SHL-10) → Tödé mani wall (TOD-23) → Tathang chorten (THG-08)",
+   "length": "about 1.6 km",
+   "climb": "about +430 m",
+   "steps": "0 (ramps and low steps under 12 cm)",
+   "gradient": "27% on average, zigzags where the slope passes 25%",
+   "users": "Unladen animals, herds, nomads' yak coming to market, the monastery's herders; shares the lingkor's western side, mani walls on the right"
+  },
+  {
+   "id": "R-26",
+   "name_en": "Estate track (added from chapter 08, which proposed it as R-25)",
+   "name_bo": null,
+   "from_to": "Serchu Zampa (SER-04, 2,812) → north bank → Serchu mills (SER-05, 2,697)",
+   "length": "about 900 m",
+   "climb": "−115 m",
+   "steps": "0",
+   "gradient": "13%",
+   "users": "The monastery's caravans and tenants, who stay on the north bank to reach the Yak Road; its last stretch into the mills may share the lingkor's line"
+  }
+ ]
+}

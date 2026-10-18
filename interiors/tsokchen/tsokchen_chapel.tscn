@@ -1,0 +1,180 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://interiors/room.gd" id="1_j7q7t"]
+[ext_resource type="PackedScene" path="res://assets/generated/kit/types/tsokchen_chapel_v1.glb" id="2_6xwo0"]
+[ext_resource type="Shader" path="res://shaders/flame.gdshader" id="3_1gocm"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r6q6f"]
+render_priority = 0
+shader = ExtResource("3_1gocm")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 0.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_24jjy"]
+size = Vector2(0.035, 0.07)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8iudh"]
+render_priority = 0
+shader = ExtResource("3_1gocm")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 1.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_8w7q0"]
+size = Vector2(0.035, 0.07)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hamhs"]
+render_priority = 0
+shader = ExtResource("3_1gocm")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 2.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_8ohip"]
+size = Vector2(0.035, 0.07)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0ljdy"]
+render_priority = 0
+shader = ExtResource("3_1gocm")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 3.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_pvd13"]
+size = Vector2(0.035, 0.07)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xmisi"]
+render_priority = 0
+shader = ExtResource("3_1gocm")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 4.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_4bpvm"]
+size = Vector2(0.035, 0.07)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_q64x1"]
+render_priority = 0
+shader = ExtResource("3_1gocm")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 5.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_iweyg"]
+size = Vector2(0.035, 0.07)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_up88t"]
+render_priority = 0
+shader = ExtResource("3_1gocm")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 6.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_sulgs"]
+size = Vector2(0.035, 0.07)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0k25j"]
+render_priority = 0
+shader = ExtResource("3_1gocm")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 7.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_nt5c1"]
+size = Vector2(0.035, 0.07)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rkr2o"]
+render_priority = 0
+shader = ExtResource("3_1gocm")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 8.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_57jlg"]
+size = Vector2(0.035, 0.07)
+
+[node name="tsokchen_chapel" type="Node3D" unique_id=1854090491]
+
+[node name="Room" type="Node3D" parent="." unique_id=1941836906]
+script = ExtResource("1_j7q7t")
+room_id = "tsokchen_chapel"
+recipe = "LR-02"
+gain = 1.8
+box = AABB(-10.2, -0.2, -6.025, 20.4, 7, 6.025)
+
+[node name="Furnishings" parent="." unique_id=747781696 instance=ExtResource("2_6xwo0")]
+
+[node name="Flame_flame_5" type="OmniLight3D" parent="." unique_id=1747135160]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.13, -4.075)
+light_color = Color(0.95686275, 0.69803923, 0.2901961, 1)
+light_energy = 1.4
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 8.0
+omni_attenuation = 2.0
+metadata/kind = "flame"
+
+[node name="Day_door" type="OmniLight3D" parent="." unique_id=154728463]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3, -0.6)
+light_color = Color(0.9647059, 0.93333334, 0.8862745, 1)
+light_energy = 0.35
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 6.0
+omni_attenuation = 2.0
+metadata/kind = "day"
+
+[node name="Flame_0" type="MeshInstance3D" parent="." unique_id=1754699817]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6, 1.0749999, -4.375)
+material_override = SubResource("ShaderMaterial_r6q6f")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_24jjy")
+
+[node name="Flame_1" type="MeshInstance3D" parent="." unique_id=227802808]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2, 1.0749999, -4.375)
+material_override = SubResource("ShaderMaterial_8iudh")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_8w7q0")
+
+[node name="Flame_2" type="MeshInstance3D" parent="." unique_id=477033232]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8, 1.0749999, -4.375)
+material_override = SubResource("ShaderMaterial_hamhs")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_8ohip")
+
+[node name="Flame_3" type="MeshInstance3D" parent="." unique_id=52803103]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4, 1.0749999, -4.375)
+material_override = SubResource("ShaderMaterial_0ljdy")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_pvd13")
+
+[node name="Flame_4" type="MeshInstance3D" parent="." unique_id=1348573016]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0749999, -4.375)
+material_override = SubResource("ShaderMaterial_xmisi")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_4bpvm")
+
+[node name="Flame_5" type="MeshInstance3D" parent="." unique_id=1047675159]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4, 1.0749999, -4.375)
+material_override = SubResource("ShaderMaterial_q64x1")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_iweyg")
+
+[node name="Flame_6" type="MeshInstance3D" parent="." unique_id=1603012515]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8, 1.0749999, -4.375)
+material_override = SubResource("ShaderMaterial_up88t")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_sulgs")
+
+[node name="Flame_7" type="MeshInstance3D" parent="." unique_id=2018026016]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2, 1.0749999, -4.375)
+material_override = SubResource("ShaderMaterial_0k25j")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_nt5c1")
+
+[node name="Flame_8" type="MeshInstance3D" parent="." unique_id=1872290134]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6, 1.0749999, -4.375)
+material_override = SubResource("ShaderMaterial_rkr2o")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_57jlg")

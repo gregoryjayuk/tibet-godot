@@ -1,0 +1,502 @@
+{
+ "about": "The moments (plan chapter 08, 2.1: a station, a window, the weather, a rarity, a light preset, a sound cue, the dressing, a clear frame, what it requires, logged once), keyed by viewpoint, read by world/moments.gd. M2 sprint 3 builds the first, V-01; its sound cue's stretches are the arrival's (data/arrival.json): `quiet` the road from SER-20 through the cliff gallery and the cutting to the Gate Chorten (within its metres of that line, the town's buses at its dB), `room` the chorten's passage (its radius round SER-01, the district beds at its dB, the dead stone room RZ-22 its reverb), then out of it the town back to its own level over `rise_s`. M2 sprint 5 adds V-02, the Conch Eddy at first sun: its window the terrain's first sun on the pool (07:46:42 through the horizon map's fine grid), its station at the Conch terrace's lip by its corner (the pool below it: the game's DECISIONS, 9 Oct 2026), its cue `sc_conch_dawn` the town's crowd and voices held down within `near.within` metres while the confluence, the wheels and the juniper are heard close (world/moments.gd `_near`); its dressing is world/pema_o_people.gd's and world/confluence_dawn.gd's (the pool's mist, the conch's glint). V-04, the Lhabab Chorten's terrace by the 1,080 steps (M3 sprint 1, step 6): 16:00-16:40, chapter 02's station and window, the town's crowd and voices held down within 20 m of its seat (world/viewpoints.gd's V-04). V-09, the upper bridge RNG-02 (M3 sprint 2, step 2): 10:30-13:00, when the gorge's floor has its sun, the face 170 m overhead (chapter 08's table of moments), the town held down within 25 m of its seat on the deck. V-17, the rest gallery RNG-09 (M3 sprint 2, step 3): 14:30-15:30 (chapter 08: first on 30 October, any windy afternoon), across the gorge at 288 degrees.",
+ "moments": [
+  {
+   "id": "V-01",
+   "name": "The Gate Chorten reveal",
+   "stations": [
+    {
+     "pos": [
+      166,
+      -175,
+      2694
+     ],
+     "facing": [
+      290,
+      52
+     ],
+     "radius": 6
+    }
+   ],
+   "window": {
+    "date": "any",
+    "from": "15:00",
+    "to": "16:10",
+    "alt_window": [
+     "07:30",
+     "10:00"
+    ],
+    "first_arrival": [
+     "14:50",
+     "15:10"
+    ]
+   },
+   "weather": [
+    "clear",
+    "fair"
+   ],
+   "rarity": "first_arrival",
+   "preset": "L-07",
+   "sound_cue": "sc_gate_reveal",
+   "dressing": [
+    "caravan:dartsedo_d1",
+    "mastiffs:castle_roof",
+    "toll_steward:SAM-04"
+   ],
+   "frame_clear": {
+    "cone_deg": 50,
+    "depth_m": 15
+   },
+   "requires": [],
+   "log_once": true,
+   "tiers": {
+    "cool": "no_vol_fog",
+    "low": "crowd_60"
+   },
+   "cue": {
+    "buses": [
+     "Beds",
+     "Crowd",
+     "Voices",
+     "Ritual",
+     "Distant"
+    ],
+    "quiet": {
+     "within": 20.0,
+     "db": -18.0
+    },
+    "room": {
+     "at": "SER-01",
+     "radius": 3.8,
+     "beds_db": -12.0
+    },
+    "rise_s": 2.0
+   }
+  },
+  {
+   "id": "V-02",
+   "name": "Conch Eddy at first sun",
+   "stations": [
+    {
+     "pos": [
+      199.0,
+      -91.2,
+      2664.0
+     ],
+     "facing": [
+      113,
+      50
+     ],
+     "radius": 6
+    }
+   ],
+   "window": {
+    "date": "any",
+    "from": "07:40",
+    "to": "08:10"
+   },
+   "weather": [
+    "clear",
+    "still"
+   ],
+   "rarity": "daily",
+   "preset": "L-04",
+   "sound_cue": "sc_conch_dawn",
+   "dressing": [
+    "lama:SHL-12",
+    "monks:SHL-11",
+    "kora:SHL-11",
+    "dipper:pool",
+    "mist:pool",
+    "conch:eddy"
+   ],
+   "frame_clear": {
+    "cone_deg": 50,
+    "depth_m": 20
+   },
+   "requires": [],
+   "log_once": true,
+   "tiers": {
+    "cool": "no_vol_fog",
+    "low": "mist_card"
+   },
+   "cue": {
+    "buses": [
+     "Crowd",
+     "Voices"
+    ],
+    "near": {
+     "at": [
+      199.0,
+      -91.2
+     ],
+     "within": 25.0,
+     "db": -6.0
+    },
+    "rise_s": 4.0
+   }
+  },
+  {
+   "id": "V-13a",
+   "name": "Dungri Karpo in the notch",
+   "stations": [
+    {
+     "pos": [
+      258.8,
+      246.7,
+      2781.5
+     ],
+     "facing": [
+      34,
+      50
+     ],
+     "radius": 5
+    }
+   ],
+   "window": {
+    "date": "from 1903-10-30",
+    "from": "17:00",
+    "to": "17:30"
+   },
+   "weather": [
+    "clear"
+   ],
+   "rarity": "daily",
+   "preset": "L-09",
+   "sound_cue": "sc_notch_dusk",
+   "dressing": [
+    "old_woman:SHL-32",
+    "juniper:SHL-32",
+    "horns:MON-40"
+   ],
+   "frame_clear": {
+    "cone_deg": 40,
+    "depth_m": 30
+   },
+   "requires": [],
+   "log_once": true,
+   "tiers": {
+    "cool": "no_vol_fog",
+    "low": "peak_card"
+   },
+   "cue": {
+    "buses": [
+     "Crowd",
+     "Voices"
+    ],
+    "near": {
+     "at": [
+      258.8,
+      246.7
+     ],
+     "within": 20.0,
+     "db": -6.0
+    },
+    "rise_s": 4.0
+   }
+  },
+  {
+   "id": "V-04",
+   "name": "The Lhabab Chorten's terrace",
+   "stations": [
+    {
+     "pos": [
+      324.2,
+      -24.6,
+      2742.2
+     ],
+     "facing": [
+      250,
+      58
+     ],
+     "radius": 5
+    }
+   ],
+   "window": {
+    "date": "any",
+    "from": "16:00",
+    "to": "16:40"
+   },
+   "weather": [
+    "clear",
+    "fair"
+   ],
+   "rarity": "daily",
+   "preset": "L-07",
+   "sound_cue": "sc_lhabab_terrace",
+   "dressing": [
+    "party:RNG-12 on the Double Ninth, until 16:00",
+    "pilgrims:R-04"
+   ],
+   "frame_clear": {
+    "cone_deg": 50,
+    "depth_m": 20
+   },
+   "requires": [],
+   "log_once": true,
+   "tiers": {
+    "cool": "no_vol_fog",
+    "low": "crowd_60"
+   },
+   "cue": {
+    "buses": [
+     "Crowd",
+     "Voices"
+    ],
+    "near": {
+     "at": [
+      324.2,
+      -24.6
+     ],
+     "within": 20.0,
+     "db": -6.0
+    },
+    "rise_s": 4.0
+   }
+  },
+  {
+   "id": "V-09",
+   "name": "The upper bridge",
+   "stations": [
+    {
+     "pos": [
+      329.0,
+      202.7,
+      2716.5
+     ],
+     "facing": [
+      108,
+      62
+     ],
+     "radius": 6
+    }
+   ],
+   "window": {
+    "date": "any",
+    "from": "10:30",
+    "to": "13:00"
+   },
+   "weather": [
+    "clear",
+    "fair"
+   ],
+   "rarity": "daily",
+   "preset": "L-06",
+   "sound_cue": "sc_gorge_noon",
+   "dressing": [
+    "flags:RNG-02",
+    "stair:R-07"
+   ],
+   "frame_clear": {
+    "cone_deg": 60,
+    "depth_m": 15
+   },
+   "requires": [],
+   "log_once": true,
+   "tiers": {
+    "cool": "no_vol_fog",
+    "low": "crowd_60"
+   },
+   "cue": {
+    "buses": [
+     "Crowd",
+     "Voices"
+    ],
+    "near": {
+     "at": [
+      329.0,
+      202.7
+     ],
+     "within": 25.0,
+     "db": -6.0
+    },
+    "rise_s": 4.0
+   }
+  },
+  {
+   "id": "V-17",
+   "name": "The rest gallery",
+   "stations": [
+    {
+     "pos": [
+      402.51,
+      165.48,
+      2803.183
+     ],
+     "facing": [
+      288,
+      60
+     ],
+     "radius": 5
+    }
+   ],
+   "window": {
+    "date": "any",
+    "from": "14:30",
+    "to": "15:30"
+   },
+   "weather": [
+    "clear",
+    "windy"
+   ],
+   "rarity": "daily",
+   "preset": "L-07",
+   "sound_cue": "sc_gorge_flags",
+   "dressing": [
+    "monk:RNG-09 bench",
+    "novices:R-07",
+    "flags:RNG-06",
+    "choughs:face"
+   ],
+   "frame_clear": {
+    "cone_deg": 50,
+    "depth_m": 10
+   },
+   "requires": [],
+   "log_once": true,
+   "tiers": {
+    "cool": "no_vol_fog",
+    "low": "flags_half"
+   },
+   "cue": {
+    "buses": [
+     "Crowd",
+     "Voices"
+    ],
+    "near": {
+     "at": [
+      402.51,
+      165.48
+     ],
+     "within": 15.0,
+     "db": -6.0
+    },
+    "rise_s": 4.0
+   }
+  },
+  {
+   "id": "V-26",
+   "name": "The full-moon assembly from the lay visitors' place inside the door",
+   "stations": [
+    {
+     "pos": [
+      540.0,
+      135.3,
+      2932.0
+     ],
+     "facing": [
+      0,
+      50
+     ],
+     "radius": 4
+    }
+   ],
+   "window": {
+    "date": "good_days",
+    "from": "09:30",
+    "to": "11:00"
+   },
+   "weather": [
+    "any"
+   ],
+   "rarity": "monthly",
+   "preset": "LR-01",
+   "sound_cue": "sc_v26_hall",
+   "dressing": [
+    "monks:MON-01, the rows, about 270",
+    "tulku:MON-01, his throne",
+    "disciplinarian:MON-01, by the door's right, walking the rows",
+    "kettles:MON-01, the novices' tea passes every half hour",
+    "pilgrims:MON-01, prostrating at the door, the Nangkor",
+    "haze:MON-01, incense over the rows",
+    "curtain:MON-01, its thump behind the player (SND-220)"
+   ],
+   "frame_clear": {
+    "cone_deg": 50,
+    "depth_m": 20
+   },
+   "requires": [],
+   "log_once": true,
+   "tiers": {
+    "cool": "no_vol_fog",
+    "low": "rows_half"
+   },
+   "cue": {
+    "buses": [
+     "Crowd",
+     "Voices",
+     "Wind"
+    ],
+    "near": {
+     "at": [
+      540.0,
+      137.0
+     ],
+     "within": 9.0,
+     "db": -8.0
+    },
+    "rise_s": 1.0
+   }
+  },
+  {
+   "id": "V-05a",
+   "name": "Dawn horns on the Tsokchen roof",
+   "stations": [
+    {
+     "pos": [
+      531.8,
+      163.0,
+      2953.5
+     ],
+     "facing": [
+      240,
+      60
+     ],
+     "radius": 5
+    }
+   ],
+   "window": {
+    "date": "from 1903-11-01",
+    "from": "05:25",
+    "to": "07:05"
+   },
+   "weather": [
+    "clear"
+   ],
+   "rarity": "daily",
+   "preset": "L-03",
+   "sound_cue": "sc_v05a_horns",
+   "dressing": [
+    "horns:MON-40",
+    "novice:MON-40",
+    "smoke:MON-12",
+    "choughs:MON"
+   ],
+   "frame_clear": {
+    "cone_deg": 50,
+    "depth_m": 15
+   },
+   "requires": [],
+   "log_once": true,
+   "tiers": {
+    "cool": "no_vol_fog",
+    "low": "mist_band"
+   },
+   "cue": {
+    "buses": [
+     "Crowd",
+     "Voices"
+    ],
+    "near": {
+     "at": [
+      531.8,
+      163.0
+     ],
+     "within": 12.0,
+     "db": -8.0
+    },
+    "rise_s": 3.0
+   }
+  }
+ ]
+}

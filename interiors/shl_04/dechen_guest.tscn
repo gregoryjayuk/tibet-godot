@@ -1,0 +1,52 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://interiors/room.gd" id="1_72qkw"]
+[ext_resource type="PackedScene" path="res://assets/generated/kit/types/dechen_guest_v1.glb" id="2_nx536"]
+[ext_resource type="Shader" path="res://shaders/flame.gdshader" id="3_y4xu1"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_poqnx"]
+render_priority = 0
+shader = ExtResource("3_y4xu1")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 1.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_7ap76"]
+size = Vector2(0.035, 0.07)
+
+[node name="dechen_guest" type="Node3D" unique_id=896931962]
+
+[node name="Room" type="Node3D" parent="." unique_id=1744276798]
+script = ExtResource("1_72qkw")
+room_id = "dechen_guest"
+recipe = "LR-07"
+gain = 1.4
+box = AABB(-1.517, -0.2, -4, 3.9, 2.75, 4)
+
+[node name="Furnishings" parent="." unique_id=1216066246 instance=ExtResource("2_nx536")]
+
+[node name="Day_door" type="OmniLight3D" parent="." unique_id=673124283]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3, -0.6)
+light_color = Color(0.9647059, 0.93333334, 0.8862745, 1)
+light_energy = 1.5
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 9.0
+omni_attenuation = 2.0
+metadata/kind = "day"
+
+[node name="Flame_flame_1" type="OmniLight3D" parent="." unique_id=728182316]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8759468, 0.72999996, -3.512908)
+light_color = Color(0.95686275, 0.69803923, 0.2901961, 1)
+light_energy = 0.5
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 9.0
+omni_attenuation = 2.0
+metadata/kind = "flame"
+
+[node name="Flame_1" type="MeshInstance3D" parent="." unique_id=1262772070]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.083, 0.67499995, -3.73)
+material_override = SubResource("ShaderMaterial_poqnx")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_7ap76")

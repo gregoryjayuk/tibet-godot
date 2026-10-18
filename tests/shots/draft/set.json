@@ -1,0 +1,13 @@
+{
+  "about": "The draft's five viewpoints, the regression set for M0 (roadmap RT-02 to RT-04). Rendered at 1600 x 900 to match the pre-M0 shots.",
+  "size": [1600, 900],
+  "first_wait": 75,
+  "wait": 45,
+  "shots": [
+    {"view": 1, "out": "tests/shots/out/draft/v1.png"},
+    {"view": 2, "out": "tests/shots/out/draft/v2.png"},
+    {"view": 3, "out": "tests/shots/out/draft/v3.png"},
+    {"view": 4, "out": "tests/shots/out/draft/v4.png"},
+    {"view": 5, "out": "tests/shots/out/draft/v5.png"}
+  ]
+}

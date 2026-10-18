@@ -1,0 +1,17 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://shaders/stylized_static.gdshader" id="1_0j0s3"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_atg3b"]
+frequency = 0.012
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_64185"]
+noise = SubResource("FastNoiseLite_atg3b")
+seamless = true
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_0j0s3")
+shader_parameter/noise_tex = SubResource("NoiseTexture2D_64185")
+shader_parameter/shade_color = null
+shader_parameter/sky_occlusion = null

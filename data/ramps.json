@@ -1,0 +1,19 @@
+{
+ "about": "Chapter 09's ramp families (4.2), built into the 256 x 32 g_ramps atlas at start-up by tools/build/ramps.gd: row = family * 4 + time set (day, golden, blue hour, night). Each family: levels from the shadow side to the lit side at N.L thresholds, a softness, and a warm band at the terminator (width in N.L, colour, strength). Art step A2; tune here, not in code.",
+ "families": [
+  {"name": "R0 plaster", "thresholds": [0.05, 0.25], "levels": [0.0, 0.78, 1.0], "soft": 0.05, "band": {"width": 0.06, "c": "#C99A45", "strength": 0.18}},
+  {"name": "R1 timber", "thresholds": [0.04], "levels": [0.0, 1.0], "soft": 0.04, "band": {"width": 0.03, "c": "#C99A45", "strength": 0.14}},
+  {"name": "R2 cloth", "thresholds": [0.02, 0.3], "levels": [0.0, 0.7, 1.0], "soft": 0.2, "band": {"width": 0.1, "c": "#C99A45", "strength": 0.2}},
+  {"name": "R3 skin", "thresholds": [-0.05, 0.12, 0.3], "levels": [0.0, 0.45, 0.8, 1.0], "soft": 0.12, "band": {"width": 0.12, "c": "#B5534A", "strength": 0.3}},
+  {"name": "R4 metal", "thresholds": [0.01], "levels": [0.0, 1.0], "soft": 0.02, "band": {"width": 0.0, "c": "#FFFFFF", "strength": 0.0}},
+  {"name": "R5 foliage", "thresholds": [0.25, 0.55], "levels": [0.35, 0.7, 1.0], "soft": 0.08, "wrap": true, "band": {"width": 0.08, "c": "#B8C44A", "strength": 0.2}},
+  {"name": "R6 rock and terrain", "thresholds": [0.06, 0.2], "levels": [0.0, 0.75, 1.0], "soft": 0.06, "band": {"width": 0.05, "c": "#C99A45", "strength": 0.16}},
+  {"name": "R7 snow and ice", "thresholds": [-0.05, 0.2], "levels": [0.0, 0.8, 1.0], "soft": 0.12, "band": {"width": 0.1, "c": "#E8B8A8", "strength": 0.1}}
+ ],
+ "sets": [
+  {"name": "day", "soft": 1.0, "band_width": 1.0, "band_strength": 1.0, "band_c": null, "floor": 0.0},
+  {"name": "golden", "soft": 1.2, "band_width": 1.6, "band_strength": 1.5, "band_c": "#E8A050", "floor": 0.0},
+  {"name": "blue hour", "soft": 2.0, "band_width": 1.2, "band_strength": 0.6, "band_c": "#9A7AB0", "floor": 0.1},
+  {"name": "night", "soft": 3.0, "band_width": 1.0, "band_strength": 0.0, "band_c": null, "floor": 0.25}
+ ]
+}

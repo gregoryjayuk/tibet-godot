@@ -1,0 +1,11 @@
+#!/bin/bash
+# Build the Swift comparer on first use (or when its source changes), then run it with the given arguments.
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+BIN="$ROOT/tools/bin/shots-compare"
+SRC="$ROOT/tools/shots/compare.swift"
+if [ ! -x "$BIN" ] || [ "$SRC" -nt "$BIN" ]; then
+  mkdir -p "$ROOT/tools/bin"
+  swiftc -O -o "$BIN" "$SRC"
+fi
+exec "$BIN" "$@"

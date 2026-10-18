@@ -1,0 +1,9 @@
+{
+ "about": "Couplets written in the game in their characters (M1 sprint 8; Greg, 27 Sep 2026: 'the couplet is not in real characters, why?'), by room: the right-hand strip as you face the wall (上聯) first, then the left (下聯); the gloss is shown the first time the player looks at them. Every line of Chinese passes Greg before it ships (chapter 07, 8.1).",
+ "rooms": {
+  "dechen_chinese": {
+   "lines": ["生意興隆通四海", "財源茂盛達三江"],
+   "gloss": "A merchant's couplet in Yang Shouren's room: 'May business flourish, reaching the four seas; may wealth flow in, reaching the three rivers.'"
+  }
+ }
+}

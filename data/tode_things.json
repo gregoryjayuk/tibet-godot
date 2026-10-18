@@ -1,0 +1,898 @@
+{
+ "about": "T\u00f6d\u00e9's fields' and yards' things (tools/town/tode_things.py; M3 sprint 4, steps 5 and 6): each {id, kit (../tibet-blender kit/tode.py's types, the gardens' walnut), at, level, facing (its front's bearing; the kit's -y)}: the threshing floors TOD-11 to 14 on their pads, the byres TOD-22.n in rammed-earth yards (`house`), the racks TOD-24.n at the front corners of house pads, the walnut grove's trees TOD-20.n, the window stall TOD-25. Placed by world/town.gd. `lanes`: R-24's paving round the B\u00f6n chapel TOD-02 on its terrace (street lanes, tools/terrain/pads.py); `circuit`: its walkers' line, anticlockwise from the front's west end ([x, y, level]). Regenerated with the terrain.",
+ "things": [
+  {
+   "id": "TOD-11",
+   "kit": "tod_threshing_floor_14_v1",
+   "at": [
+    -208.0,
+    326.0
+   ],
+   "level": 2848.13,
+   "facing": 301.5
+  },
+  {
+   "id": "TOD-12",
+   "kit": "tod_threshing_floor_14_v2",
+   "at": [
+    -76.0,
+    318.0
+   ],
+   "level": 2825.97,
+   "facing": 202.2
+  },
+  {
+   "id": "TOD-13",
+   "kit": "tod_threshing_floor_12_v1",
+   "at": [
+    98.0,
+    404.0
+   ],
+   "level": 2875.15,
+   "facing": 308.7
+  },
+  {
+   "id": "TOD-14",
+   "kit": "tod_threshing_floor_12_v1",
+   "at": [
+    -120.0,
+    560.0
+   ],
+   "level": 2938.77,
+   "facing": 139.9
+  },
+  {
+   "id": "TOD-24.1",
+   "kit": "tod24_rack_maize_v2",
+   "at": [
+    66.42,
+    495.06
+   ],
+   "level": 2923.42,
+   "facing": 282.0,
+   "house": "H-TOD-001"
+  },
+  {
+   "id": "TOD-24.2",
+   "kit": "tod24_rack_turnip_v2",
+   "at": [
+    99.16,
+    371.18
+   ],
+   "level": 2882.16,
+   "facing": 90.9,
+   "house": "H-TOD-005"
+  },
+  {
+   "id": "TOD-24.3",
+   "kit": "tod24_rack_turnip_v2",
+   "at": [
+    275.59,
+    532.04
+   ],
+   "level": 2966.51,
+   "facing": 316.1,
+   "house": "H-TOD-010"
+  },
+  {
+   "id": "TOD-24.4",
+   "kit": "tod24_rack_turnip_v2",
+   "at": [
+    8.69,
+    595.73
+   ],
+   "level": 2963.86,
+   "facing": 355.3,
+   "house": "H-TOD-015"
+  },
+  {
+   "id": "TOD-24.5",
+   "kit": "tod24_rack_maize_v1",
+   "at": [
+    32.68,
+    343.47
+   ],
+   "level": 2879.83,
+   "facing": 295.5,
+   "house": "H-TOD-016"
+  },
+  {
+   "id": "TOD-24.6",
+   "kit": "tod24_rack_maize_v1",
+   "at": [
+    72.87,
+    312.77
+   ],
+   "level": 2862.16,
+   "facing": 11.6,
+   "house": "H-TOD-018"
+  },
+  {
+   "id": "TOD-24.7",
+   "kit": "tod24_rack_maize_v3",
+   "at": [
+    -75.42,
+    390.99
+   ],
+   "level": 2866.56,
+   "facing": 1.2,
+   "house": "H-TOD-020"
+  },
+  {
+   "id": "TOD-24.8",
+   "kit": "tod24_rack_maize_v1",
+   "at": [
+    -64.16,
+    446.08
+   ],
+   "level": 2900.6,
+   "facing": 13.8,
+   "house": "H-TOD-023"
+  },
+  {
+   "id": "TOD-24.9",
+   "kit": "tod24_rack_maize_v3",
+   "at": [
+    -62.14,
+    339.8
+   ],
+   "level": 2840.01,
+   "facing": 33.9,
+   "house": "H-TOD-025"
+  },
+  {
+   "id": "TOD-24.10",
+   "kit": "tod24_rack_maize_v1",
+   "at": [
+    96.77,
+    446.22
+   ],
+   "level": 2896.91,
+   "facing": 23.4,
+   "house": "H-TOD-026"
+  },
+  {
+   "id": "TOD-24.11",
+   "kit": "tod24_rack_maize_v2",
+   "at": [
+    142.41,
+    413.75
+   ],
+   "level": 2898.53,
+   "facing": 47.6,
+   "house": "H-TOD-028"
+  },
+  {
+   "id": "TOD-24.12",
+   "kit": "tod24_rack_turnip_v2",
+   "at": [
+    137.19,
+    338.64
+   ],
+   "level": 2881.1,
+   "facing": 23.3,
+   "house": "H-TOD-033"
+  },
+  {
+   "id": "TOD-24.13",
+   "kit": "tod24_rack_maize_v2",
+   "at": [
+    66.52,
+    349.11
+   ],
+   "level": 2874.7,
+   "facing": 20.5,
+   "house": "H-TOD-035"
+  },
+  {
+   "id": "TOD-24.14",
+   "kit": "tod24_rack_turnip_v2",
+   "at": [
+    50.46,
+    586.76
+   ],
+   "level": 2961.88,
+   "facing": 12.4,
+   "house": "H-TOD-036"
+  },
+  {
+   "id": "TOD-24.15",
+   "kit": "tod24_rack_turnip_v2",
+   "at": [
+    42.54,
+    520.7
+   ],
+   "level": 2935.39,
+   "facing": 299.8,
+   "house": "H-TOD-038"
+  },
+  {
+   "id": "TOD-24.16",
+   "kit": "tod24_rack_maize_v1",
+   "at": [
+    -25.91,
+    428.22
+   ],
+   "level": 2891.79,
+   "facing": 28.7,
+   "house": "H-TOD-040"
+  },
+  {
+   "id": "TOD-24.17",
+   "kit": "tod24_rack_maize_v1",
+   "at": [
+    -9.43,
+    348.8
+   ],
+   "level": 2881.73,
+   "facing": 74.3,
+   "house": "H-TOD-041"
+  },
+  {
+   "id": "TOD-24.18",
+   "kit": "tod24_rack_maize_v1",
+   "at": [
+    127.03,
+    476.71
+   ],
+   "level": 2925.8,
+   "facing": 85.1,
+   "house": "H-TOD-043"
+  },
+  {
+   "id": "TOD-22.1",
+   "kit": "tod22_byre_v2",
+   "at": [
+    -266.01,
+    519.44
+   ],
+   "level": 2937.66,
+   "facing": 32.2,
+   "house": "H-TOD-045"
+  },
+  {
+   "id": "TOD-22.2",
+   "kit": "tod22_byre_v4",
+   "at": [
+    -239.61,
+    577.47
+   ],
+   "level": 2962.31,
+   "facing": 8.4,
+   "house": "H-TOD-046"
+  },
+  {
+   "id": "TOD-22.3",
+   "kit": "tod22_byre_v4",
+   "at": [
+    -223.32,
+    533.96
+   ],
+   "level": 2942.36,
+   "facing": 352.4,
+   "house": "H-TOD-047"
+  },
+  {
+   "id": "TOD-22.4",
+   "kit": "tod22_byre_v2",
+   "at": [
+    -234.89,
+    509.64
+   ],
+   "level": 2934.42,
+   "facing": 339.5,
+   "house": "H-TOD-048"
+  },
+  {
+   "id": "TOD-22.5",
+   "kit": "tod22_byre_v3",
+   "at": [
+    -123.34,
+    496.58
+   ],
+   "level": 2908.08,
+   "facing": 348.6,
+   "house": "H-TOD-049"
+  },
+  {
+   "id": "TOD-22.6",
+   "kit": "tod22_byre_v4",
+   "at": [
+    -127.84,
+    323.7
+   ],
+   "level": 2842.18,
+   "facing": 339.2,
+   "house": "H-TOD-050"
+  },
+  {
+   "id": "TOD-22.7",
+   "kit": "tod22_byre_v2",
+   "at": [
+    -205.38,
+    410.84
+   ],
+   "level": 2883.87,
+   "facing": 325.0,
+   "house": "H-TOD-051"
+  },
+  {
+   "id": "TOD-22.8",
+   "kit": "tod22_byre_v3",
+   "at": [
+    -174.79,
+    454.53
+   ],
+   "level": 2896.67,
+   "facing": 327.7,
+   "house": "H-TOD-052"
+  },
+  {
+   "id": "TOD-22.9",
+   "kit": "tod22_byre_v4",
+   "at": [
+    -157.08,
+    396.0
+   ],
+   "level": 2874.25,
+   "facing": 332.4,
+   "house": "H-TOD-053"
+  },
+  {
+   "id": "TOD-22.10",
+   "kit": "tod22_byre_v3",
+   "at": [
+    -177.12,
+    302.02
+   ],
+   "level": 2838.22,
+   "facing": 358.3,
+   "house": "H-TOD-054"
+  },
+  {
+   "id": "TOD-22.11",
+   "kit": "tod22_byre_v1",
+   "at": [
+    -122.73,
+    366.54
+   ],
+   "level": 2858.83,
+   "facing": 341.1,
+   "house": "H-TOD-055"
+  },
+  {
+   "id": "TOD-22.12",
+   "kit": "tod22_byre_v3",
+   "at": [
+    -231.32,
+    322.14
+   ],
+   "level": 2849.37,
+   "facing": 359.4,
+   "house": "H-TOD-058"
+  },
+  {
+   "id": "TOD-22.13",
+   "kit": "tod22_byre_v2",
+   "at": [
+    -239.23,
+    365.7
+   ],
+   "level": 2872.67,
+   "facing": 344.4,
+   "house": "H-TOD-059"
+  },
+  {
+   "id": "TOD-22.14",
+   "kit": "tod22_byre_v4",
+   "at": [
+    -262.08,
+    484.5
+   ],
+   "level": 2929.89,
+   "facing": 343.9,
+   "house": "H-TOD-061"
+  },
+  {
+   "id": "TOD-22.15",
+   "kit": "tod22_byre_v3",
+   "at": [
+    -140.34,
+    523.59
+   ],
+   "level": 2922.39,
+   "facing": 337.2,
+   "house": "H-TOD-064"
+  },
+  {
+   "id": "TOD-20.1",
+   "kit": "tree_walnut_v1",
+   "at": [
+    -87.81,
+    451.15
+   ],
+   "level": 2890.82,
+   "facing": 77.5
+  },
+  {
+   "id": "TOD-20.2",
+   "kit": "tree_walnut_v2",
+   "at": [
+    -109.88,
+    474.81
+   ],
+   "level": 2896.32,
+   "facing": 195.3
+  },
+  {
+   "id": "TOD-20.3",
+   "kit": "tree_walnut_v3",
+   "at": [
+    -85.22,
+    470.74
+   ],
+   "level": 2900.99,
+   "facing": 320.5
+  },
+  {
+   "id": "TOD-20.4",
+   "kit": "tree_walnut_v1",
+   "at": [
+    -75.52,
+    481.0
+   ],
+   "level": 2910.88,
+   "facing": 169.6
+  },
+  {
+   "id": "TOD-20.5",
+   "kit": "tree_walnut_v2",
+   "at": [
+    -79.86,
+    455.35
+   ],
+   "level": 2897.16,
+   "facing": 46.4
+  },
+  {
+   "id": "TOD-20.6",
+   "kit": "tree_walnut_v3",
+   "at": [
+    -106.71,
+    464.51
+   ],
+   "level": 2891.93,
+   "facing": 45.8
+  },
+  {
+   "id": "TOD-20.7",
+   "kit": "tree_walnut_v1",
+   "at": [
+    -85.06,
+    486.22
+   ],
+   "level": 2907.41,
+   "facing": 247.5
+  },
+  {
+   "id": "TOD-20.8",
+   "kit": "tree_walnut_v2",
+   "at": [
+    -78.94,
+    463.98
+   ],
+   "level": 2901.65,
+   "facing": 144.2
+  },
+  {
+   "id": "TOD-20.9",
+   "kit": "tree_walnut_v3",
+   "at": [
+    -122.28,
+    463.74
+   ],
+   "level": 2890.47,
+   "facing": 35.7
+  },
+  {
+   "id": "TOD-20.10",
+   "kit": "tree_walnut_v1",
+   "at": [
+    -101.7,
+    470.76
+   ],
+   "level": 2895.61,
+   "facing": 145.7
+  },
+  {
+   "id": "TOD-20.11",
+   "kit": "tree_walnut_v2",
+   "at": [
+    -105.31,
+    486.36
+   ],
+   "level": 2902.05,
+   "facing": 307.7
+  },
+  {
+   "id": "TOD-20.12",
+   "kit": "tree_walnut_v3",
+   "at": [
+    -120.97,
+    477.12
+   ],
+   "level": 2896.51,
+   "facing": 344.9
+  },
+  {
+   "id": "TOD-20.13",
+   "kit": "tree_walnut_v1",
+   "at": [
+    -118.86,
+    454.84
+   ],
+   "level": 2886.26,
+   "facing": 63.2
+  },
+  {
+   "id": "TOD-20.14",
+   "kit": "tree_walnut_v2",
+   "at": [
+    -120.02,
+    486.77
+   ],
+   "level": 2900.78,
+   "facing": 178.7
+  },
+  {
+   "id": "TOD-20.15",
+   "kit": "tree_walnut_v3",
+   "at": [
+    -128.83,
+    488.88
+   ],
+   "level": 2901.85,
+   "facing": 142.7
+  },
+  {
+   "id": "TOD-20.16",
+   "kit": "tree_walnut_v1",
+   "at": [
+    -128.29,
+    457.11
+   ],
+   "level": 2887.21,
+   "facing": 279.4
+  },
+  {
+   "id": "TOD-20.17",
+   "kit": "tree_walnut_v2",
+   "at": [
+    -99.67,
+    452.24
+   ],
+   "level": 2887.03,
+   "facing": 159.2
+  },
+  {
+   "id": "TOD-20.18",
+   "kit": "tree_walnut_v3",
+   "at": [
+    -112.08,
+    450.37
+   ],
+   "level": 2884.29,
+   "facing": 337.0
+  },
+  {
+   "id": "TOD-20.19",
+   "kit": "tree_walnut_v1",
+   "at": [
+    -98.48,
+    463.06
+   ],
+   "level": 2892.62,
+   "facing": 51.4
+  },
+  {
+   "id": "TOD-20.20",
+   "kit": "tree_walnut_v2",
+   "at": [
+    -89.87,
+    462.15
+   ],
+   "level": 2894.9,
+   "facing": 166.7
+  },
+  {
+   "id": "TOD-20.21",
+   "kit": "tree_walnut_v3",
+   "at": [
+    -129.98,
+    479.26
+   ],
+   "level": 2897.64,
+   "facing": 284.8
+  },
+  {
+   "id": "TOD-20.22",
+   "kit": "tree_walnut_v1",
+   "at": [
+    -91.42,
+    476.2
+   ],
+   "level": 2900.73,
+   "facing": 148.9
+  },
+  {
+   "id": "TOD-20.23",
+   "kit": "tree_walnut_v2",
+   "at": [
+    -114.43,
+    461.98
+   ],
+   "level": 2890.06,
+   "facing": 311.8
+  },
+  {
+   "id": "TOD-20.24",
+   "kit": "tree_walnut_v3",
+   "at": [
+    -70.95,
+    460.67
+   ],
+   "level": 2904.31,
+   "facing": 163.8
+  },
+  {
+   "id": "TOD-20.25",
+   "kit": "tree_walnut_v1",
+   "at": [
+    -70.65,
+    474.3
+   ],
+   "level": 2911.19,
+   "facing": 328.2
+  },
+  {
+   "id": "TOD-20.26",
+   "kit": "tree_walnut_v2",
+   "at": [
+    -70.79,
+    487.72
+   ],
+   "level": 2916.08,
+   "facing": 183.8
+  },
+  {
+   "id": "TOD-20.27",
+   "kit": "tree_walnut_v3",
+   "at": [
+    -129.02,
+    470.97
+   ],
+   "level": 2893.85,
+   "facing": 130.1
+  },
+  {
+   "id": "TOD-20.28",
+   "kit": "tree_walnut_v1",
+   "at": [
+    -113.07,
+    482.21
+   ],
+   "level": 2899.29,
+   "facing": 219.3
+  },
+  {
+   "id": "TOD-03.W1",
+   "kit": "tod03_wheel_niche_v1",
+   "at": [
+    -260.43,
+    519.11
+   ],
+   "level": 2937.66,
+   "facing": 122.2,
+   "house": "H-TOD-045"
+  },
+  {
+   "id": "TOD-03.W2",
+   "kit": "tod03_wheel_niche_v1",
+   "at": [
+    -244.06,
+    580.85
+   ],
+   "level": 2962.31,
+   "facing": 278.4,
+   "house": "H-TOD-046"
+  },
+  {
+   "id": "TOD-03.W3",
+   "kit": "tod03_wheel_niche_v1",
+   "at": [
+    -228.53,
+    535.98
+   ],
+   "level": 2942.36,
+   "facing": 262.4,
+   "house": "H-TOD-047"
+  },
+  {
+   "id": "TOD-03.W4",
+   "kit": "tod03_wheel_niche_v1",
+   "at": [
+    -240.42,
+    510.45
+   ],
+   "level": 2934.42,
+   "facing": 249.5,
+   "house": "H-TOD-048"
+  },
+  {
+   "id": "TOD-25",
+   "kit": "tod25_window_stall_v1",
+   "at": [
+    -10.0,
+    270.0
+   ],
+   "level": 2784.5,
+   "facing": 219.8
+  }
+ ],
+ "lanes": [
+  {
+   "id": "TOD-R24.01",
+   "from": [
+    -257.44,
+    557.62
+   ],
+   "dir": [
+    0.9265,
+    -0.3762
+   ],
+   "length": 12.0,
+   "width": 2.0,
+   "z_a": 2950.16,
+   "z_b": 2950.16,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2950.16
+    ],
+    [
+     12.0,
+     2950.16
+    ]
+   ],
+   "street": true,
+   "ring": "R-24"
+  },
+  {
+   "id": "TOD-R24.02",
+   "from": [
+    -245.95,
+    554.04
+   ],
+   "dir": [
+    0.3762,
+    0.9265
+   ],
+   "length": 8.0,
+   "width": 2.0,
+   "z_a": 2950.16,
+   "z_b": 2950.16,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2950.16
+    ],
+    [
+     8.0,
+     2950.16
+    ]
+   ],
+   "street": true,
+   "ring": "R-24"
+  },
+  {
+   "id": "TOD-R24.03",
+   "from": [
+    -253.68,
+    566.89
+   ],
+   "dir": [
+    0.9265,
+    -0.3762
+   ],
+   "length": 12.0,
+   "width": 2.0,
+   "z_a": 2950.16,
+   "z_b": 2950.16,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2950.16
+    ],
+    [
+     12.0,
+     2950.16
+    ]
+   ],
+   "street": true,
+   "ring": "R-24"
+  },
+  {
+   "id": "TOD-R24.04",
+   "from": [
+    -257.06,
+    558.55
+   ],
+   "dir": [
+    0.3762,
+    0.9265
+   ],
+   "length": 8.0,
+   "width": 2.0,
+   "z_a": 2950.16,
+   "z_b": 2950.16,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2950.16
+    ],
+    [
+     8.0,
+     2950.16
+    ]
+   ],
+   "street": true,
+   "ring": "R-24"
+  }
+ ],
+ "circuit": [
+  [
+   -255.79,
+   557.98,
+   2950.16
+  ],
+  [
+   -247.26,
+   554.52,
+   2950.16
+  ],
+  [
+   -246.22,
+   554.96,
+   2950.16
+  ],
+  [
+   -243.64,
+   561.3,
+   2950.16
+  ],
+  [
+   -244.08,
+   562.35,
+   2950.16
+  ],
+  [
+   -252.61,
+   565.81,
+   2950.16
+  ],
+  [
+   -253.65,
+   565.37,
+   2950.16
+  ],
+  [
+   -256.23,
+   559.02,
+   2950.16
+  ]
+ ]
+}

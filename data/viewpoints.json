@@ -1,0 +1,192 @@
+{
+ "about": "The slice's viewpoints (world/viewpoints.gd; IMP-021 (5), IMP-024: Greg's 1780, a peaceful moment). Each: its seat in the town grid (x, y, and the floor's level about there) and how near to it the walker must sit (reach, metres); its frame, set from where the walker sits: the bearing and pitch it looks at (degrees), its field of view, and the camera's place back from the sitter, up and to the right (metres), high enough to look over a parapet onto the roofs below; the hour it is best at (for the stills); its name, shown a while. Chapter 02's V-14 and V-28, the talkers' steps over Tsongra, and Dechen-tsang's master roof by its burner; V-13a, the notch from the Gorge Rim Lookout's tip at dusk, its frame narrow on Dungri Karpo (M2 sprint 6, step 5); V-04, the Lhabab Chorten's terrace by the 1,080 steps' landing 6 over Shöl, the slot, Hejie and the Yalong as the ridge's shadow climbs (M3 sprint 1, step 6); V-09, sitting on the upper bridge's deck, looking up the monastery's face at 105 degrees, the Gorge Stair zigzagging up it (M3 sprint 2, step 2); and V-17, on the rest gallery's bench halfway up the Gorge Stair, across the gorge to Tödé, the flags at eye level (step 3; its seat where tools/town/gorge_stair.py puts the gallery, `v17`). V-31, sitting by the Chöra's west wall a few metres in from its south-west corner (chapter 08's place, moved off the first poplar's line), across the white stone and the poplars to the great wheel house MON-23 at 044 degrees; chapter 08's moment is its first snow on 7 November during the debate (M3 sprint 3, step 2: its place; the snow is `SNOW=v31`, the debaters come with the monastery's day). V-06, on the Labrang's roof over the tulku's yellow bay (M3 sprint 3, step 4: its place; its way up is the Labrang's stair, inside it: M3's hero interiors): chapter 08's frame, Dungri Karpo's alpenglow up the gorge at 038 degrees, is hidden from here by the spur's upper slope (its horizon 29-33 degrees up 140 m off, the summit's 11: ISS-202, Greg's), so for now it looks back over the monastery's gilded roofs and down the valley at dusk, 238 degrees. V-12, on the Tödé tower's top TOD-01, 32 m over its foot (M3 sprint 4, step 3; chapter 08, M3's acceptance 4): the monastery at eye level across the gorge to the left (the Tsokchen 111 degrees, 1.0 up) and Shöl's roofs as a map below to the right (Tsongra 157 degrees, 29 down), the camera out over the parapet; up the tower's nine notched logs.",
+ "views": [
+  {
+   "id": "V-28",
+   "name": "Evening on the roofs",
+   "seat": [
+    -95.0,
+    205.0,
+    2756.1
+   ],
+   "reach": 5.0,
+   "bearing": 160.0,
+   "pitch": -16.0,
+   "fov": 55.0,
+   "back": 3.0,
+   "up": 2.3,
+   "right": 1.2,
+   "hour": 17.2
+  },
+  {
+   "id": "V-14",
+   "name": "The top of the Sky Stair",
+   "seat": [
+    -20.0,
+    255.0,
+    2782.8
+   ],
+   "reach": 4.0,
+   "bearing": 172.0,
+   "pitch": -18.0,
+   "fov": 52.0,
+   "back": 2.4,
+   "up": 1.8,
+   "right": -0.9,
+   "hour": 9.5
+  },
+  {
+   "id": "SHL-40",
+   "name": "The talkers' steps",
+   "seat": [
+    0.0,
+    20.0,
+    2668.0
+   ],
+   "reach": 5.0,
+   "bearing": 185.0,
+   "pitch": -10.0,
+   "fov": 56.0,
+   "back": 2.4,
+   "up": 1.8,
+   "right": 0.9,
+   "hour": 16.4
+  },
+  {
+   "id": "SHL-04",
+   "name": "Dechen-tsang's roof",
+   "seat": [
+    -77.5,
+    -21.0,
+    2660.4
+   ],
+   "reach": 4.0,
+   "bearing": 175.0,
+   "pitch": -15.0,
+   "fov": 55.0,
+   "back": 2.8,
+   "up": 2.3,
+   "right": 1.0,
+   "hour": 7.2
+  },
+  {
+   "id": "V-13a",
+   "name": "Dungri Karpo in the notch",
+   "seat": [
+    258.8,
+    246.7,
+    2781.5
+   ],
+   "reach": 4.0,
+   "bearing": 32.5,
+   "pitch": 11.0,
+   "fov": 14.0,
+   "back": 1.2,
+   "up": 1.7,
+   "right": 0.3,
+   "hour": 17.2
+  },
+  {
+   "id": "V-04",
+   "name": "The Lhabab Chorten's terrace",
+   "seat": [
+    324.2,
+    -24.6,
+    2742.2
+   ],
+   "reach": 4.0,
+   "bearing": 250.0,
+   "pitch": -10.0,
+   "fov": 58.0,
+   "back": 1.5,
+   "up": 2.0,
+   "right": 3.2,
+   "hour": 16.3
+  },
+  {
+   "id": "V-09",
+   "name": "The upper bridge",
+   "seat": [
+    329.0,
+    202.7,
+    2716.5
+   ],
+   "reach": 4.0,
+   "bearing": 108.0,
+   "pitch": 30.0,
+   "fov": 62.0,
+   "back": 1.0,
+   "up": 1.2,
+   "right": 0.2,
+   "hour": 11.5
+  },
+  {
+   "id": "V-17",
+   "name": "The rest gallery",
+   "seat": [
+    402.51,
+    165.48,
+    2803.183
+   ],
+   "reach": 3.0,
+   "bearing": 288.0,
+   "pitch": -6.0,
+   "fov": 60.0,
+   "back": 0.5,
+   "up": 1.45,
+   "right": 0.8,
+   "hour": 15.0
+  },
+  {
+   "id": "V-31",
+   "name": "The debate courtyard",
+   "seat": [
+    616.6,
+    69.0,
+    2944.0
+   ],
+   "reach": 3.0,
+   "bearing": 46.0,
+   "pitch": 3.0,
+   "fov": 60.0,
+   "back": 1.2,
+   "up": 1.6,
+   "right": 0.4,
+   "hour": 15.5
+  },
+  {
+   "id": "V-06",
+   "name": "The Labrang's roof",
+   "seat": [
+    616.06,
+    209.96,
+    2996.1
+   ],
+   "reach": 3.0,
+   "bearing": 238.0,
+   "pitch": -14.0,
+   "fov": 56.0,
+   "back": 1.5,
+   "up": 2.2,
+   "right": 0.3,
+   "hour": 17.25
+  },
+  {
+   "id": "V-12",
+   "name": "The Tödé tower's top",
+   "seat": [
+    -179.16,
+    429.09,
+    2917.22
+   ],
+   "reach": 2.5,
+   "bearing": 138.0,
+   "pitch": -18.0,
+   "fov": 72.0,
+   "back": -0.9,
+   "up": 2.0,
+   "right": 0.0,
+   "hour": 15.5
+  }
+ ]
+}

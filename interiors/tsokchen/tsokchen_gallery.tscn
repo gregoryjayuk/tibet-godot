@@ -1,0 +1,15 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://interiors/room.gd" id="1_y6vfo"]
+[ext_resource type="PackedScene" path="res://assets/generated/kit/types/tsokchen_gallery_v1.glb" id="2_lly7a"]
+
+[node name="tsokchen_gallery" type="Node3D" unique_id=1073225767]
+
+[node name="Room" type="Node3D" parent="." unique_id=919878133]
+script = ExtResource("1_y6vfo")
+room_id = "tsokchen_gallery"
+recipe = "LR-07"
+gain = 1.6
+box = AABB(-12.3, -0.2, -21.875, 24.6, 4.2, 21.875)
+
+[node name="Furnishings" parent="." unique_id=1475148284 instance=ExtResource("2_lly7a")]

@@ -1,0 +1,55 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://interiors/room.gd" id="1_7huhe"]
+[ext_resource type="PackedScene" path="res://assets/generated/kit/types/jampa_ground_v1.glb" id="2_7gla3"]
+[ext_resource type="Shader" path="res://shaders/lamp_mm.gdshader" id="3_8vk1i"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xy67j"]
+render_priority = 0
+shader = ExtResource("3_8vk1i")
+shader_parameter/kind = 0
+shader_parameter/px = null
+
+[sub_resource type="QuadMesh" id="QuadMesh_d0g3l"]
+material = SubResource("ShaderMaterial_xy67j")
+
+[sub_resource type="MultiMesh" id="MultiMesh_c2j7s"]
+transform_format = 1
+use_custom_data = true
+instance_count = 202
+mesh = SubResource("QuadMesh_d0g3l")
+
+[node name="jampa_ground" type="Node3D" unique_id=1436591942]
+
+[node name="Room" type="Node3D" parent="." unique_id=2056896240]
+script = ExtResource("1_7huhe")
+room_id = "jampa_ground"
+recipe = "LR-02"
+gain = 1.9
+box = AABB(-7, -0.2, -12, 14, 12.8, 12)
+
+[node name="Furnishings" parent="." unique_id=1525232336 instance=ExtResource("2_7gla3")]
+
+[node name="Flame_flame_100" type="OmniLight3D" parent="." unique_id=959866061]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.838161, 0.57, -4.35974)
+light_color = Color(0.95686275, 0.69803923, 0.2901961, 1)
+light_energy = 1.6
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 9.0
+omni_attenuation = 2.0
+metadata/kind = "flame"
+
+[node name="Day_door" type="OmniLight3D" parent="." unique_id=139140614]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3, -0.6)
+light_color = Color(0.9647059, 0.93333334, 0.8862745, 1)
+light_energy = 0.5
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 7.0
+omni_attenuation = 2.0
+metadata/kind = "day"
+
+[node name="Flames" type="MultiMeshInstance3D" parent="." unique_id=13721608]
+cast_shadow = 0
+multimesh = SubResource("MultiMesh_c2j7s")

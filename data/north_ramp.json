@@ -1,0 +1,270 @@
+{
+ "about": "Samkha's north ramp (SAM-06 north), written by tools/town/north_ramp.py: its approach, legs and landings as lanes (tools/terrain/pads.py's form: from, dir, length, width, and a profile of the bed's height along it), carved by pads.py, walled by walls.py, walked by the street graph. foot: the bottom leg's end, where the lower cantilever bridge (SAM-05) begins.",
+ "foot": [
+  -55.0,
+  -101.0,
+  2624.1
+ ],
+ "lanes": [
+  {
+   "id": "SAM-06.a",
+   "from": [
+    -55.0,
+    -77.5
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 7.5,
+   "width": 4.0,
+   "z_a": 2651.1,
+   "z_b": 2651.1,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2651.1
+    ],
+    [
+     7.5,
+     2651.1
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06.0",
+   "from": [
+    -55.0,
+    -85.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 22.0,
+   "width": 4.0,
+   "z_a": 2651.1,
+   "z_b": 2647.72,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2651.1
+    ],
+    [
+     22.0,
+     2647.72
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06.L0",
+   "from": [
+    -31.0,
+    -83.0
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 8.0,
+   "width": 4.0,
+   "z_a": 2647.72,
+   "z_b": 2647.72,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2647.72
+    ],
+    [
+     8.0,
+     2647.72
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06.1",
+   "from": [
+    -33.0,
+    -89.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 44.0,
+   "width": 4.0,
+   "z_a": 2647.72,
+   "z_b": 2640.97,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2647.72
+    ],
+    [
+     44.0,
+     2640.97
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06.L1",
+   "from": [
+    -79.0,
+    -87.0
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 8.0,
+   "width": 4.0,
+   "z_a": 2640.97,
+   "z_b": 2640.97,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2640.97
+    ],
+    [
+     8.0,
+     2640.97
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06.2",
+   "from": [
+    -77.0,
+    -93.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 44.0,
+   "width": 4.0,
+   "z_a": 2640.97,
+   "z_b": 2634.22,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2640.97
+    ],
+    [
+     44.0,
+     2634.22
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06.L2",
+   "from": [
+    -31.0,
+    -91.0
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 8.0,
+   "width": 4.0,
+   "z_a": 2634.22,
+   "z_b": 2634.22,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2634.22
+    ],
+    [
+     8.0,
+     2634.22
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06.3",
+   "from": [
+    -33.0,
+    -97.0
+   ],
+   "dir": [
+    -1.0,
+    0.0
+   ],
+   "length": 44.0,
+   "width": 4.0,
+   "z_a": 2634.22,
+   "z_b": 2627.47,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2634.22
+    ],
+    [
+     44.0,
+     2627.47
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06.L3",
+   "from": [
+    -79.0,
+    -95.0
+   ],
+   "dir": [
+    0.0,
+    -1.0
+   ],
+   "length": 8.0,
+   "width": 4.0,
+   "z_a": 2627.47,
+   "z_b": 2627.47,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2627.47
+    ],
+    [
+     8.0,
+     2627.47
+    ]
+   ]
+  },
+  {
+   "id": "SAM-06.4",
+   "from": [
+    -77.0,
+    -101.0
+   ],
+   "dir": [
+    1.0,
+    0.0
+   ],
+   "length": 22.0,
+   "width": 4.0,
+   "z_a": 2627.47,
+   "z_b": 2624.1,
+   "flight": null,
+   "profile": [
+    [
+     0.0,
+     2627.47
+    ],
+    [
+     22.0,
+     2624.1
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "about": "The story's own lines that are not in a conversation's graph (M2 sprint 2): said by the world's own mechanics (the chang poured, the talk overheard in data/talks/), each by its id. English on screen until a native speaker write it in its script (docs/culture/conversation-lines-check.md lists these with the conversations' own; `--apply` writes the checked script in as `bo` or `zh`).",
+ "lines": [
+  {
+   "id": "CV-010",
+   "who": "ama_yudron",
+   "where": "the chang house, pouring a guest's bowl",
+   "en": "Drink, drink. It's hot."
+  },
+  {
+   "id": "CV-040",
+   "who": "player",
+   "where": "the headman's yard gate, its mastiff barking (chapter 02, 5.1: the visitor's call, ཁྱི་ཟུངས)",
+   "en": "Hold the dog!"
+  },
+  {
+   "id": "CV-041",
+   "who": "headman_groom",
+   "where": "the headman's yard, holding the mastiff by its collar",
+   "en": "He's held. Come in."
+  },
+  {
+   "id": "CV-042",
+   "who": "yangchen_drolma",
+   "where": "the headman's reception room, the guest at the headman's bench (chapter 04, 4.1: sit on the lower bench, never the headman's)",
+   "en": "Please, sit on the lower bench."
+  }
+ ]
+}

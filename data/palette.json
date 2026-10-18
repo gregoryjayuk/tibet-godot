@@ -1,0 +1,1639 @@
+{
+ "about": "Written by ../tibet-blender/kit/palette.py: do not edit by hand. `slots` is the building palette (UV2.x = (id + 0.5) / n_slots); `materials`, `flags` and `foliage` keep the draft vignette's by-name lookups until RT-09 moves it to the palette shader.",
+ "n_slots": 128,
+ "slots": [
+  {
+   "id": 0,
+   "name": "unknown",
+   "c": "#D1CCC2",
+   "surface": "opaque",
+   "ramp": 0,
+   "use": "any face whose material has no slot: shows up grey, and the export check fails"
+  },
+  {
+   "id": 1,
+   "name": "whitewash",
+   "c": "#E6DED0",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.08,
+   "streaks": 0.14,
+   "proposed": "#EEE8DA",
+   "use": "Tibetan walls; fresh top, aged and base grime by a height ramp (2.7)"
+  },
+  {
+   "id": 2,
+   "name": "whitewash_clean",
+   "c": "#EBE5D9",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.06,
+   "streaks": 0.06,
+   "use": "chortens, freshly limed temples"
+  },
+  {
+   "id": 3,
+   "name": "plaster_white",
+   "c": "#EEEAE1",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.03,
+   "use": "copings, dots, parapet caps"
+  },
+  {
+   "id": 4,
+   "name": "red_plaster",
+   "c": "#7A2318",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.12,
+   "streaks": 0.14,
+   "use": "protector, reliquary and main chapels"
+  },
+  {
+   "id": 5,
+   "name": "yellow_plaster",
+   "c": "#D49A30",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.1,
+   "streaks": 0.1,
+   "proposed": "#C8912E",
+   "use": "the Labrang only"
+  },
+  {
+   "id": 6,
+   "name": "maroon_plaster",
+   "c": "#5C1B16",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.08,
+   "use": "upper facades of halls"
+  },
+  {
+   "id": 7,
+   "name": "penbe",
+   "c": "#4F1712",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.06,
+   "fibers": 0.6,
+   "use": "the frieze, with fibre pattern"
+  },
+  {
+   "id": 8,
+   "name": "stone_plinth",
+   "c": "#8E867B",
+   "surface": "opaque",
+   "ramp": 0,
+   "pattern": 1,
+   "paint": 0.1,
+   "use": "plinths, retaining walls"
+  },
+  {
+   "id": 9,
+   "name": "stone_step",
+   "c": "#A59C8C",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.1,
+   "use": "steps"
+  },
+  {
+   "id": 10,
+   "name": "flagstones",
+   "c": "#A39581",
+   "surface": "opaque",
+   "ramp": 0,
+   "pattern": 1,
+   "paint": 0.1,
+   "use": "courtyard paving"
+  },
+  {
+   "id": 11,
+   "name": "roof_earth",
+   "c": "#9D8C77",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.08,
+   "use": "ordinary roofs"
+  },
+  {
+   "id": 12,
+   "name": "reveal",
+   "c": "#100D0C",
+   "surface": "opaque",
+   "ramp": 0,
+   "rim": 0.0,
+   "use": "window and door reveals"
+  },
+  {
+   "id": 13,
+   "name": "black_paint",
+   "c": "#131110",
+   "surface": "opaque",
+   "ramp": 1,
+   "rim": 0.0,
+   "use": "window and door surrounds"
+  },
+  {
+   "id": 14,
+   "name": "wood_red",
+   "c": "#A02B1C",
+   "surface": "opaque",
+   "ramp": 1,
+   "paint": 0.05,
+   "use": "window frames, rafter ends, door frames"
+  },
+  {
+   "id": 15,
+   "name": "wood_maroon",
+   "c": "#5F1A15",
+   "surface": "opaque",
+   "ramp": 1,
+   "use": "doors"
+  },
+  {
+   "id": 16,
+   "name": "wood_yellow",
+   "c": "#E4A42B",
+   "surface": "opaque",
+   "ramp": 1,
+   "use": "painted timber"
+  },
+  {
+   "id": 17,
+   "name": "wood_brown",
+   "c": "#5F3E28",
+   "surface": "opaque",
+   "ramp": 1,
+   "use": "ladders, posts"
+  },
+  {
+   "id": 18,
+   "name": "paint_green",
+   "c": "#2F7F4E",
+   "surface": "opaque",
+   "ramp": 1,
+   "use": "rafter ends, carved frames"
+  },
+  {
+   "id": 19,
+   "name": "paint_blue",
+   "c": "#2B51A6",
+   "surface": "opaque",
+   "ramp": 1,
+   "use": "rafter ends, carved frames"
+  },
+  {
+   "id": 20,
+   "name": "paint_red",
+   "c": "#BF3520",
+   "surface": "opaque",
+   "ramp": 1,
+   "use": "lintel friezes"
+  },
+  {
+   "id": 21,
+   "name": "paint_orange",
+   "c": "#EB7B22",
+   "surface": "opaque",
+   "ramp": 1,
+   "use": "lintel friezes"
+  },
+  {
+   "id": 22,
+   "name": "paint_yellow",
+   "c": "#ECB93D",
+   "surface": "opaque",
+   "ramp": 1,
+   "use": "lintel friezes"
+  },
+  {
+   "id": 23,
+   "name": "paint_white",
+   "c": "#F2EEE4",
+   "surface": "opaque",
+   "ramp": 1,
+   "use": "painted details"
+  },
+  {
+   "id": 24,
+   "name": "iron",
+   "c": "#2B2725",
+   "surface": "gloss",
+   "ramp": 4,
+   "metal": "iron",
+   "gloss": 0.2,
+   "use": "door hardware, chains"
+  },
+  {
+   "id": 25,
+   "name": "gold",
+   "c": "#E6AB3C",
+   "surface": "gloss",
+   "ramp": 4,
+   "metal": "gold",
+   "gloss": 0.6,
+   "rim": 0.3,
+   "use": "gilded ornaments; the only strong bloom"
+  },
+  {
+   "id": 26,
+   "name": "gold_dark",
+   "c": "#C98C2D",
+   "surface": "gloss",
+   "ramp": 4,
+   "metal": "gold",
+   "gloss": 0.8,
+   "rim": 0.3,
+   "use": "shaded gilding"
+  },
+  {
+   "id": 27,
+   "name": "brass",
+   "c": "#DBA542",
+   "surface": "gloss",
+   "ramp": 4,
+   "metal": "brass",
+   "gloss": 0.8,
+   "rim": 0.3,
+   "use": "prayer wheels, lamps"
+  },
+  {
+   "id": 28,
+   "name": "gold_tiles",
+   "c": "#F0B646",
+   "surface": "gloss",
+   "ramp": 4,
+   "metal": "gold",
+   "gloss": 0.9,
+   "rim": 0.35,
+   "pattern": 7,
+   "use": "gilded roofs"
+  },
+  {
+   "id": 29,
+   "name": "glass",
+   "c": "#24364A",
+   "surface": "gloss",
+   "ramp": 0,
+   "gloss": 1.0,
+   "use": "draft only: Kham houses c. 1900 had no glass (chapter 03, 1)"
+  },
+  {
+   "id": 30,
+   "name": "fabric_white",
+   "c": "#F6F3EB",
+   "surface": "opaque",
+   "ramp": 2,
+   "use": "shambu valances"
+  },
+  {
+   "id": 31,
+   "name": "fabric_orange",
+   "c": "#ED7B21",
+   "surface": "opaque",
+   "ramp": 2,
+   "use": "shambu valances"
+  },
+  {
+   "id": 32,
+   "name": "fabric_red",
+   "c": "#B72C1D",
+   "surface": "opaque",
+   "ramp": 2,
+   "use": "shambu valances"
+  },
+  {
+   "id": 33,
+   "name": "fabric_blue",
+   "c": "#2C53A8",
+   "surface": "opaque",
+   "ramp": 2,
+   "use": "shambu valances"
+  },
+  {
+   "id": 34,
+   "name": "fabric_yellow",
+   "c": "#F0BA3A",
+   "surface": "opaque",
+   "ramp": 2,
+   "use": "shambu valances"
+  },
+  {
+   "id": 35,
+   "name": "yak_curtain",
+   "c": "#1B1817",
+   "surface": "opaque",
+   "ramp": 2,
+   "pattern": 2,
+   "use": "yak-hair door curtains"
+  },
+  {
+   "id": 36,
+   "name": "painted_beam",
+   "c": "#8A3A2A",
+   "surface": "opaque",
+   "ramp": 1,
+   "pattern": 3,
+   "use": "painted beams"
+  },
+  {
+   "id": 37,
+   "name": "mural",
+   "c": "#1C3A36",
+   "surface": "opaque",
+   "ramp": 0,
+   "pattern": 4,
+   "use": "portico murals"
+  },
+  {
+   "id": 38,
+   "name": "firewood",
+   "c": "#6B4B31",
+   "surface": "opaque",
+   "ramp": 1,
+   "paint": 0.15,
+   "use": "fuel stacks"
+  },
+  {
+   "id": 39,
+   "name": "earth",
+   "c": "#9E8667",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.1,
+   "use": "earth floors, dung"
+  },
+  {
+   "id": 40,
+   "name": "wood_oxblood",
+   "c": "#7E2A1C",
+   "surface": "opaque",
+   "ramp": 1,
+   "use": "log storeys of type A"
+  },
+  {
+   "id": 41,
+   "name": "wood_raw",
+   "c": "#B89B72",
+   "surface": "opaque",
+   "ramp": 1,
+   "use": "new 1902 bridge timber, fresh-cut"
+  },
+  {
+   "id": 42,
+   "name": "stone_slate",
+   "c": "#7F7A72",
+   "surface": "opaque",
+   "ramp": 6,
+   "paint": 0.1,
+   "use": "Gyalrong coursed slabs, the tower"
+  },
+  {
+   "id": 43,
+   "name": "earth_pise",
+   "c": "#BFA06E",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.1,
+   "use": "rammed-earth houses, with lift lines (pattern 11, chapter 09)"
+  },
+  {
+   "id": 44,
+   "name": "arga",
+   "c": "#CFC3AA",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.05,
+   "use": "monastery and castle roofs"
+  },
+  {
+   "id": 45,
+   "name": "paper_window",
+   "c": "#D9CBA3",
+   "surface": "opaque",
+   "ramp": 2,
+   "night_emission": "#F2B25C",
+   "pattern": 8,
+   "use": "window filling, oiled paper on a grid lattice drawn by the shader (kit step K3); glows at night"
+  },
+  {
+   "id": 46,
+   "name": "tile_grey",
+   "c": "#5C6266",
+   "surface": "opaque",
+   "ramp": 0,
+   "pattern": 13,
+   "use": "Chinese small grey tiles, laid cold: the rows drawn by the shader (pattern 13, kit step K7)"
+  },
+  {
+   "id": 47,
+   "name": "tile_ridge",
+   "c": "#7A8084",
+   "surface": "opaque",
+   "ramp": 0,
+   "use": "Chinese tile ridges"
+  },
+  {
+   "id": 48,
+   "name": "lime_plaster_cn",
+   "c": "#ECE6D8",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.05,
+   "use": "Hejie wattle-and-daub panels"
+  },
+  {
+   "id": 49,
+   "name": "timber_tea",
+   "c": "#6A4A33",
+   "surface": "opaque",
+   "ramp": 1,
+   "use": "Hejie posts, beams, boards"
+  },
+  {
+   "id": 50,
+   "name": "timber_weathered",
+   "c": "#4B3B2F",
+   "surface": "opaque",
+   "ramp": 1,
+   "use": "weathered Hejie timber"
+  },
+  {
+   "id": 51,
+   "name": "shale",
+   "c": "#6E6A63",
+   "surface": "opaque",
+   "ramp": 6,
+   "paint": 0.1,
+   "use": "Hejie plinths"
+  },
+  {
+   "id": 52,
+   "name": "granite",
+   "c": "#A29D92",
+   "surface": "opaque",
+   "ramp": 6,
+   "paint": 0.1,
+   "use": "trading-house gateways"
+  },
+  {
+   "id": 53,
+   "name": "lacquer_black",
+   "c": "#1E1A17",
+   "surface": "gloss",
+   "ramp": 1,
+   "gloss": 0.3,
+   "use": "shop plaques"
+  },
+  {
+   "id": 54,
+   "name": "gold_leaf",
+   "c": "#C8A24A",
+   "surface": "gloss",
+   "ramp": 4,
+   "metal": "gold_leaf",
+   "gloss": 0.7,
+   "rim": 0.3,
+   "use": "characters on plaques"
+  },
+  {
+   "id": 55,
+   "name": "lacquer_red",
+   "c": "#8C2A1E",
+   "surface": "gloss",
+   "ramp": 1,
+   "gloss": 0.3,
+   "use": "temple columns"
+  },
+  {
+   "id": 56,
+   "name": "lantern_red",
+   "c": "#B83222",
+   "surface": "opaque",
+   "ramp": 2,
+   "night_emission": "#FF8A4A",
+   "use": "Hejie lanterns"
+  },
+  {
+   "id": 57,
+   "name": "paper_red",
+   "c": "#C8322A",
+   "surface": "opaque",
+   "ramp": 2,
+   "use": "couplets and door gods, new"
+  },
+  {
+   "id": 58,
+   "name": "paper_red_faded",
+   "c": "#D98A7E",
+   "surface": "opaque",
+   "ramp": 2,
+   "use": "couplets pasted at the Chinese New Year of 29 Jan 1903, faded by October"
+  },
+  {
+   "id": 59,
+   "name": "guozhuang_red",
+   "c": "#A3342A",
+   "surface": "opaque",
+   "ramp": 0,
+   "use": "painted block frieze over trading-house gates"
+  },
+  {
+   "id": 60,
+   "name": "guozhuang_yellow",
+   "c": "#D9A62E",
+   "surface": "opaque",
+   "ramp": 0,
+   "use": "painted block frieze"
+  },
+  {
+   "id": 61,
+   "name": "guozhuang_blue",
+   "c": "#2F5D8C",
+   "surface": "opaque",
+   "ramp": 0,
+   "use": "painted block frieze"
+  },
+  {
+   "id": 62,
+   "name": "flower_orange",
+   "c": "#F3A027",
+   "surface": "opaque",
+   "ramp": 0,
+   "use": "marigolds in window pots"
+  },
+  {
+   "id": 63,
+   "name": "flower_red",
+   "c": "#DA2727",
+   "surface": "opaque",
+   "ramp": 0,
+   "use": "geraniums in window pots"
+  },
+  {
+   "id": 64,
+   "name": "terracotta",
+   "c": "#95593F",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.08,
+   "use": "flower pots, jars"
+  },
+  {
+   "id": 65,
+   "name": "rock",
+   "c": "#6F6961",
+   "surface": "opaque",
+   "ramp": 6,
+   "paint": 0.1,
+   "use": "boulders, rough stone"
+  },
+  {
+   "id": 66,
+   "name": "leaf",
+   "c": "#5A9338",
+   "surface": "opaque",
+   "ramp": 5,
+   "use": "trees and shrubs inside a building's yard (the draft's foliage value)"
+  },
+  {
+   "id": 67,
+   "name": "juniper",
+   "c": "#44713C",
+   "surface": "opaque",
+   "ramp": 5,
+   "use": "juniper bundles and shrubs (the draft's foliage value)"
+  },
+  {
+   "id": 68,
+   "name": "paper_window_round",
+   "c": "#D9CBA3",
+   "surface": "opaque",
+   "ramp": 2,
+   "night_emission": "#F2B25C",
+   "pattern": 9,
+   "use": "oiled paper on the round lattice of better houses and temples, drawn by the shader; glows at night"
+  },
+  {
+   "id": 69,
+   "name": "stone_lintel",
+   "c": "#8C8378",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.12,
+   "use": "the single flat stone over a vent slit"
+  },
+  {
+   "id": 70,
+   "name": "spout_streak",
+   "c": "#8F8574",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.1,
+   "use": "the dark streak down the whitewash under a roof spout"
+  },
+  {
+   "id": 71,
+   "name": "grain_barley",
+   "c": "#C9A962",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.15,
+   "fibers": 0.3,
+   "use": "barley drying on a roof cloth, sheaves"
+  },
+  {
+   "id": 72,
+   "name": "wash_thin",
+   "c": "#CFC4AE",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.2,
+   "pattern": 12,
+   "proposed": "#CFC4AE",
+   "use": "the thin, patchy wash of a poor house over its rubble (chapter 03, 3.1): pattern 12, stone courses showing where the wash is thin"
+  },
+  {
+   "id": 73,
+   "name": "dung_cakes",
+   "c": "#5B4633",
+   "surface": "opaque",
+   "ramp": 0,
+   "fibers": 0.4,
+   "use": "dung cakes drying on a sunny wall, the poor house's fuel"
+  },
+  {
+   "id": 74,
+   "name": "sacking",
+   "c": "#8A7A5E",
+   "surface": "opaque",
+   "ramp": 0,
+   "fibers": 0.5,
+   "use": "a sacking or felt door curtain, rags in a window, a stall's cloth"
+  },
+  {
+   "id": 75,
+   "name": "grass_dry",
+   "c": "#8E8454",
+   "surface": "opaque",
+   "ramp": 0,
+   "fibers": 0.6,
+   "use": "dry grass and brush on a poor roof"
+  },
+  {
+   "id": 76,
+   "name": "dry_stone",
+   "c": "#8C8376",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.25,
+   "pattern": 12,
+   "use": "dry-stone retaining walls and terraces: coursed rough stone, dark joints"
+  },
+  {
+   "id": 77,
+   "name": "wood_oxblood_faded",
+   "c": "#94503C",
+   "surface": "opaque",
+   "ramp": 1,
+   "use": "the log storeys' south faces, faded (type A)"
+  },
+  {
+   "id": 78,
+   "name": "rafter_ends",
+   "c": "#A02B1C",
+   "surface": "opaque",
+   "ramp": 0,
+   "pattern": 14,
+   "use": "the 品 eave's tiers: rafter ends white on red, drawn by the shader (pattern 14)"
+  },
+  {
+   "id": 79,
+   "name": "copper",
+   "c": "#B87333",
+   "surface": "gloss",
+   "ramp": 4,
+   "metal": "copper",
+   "gloss": 0.7,
+   "rim": 0.3,
+   "use": "copper kettles, pots and ladles, the kitchen's line of kettles (PK-066)"
+  },
+  {
+   "id": 80,
+   "name": "bronze",
+   "c": "#8E6B3A",
+   "surface": "gloss",
+   "ramp": 4,
+   "metal": "brass",
+   "gloss": 0.5,
+   "rim": 0.25,
+   "use": "the bronze water barrel (PK-065); old bronze"
+  },
+  {
+   "id": 81,
+   "name": "rug_madder",
+   "c": "#9E3B2F",
+   "surface": "opaque",
+   "ramp": 2,
+   "fibers": 0.35,
+   "use": "rugs and sleeping carpets, madder red (PK-070)"
+  },
+  {
+   "id": 82,
+   "name": "rug_indigo",
+   "c": "#2E3E66",
+   "surface": "opaque",
+   "ramp": 2,
+   "fibers": 0.35,
+   "use": "rugs, indigo (PK-070)"
+  },
+  {
+   "id": 83,
+   "name": "rug_rhubarb",
+   "c": "#C9A240",
+   "surface": "opaque",
+   "ramp": 2,
+   "fibers": 0.35,
+   "use": "rugs, rhubarb yellow (PK-070)"
+  },
+  {
+   "id": 84,
+   "name": "rug_walnut",
+   "c": "#6B5040",
+   "surface": "opaque",
+   "ramp": 2,
+   "fibers": 0.35,
+   "use": "rugs, walnut brown (PK-070)"
+  },
+  {
+   "id": 85,
+   "name": "porcelain",
+   "c": "#E4E8EA",
+   "surface": "gloss",
+   "ramp": 0,
+   "gloss": 0.5,
+   "rim": 0.2,
+   "paint": 0.02,
+   "use": "covered bowls and saucers (PK-082), china tea bowls"
+  },
+  {
+   "id": 86,
+   "name": "porcelain_blue",
+   "c": "#3A5A9C",
+   "surface": "gloss",
+   "ramp": 0,
+   "gloss": 0.5,
+   "paint": 0.02,
+   "use": "the blue of blue-and-white porcelain"
+  },
+  {
+   "id": 87,
+   "name": "clay_stove",
+   "c": "#7C6450",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.14,
+   "use": "the clay stove (PK-060), earthen jars"
+  },
+  {
+   "id": 88,
+   "name": "soot",
+   "c": "#1E1A17",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.06,
+   "use": "soot on a stove's top and round its fire mouths (chapter 04, 8.4)"
+  },
+  {
+   "id": 89,
+   "name": "butter_tea",
+   "c": "#C9AE8E",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.02,
+   "use": "butter tea in a bowl or churn"
+  },
+  {
+   "id": 90,
+   "name": "leather",
+   "c": "#6B4A30",
+   "surface": "opaque",
+   "ramp": 2,
+   "fibers": 0.2,
+   "use": "saddlebags, tsampa bags, butter skins (PK-068, PK-077)"
+  },
+  {
+   "id": 91,
+   "name": "felt",
+   "c": "#D6CCBA",
+   "surface": "opaque",
+   "ramp": 2,
+   "fibers": 0.4,
+   "use": "felt mattresses and saddle cloths (PK-070)"
+  },
+  {
+   "id": 92,
+   "name": "silver",
+   "c": "#C9CDD3",
+   "surface": "gloss",
+   "ramp": 4,
+   "metal": "silver",
+   "gloss": 0.7,
+   "rim": 0.3,
+   "use": "silver-lined bowls, bowl stands and lids, rupees"
+  },
+  {
+   "id": 93,
+   "name": "dried_meat",
+   "c": "#5A2A1E",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.15,
+   "use": "dried yak meat, strips on a dish"
+  },
+  {
+   "id": 94,
+   "name": "paper_ledger",
+   "c": "#E9DCB8",
+   "surface": "opaque",
+   "ramp": 2,
+   "paint": 0.04,
+   "use": "a ledger's paper, loose leaves (PK-101)"
+  },
+  {
+   "id": 95,
+   "name": "tsampa",
+   "c": "#D8C49A",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.05,
+   "use": "roasted barley flour in a bag's mouth or a bowl"
+  },
+  {
+   "id": 96,
+   "name": "floor_boards",
+   "c": "#A0825A",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.06,
+   "pattern": 15,
+   "use": "a room's floor of boards (the shader's pattern 15)"
+  },
+  {
+   "id": 97,
+   "name": "floor_bricks",
+   "c": "#8C877F",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.06,
+   "pattern": 16,
+   "use": "a Chinese room's floor of square fired bricks, 方磚 (pattern 16)"
+  },
+  {
+   "id": 98,
+   "name": "sooty_plaster",
+   "c": "#7A6B5A",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.12,
+   "use": "a kitchen's clay plaster, browned by a century of smoke"
+  },
+  {
+   "id": 99,
+   "name": "wood_old",
+   "c": "#6F685E",
+   "surface": "opaque",
+   "ramp": 1,
+   "paint": 0.12,
+   "fibers": 0.25,
+   "use": "old timber gone silver-grey in the weather: a rope bridge's planks and posts, a wall ladder"
+  },
+  {
+   "id": 100,
+   "name": "rope",
+   "c": "#4F4234",
+   "surface": "opaque",
+   "ramp": 0,
+   "fibers": 0.6,
+   "use": "twisted yak-hair and hemp rope: a bridge's ropes, the lashings"
+  },
+  {
+   "id": 101,
+   "name": "crown_black_paint",
+   "c": "#131110",
+   "surface": "opaque",
+   "ramp": 1,
+   "rim": 0.0,
+   "use": "a town house's crown strip in black: its household's paint, renewed or faded (the game's ISS-109)"
+  },
+  {
+   "id": 102,
+   "name": "crown_wood_maroon",
+   "c": "#5F1A15",
+   "surface": "opaque",
+   "ramp": 1,
+   "use": "a town house's crown strip in maroon: its household's paint, renewed or faded (the game's ISS-109)"
+  },
+  {
+   "id": 103,
+   "name": "brocade",
+   "c": "#22336A",
+   "surface": "gloss",
+   "ramp": 2,
+   "gloss": 0.25,
+   "fibers": 0.15,
+   "pattern": 17,
+   "use": "silk brocade, gold roundels on indigo: Dolkar's walls, cushions and hangings"
+  },
+  {
+   "id": 104,
+   "name": "brocade_red",
+   "c": "#7A1E19",
+   "surface": "gloss",
+   "ramp": 2,
+   "gloss": 0.25,
+   "fibers": 0.15,
+   "pattern": 17,
+   "use": "silk brocade, gold roundels on crimson"
+  },
+  {
+   "id": 105,
+   "name": "hay",
+   "c": "#B3A26C",
+   "surface": "opaque",
+   "ramp": 0,
+   "fibers": 0.6,
+   "use": "hay and barley straw: the fodder yard's ricks and sheaves, the camp's piles"
+  },
+  {
+   "id": 106,
+   "name": "bale_fabric",
+   "c": "#3A332C",
+   "surface": "opaque",
+   "ramp": 2,
+   "fibers": 0.5,
+   "use": "black yak-hair sacking: the wool bales of the eastbound loads (chapter 06, 7.1)"
+  },
+  {
+   "id": 107,
+   "name": "larch_gold",
+   "c": "#D9A43A",
+   "surface": "opaque",
+   "ramp": 4,
+   "use": "larch needles turned gold on the shaded slope (chapter 11: #D9A43A)"
+  },
+  {
+   "id": 108,
+   "name": "birch_gold",
+   "c": "#E3C04A",
+   "surface": "opaque",
+   "ramp": 4,
+   "use": "birch leaves turned yellow (chapter 11: #E3C04A)"
+  },
+  {
+   "id": 109,
+   "name": "maple_red",
+   "c": "#B5372A",
+   "surface": "opaque",
+   "ramp": 0,
+   "use": "maple leaves turned red (chapter 11: #B5372A)"
+  },
+  {
+   "id": 110,
+   "name": "spruce_green",
+   "c": "#2F4232",
+   "surface": "opaque",
+   "ramp": 0,
+   "use": "spruce, dark green the year round"
+  },
+  {
+   "id": 111,
+   "name": "fir_green",
+   "c": "#2B3D3A",
+   "surface": "opaque",
+   "ramp": 0,
+   "use": "fir, darker and bluer than the spruce"
+  },
+  {
+   "id": 112,
+   "name": "birch_bark",
+   "c": "#E2DCCD",
+   "surface": "opaque",
+   "ramp": 0,
+   "use": "a birch's white bark, its black marks the shader's grime"
+  },
+  {
+   "id": 113,
+   "name": "mural_black",
+   "c": "#15110F",
+   "surface": "opaque",
+   "ramp": 0,
+   "pattern": 18,
+   "use": "nagthang: the protectors drawn in gold line in rings of red flame on black ground, the Gönkhang's porch (chapter 03, 6.4; the shader's pattern 18)"
+  },
+  {
+   "id": 114,
+   "name": "gyal_wash",
+   "c": "#C8C3B9",
+   "surface": "opaque",
+   "ramp": 0,
+   "pattern": 12,
+   "paint": 0.15,
+   "streaks": 0.14,
+   "use": "a tower-house's thinned wash over grey slate slabs (stone_slate #7F7A72), the courses showing where it is thin (pattern 12)"
+  },
+  {
+   "id": 115,
+   "name": "gyal_wash_buff",
+   "c": "#CEC3AF",
+   "surface": "opaque",
+   "ramp": 0,
+   "pattern": 12,
+   "paint": 0.15,
+   "streaks": 0.14,
+   "use": "the same over buff stone (#9A8C76)"
+  },
+  {
+   "id": 116,
+   "name": "gyal_wash_dark",
+   "c": "#ABA69D",
+   "surface": "opaque",
+   "ramp": 0,
+   "pattern": 12,
+   "paint": 0.15,
+   "streaks": 0.18,
+   "use": "the same over dark stone (#5E5A52); the empty tower-house TOD-26's, streaked to grey"
+  },
+  {
+   "id": 117,
+   "name": "gyal_red",
+   "c": "#8E3A25",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.22,
+   "use": "the top storey's red band, faded (chapter 03, 3.5)"
+  },
+  {
+   "id": 118,
+   "name": "gyal_black",
+   "c": "#1F1C1B",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.18,
+   "use": "its black band"
+  },
+  {
+   "id": 119,
+   "name": "gyal_yellow",
+   "c": "#C99A45",
+   "surface": "opaque",
+   "ramp": 0,
+   "paint": 0.22,
+   "use": "its yellow band"
+  },
+  {
+   "id": 120,
+   "name": "quartz",
+   "c": "#F2F0EA",
+   "surface": "opaque",
+   "ramp": 0,
+   "rim": 0.6,
+   "use": "the white quartz stones on the horn-merlons' tips, facing the snow mountain (chapter 03, 3.5: a tiny rim light)"
+  },
+  {
+   "id": 121,
+   "name": "mural_hall",
+   "c": "#16302C",
+   "surface": "opaque",
+   "ramp": 0,
+   "pattern": 19,
+   "use": "the great halls' murals inside (the Tsokchen's, the Jampa Lhakhang's): registers of small seated figures between painted borders, dulled by the lamps' soot (chapter 04, 3.1; the game's M3 sprint 5; the shader's pattern 19)"
+  }
+ ],
+ "materials": {
+  "whitewash": {
+   "c": "#e6ded0",
+   "paint": 0.08,
+   "streaks": 0.14
+  },
+  "whitewash_clean": {
+   "c": "#ebe5d9",
+   "paint": 0.06,
+   "streaks": 0.06
+  },
+  "plaster_white": {
+   "c": "#eeeae1",
+   "paint": 0.03
+  },
+  "red_plaster": {
+   "c": "#7a2318",
+   "paint": 0.12,
+   "streaks": 0.14
+  },
+  "yellow_plaster": {
+   "c": "#d49a30",
+   "paint": 0.1,
+   "streaks": 0.1
+  },
+  "maroon_plaster": {
+   "c": "#5c1b16",
+   "paint": 0.08
+  },
+  "penbe": {
+   "c": "#4f1712",
+   "paint": 0.06,
+   "fibers": 0.6
+  },
+  "stone_plinth": {
+   "c": "#8e867b",
+   "pattern": 1,
+   "paint": 0.1
+  },
+  "stone_step": {
+   "c": "#a59c8c",
+   "paint": 0.1
+  },
+  "flagstones": {
+   "c": "#a39581",
+   "pattern": 1,
+   "paint": 0.1
+  },
+  "roof_earth": {
+   "c": "#9d8c77",
+   "paint": 0.08
+  },
+  "reveal": {
+   "c": "#100d0c",
+   "rim": 0.0
+  },
+  "black_paint": {
+   "c": "#131110",
+   "rim": 0.0
+  },
+  "wood_red": {
+   "c": "#a02b1c",
+   "paint": 0.05
+  },
+  "wood_maroon": {
+   "c": "#5f1a15"
+  },
+  "wood_yellow": {
+   "c": "#e4a42b"
+  },
+  "wood_brown": {
+   "c": "#5f3e28"
+  },
+  "paint_green": {
+   "c": "#2f7f4e"
+  },
+  "paint_blue": {
+   "c": "#2b51a6"
+  },
+  "paint_red": {
+   "c": "#bf3520"
+  },
+  "paint_orange": {
+   "c": "#eb7b22"
+  },
+  "paint_yellow": {
+   "c": "#ecb93d"
+  },
+  "paint_white": {
+   "c": "#f2eee4"
+  },
+  "iron": {
+   "c": "#2b2725",
+   "gloss": 0.2
+  },
+  "gold": {
+   "c": "#e6ab3c",
+   "gloss": 0.6,
+   "rim": 0.3
+  },
+  "gold_dark": {
+   "c": "#c98c2d",
+   "gloss": 0.8,
+   "rim": 0.3
+  },
+  "brass": {
+   "c": "#dba542",
+   "gloss": 0.8,
+   "rim": 0.3
+  },
+  "gold_tiles": {
+   "c": "#f0b646",
+   "gloss": 0.9,
+   "rim": 0.35,
+   "pattern": 7
+  },
+  "glass": {
+   "c": "#24364a",
+   "gloss": 1.0
+  },
+  "fabric_white": {
+   "c": "#f6f3eb"
+  },
+  "fabric_orange": {
+   "c": "#ed7b21"
+  },
+  "fabric_red": {
+   "c": "#b72c1d"
+  },
+  "fabric_blue": {
+   "c": "#2c53a8"
+  },
+  "fabric_yellow": {
+   "c": "#f0ba3a"
+  },
+  "yak_curtain": {
+   "c": "#1b1817",
+   "pattern": 2
+  },
+  "painted_beam": {
+   "c": "#8a3a2a",
+   "pattern": 3
+  },
+  "mural": {
+   "c": "#1c3a36",
+   "pattern": 4
+  },
+  "firewood": {
+   "c": "#6b4b31",
+   "paint": 0.15
+  },
+  "earth": {
+   "c": "#9e8667",
+   "paint": 0.1
+  },
+  "wood_oxblood": {
+   "c": "#7e2a1c"
+  },
+  "wood_raw": {
+   "c": "#b89b72"
+  },
+  "stone_slate": {
+   "c": "#7f7a72",
+   "paint": 0.1
+  },
+  "earth_pise": {
+   "c": "#bfa06e",
+   "paint": 0.1
+  },
+  "arga": {
+   "c": "#cfc3aa",
+   "paint": 0.05
+  },
+  "paper_window": {
+   "c": "#d9cba3",
+   "pattern": 8
+  },
+  "tile_grey": {
+   "c": "#5c6266",
+   "pattern": 13
+  },
+  "tile_ridge": {
+   "c": "#7a8084"
+  },
+  "lime_plaster_cn": {
+   "c": "#ece6d8",
+   "paint": 0.05
+  },
+  "timber_tea": {
+   "c": "#6a4a33"
+  },
+  "timber_weathered": {
+   "c": "#4b3b2f"
+  },
+  "shale": {
+   "c": "#6e6a63",
+   "paint": 0.1
+  },
+  "granite": {
+   "c": "#a29d92",
+   "paint": 0.1
+  },
+  "lacquer_black": {
+   "c": "#1e1a17",
+   "gloss": 0.3
+  },
+  "gold_leaf": {
+   "c": "#c8a24a",
+   "gloss": 0.7,
+   "rim": 0.3
+  },
+  "lacquer_red": {
+   "c": "#8c2a1e",
+   "gloss": 0.3
+  },
+  "lantern_red": {
+   "c": "#b83222"
+  },
+  "paper_red": {
+   "c": "#c8322a"
+  },
+  "paper_red_faded": {
+   "c": "#d98a7e"
+  },
+  "guozhuang_red": {
+   "c": "#a3342a"
+  },
+  "guozhuang_yellow": {
+   "c": "#d9a62e"
+  },
+  "guozhuang_blue": {
+   "c": "#2f5d8c"
+  },
+  "flower_orange": {
+   "c": "#f3a027"
+  },
+  "flower_red": {
+   "c": "#da2727"
+  },
+  "terracotta": {
+   "c": "#95593f",
+   "paint": 0.08
+  },
+  "rock": {
+   "c": "#6f6961",
+   "paint": 0.1
+  },
+  "leaf": {
+   "c": "#5a9338"
+  },
+  "juniper": {
+   "c": "#44713c"
+  },
+  "paper_window_round": {
+   "c": "#d9cba3",
+   "pattern": 9
+  },
+  "stone_lintel": {
+   "c": "#8c8378",
+   "paint": 0.12
+  },
+  "spout_streak": {
+   "c": "#8f8574",
+   "paint": 0.1
+  },
+  "grain_barley": {
+   "c": "#c9a962",
+   "paint": 0.15,
+   "fibers": 0.3
+  },
+  "wash_thin": {
+   "c": "#cfc4ae",
+   "paint": 0.2,
+   "pattern": 12
+  },
+  "dung_cakes": {
+   "c": "#5b4633",
+   "fibers": 0.4
+  },
+  "sacking": {
+   "c": "#8a7a5e",
+   "fibers": 0.5
+  },
+  "grass_dry": {
+   "c": "#8e8454",
+   "fibers": 0.6
+  },
+  "dry_stone": {
+   "c": "#8c8376",
+   "paint": 0.25,
+   "pattern": 12
+  },
+  "wood_oxblood_faded": {
+   "c": "#94503c"
+  },
+  "rafter_ends": {
+   "c": "#a02b1c",
+   "pattern": 14
+  },
+  "copper": {
+   "c": "#b87333",
+   "gloss": 0.7,
+   "rim": 0.3
+  },
+  "bronze": {
+   "c": "#8e6b3a",
+   "gloss": 0.5,
+   "rim": 0.25
+  },
+  "rug_madder": {
+   "c": "#9e3b2f",
+   "fibers": 0.35
+  },
+  "rug_indigo": {
+   "c": "#2e3e66",
+   "fibers": 0.35
+  },
+  "rug_rhubarb": {
+   "c": "#c9a240",
+   "fibers": 0.35
+  },
+  "rug_walnut": {
+   "c": "#6b5040",
+   "fibers": 0.35
+  },
+  "porcelain": {
+   "c": "#e4e8ea",
+   "gloss": 0.5,
+   "rim": 0.2,
+   "paint": 0.02
+  },
+  "porcelain_blue": {
+   "c": "#3a5a9c",
+   "gloss": 0.5,
+   "paint": 0.02
+  },
+  "clay_stove": {
+   "c": "#7c6450",
+   "paint": 0.14
+  },
+  "soot": {
+   "c": "#1e1a17",
+   "paint": 0.06
+  },
+  "butter_tea": {
+   "c": "#c9ae8e",
+   "paint": 0.02
+  },
+  "leather": {
+   "c": "#6b4a30",
+   "fibers": 0.2
+  },
+  "felt": {
+   "c": "#d6ccba",
+   "fibers": 0.4
+  },
+  "silver": {
+   "c": "#c9cdd3",
+   "gloss": 0.7,
+   "rim": 0.3
+  },
+  "dried_meat": {
+   "c": "#5a2a1e",
+   "paint": 0.15
+  },
+  "paper_ledger": {
+   "c": "#e9dcb8",
+   "paint": 0.04
+  },
+  "tsampa": {
+   "c": "#d8c49a",
+   "paint": 0.05
+  },
+  "floor_boards": {
+   "c": "#a0825a",
+   "paint": 0.06,
+   "pattern": 15
+  },
+  "floor_bricks": {
+   "c": "#8c877f",
+   "paint": 0.06,
+   "pattern": 16
+  },
+  "sooty_plaster": {
+   "c": "#7a6b5a",
+   "paint": 0.12
+  },
+  "wood_old": {
+   "c": "#6f685e",
+   "paint": 0.12,
+   "fibers": 0.25
+  },
+  "rope": {
+   "c": "#4f4234",
+   "fibers": 0.6
+  },
+  "crown_black_paint": {
+   "c": "#131110",
+   "rim": 0.0
+  },
+  "crown_wood_maroon": {
+   "c": "#5f1a15"
+  },
+  "brocade": {
+   "c": "#22336a",
+   "gloss": 0.25,
+   "fibers": 0.15,
+   "pattern": 17
+  },
+  "brocade_red": {
+   "c": "#7a1e19",
+   "gloss": 0.25,
+   "fibers": 0.15,
+   "pattern": 17
+  },
+  "hay": {
+   "c": "#b3a26c",
+   "fibers": 0.6
+  },
+  "bale_fabric": {
+   "c": "#3a332c",
+   "fibers": 0.5
+  },
+  "larch_gold": {
+   "c": "#d9a43a"
+  },
+  "birch_gold": {
+   "c": "#e3c04a"
+  },
+  "maple_red": {
+   "c": "#b5372a"
+  },
+  "spruce_green": {
+   "c": "#2f4232"
+  },
+  "fir_green": {
+   "c": "#2b3d3a"
+  },
+  "birch_bark": {
+   "c": "#e2dccd"
+  },
+  "mural_black": {
+   "c": "#15110f",
+   "pattern": 18
+  },
+  "gyal_wash": {
+   "c": "#c8c3b9",
+   "pattern": 12,
+   "paint": 0.15,
+   "streaks": 0.14
+  },
+  "gyal_wash_buff": {
+   "c": "#cec3af",
+   "pattern": 12,
+   "paint": 0.15,
+   "streaks": 0.14
+  },
+  "gyal_wash_dark": {
+   "c": "#aba69d",
+   "pattern": 12,
+   "paint": 0.15,
+   "streaks": 0.18
+  },
+  "gyal_red": {
+   "c": "#8e3a25",
+   "paint": 0.22
+  },
+  "gyal_black": {
+   "c": "#1f1c1b",
+   "paint": 0.18
+  },
+  "gyal_yellow": {
+   "c": "#c99a45",
+   "paint": 0.22
+  },
+  "quartz": {
+   "c": "#f2f0ea",
+   "rim": 0.6
+  },
+  "mural_hall": {
+   "c": "#16302c",
+   "pattern": 19
+  },
+  "terrain": {
+   "c": "#8a8f55",
+   "pattern": 5,
+   "paint": 0.05
+  },
+  "mountain": {
+   "c": "#8e98ad",
+   "pattern": 6,
+   "paint": 0.0,
+   "rim": 0.0
+  },
+  "robe_maroon": {
+   "c": "#7d1e18",
+   "paint": 0.04
+  },
+  "robe_saffron": {
+   "c": "#e68c1f"
+  },
+  "skin": {
+   "c": "#b57d57"
+  }
+ },
+ "flags": {
+  "flag_blue": "#2e61c7",
+  "flag_white": "#f5f2eb",
+  "flag_red": "#d53b25",
+  "flag_green": "#2f9c4d",
+  "flag_yellow": "#f3c23b"
+ },
+ "foliage": {
+  "leaf": "#5a9338",
+  "juniper": "#44713c"
+ },
+ "proposed_named": {
+  "flag_blue": "#2B4F9E",
+  "flag_white": "#EFEBDD",
+  "flag_red": "#B0302A",
+  "flag_green": "#3E7F4E",
+  "flag_yellow": "#E1AE2E"
+ }
+}

@@ -1,0 +1,79 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://interiors/room.gd" id="1_rr24c"]
+[ext_resource type="PackedScene" path="res://assets/generated/kit/types/dechen_dolkar_v1.glb" id="2_a3s3t"]
+[ext_resource type="Shader" path="res://shaders/flame.gdshader" id="3_oqw1q"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rse2q"]
+render_priority = 0
+shader = ExtResource("3_oqw1q")
+shader_parameter/kind = 1
+shader_parameter/strength = 0.9
+shader_parameter/seed = 8.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_2e8rd"]
+size = Vector2(0.34, 0.2)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_nssuq"]
+render_priority = 0
+shader = ExtResource("3_oqw1q")
+shader_parameter/kind = 0
+shader_parameter/strength = 1.0
+shader_parameter/seed = 10.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_eejnn"]
+size = Vector2(0.035, 0.07)
+
+[node name="dechen_dolkar" type="Node3D" unique_id=889560581]
+
+[node name="Room" type="Node3D" parent="." unique_id=660247109]
+script = ExtResource("1_rr24c")
+room_id = "dechen_dolkar"
+gain = 1.6
+box = AABB(-5.5, -0.2, -4, 6.4, 2.76, 4)
+metadata/music = ["SND-239", 1050.0, 1110.0, Vector3(-1.51, 1.487, -3.8)]
+
+[node name="Furnishings" parent="." unique_id=332868201 instance=ExtResource("2_a3s3t")]
+
+[node name="Day_window_1" type="OmniLight3D" parent="." unique_id=613319661]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.15, 1.35, -0.47)
+light_color = Color(0.9529412, 0.92156863, 0.8666667, 1)
+light_energy = 1.2
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 9.0
+omni_attenuation = 2.0
+metadata/kind = "day"
+
+[node name="Day_window_2" type="OmniLight3D" parent="." unique_id=647303007]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.55, 1.35, -0.47)
+light_color = Color(0.9529412, 0.92156863, 0.8666667, 1)
+light_energy = 1.1
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 9.0
+omni_attenuation = 2.0
+metadata/kind = "day"
+
+[node name="Fire_fire_1" type="OmniLight3D" parent="." unique_id=404231550]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.15, 0.39000002, -1.45)
+light_color = Color(1, 0.54901963, 0.2901961, 1)
+light_energy = 1.5
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+omni_range = 8.0
+omni_attenuation = 2.0
+metadata/kind = "fire"
+
+[node name="Coals_8" type="MeshInstance3D" parent="." unique_id=798450905]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.15, 0.29000002, -1.45)
+material_override = SubResource("ShaderMaterial_rse2q")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_2e8rd")
+
+[node name="Flame_10" type="MeshInstance3D" parent="." unique_id=1089556956]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.005, 0.59, -3.7)
+material_override = SubResource("ShaderMaterial_nssuq")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_eejnn")
+metadata/dusk = true
